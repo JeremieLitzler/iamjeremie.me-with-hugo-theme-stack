@@ -2,10 +2,10 @@
 mainSections = ["post"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon = "/favicon.png"
+favicon = "/favicon.ico"
 
 [footer]
-since = 2020
+since = 2021
 customText = ""
 
 [dateFormat]
@@ -13,17 +13,17 @@ published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
-emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+subtitle = "I share my notes and experiences that can be useful to one of you. Enjoy the read!"
 
 [sidebar.avatar]
 enabled = true
 local = true
-src = "img/avatar.png"
+src = "img/profilepic-400w.jpg"
 
 [article]
 math = false
 readingTime = true
+featureImgAltPrefix = "Image de l'article"
 
 [article.license]
 enabled = true
