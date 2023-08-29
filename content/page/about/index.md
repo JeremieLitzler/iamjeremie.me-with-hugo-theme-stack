@@ -11,8 +11,6 @@ menu:
 comments: false
 ---
 
-![Jeremie climbing the Kandersteg's viaferrata](/images/profilepic-400w.jpg) {.author-image}
-
 {{< blockcontainer jli-notice-note "Vous êtes français ?" >}}
 
 [C'est par là !](https://jeremielitzler.fr/page/a-propos/)
