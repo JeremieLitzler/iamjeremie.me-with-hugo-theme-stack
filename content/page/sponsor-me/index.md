@@ -43,7 +43,7 @@ Starting at 5 euros (or the available currencies), you can also provide your sup
 
 Make your pick:
 
-{{< donate-options />}}
+{{< donate-options >}}
 
 ## Sign up to the newsletter
 
