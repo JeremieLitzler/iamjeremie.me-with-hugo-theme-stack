@@ -4,28 +4,12 @@ description: 'April is a month when you will transplant a lot and there are step
 image: /images/2023-04-03-a-tool-to-make-holes-in-the-soil-to-transplant.jpg
 imageAlt: A tool that helps making holes in the soil to transplat the seedlings
 date: 2023-04-03
-prev:
-  text: 'See all my notes from The Dutch Farmer’s vlogs'
-  link: ../../../tag/the-dutch-farmer/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/04/market-gardening-in-april-the-dutch-farmer/,
-      },
-    ]
 categories:
   - Gardening
 tags:
   - The Dutch Farmer
   - In April
 ---
-
-![A tool that helps making holes in the soil to transplant the seedlings](/images/2023-04-03-a-tool-to-make-holes-in-the-soil-to-transplant.jpg 'Credits: image taken from The Dutch Farmer’s vlog')
 
 April is a month when you will transplant a lot and there are steps that you can follow to make it successful.
 
@@ -34,9 +18,6 @@ Thanks to Moreno for sharing his wisdom and knowledge! I wrote the following not
 <!-- more -->
 
 You can watch it using [this YouTube link](https://www.youtube.com/watch?v=1JgWrFENqy0).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## How to transplant efficiently
 
@@ -79,14 +60,16 @@ Then, you will simply lay at each intersection of the grid you drew earlier one 
 
 ![A man lying down one transplant at each intersection of the grid](images/moreno-lays-down-one-transplant-at-each-intersection-of-the-grid.jpg 'Credits: image from the vlog of The Dutch Farmer')
 
-:::tip To keep your strength and health Either:
+{{< blockcontainer jli-notice-tip "To keep your strength and health" >}}
+
+Either:
 
 - work on your knees
 - work with your legs bent
 
 But refrain from standing up and bending down as it will kill your back over time…
 
-:::
+{{< /blockcontainer >}}
 
 Finally, the transplanting is straight forward: since the soil is loose, you simply put 2 fingers in it to make a little hole in which to plant the transplant. Finish with ferming the soil around it.
 
@@ -120,6 +103,10 @@ It makes the sale of turnips impossible when they are damaged.
 
 In early spring, this is when the adult flies lay eggs and the larvas go into the soil to develop and eat.
 
-:::tip What can you do without using chemicals? Using a netting, rotating the crops and keeping your soil healthy will help to keep the turnips healthy.
+{{< blockcontainer jli-notice-tip "What can you do without using chemicals?" >}}
 
-And remember, even the organically approved chemicals are just as bad as conventionnal ones! :::
+Using a netting, rotating the crops and keeping your soil healthy will help to keep the turnips healthy.
+
+And remember, even the organically approved chemicals are just as bad as conventionnal ones!
+
+{{< /blockcontainer >}}

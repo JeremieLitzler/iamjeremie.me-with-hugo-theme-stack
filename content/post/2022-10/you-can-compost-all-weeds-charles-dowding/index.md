@@ -5,20 +5,6 @@ description: "I wrote the following notes watching the video published on Charle
 date: 2022-10-20
 image: '/images/2022-10-20-you-can-compost-all-weeds-charles-dowding-hero.jpg'
 imageAlt: Two persons sorting a pallet compost heap
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-next:
-  text: 'Easy earthing up on potatoes with compost'
-  link: ../../../posts/2022-10-19-easy-earthing-up-on-potatoes-with-compost-charles-dowding/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/you-can-compost-all-weeds-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -28,16 +14,9 @@ tags:
   - Weeds
 ---
 
-![Two persons sorting a pallet compost heap](/images/2022-10-20-you-can-compost-all-weeds-charles-dowding-hero.jpg)
-
-Thanks to Charles Dowding for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Charles Dowding's channel.
-You can watch it using [this YouTube link](https://www.youtube.com/shorts/gVKmSO4LQ0Q).
+Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding's channel. You can watch it using [this YouTube link](https://www.youtube.com/shorts/gVKmSO4LQ0Q).
 
 <!-- more -->
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Can you put weeds in your compost heap
 
@@ -53,9 +32,11 @@ But the roots or leaves on weeds don't.
 
 You follow the proper ratio of fresh green and carbon materials with enough water (but not too much) until the compost is ready.
 
-:::tip Tip from Charles
+{{< blockcontainer jli-notice-tip "Tip from Charles" >}}
+
 To keep the warmth in a pallet heap, put cardboard around the inside of the heap.
-:::
+
+{{< /blockcontainer >}}
 
 <!-- markdownlint-disable MD033 -->
 

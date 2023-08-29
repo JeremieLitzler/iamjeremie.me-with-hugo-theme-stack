@@ -4,20 +4,6 @@ description: "The joy of compost is that you can turn any waste, even other peop
 date: 2022-11-16
 image: '/images/2022-11-16-homeacres-greenhouse-on-a-dark-winter-day.jpg'
 imageAlt: A greenhouse on a cloudy day
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/11/compost-from-clippings-and-other-waste-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -26,16 +12,9 @@ tags:
   - Compost
 ---
 
-![A greenhouse on a cloudy day](/images/2022-11-16-homeacres-greenhouse-on-a-dark-winter-day.jpg 'Homeacres greenhouse on a dark winter day. Credits: image taken from Charles Dowding’s vlog')
-
 The joy of compost is that you can turn any waste, even other people waste into soil food.
 
-Thanks to Charles Dowding for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Charles Dowding’s channel.
-You can watch it using [this YouTube link](https://www.youtube.com/watch?v=Kf6CGj7xpFE).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
+Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=Kf6CGj7xpFE).
 
 Even in winter, you can do it, so let’s look at how and what.
 
@@ -114,14 +93,16 @@ You just need to cover the sides with cardboard to keep the moisture.
 
 Also, to keep the rain out, use a farmer plastic cover that sometimes they throw away.
 
-:::danger Very important
+{{< blockcontainer jli-notice-danger " Very important" >}}
+
 You want your compost to be moist, not wet. If it’s too wet, air is absent and bacteria can’t thrive in an anaerobic environment.
 
 **It’s often the missing ingredient of a compost heap!**
 
-:::
+{{< /blockcontainer >}}
 
-:::tip How to check moisture
+{{< blockcontainer jli-notice-tip "How to check moisture" >}}
+
 To check:
 
 - Pick up a handful of compost
@@ -129,8 +110,9 @@ To check:
 
 If no more than two drops fall off your hands, the moisture is a good.
 
-**Don’t just use the look of the compost to judge the moisture levels**
-:::
+**Don’t just use the look of the compost to judge the moisture levels**.
+
+{{< /blockcontainer >}}
 
 ## What about the color
 
@@ -166,10 +148,3 @@ The following myths are more annoying than anything else:
   - The diseases, like blight, can’t survive without a living host
 - Heat is a must
   - No, like I wrote above, it’s a bonus. You can make a great compost with no heat.
-
-:::center
-⏬⏬⏬
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

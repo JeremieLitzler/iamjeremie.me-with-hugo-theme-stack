@@ -1,11 +1,15 @@
 ---
 containerClass: participate
-title: Support my work sharing more notes and experiences
+title: Support my work
 description: Taking notes from the large amount of worthwhile vlogs to watch needs time. I’m doing it because I want to learn more about the topics of web technologies, health, permaculture & more. If you want to thank me through a participation, it will be highly appreciated and it will help provide more content to you, dear reader.
 date: 2021-08-10
-head:
-  - [link, { rel: canonical, href: https://iamjeremie.me/page/sponsor-me/ }]
-article: false
+menu:
+    main: 
+        weight: 20
+        params:
+            icon: heart-handshake
+
+comments: false
 ---
 
 When I started this blog, I had a goal in mind: take notes as much as I can to be able to build a knowledge base for my family’s projects towards more autonomy in many areas of life.
@@ -58,6 +62,3 @@ Make your pick:
 If you can’t give me a monetary thank, that's alright. Signing up to my newsletter will be helpful too!
 
 Through Substack, I publish my articles, so yo will know when a new one is available.
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

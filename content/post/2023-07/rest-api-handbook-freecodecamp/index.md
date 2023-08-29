@@ -2,14 +2,6 @@
 title: The REST API Handbook – How to Build, Test, Consume, and Document REST APIs, by Germán Cocca
 description: "This is a copy of the article of Germán Cocca, published on www.freecodecamp.org"
 date: 2023-07-03
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://www.freecodecamp.org/news/build-consume-and-document-a-rest-api/,
-      },
-    ]
 categories:
   - Web Development
 tags:
@@ -25,7 +17,11 @@ I particularly like the folder structure and empahasis on the architecture.
 
 <!-- more -->
 
-:::note Why a copy? The original article doesn't provide a table of contents accessible on the side like my blog. :::
+{{< blockcontainer jli-notice-note "Why a copy?" >}}
+
+The original article doesn't provide a table of contents accessible on the side like my blog.
+
+{{< /blockcontainer >}}
 
 Hi everyone! In this tutorial we're going to take a deep dive into REST APIs.
 
@@ -1359,4 +1355,8 @@ As always, I hope you enjoyed the handbook and learned something new. If you wan
 
 See you in the next one!
 
-:::tip Learn to code for free. freeCodeCamp's open source curriculum has helped more than 40,000 people get jobs as developers. [Get started](https://www.freecodecamp.org/learn/) :::
+{{< blockcontainer jli-notice-tip "Learn to code for free." >}}
+
+freeCodeCamp's open source curriculum has helped more than 40,000 people get jobs as developers. [Get started](https://www.freecodecamp.org/learn/)
+
+{{< /blockcontainer >}}

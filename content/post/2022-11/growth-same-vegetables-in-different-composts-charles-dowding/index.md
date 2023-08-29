@@ -4,20 +4,6 @@ description: "How do different compost compared to each other when growing the e
 date: 2022-11-11
 image: '/images/2022-11-11-comparing-growth-of-the-same-vegetables--with-mulches-of-different-composts-charles-dowding.jpg'
 imageAlt: A garden filled with vegetables
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/posts/2022-11-11-growth-same-vegetables-in-different-composts-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -26,16 +12,9 @@ tags:
   - Compost
 ---
 
-![A garden filled with vegetables](/images/2022-11-11-comparing-growth-of-the-same-vegetables--with-mulches-of-different-composts-charles-dowding.jpg 'Homeacre garden is looking very healthy and productive. Credits: image taken from Charles Dowding’s vlog')
-
 How do different compost compared to each other when growing the exact same vegetables.
 
-Thanks to Charles Dowding for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Charles Dowding’s channel.
-You can watch it using [this YouTube link](https://www.youtube.com/watch?v=9i7yAYenaQk).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
+Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=9i7yAYenaQk).
 
 This article provides you a summary of the trial Charles conducted to compare two composts to grow the same vegetables.
 

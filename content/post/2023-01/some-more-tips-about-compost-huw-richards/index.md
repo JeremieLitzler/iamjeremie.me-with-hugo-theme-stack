@@ -2,20 +2,6 @@
 title: Some more tips from Huw Richards about compost, by Huw Richards
 description: 'Composting is an art that has simple rules. Follow them and you will start your composting journey successfully.'
 date: 2023-01-03
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/some-more-tips-about-compost-by-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -23,10 +9,7 @@ tags:
   - Compost
 ---
 
-![Full compost bin with top cover down](/images/2023-01-03-full-compost-bin-with-top-cover-down.jpg 'A compost bin I’ve built from free used pallets.')
-
-Thanks to Huw Richards for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Huw Richards’s channel.
+Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards’s channel.
 
 <!-- more -->
 
@@ -43,8 +26,7 @@ I’ll put here only what Huw hasn’t already shared in more recent vlogs.
 
 One tip that he hasn’t talked about a lot regarding nitrogen rich material: it’s urine. Of course, you will need to dilute it.
 
-At least, Huw is consistent between 2013 and 2022: he has been consistently saying to put 1 part green for 2 parts brown material in the compost bin.
-Also, he suggests again not to compost meat and dairy to keep the rats away.
+At least, Huw is consistent between 2013 and 2022: he has been consistently saying to put 1 part green for 2 parts brown material in the compost bin. Also, he suggests again not to compost meat and dairy to keep the rats away.
 
 Next, it isn’t a good idea to compost pet manure, from cats and dogs, for example.
 
@@ -55,11 +37,13 @@ However, mostly vegetarian pets like guinea pigs and chicken can work fine.
 
 The interesting fact is that the tip about to keep the compost bin warm. It makes me think of the tip from [Charles Dowding](../../../tag/charles-dowding). He builds his compost bin fully closed on the side.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 I have made 2 compost bins lately and I did make them fully closed, making sure to layer well the green and the brown to always oxygen to stay present.
 
 ![Pallet compost bin](images/70-four-sides-wired.jpg 'I simply cut the pallets in half and rearranged the planks to make each side “full”.')
-:::
+
+{{< /blockcontainer >}}
 
 One thing he insists on is to keep too much rain away in the compost. Charles Dowding recommends the same. I therefore made some tops for my compost bins.
 
@@ -91,10 +75,3 @@ So maybe, I’d suggest to use it on the first 10 cm max, but always mixed with
 Huw didn’t put much anyways.
 
 Thanks for reading.
-
-:::center
-⏬⏬⏬
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

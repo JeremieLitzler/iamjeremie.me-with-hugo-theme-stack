@@ -4,21 +4,11 @@ description: "I am developping a custom search API from VuePress static websites
 image: /images/2023-07-07-nodejs-logo.jpg
 imageAlt: "The NodeJS logo, from NodeJS website"
 date: 2023-07-07
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/07/how-to-run-a-nodejs-rest-api-on-cloudways,
-      },
-    ]
 categories:
   - Web Development
 tags:
   - NodeJS
 ---
-
-![The NodeJS logo, from NodeJS website](/images/2023-07-07-nodejs-logo.jpg 'Credit: NodeJS Website')
 
 I am developping a custom search API from VuePress static websites and I needed to host it.
 
@@ -53,11 +43,13 @@ You can use the "_Deployment via GIT_" that allow you to pull the code from you 
 
 !["Deployment via GIT" screen](images/deployment-via-git-screen.jpg)
 
-:::warning For updates You will need to use the `pull` button under the Cloudways application.
+{{< blockcontainer jli-notice-warning "For updates" >}}
+
+You will need to use the `pull` button under the Cloudways application.
 
 Doing a `git pull` in `applications/your_rest_api/public_html/` will not work.
 
-:::
+{{< /blockcontainer >}}
 
 ## Asking Cloudways support to enable `mod_proxy`
 
@@ -98,11 +90,6 @@ You should get:
 That's it!
 
 I hope you enjoy this peace. I release a new article once to twice every week. Consider subscribing to my newsletter
-
-:::center ⏬⏬⏬ :::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Credits
 

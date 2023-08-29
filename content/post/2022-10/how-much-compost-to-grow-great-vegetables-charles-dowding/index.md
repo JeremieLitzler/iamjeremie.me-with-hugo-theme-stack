@@ -4,46 +4,6 @@ description: 'Compost is a key element to grow great vegetables. But how much or
 date: 2022-10-13
 image: '/images/2022-10-13-how-much--how-little-compost-do-you-need-to-grow-great-vegetables-charles-dowding-hero.jpg'
 imageAlt: A garden with a lot of vegetables, like cabbages
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-next:
-  text: 'Supermarket Garlic For Seed, by Charles Dowding'
-  link: ../../09/supermarket-garlic-for-seed-charles-dowding/
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/10/how-much-compost-to-grow-great-vegetables-charles-dowding/,
-      },
-      { property: 'og:type', content: article },
-      {
-        property: 'og:title',
-        content: 'How much and how little compost do you need to grow great vegetables, by Charles Dowding',
-      },
-      {
-        property: 'og:description',
-        content: 'Compost is a key element to grow great vegetables. But how much or how little is a question that Charles Dowding will answer for us. The following article represents my notes from his vlog.',
-      },
-      {
-        property: 'og:image',
-        content: '/images/2022-10-13-how-much--how-little-compost-do-you-need-to-grow-great-vegetables-charles-dowding-hero.jpg',
-      },
-      { property: 'twitter:card', content: 'summary_large_image' },
-      {
-        property: 'twitter:title',
-        content: 'How much and how little compost do you need to grow great vegetables, by Charles Dowding',
-      },
-      {
-        property: 'twitter:description',
-        content: 'Compost is a key element to grow great vegetables. But how much or how little is a question that Charles Dowding will answer for us. The following article represents my notes from his vlog.',
-      },
-      {
-        property: 'twitter:image',
-        content: '/images/2022-10-13-how-much--how-little-compost-do-you-need-to-grow-great-vegetables-charles-dowding-hero.jpg',
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -52,15 +12,11 @@ tags:
   - Compost
 ---
 
-![A garden with a lot of vegetables, like cabbages](/images/2022-10-13-how-much--how-little-compost-do-you-need-to-grow-great-vegetables-charles-dowding-hero.jpg "Credits: image taken from Charles Dowding's vlog")
-
 Compost is a key element to grow great vegetables. But how much or how little is a question that Charles Dowding will answer for us.
 
 This article represents my notes from his vlog.
 
-Thanks to Charles Dowding for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Charles Dowding's channel.
-You can watch it using [this YouTube link](https://www.youtube.com/watch?v=4APqcvo-gqE).
+Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding's channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=4APqcvo-gqE).
 
 <!-- more -->
 
@@ -138,9 +94,11 @@ By that year, the yields went up to 100 kg per strip!
 
 Each year, the amount of compost applied is about 3 to 5 cm, spread in February.
 
-:::tip How to cover the pathways
-Use well rotter woodchips.
-:::
+{{< blockcontainer jli-notice-tip "How to cover the pathways" >}}
+
+Use well rotted woodchips.
+
+{{< /blockcontainer >}}
 
 Digging or not digging, compost is a must. Period.
 
@@ -193,6 +151,3 @@ If you want a big resource on the No Dig method, Checkout Charles’s book (use 
 Any comments? [Leave them on Substack!](https://iamjeremie.substack.com/p/how-much-how-little-compost-do-you)
 
 And to support my work, consider signing up to my newsletter.
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

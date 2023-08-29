@@ -4,17 +4,6 @@ description: "Charles talks about aminopyralid weedkiller in his compost because
 date: 2022-11-09
 image: '/images/2022-11-09-pyralid-weedkillers-in-compost-amino-and-clopyralid-effects-and-healing-charles-dowding.jpg'
 imageAlt: Homeacre garden in July 2019
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/pyralid-weedkillers-in-compost-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -25,16 +14,9 @@ tags:
   - Weedkillers
 ---
 
-![Homeacre garden in July 2019](/images/2022-11-09-pyralid-weedkillers-in-compost-amino-and-clopyralid-effects-and-healing-charles-dowding.jpg 'A view of Homeacre garden in July 2019. Credits: image taken from Charles Dowding’s vlog')
-
 Charles talks about aminopyralid weedkiller in his compost because residues were present in the hay and horse manure used to make the compost.
 
-Thanks to Charles Dowding for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Charles Dowding’s channel.
-You can watch it using [this YouTube link](https://www.youtube.com/watch?v=2D1idnMNKng).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
+Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=2D1idnMNKng).
 
 ## What doesn’t aminopyralid weedkiller affect
 
@@ -60,8 +42,7 @@ See [below for more details](#how-to-heal-the-contaminated-soil).
 
 Without any label or supporting certifications, saying something is organic has zeo value whatsoever.
 
-![A bag of compost labeled Moorland Gold](images/certified-soil-association-moorland-gold-compost.jpg 'The Moorland Gold compost is certified “Soil Association”. Credits: image taken from Charles Dowding’s vlog')
-When you pick your compost, be really carefully.
+![A bag of compost labeled Moorland Gold](images/certified-soil-association-moorland-gold-compost.jpg 'The Moorland Gold compost is certified “Soil Association”. Credits: image taken from Charles Dowding’s vlog') When you pick your compost, be really carefully.
 
 And run through the following checklist before you use it in your garden.
 
@@ -109,10 +90,3 @@ Charles thinks and hopes that growth will improve, but he suggests to wait anoth
 Also, for UK citizens, you can report the problems in manure to [this website](https://www.corteva.co.uk/manure-matters.html).
 
 So, be careful!
-
-:::center
-⏬⏬⏬
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

@@ -4,22 +4,12 @@ description: 'What happened in the garden in 2022? We had a lot of volunteer cro
 date: 2022-10-23
 image: '/images/2022-10-24-inside-a-kiwai.jpg'
 imageAlt: A kiwai fruit cut in half
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/10/gardening-in-2022/,
-      },
-    ]
 categories:
   - Gardening
 tags:
   - Badgers
   - Volunteer crops
 ---
-
-![A kiwai fruit cut in half](/images/2022-10-24-inside-a-kiwai.jpg 'You can eat the whole fruit, skin included. Miam!')
 
 What happened in the garden in 2022? We had a lot of volunteer crops, more badgers and a very dry year overall...
 
@@ -95,9 +85,9 @@ We can't wait for the plants to grow so we can have fruits and make tincture fro
 
 The comfrey was strong again this year.
 
-:::danger To do Add a picture
+{{< blockcontainer jli-notice-danger " To do Add a picture" >}}
 
-:::
+{{< /blockcontainer >}}
 
 Like all the rest, the very dry summer didn't spare the plant, but the very mild autumn so far has helped new leaves to grow.
 
@@ -105,9 +95,9 @@ I transplanted four young comfrey plants near the current compost area. So nice 
 
 ## Dandelions
 
-:::danger To do Add a picture
+{{< blockcontainer jli-notice-danger " To do Add a picture" >}}
 
-:::
+{{< /blockcontainer >}}
 
 We had very nice and big dandelions instead of the rocket salad (that has died, I think, after 2 years of crops from the same plants). The leaves were large and lasted a few meals in the spring.
 
@@ -115,9 +105,9 @@ The roots are still there, so they will be back next spring.
 
 ## Nettles
 
-:::danger To do Add a picture
+{{< blockcontainer jli-notice-danger " To do Add a picture" >}}
 
-:::
+{{< /blockcontainer >}}
 
 They’re spreading well. It doesn't excite everyone in the family, but the roots are superficial and the top soil rather soft. So it’s easy to move the roots around.
 
@@ -181,10 +171,3 @@ I plan
 However, the main job is to bring better soil, maybe even purchase a large amount of compost. It’s supposed to cost 115.5 euros for about one ton of 20 mm organic-compatible compost. 75% of the cost goes into transport (renting a truck).
 
 To be continued...
-
-:::center ⏬⏬⏬
-
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

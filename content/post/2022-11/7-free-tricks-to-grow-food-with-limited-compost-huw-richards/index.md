@@ -4,20 +4,6 @@ description: "Having enough compost can challenge any gardener. Let’s what Huw
 date: 2022-11-23
 image: '/images/2022-11-23-7-free-tricks-to-grow-food-with-limited-compost-huw-richards.jpg'
 imageAlt: Comfrey growing near a compost heap
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/11/7-free-tricks-to-grow-food-with-limited-compost-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -25,14 +11,9 @@ tags:
   - Compost
 ---
 
-![Comfrey growing near a compost heap](/images/2022-11-23-7-free-tricks-to-grow-food-with-limited-compost-huw-richards.jpg 'Comfrey produces a lot of material to create compost. Grow it today! Credits: image taken from Huw Richards’s vlog')
-
 Having enough compost can challenge any gardener. Let’s what Huw what it suggests to do.
 
 Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=HzonE2AmGmw).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Trick 1: Consider a _break year_
 
@@ -60,17 +41,23 @@ This is what Huw calls _Chop, Move and Drop_.
 
 It’s like [trick 3](#trick-3-compost-directly-on-the-beds), but, in this case, you need to apply it in a thin layer (2 cm to 3 cm) to avoid rotting.
 
-:::warning About grass clippings Be careful to put on grass clipping to avoid:
+{{< blockcontainer jli-notice-warning "About grass clippings" >}}
+
+Be careful to put on grass clipping to avoid:
 
 > Sowing a lawn…
 >
 > - Huw Richards
 
-:::
+{{< /blockcontainer >}}
 
 It helps retaining moisture to keep the plants and the soil life alive.
 
-:::warning About slugs If you have a lot of slugs, use 1 cm layer of grass clippings. Otherwise, they will hide under it and feast on your vegetables. :::
+{{< blockcontainer jli-notice-warning "About slugs" >}}
+
+If you have a lot of slugs, use 1 cm layer of grass clippings. Otherwise, they will hide under it and feast on your vegetables.
+
+{{< /blockcontainer >}}
 
 ## Trick 5: JADAM microbial solution
 
@@ -138,8 +125,3 @@ To make it, check his details vlogs on the topic:
 - [GRASS - The Most Valuable FREE Resource for Growing Food](https://www.youtube.com/watch?v=FcmR8KbJzH8)
 
 ![Leaf mold on top of some green leaves soaked in water](images/trick-7-starting-point.jpg 'Leaf mold gathered locally will contain microbes that suits best in your garden. Credits: image taken from Huw Richard’s vlog')
-
-:::center ⏬⏬⏬ :::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

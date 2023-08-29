@@ -2,28 +2,12 @@
 title: Late July Tour of a 100% Organic Kitchen Garden (Only Feed is Compost), by Huw Richards
 description: "The garden is very productive around mid-summer. Let's look at what Huw has to share."
 date: 2022-12-16
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/07/late-july-garden-tour-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
   - Huw Richards
   - In July
 ---
-
-![A garden with many beds and onions drying](/images/2022-12-16-late-july-in-huw-richards-garden.jpg 'Credits: image taken from Huw Richards’s vlog')
 
 The garden produces a lot around midsummer. Let’s look at what Huw has to share.
 
@@ -32,9 +16,6 @@ Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the followi
 <!-- more -->
 
 You can watch it using [this YouTube link](https://www.youtube.com/watch?v=_6CovELQUi0).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Onions
 
@@ -50,13 +31,17 @@ You should mix long-term and short-term varieties so you can free up space in yo
 
 Dedicate a bed for long-term varieties.
 
-:::tip Why does Huw not net the Brassicaceae? He finds it ugly.
+{{< blockcontainer jli-notice-tip "Why does Huw not net the Brassicaceae?" >}}
+
+He finds it ugly.
 
 But, if you want to protect the plants from the pest, Huw has experienced the case where a bird will still get under the mesh and get stuck…
 
 If you go away for some time, then nobody will check up daily on the net.
 
-Huw checks every 2 to 3 days the plants for cabbage white caterpillars. :::
+Huw checks every 2 to 3 days the plants for cabbage white caterpillars.
+
+{{< /blockcontainer >}}
 
 ## Squash
 
@@ -114,9 +99,13 @@ A bumble bee’s nest is usually found in the ground. So watch out before you tr
 
 They need watering otherwise they will bolt after 3 to 4 weeks of dry weather.
 
-:::tip What does bolting mean in vegetables? Bolting is the term applied to vegetable crops when they prematurely run to seed, usually making them unusable. A cold spell or changes in day length initiates this behavior.
+{{< blockcontainer jli-notice-tip "What does bolting mean in vegetables?" >}}
 
-Source: [www.rhs.org.uk](https://www.rhs.org.uk/vegetables/bolting) :::
+Bolting is the term applied to vegetable crops when they prematurely run to seed, usually making them unusable. A cold spell or changes in day length initiates this behavior.
+
+Source: [www.rhs.org.uk](https://www.rhs.org.uk/vegetables/bolting)
+
+{{< /blockcontainer >}}
 
 You can still use the leaves.
 
@@ -157,8 +146,3 @@ It might not be true to all the gardens. You will need to find what works best f
 I have tomatoes in the same bed for eight years.
 
 I have planted potatoes randomly (basically, where I had space) and I have very likely planted in the same place again. This year, we even had volunteered potato plants from an area where we had some last year.
-
-:::center ⏬⏬⏬ :::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

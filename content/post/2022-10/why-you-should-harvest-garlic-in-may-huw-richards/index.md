@@ -5,20 +5,6 @@ description: "I wrote the following notes watching the video published on Huw Ri
 date: 2022-10-03
 image: '/images/2022-10-03-why-you-should-harvest-garlic-in-may-huw-richards-hero.jpg'
 imageAlt: Garlic harvest in May
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-next:
-  text: 'How to Grow Garlic | Simple Steps for HUGE Yields, by Huw Richards'
-  link: ../../09/how-to-grow-garlic-simple-steps-for-huge-yields-huw-richards/
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/10/why-you-should-harvest-garlic-in-may-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -26,8 +12,6 @@ tags:
   - Garlic
   - Harvest
 ---
-
-![Garlic harvest in May](images/garlic-harvest-in-may.jpg "Credits: Hero image taken from Huw's vlog")
 
 Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards's channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=asVqiG3f66M).
 
@@ -75,6 +59,3 @@ For example, green garlic with potatoes gives an interesting taste, because of t
 What about sowing the cloves closer, like every 5 cm instead of every 10 cm, so that, when the green garlic harvest comes, you harvest every other one to leave the other one to grow fully.
 
 Then in the same space, you will get both green and mature garlic.
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

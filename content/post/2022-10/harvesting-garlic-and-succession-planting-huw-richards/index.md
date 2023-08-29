@@ -4,20 +4,6 @@ description: 'Succession planting the act to sow and plant another crops followi
 date: 2022-10-04
 image: '/images/2022-10-04-harvesting-garlic-and-succession-planting-salads-huw-richards-hero.jpg'
 imageAlt: Garlic and salads growing together
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-next:
-  text: 'How to Grow Garlic | Simple Steps for HUGE Yields'
-  link: ../../../posts/2022-09-30-how-to-grow-garlic-simple-steps-for-huge-yields-huw-richards/
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/garlic-and-succession-planting-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -26,13 +12,9 @@ tags:
   - Intercropping
 ---
 
-![Garlic and salads growing together](/images/2022-10-04-harvesting-garlic-and-succession-planting-salads-huw-richards-hero.jpg 'Credits: [Hero image by Roots and boots](https://rootsandboots.com/intercropping-lettuce-with-garlic/)')
-
 Succession planting the act to sow and plant another crops following the harvesting of a previous one.
 
-Thanks to Huw Richards for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Huw Richards's channel.
-You can watch it using [this YouTube link](https://www.youtube.com/watch?v=S8ivP0opZTE).
+Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards's channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=S8ivP0opZTE).
 
 ## Tip for sprouted garlic who comes up early in spring
 
@@ -63,6 +45,3 @@ Kathleen Henderson, [from Roots and Boots](https://rootsandboots.com), shared in
 My favorite benefit is clear the third one.
 
 What is your experience on the topic?
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

@@ -18,8 +18,6 @@ tags:
   - Teaching
 ---
 
-![Keep things simple scrabble letters](/images/2022-09-08-what-can-you-teach-about-problem-solving.jpg)
-
 This is a very short essay about what can you teach about problem-solving to a new developer. But it is not limited to software development, I think.
 
 _I will enhance the post in later iterations..._

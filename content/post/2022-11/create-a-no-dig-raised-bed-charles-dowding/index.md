@@ -4,17 +4,6 @@ description: "I wrote the following notes watching the video published on Charle
 date: 2022-11-13
 image: '/images/2022-11-13-a-raised-bed-with-a-pile-of-compost-with-a-wheel-barrow-in-the-background.jpg'
 imageAlt: A raised bed with a pile of compost with a wheel barrow in the background
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/11/create-a-no-dig-raised-bed-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -24,16 +13,11 @@ tags:
   - Raised bed
 ---
 
-![A raised bed with a pile of compost with a wheel barrow in the background](/images/2022-11-13-a-raised-bed-with-a-pile-of-compost-with-a-wheel-barrow-in-the-background.jpg 'Charles is pouring the compost in a raised bed. Credits: image taken from Charles Dowding’s vlog')
-
 Creating a raised bed with no dig is easy. Let's look how it is done.
 
 <!-- more -->
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding's channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=OIojWdJz0RE).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Materials
 
@@ -74,6 +58,3 @@ You will need to:
 For seedlings with long stems, plant them deep.
 
 You can plant carrots and radishes in the same trench.
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

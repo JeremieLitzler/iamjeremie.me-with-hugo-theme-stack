@@ -2,20 +2,6 @@
 title: Create a Multiple Compost Bin System for Efficient Composting, by Huw Richards
 description: "Building your own compost bay is actually simple. Let's see how Huw did it."
 date: 2022-12-27
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/create-multiple-compost-bins-huw-richard,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -23,19 +9,13 @@ tags:
   - Compost
 ---
 
-![Compost bin system using pallets](/images/2022-12-27-compost-bin-system-using-pallets.jpg 'Credits: image taken from Huw Richards’s vlog')
-
 Building your own compost bay is actually simple. Let’s see how Huw did it.
 
-Thanks to Huw Richards for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Huw Richards’s channel.
+Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards’s channel.
 
 <!-- more -->
 
 You can watch the vlog using [this YouTube link](https://www.youtube.com/watch?v=TipeKCgyd9s).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## It’s as easy as tying them together
 

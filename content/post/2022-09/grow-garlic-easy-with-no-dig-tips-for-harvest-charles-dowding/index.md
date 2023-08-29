@@ -84,10 +84,3 @@ If you leave the garlic too long, you will get the following:
 At first, right after harvest, you can leave quite a bite of stem to help the garlic finish ripening.
 
 Don't leave garlic under the direct sun too long. Two days is enough to dry the outer skin, otherwise, it can start deteriorating. Then, put it under cover to dry some more for about 20 days, with enough air.
-
-:::center ⏬⏬⏬
-
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

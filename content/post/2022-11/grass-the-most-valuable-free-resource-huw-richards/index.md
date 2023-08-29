@@ -4,17 +4,6 @@ description: "Let's discover how to use and debunk the myths about it with Huw."
 date: 2022-11-25
 image: '/images/2022-11-25-grass-clippings-in-a-lawn-mower-bag.jpg'
 imageAlt: Grass clippings in a lawn mower bag
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-       href: https://iamjeremie.me/2022/11/grass-the-most-valuable-free-resource-huw-richards/,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -22,20 +11,17 @@ tags:
   - Grass clippings
 ---
 
-![Grass clippings in a lawn mower bag](/images/2022-11-25-grass-clippings-in-a-lawn-mower-bag.jpg 'Credits: image taken from Huw Richards’s vlog')
-
 Let’s discover how to use and debunk the myths about it with Huw.
 
 <!-- more -->
 
 Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=FcmR8KbJzH8).
 
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
+{{< blockcontainer jli-notice-warning "Sourcing grass" >}}
 
-:::warning Sourcing grass You must source your grass from places not sprayed with fertilizers or pesticides.
+You must source your grass from places not sprayed with fertilizers or pesticides.
 
-:::
+{{< /blockcontainer >}}
 
 ## Misunderstanfings about grass clippings
 
@@ -119,13 +105,12 @@ The procedure is simple:
 
   ![Dirt and grass in a bag](images/inside-a-jadam-solution.jpg 'Huw is using a transparent plastic beer container so he used a compost bag to make sure no light gets in. Credits: image taken from Huw Richard’s vlog')
 
-:::warning About light With fermented products, it’s better to keep the light away.
+{{< blockcontainer jli-notice-warning "About light" >}}
 
-:::
+With fermented products, it’s better to keep the light away.
+
+{{< /blockcontainer >}}
 
 Two weeks after, you can use the JADAM liquid in a 1:30 ratio. As it ages, it gets better and therefore, you will need to adjust the ratio: see [the details here](../easy-low-cost-plant-feed-to-boost-vegetables-huw-richards/index.md#dilution-ratio).
 
 The interesting thing is that you can top up with water the container for years while you keep the solids in. Adding additional organic matter of the same plant (in this case grass clippings) is also an option as the original matter has decomposed.
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

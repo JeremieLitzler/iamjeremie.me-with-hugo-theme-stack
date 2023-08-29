@@ -51,25 +51,28 @@ git config --global alias.hrp "!f() { git hr && git pull }; f"
 
 ## What are my aliases
 
-<!-- markdownlint-disable MD040 -->
-
-```
+````
 [alias]
-	conf = ! notepad /c/Users/Jeremiel/.gitconfig
-	ac = ! git add -A && git commit -m
-	acc = ! git add $1 && git commit -m "$2"
-	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
-	sr = ! git reset --soft HEAD^
-	hr = ! git reset --hard HEAD
-	ceb = ! git checkout -t
-	cb = ! git checkout -b
-	rpm = ! git hr && git checkout main && git pull
-	mm = ! git merge main
-  #For VuePress publishing
-	pub = ! npm run docs:build && git push
-	dev = ! npm run docs:dev
-	build = ! npm run docs:build
-```
+    conf = ! notepad /c/Users/Jeremiel/.gitconfig
+    #conf = ! git config --global --edit
+    ac = ! git add -A && git commit -m
+    acc = ! git add $1 && git commit -m "$2"
+    alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+    sr = ! git reset --soft HEAD^
+    hr = ! git reset --hard HEAD
+    ceb = ! git checkout -t
+    cb = ! git checkout -b
+    c = ! git checkout
+    rpm = ! git hr && git checkout main && git pull
+    mm = ! git merge main
+    bv = ! bash bump-site-version.sh
+    t = ! git tag -a
+    tp = ! git push origin ```
+    #For VuePress publishing
+    pub = ! npm run docs:build && git push
+    dev = ! npm run docs:dev
+    build = ! npm run docs:build
+````
 
 ## Articles I read while researching the topic
 
@@ -82,3 +85,7 @@ git config --global alias.hrp "!f() { git hr && git pull }; f"
 [https://stackoverflow.com/questions/3321492/git-alias-with-positional-parameters](https://stackoverflow.com/questions/3321492/git-alias-with-positional-parameters)
 
 [https://borntocode.fr/git-alias-etre-un-bon-developpeur-faineant/](https://borntocode.fr/git-alias-etre-un-bon-developpeur-faineant/)
+
+```
+
+```

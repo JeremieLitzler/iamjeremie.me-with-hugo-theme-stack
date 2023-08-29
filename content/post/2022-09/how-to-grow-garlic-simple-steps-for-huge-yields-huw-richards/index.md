@@ -27,16 +27,11 @@ tags:
   - Garlic
 ---
 
-![A dry garlic](/images/2022-09-30-a-dry-garlic.jpg "Credits: image taken from Huw Richard's vlog")
-
 Garlic is a healthy crop to grow for your meal. Huw shares with us his pro tips to harvest plenty of them.
 
 <!-- more -->
 
 Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards's channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=FmCBTd_qCh0).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## 3 things to know before growing garlic
 
@@ -76,11 +71,11 @@ It starts from mid-October and mid-December.
 
 Any earlier and you may lose your plants over a really cold winter if they have developed too much.
 
-:::tip Personal thought
+{{< blockcontainer jli-notice-tip "Personal thought" >}}
 
-That probably means that planting from mid-September (like [Charles Dowding suggested](../grow-garlic-easy-with-no-dig-tips-for-harvest-charles-dowding/index.md)) may be only possible under a polytunnel or greenhouse.
+That probably means that planting from mid-September (like [Charles Dowding suggested](/post/2022-09/grow-garlic-easy-with-no-dig-tips-for-harvest-charles-dowding/index.md)) may be only possible under a polytunnel or greenhouse.
 
-:::
+{{< /blockcontainer >}}
 
 Any later, you risk your bulbs to be underdeveloped.
 
@@ -135,11 +130,11 @@ To grow more food from the same patch of land, planting beans following harvest 
 
 To store garlic, you can also ferment it with salt and water. Huw Richards talked about a recipe with honey and garlic that can be kept for a year. I'll look into this.
 
-:::tip Personal experience
+{{< blockcontainer jli-notice-tip "Personal experience" >}}
 
 I tried it with carrots and it tastes really good, and amazingly, the spicy side of garlic is done after 1 month of fermentation.
 
-:::
+{{< /blockcontainer >}}
 
 ## Diseases
 
@@ -158,6 +153,3 @@ This disease is far less of a problem.
 Simply, remove the worst affected leaves. Then when it comes to harvest, remove the outer layer and the garlic will be fine.
 
 As long as you take care of the soil, rust goes away. You can also apply lactic acid bacteria using a spray.
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

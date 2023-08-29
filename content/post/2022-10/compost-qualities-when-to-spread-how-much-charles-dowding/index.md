@@ -4,20 +4,6 @@ description: "When do you spread compost? How much do you spread? The guidelines
 date: 2022-10-22
 image: '/images/2022-10-28-charles-dowding-shows-compost-qualities--when-to-spread--and-how-much-charles-dowding-hero.jpg'
 imageAlt: Bruxel sprouts growing in woody compost
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/compost-qualities-when-and-how-much-to-spread,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -26,14 +12,9 @@ tags:
   - Compost
 ---
 
-![Brussels sprouts growing in woody compost](/images/2022-10-28-charles-dowding-shows-compost-qualities--when-to-spread--and-how-much-charles-dowding-hero.jpg 'Credits: image taken from Charles Dowding’s vlog')
-
 When do you spread compost? How much do you spread? The guidelines explained by Charles in a No Dig approach.
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=s71f18ila1c).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 We will look into the misunderstandings and questions about compost and spreading it.
 
@@ -114,10 +95,3 @@ You will know when the temperature isn't high anymore. It will give you better r
 Indeed, the living organisms in the soil won’t have to perform the heavy work of breaking down the material in the compost and will focus on bringing the nutrients to the plants.
 
 Checkout Charles’s book (use the link according to your location: [in France](https://amzn.to/3ELjByW), [in the US](https://amzn.to/3SROzJm) or [in the UK](https://amzn.to/3Nlrpd1)) for more details about compost.
-
-:::center ⏬⏬⏬
-
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

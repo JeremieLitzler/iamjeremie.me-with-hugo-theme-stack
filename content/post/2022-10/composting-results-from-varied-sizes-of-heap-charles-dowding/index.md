@@ -7,14 +7,6 @@ imageAlt: Compost thermometer indicating 66 °C
 prev:
   text: "See all my notes from Charles Dowding's vlogs"
   link: ../../../tag/charles-dowding/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/composting-in-varied-sizes-heap-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -24,16 +16,11 @@ tags:
   - In May
 ---
 
-![Compost thermometer indicating 66 °C](/images/2022-10-25-compost-thermometer-measuring-temperature-in-a-heap.jpg 'Credits: image taken from Charles Dowding’s vlog')
-
 Composting can be achieved in various heaps or compost bins. Charles explains to us in this article the options available and the simplest solution is free!
 
 <!-- more -->
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=VhHshAf2lpM).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Size the heap
 
@@ -149,6 +136,3 @@ Go read the notes I took from the trials Charles did that showed how worm compos
 
 - [Compost Testing and Final Result](../compost-testing-and-final-result-charles-dowding/index.md)
 - [Comparing different composts for propagation](../comparing-different-composts-for-propagation-charles-dowding/index.md)
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

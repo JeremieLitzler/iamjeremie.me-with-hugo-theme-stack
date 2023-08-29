@@ -5,20 +5,6 @@ description: "Charles presents quick ways to make and use compost in a no dig ga
 date: 2022-10-27
 image: '/images/2022-10-27-homeacres-property-viewed-from-above.jpg'
 imageAlt: Homeacres property viewed from above
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../tag/charles-dowding/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/composting-in-a-few-easy-steps-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -27,14 +13,9 @@ tags:
   - Compost
 ---
 
-![Homeacres property viewed from above](/images/2022-10-27-homeacres-property-viewed-from-above.jpg 'Credits: image taken from Charles Dowding’s vlog')
-
 Charles presents quick ways to make and use compost in a no dig garden.
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=TECfM93K36Y).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 You need to try things out when it comes to composts.
 
@@ -42,21 +23,21 @@ In this article, we will look at that with Charles.
 
 ![Compost thermometer in fresh vegetable waste](images/compost-thermometer-in-fresh-vegetable-waste.jpg 'Credits: image taken from Charles Dowding’s vlog')
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
 
 Remember: you can put a lot of things in a heap, even some things that most people wouldn’t put in, like bindweed. I have been watching Charles’s vlogs for a while and tested myself the ideas he shares and I can tell you it is true.
 
 Charles explains that the bindweed loses the contact with the parent root in the heap. Within a month or two, the pulled-out roots loose the resources to develop and they die, even a cool heap.
 
-:::
+{{< /blockcontainer >}}
 
-:::warning About weed seeds
+{{< blockcontainer jli-notice-warning "About weed seeds" >}}
 
 You must have heat to kill seeds, between 60 °C to 70 °C. Otherwise, they grow once you spread the compost in the beds.
 
 But because they are on the top, it is easy to root them out again. But do it early!
 
-:::
+{{< /blockcontainer >}}
 
 ## A few tips about the garden
 
@@ -108,10 +89,3 @@ Charles suggests to do the following to hold the structure in the heap:
 - a thin layer of brown (autumn leaves, for example)
 
 Within _about 6 to 10 months_, the compost will be ready. You decide by the look of your compost. You need to try and experience and in the end, you will find the good fit.
-
-:::center ⏬⏬⏬
-
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

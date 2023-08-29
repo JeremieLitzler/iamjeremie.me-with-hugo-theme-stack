@@ -2,20 +2,6 @@
 title: 3 Ways to Make a Hotter Compost Pile, by Huw Richards
 description: 'A hot compost means compost ready quicker.'
 date: 2022-12-28
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/3-ways-to-make-hotter-compost-pile-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -23,19 +9,13 @@ tags:
   - Compost
 ---
 
-![A kid filling a bucket with compost](/images/2022-12-28-a-kid-filling-a-bucket-with-compost.jpg 'Credits: Photo by Markus Spiske on Unsplash')
-
 A hot compost means compost ready quicker.
 
-Thanks to Huw Richards for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Huw Richards's channel.
+Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards's channel.
 
 <!-- more -->
 
 You can watch the vlog using [this YouTube link](https://www.youtube.com/watch?v=9HkfLBgS7mY).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 Compost represents a good soil amendment. You want to create your own to feed your garden.
 
@@ -78,13 +58,15 @@ Huw suggests that the second way to turn the compost.
 
 Mixing the pile kickstarts the microbial activity.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 I’m not sure I'd want to spend the energy turning the compost often just to keep the pile hot.
 
 Charles Dowding's method appeals to me more because you focus your energy to find more material, especially the green materials, to build up the compost pile.
 
 The more green material you add, the more heat you can get and therefore, the faster you will have compost available.
-:::
+
+{{< /blockcontainer >}}
 
 What is true is the following: whether you turn the compost pile or not, you don't want to compact your compost pile.
 
@@ -101,10 +83,3 @@ Now, what isn't explained in the vlog is how do you get enough green material?
 For that, I invite you to [read more on the topic of composting](../../../tag/compost/).
 
 As always, don't forget to subscribe! I published one article every week and you support means everything to me. Thanks.
-
-:::center
-⏬⏬⏬
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

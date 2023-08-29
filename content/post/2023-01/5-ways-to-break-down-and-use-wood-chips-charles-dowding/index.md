@@ -4,20 +4,6 @@ description: 'Woodchips can be useful for the garden but breaking them down take
 date: 2023-01-18
 image: '/images/2023-01-18-woodchips.jpg'
 imageAlt:
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/break-down-and-use-wood-chips-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -26,16 +12,9 @@ tags:
   - Compost
 ---
 
-![Woodchips](/images/2023-01-18-woodchips.jpg 'Credits: image taken from Charles Dowding’s vlog')
-
 Woodchips can be useful for the garden but breaking them down take ages. With a few tips, Charles explains us how to speed up the process to obtain a rich compost material.
 
-Thanks to Charles Dowding for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Charles Dowding’s channel.
-You can watch it using [this YouTube link](https://www.youtube.com/watch?v=qhBvEG_Pg8Y).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
+Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=qhBvEG_Pg8Y).
 
 ## How to break down woodchips
 
@@ -45,21 +24,25 @@ You can watch it using [this YouTube link](https://www.youtube.com/watch?v=qhBvE
 
 It’s used to decompose the woodchips by using this system and making sure the woodchips are properly watered.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 I’m planning to build one to experiment.
 
 I’ll use the resources found [in this Google search](https://www.google.com/search?q=Johnson-Su+bioreactor) to get started.
 
 Check out the image tab in the search.
-:::
 
-:::warning Don’t burry woodchip
+{{< /blockcontainer >}}
+
+{{< blockcontainer jli-notice-warning "Don’t burry woodchip" >}}
+
 Since Charles is the no-dig advocate, he doesn’t bury the woodchips and he warms us that if you dig and burry the woodchips.
 
 They will suck the nitrogen out of the rooting zone and it will deprive your plants and vegetables of what they need.
 
 On the surface, it’s fine because the plants and vegetables will set their root under the woodchips.
-:::
+
+{{< /blockcontainer >}}
 
 After breaking down a pile of woodchip compost from a bioreactor, you get the following.
 
@@ -79,9 +62,7 @@ In that other bioreactor, Charles added chicken manure and the temperature is co
 
 With fresh fragmented fresh wood (which is what Charles presented, not the dry woodchips), you will get some activity.
 
-Also, there is no problem with conifer wood, in Charles’s experience.
-He feels that the pH level with that kind of wood, once well decomposed, isn’t an issue.
-I have found that to be true as well for the few years I used them from a source of Douglas wood.
+Also, there is no problem with conifer wood, in Charles’s experience. He feels that the pH level with that kind of wood, once well decomposed, isn’t an issue. I have found that to be true as well for the few years I used them from a source of Douglas wood.
 
 Again, with a pile, you will need to water it if you don’t get enough rain.
 
@@ -111,11 +92,13 @@ Even if you can use water and moisture to speed up the process, you will need si
 
 When you reach the humus state, then you have a very good addition for the garden.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 From what I saw, it seems that the bioreactor setup speed up the decomposition, very likely because you have got a managed structure.
 
 With a pile lying on the ground, you can’t keep the moisture has easily. And watering the pile may use more water than the bioreactor contained environment.
-:::
+
+{{< /blockcontainer >}}
 
 ## How to use woodchips
 
@@ -138,9 +121,11 @@ Woodchips on pathways has several advantages :
 
 To finish, how does it compare to grow vegetables in 2-year-old woodchips “_compost_” to regular homemade compost?
 
-:::warning Big pieces of wood and slugs
+{{< blockcontainer jli-notice-warning "Big pieces of wood and slugs" >}}
+
 Be careful of the large wood piece that can shelter slugs…
-:::
+
+{{< /blockcontainer >}}
 
 What Charles experienced was a very poor start, with a lot of yellow leaves for 6 weeks.
 
@@ -155,10 +140,3 @@ Try it yourself.
 Try to get the smallest sized woodchips, if you can. But it’s hard to _choose_ what you get.
 
 Otherwise, use the lawnmower technique.
-
-:::center
-⏬⏬⏬
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

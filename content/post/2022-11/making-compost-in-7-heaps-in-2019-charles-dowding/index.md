@@ -4,17 +4,6 @@ description: "No dig, is great for growing wonderful healthy plants, giving lots
 date: 2022-11-06
 image: '/images/2022-11-06-making-compost-charles-explains-his-7-heaps-2019-charles-dowding-hero.jpg'
 imageAlt: View of the main heaps of Homeacre
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/making-compost-in-7-heaps-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -23,14 +12,9 @@ tags:
   - Compost
 ---
 
-![View of the main heaps of Homeacre](/images/2022-11-06-making-compost-charles-explains-his-7-heaps-2019-charles-dowding-hero.jpg 'Credits: image taken from Charles Dowding’s vlog')
-
 No dig, is great for growing wonderful healthy plants, giving lots of growth and a high efficiency of output per time invested.
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding's channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=TeBUX9iEFwg).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 It's worth spending time making some decent compost because it has a multiplier effect all the way along down the line.
 
@@ -66,6 +50,3 @@ Well, that depends on your condition and the following checklist:
 Then you can go ahead.
 
 Also, it will depend on how much heat you were able to have. The more you heat the compost (staying under 70 °C for the fungal activity), the fastest the compost will be ready to use.
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

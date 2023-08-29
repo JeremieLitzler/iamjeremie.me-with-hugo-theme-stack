@@ -4,20 +4,6 @@ description: 'Yes, nettle is a weed. But do you know a lot of weeds that are 10 
 image: /images/2023-04-10-close-up-on-a-female-nettle.jpg
 imageAlt: Close up on a female nettle
 date: 2023-04-10
-prev:
-  text: 'See all my notes from Huw Richards’ vlogs'
-  link: ../../../tag/huw-richards/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/04/the-nettle-the-incredibly-useful-permaculture-plant-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -25,12 +11,9 @@ tags:
   - Nettle
 ---
 
-![Close up on a female nettle](/images/2023-04-10-close-up-on-a-female-nettle.jpg 'Credits: image taken from Huw Richards’ vlog')
-
 Yes, nettle is a weed. But do you know a lot of weeds that are 10 times more useful than dreadful?
 
-Thanks to Huw Richards for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Huw Richards’ channel.
+Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards’ channel.
 
 <!-- more -->
 
@@ -44,7 +27,8 @@ The nettle is great to house all the aphids that are around the crops you are gr
 
 So grow them close to the vegetables that aphids love.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 But I don’t like that!!!
 
 I harvest nettle to eat and I don’t want to eat them…
@@ -52,7 +36,8 @@ I harvest nettle to eat and I don’t want to eat them…
 I have found that soaking the nettle in water with vinegar helps to detach all the aphids off the nettle.
 
 Use a salad spinner to finish off the aphids that might hang on tight :)
-:::
+
+{{< /blockcontainer >}}
 
 ## Reason #2: A wild patch of nettle
 
@@ -70,12 +55,13 @@ So grow a patch of nettle right away. Go find a patch into the wild and pull a f
 
 The male and female flowers occur on separate plants. Both flower sexes are green with yellow stamens, but the male flowers often have a purplish tinge and the female flowers tend to droop much more than the male flowers point upward.
 
-::: tabs
-@tab Example of female nettle
+Here is an example of female nettle:
+
 ![Female nettles green ripe seeds](images/female-nettles-green-ripe-seeds.jpg 'Credits: image from [wallpaperflare.com](https://www.wallpaperflare.com/nettles-ripe-seeds-plants-green-leaf-branch-foliage-wallpaper-wvxom)')
-@tab Example of male nettle
+
+And now an example of male nettle:
+
 ![Male nettle seeds](images/male-nettle-seeds.jpg 'Credits: image from [Harry Rose on Flickr.com](https://www.flickr.com/) (Original picture found at "https://www.flickr.com/photos/macleaygrassman/19363250773")')
-:::
 
 Dig a shallow trench and set the roots just like that.
 
@@ -91,17 +77,19 @@ It contains:
 - a lot of minerals, like calcium, iron
 - a lot of proteins: in 100 grams of dried nettle, you find up to 30 grams of proteins.
 
-:::warnings Nettle sting!
-So wear thick gloves. But don't worry: the sting isn’t toxic. It just hurt.
+{{< blockcontainer jli-notice-warning "Nettle sting! So wear thick gloves. But don't worry: the sting isn’t toxic. It just hurt." >}}
 
 Or check out the young Huw showcasing how to do it with bear hands in ["How to Eat Nettles without getting Stung"](https://www.youtube.com/watch?v=Jy9yyMjtWWQ).
-:::
 
-:::tip Personal note
+{{< /blockcontainer >}}
+
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 Cooking the nettle get rid of their sting.
 
 However, simply washing the nettle with cold water or drying them won’t.
-:::
+
+{{< /blockcontainer >}}
 
 When you pick nettle, pick the first 3 levels of leaves, which are tender and less fibrous, especially regarding the stem.
 
@@ -150,17 +138,12 @@ Nettle brings huge improvement to the garden. When you search [_nettle+garden_ o
 
 To do so, cut some fresh nettle, wash them and pour boiling water over it.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 I always eat the boiled nettles after 15 min. That way, you waste nothing :)
-:::
+
+{{< /blockcontainer >}}
 
 For more tips from Huw on this bonus usage, check out the younger Huw explaining it [in "How to make a Nutritious Tea from Nettles"](https://www.youtube.com/watch?v=2qQSB0luBRY).
 
 As always, you find this content useful, consider subscribing to my free newsletter.
-
-:::center
-⏬⏬⏬
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

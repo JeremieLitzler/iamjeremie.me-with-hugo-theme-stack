@@ -4,17 +4,6 @@ description: Charles explains how to sow more seeds in a smaller area and which 
 date: 2022-11-18
 image: '/images/2022-11-18-seedling-tray-charles-ready-to-sow.jpg'
 imageAlt: A seedling tray with Charles ready to sow some seeds
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/11/multisowing-modules-to-save-time-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -24,14 +13,9 @@ tags:
   - Compost
 ---
 
-![A seedling tray with Charles ready to sow some seeds](/images/2022-11-18-seedling-tray-charles-ready-to-sow.jpg 'Charles takes a few onion seeds to sow the module tray. Credits: image taken from Charles Dowding’s vlog')
-
 Charles explains how to sow more seeds in a smaller area and which vegetables work best with multisowing.
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=pXOM2gzL0AQ).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Fill the tray with compost
 
@@ -78,6 +62,3 @@ For onions, put about 6 seeds per cell. For spring onions, put 2 more per cell.
 Cover with compost the holes and firm it before watering well.
 
 The compost needs to be fully moist.
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

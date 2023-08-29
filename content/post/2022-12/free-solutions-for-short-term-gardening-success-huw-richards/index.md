@@ -4,17 +4,6 @@ description: "Creating compost isn't always easy and Huw shares in this article 
 date: 2022-12-07
 image: '/images/2022-12-07-a-man-planting-spinach.jpg'
 imageAlt: A man planting spinach
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/12/free-solutions-for-short-term-gardening-success-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -22,16 +11,11 @@ tags:
   - Compost
 ---
 
-![A man planting spinach](/images/2022-12-07-a-man-planting-spinach.jpg 'Credits: image taken from Huw Richards’s vlog')
-
 Creating compost isn’t always easy and Huw shares in this article how to grow vegetables with it with no investment.
 
 <!-- more -->
 
 Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=s7iu4xgSu1Y).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 It’s important to prioritize making your own compost the following tips are short-term adjustments.
 
@@ -50,11 +34,11 @@ When you don’t have enough compost, mulching with alternatives happens to be a
 - woodchip
 - dead leaves
 
-:::tip About perennial plants
+{{< blockcontainer jli-notice-tip "About perennial plants" >}}
 
 They aren’t super nutrient hungry plants for using woodchips will suffice them.
 
-:::
+{{< /blockcontainer >}}
 
 ## Grass clippings
 
@@ -144,6 +128,3 @@ If it is available in your area and if it is approved for organic gardening, go 
 The closest I can get is 26 euros per ton, but I need to rent a truck to bring it home, so in the end, it cost 115 euros per ton... I’m still very hesitant at the moment.
 
 You can maybe purchase it as a group, hence lowering the cost. In my case, I can have it delivered but I will need a rather big storage area because they only deliver a minimum of 10 tons!
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

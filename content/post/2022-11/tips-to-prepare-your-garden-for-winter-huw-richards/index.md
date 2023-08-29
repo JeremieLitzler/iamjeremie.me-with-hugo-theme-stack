@@ -4,17 +4,6 @@ description: "I wrote the following notes watching the video published on Huw Ri
 date: 2022-11-22
 image: '/images/2022-11-22-someone-collecting-leaves.jpg'
 imageAlt: Someone collecting leaves
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/11/16-tips-to-prepare-your-garden-for-winter-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -22,16 +11,11 @@ tags:
   - In Winter
 ---
 
-![Someone Collecting Leaves](/images/2022-11-22-someone-collecting-leaves.jpg 'Collecting leaves forms an important activity in the beginning of winter. Credits: image taken from Huw Richards’s vlog')
-
 What can you do to prepare for the winter in your garden? Huw is giving us 16 tips of 30 seconds each.
 
 <!-- more -->
 
 Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=qkBT61SGU8k).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Plant garlic
 
@@ -64,7 +48,7 @@ Try to remove the weeds!
 
 ![Someone racking leaves](/images/2022-11-22-someone-collecting-leaves.jpg 'Leaves are free and abundant at the end of autumn. Gather as much as you can. Credits: image taken from Huw Richard’s vlog')
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
 
 I’m currently working on that, for the third year.
 
@@ -77,7 +61,7 @@ It serves at least two purposes:
 
 This year, I’m planning to gather a lot more than the previous year. At the time of this writing, I have gathered 6 meters cubes already.
 
-:::
+{{< /blockcontainer >}}
 
 ## Collect grass clippings
 
@@ -159,11 +143,11 @@ During winter, they will root and you will be able to transplant them where you 
 
 You can also do this in a pot to sell. This can be a source of money to buy seeds.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
 
 I will do that with my gooseberry bush that has grown big and I want to get more of them next year.
 
-:::
+{{< /blockcontainer >}}
 
 ## Do something with the container full of compost
 
@@ -188,6 +172,3 @@ It can be:
 
 - creating new beds
 - planting fruit trees
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
