@@ -43,19 +43,7 @@ Starting at 5 euros (or the available currencies), you can also provide your sup
 
 Make your pick:
 
-<!-- markdownlint-disable MD033 -->
-
-<article class="participate participate-options">
-  <p>
-    <a href="https://buy.stripe.com/4gw6pVaGpbkZ4oM6oH" target="_blank" class="nav-link action-button primary" aria-label="Help me each year">Yearly</a>
-  </p>
-  <p>
-    <a href="https://buy.stripe.com/cN2dSnaGp2Ot1cA4gA" target="_blank" class="nav-link action-button secondary" aria-label="Help me each year">Monthly</a>
-  </p>
-  <p>
-    <a href="https://buy.stripe.com/eVadSnaGp3SxdZm5kF" target="_blank" class="nav-link action-button secondary" aria-label="One time tip">Once</a>
-  </p>
-</article>
+{{< donate-options />}}
 
 ## Sign up to the newsletter
 
