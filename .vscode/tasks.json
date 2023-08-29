@@ -13,16 +13,6 @@
             },
             "isBackground": true,
             "problemMatcher": []
-        },
-        {
-            "label": "Build",
-            "type": "shell",
-            "command": "hugo",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": []
         }
     ]
 }
