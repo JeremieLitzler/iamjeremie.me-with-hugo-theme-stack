@@ -1,6 +1,578 @@
-# [[redirects]]
-# from = "/"
-# to = "/en"
+[[redirects]]
+from = "/2022/04/3-heap-types-how-they-work-and-what-they-give-charles-dowding/"
+to = "/post/2022-04/3-heap-types-how-they-work-and-what-they-give-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/09/grow-garlic-easy-with-no-dig-tips-for-harvest-charles-dowding/"
+to = "/post/2022-09/grow-garlic-easy-with-no-dig-tips-for-harvest-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/09/how-to-grow-garlic-simple-steps-for-huge-yields-huw-richards/"
+to = "/post/2022-09/how-to-grow-garlic-simple-steps-for-huge-yields-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/09/how-to-judge-the-readiness-of-garlic-charles-dowding/"
+to = "/post/2022-09/how-to-judge-the-readiness-of-garlic-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/09/how-to-plant-garlic-start-to-finish-the-dutch-farmer/"
+to = "/post/2022-09/how-to-plant-garlic-start-to-finish-the-dutch-farmer"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/09/supermarket-garlic-for-seed-charles-dowding/"
+to = "/post/2022-09/supermarket-garlic-for-seed-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/09/what-can-you-teach-about-problem-solving/"
+to = "/post/2022-09/what-can-you-teach-about-problem-solving"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/comparing-different-composts-for-propagation-charles-dowding/"
+to = "/post/2022-10/comparing-different-composts-for-propagation-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/compost-making-qa-charles-dowding/"
+to = "/post/2022-10/compost-making-qa-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/compost-qualities-when-to-spread-how-much-charles-dowding/"
+to = "/post/2022-10/compost-qualities-when-to-spread-how-much-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/compost-testing-and-final-result-charles-dowding/"
+to = "/post/2022-10/compost-testing-and-final-result-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/composting-in-a-few-easy-steps-charles-dowding/"
+to = "/post/2022-10/composting-in-a-few-easy-steps-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/composting-results-from-varied-sizes-of-heap-charles-dowding/"
+to = "/post/2022-10/composting-results-from-varied-sizes-of-heap-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/easy-earthing-up-on-potatoes-with-compost-charles-dowding/"
+to = "/post/2022-10/easy-earthing-up-on-potatoes-with-compost-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/gardening-in-2022/"
+to = "/post/2022-10/gardening-in-2022"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/harvesting-garlic-and-succession-planting-huw-richards/"
+to = "/post/2022-10/harvesting-garlic-and-succession-planting-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/how-much-compost-to-grow-great-vegetables-charles-dowding/"
+to = "/post/2022-10/how-much-compost-to-grow-great-vegetables-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/how-to-start-a-no-dig-bed-charles-dowding/"
+to = "/post/2022-10/how-to-start-a-no-dig-bed-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/identify-problems-charles-dowding/"
+to = "/post/2022-10/identify-problems-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/july-tour-of-homeacres-garden-charles-dowding/"
+to = "/post/2022-10/july-tour-of-homeacres-garden-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/making-and-using-compost-in-a-dalek-charles-dowding/"
+to = "/post/2022-10/making-and-using-compost-in-a-dalek-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/the-simple-way-to-food-self-sufficiency-huw-richards/"
+to = "/post/2022-10/the-simple-way-to-food-self-sufficiency-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/why-you-should-harvest-garlic-in-may-huw-richards/"
+to = "/post/2022-10/why-you-should-harvest-garlic-in-may-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/10/you-can-compost-all-weeds-charles-dowding/"
+to = "/post/2022-10/you-can-compost-all-weeds-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/4-compost-heaps-in-3-bays-charles-dowding/"
+to = "/post/2022-11/4-compost-heaps-in-3-bays-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/7-free-tricks-to-grow-food-with-limited-compost-huw-richards/"
+to = "/post/2022-11/7-free-tricks-to-grow-food-with-limited-compost-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/compost-from-clippings-and-other-waste-charles-dowding/"
+to = "/post/2022-11/compost-from-clippings-and-other-waste-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/compost-making-balancing-nitrogen-and-carbon-charles-dowding/"
+to = "/post/2022-11/compost-making-balancing-nitrogen-and-carbon-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/create-a-no-dig-raised-bed-charles-dowding/"
+to = "/post/2022-11/create-a-no-dig-raised-bed-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/discover-the-problems-manure-vs-compost-charles-dowding/"
+to = "/post/2022-11/discover-the-problems-manure-vs-compost-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/early-summer-2018-at-homeacres-charles-dowding/"
+to = "/post/2022-11/early-summer-2018-at-homeacres-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/easy-low-cost-plant-feed-to-boost-vegetables-huw-richards/"
+to = "/post/2022-11/easy-low-cost-plant-feed-to-boost-vegetables-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/grass-the-most-valuable-free-resource-huw-richards/"
+to = "/post/2022-11/grass-the-most-valuable-free-resource-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/growth-same-vegetables-in-different-composts-charles-dowding/"
+to = "/post/2022-11/growth-same-vegetables-in-different-composts-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/making-compost-in-7-heaps-in-2019-charles-dowding/"
+to = "/post/2022-11/making-compost-in-7-heaps-in-2019-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/multisowing-modules-to-save-time-charles-dowding/"
+to = "/post/2022-11/multisowing-modules-to-save-time-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/no-dig-less-compost-great-plants-clean-soil-charles-dowding/"
+to = "/post/2022-11/no-dig-less-compost-great-plants-clean-soil-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/no-dig-mulched-beds-ready-for-plants-charles-dowding/"
+to = "/post/2022-11/no-dig-mulched-beds-ready-for-plants-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/pyralid-weedkillers-in-compost-charles-dowding/"
+to = "/post/2022-11/pyralid-weedkillers-in-compost-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/spring-sowing-and-planting-charles-dowding/"
+to = "/post/2022-11/spring-sowing-and-planting-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/starting-no-dig-with-cardboard-and-compost-charles-dowding/"
+to = "/post/2022-11/starting-no-dig-with-cardboard-and-compost-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/tips-for-compost-self-sufficiency-huw-richards/"
+to = "/post/2022-11/tips-for-compost-self-sufficiency-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/tips-to-prepare-your-garden-for-winter-huw-richards/"
+to = "/post/2022-11/tips-to-prepare-your-garden-for-winter-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/wini-walbaum-and-charles-dowding-share-no-dig-charles-dowding/"
+to = "/post/2022-11/wini-walbaum-and-charles-dowding-share-no-dig-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/11/year-5-in-3-strips-in-different-soil--charles-dowding/"
+to = "/post/2022-11/year-5-in-3-strips-in-different-soil--charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/12/3-ways-to-make-a-hotter-compost-pile-huw-richards/"
+to = "/post/2022-12/3-ways-to-make-a-hotter-compost-pile-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/12/8-free-ingredients-will-bulk-out-compost-bins-huw-richards/"
+to = "/post/2022-12/8-free-ingredients-will-bulk-out-compost-bins-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/12/a-look-at-5-year-old-leaf-compost-huw-richards/"
+to = "/post/2022-12/a-look-at-5-year-old-leaf-compost-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/12/create-a-multiple-compost-bin-system-huw-richards/"
+to = "/post/2022-12/create-a-multiple-compost-bin-system-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/12/free-solutions-for-short-term-gardening-success-huw-richards/"
+to = "/post/2022-12/free-solutions-for-short-term-gardening-success-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/12/how-to-make-a-compost-bin-from-pallets-huw-richards/"
+to = "/post/2022-12/how-to-make-a-compost-bin-from-pallets-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/12/make-compost-from-your-garden-pathways-huw-richards/"
+to = "/post/2022-12/make-compost-from-your-garden-pathways-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/12/make-compost-when-youre-new-to-composting-huw-richards/"
+to = "/post/2022-12/make-compost-when-youre-new-to-composting-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2022/12/the-art-of-lazy-composting-huw-richards/"
+to = "/post/2022-12/the-art-of-lazy-composting-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/01/5-ways-to-break-down-and-use-wood-chips-charles-dowding/"
+to = "/post/2023-01/5-ways-to-break-down-and-use-wood-chips-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/01/8-extraordinary-gardens-january-2022-huw-richards/"
+to = "/post/2023-01/8-extraordinary-gardens-january-2022-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/01/market-gardening-in-january-the-dutch-farmer/"
+to = "/post/2023-01/market-gardening-in-january-the-dutch-farmer"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/01/some-more-tips-about-compost-huw-richards/"
+to = "/post/2023-01/some-more-tips-about-compost-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/01/why-i-love-january-as-a-gardener-huw-richards/"
+to = "/post/2023-01/why-i-love-january-as-a-gardener-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/01/winter-vegetables-in-january-charles-dowding/"
+to = "/post/2023-01/winter-vegetables-in-january-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/02/7-most-productive-edible-crops-to-sow-in-february-huw-richards/"
+to = "/post/2023-02/7-most-productive-edible-crops-to-sow-in-february-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/02/market-gardening-in-february-the-dutch-farmer/"
+to = "/post/2023-02/market-gardening-in-february-the-dutch-farmer"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/03/how-is-setup-my-digital-presence-today/"
+to = "/post/2023-03/how-is-setup-my-digital-presence-today"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/03/market-gardening-in-march-the-dutch-farmer/"
+to = "/post/2023-03/market-gardening-in-march-the-dutch-farmer"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/04/growing-and-using-comfrey-in-the-garden-huw-richards/"
+to = "/post/2023-04/growing-and-using-comfrey-in-the-garden-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/04/market-gardening-in-april-the-dutch-farmer/"
+to = "/post/2023-04/market-gardening-in-april-the-dutch-farmer"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/04/the-nettle-the-incredibly-useful-permaculture-plant-huw-richards/"
+to = "/post/2023-04/the-nettle-the-incredibly-useful-permaculture-plant-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/04/use-nettles-to-improve-seedling-success-huw-richards/"
+to = "/post/2023-04/use-nettles-to-improve-seedling-success-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/05/market-gardening-in-may-the-dutch-farmer/"
+to = "/post/2023-05/market-gardening-in-may-the-dutch-farmer"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/06/how-to-setup-substack-publication-for-2-languages-in-2023/"
+to = "/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/06/how-to-toggle-a-single-newsletter-on-my-publication/"
+to = "/post/2023-06/how-to-toggle-a-single-newsletter-on-my-publication"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/06/market-gardening-in-june-the-dutch-farmer/"
+to = "/post/2023-06/market-gardening-in-june-the-dutch-farmer"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/06/what-tasks-to-focus-on-in-june-huw-richards/"
+to = "/post/2023-06/what-tasks-to-focus-on-in-june-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/07/how-to-run-a-nodejs-rest-api-on-cloudways/"
+to = "/post/2023-07/how-to-run-a-nodejs-rest-api-on-cloudways"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/07/late-july-garden-tour-huw-richards/"
+to = "/post/2023-07/late-july-garden-tour-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/07/market-gardening-in-july-the-dutch-farmer/"
+to = "/post/2023-07/market-gardening-in-july-the-dutch-farmer"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/07/rest-api-handbook-freecodecamp/"
+to = "/post/2023-07/rest-api-handbook-freecodecamp"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/07/small-garden-in-july-charles-dowding/"
+to = "/post/2023-07/small-garden-in-july-charles-dowding"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/07/vegetable-garden-tour-in-july-huw-richards/"
+to = "/post/2023-07/vegetable-garden-tour-in-july-huw-richards"
+status = 301
+force = true
+
+[[redirects]]
+from = "/2023/09/gardening-in-2022-2023/"
+to = "/post/2023-09/gardening-in-2022-2023"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2018-02-21-bem-cheatsheet/"
+to = "/post/2018-02-21-bem-cheatsheet"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2018-02-21-css-variables/"
+to = "/post/2018-02-21-css-variables"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2018-02-22-es2018-es2019-notes/"
+to = "/post/2018-02-22-es2018-es2019-notes"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2018-02-23-mastering-css-grid/"
+to = "/post/2018-02-23-mastering-css-grid"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2020-03-09-be-nicer/"
+to = "/post/2020-03-09-be-nicer"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2020-03-22-take-the-time/"
+to = "/post/2020-03-22-take-the-time"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2020-03-22-webresponsive-bootcamp-by-scrimba/"
+to = "/post/2020-03-22-webresponsive-bootcamp-by-scrimba"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2020-03-25-do-we-need-the-covid-to-reduce-our-impact-on-nature/"
+to = "/post/2020-03-25-do-we-need-the-covid-to-reduce-our-impact-on-nature"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2020-12-20-es6-by-wesbos/"
+to = "/post/2020-12-20-es6-by-wesbos"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2021-01-26-js30-by-wesbos/"
+to = "/post/2021-01-26-js30-by-wesbos"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2021-01-28-styleguide/"
+to = "/post/2021-01-28-styleguide"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2021-02-12-debugging-in-nodejs-and-vsc/"
+to = "/post/2021-02-12-debugging-in-nodejs-and-vsc"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2021-08-20-how-to-prepare-tomato-seeds/"
+to = "/post/2021-08-20-how-to-prepare-tomato-seeds"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2021-08-25-reduce-blue-light-exposure/"
+to = "/post/2021-08-25-reduce-blue-light-exposure"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2021-12-28-creating-git-alias-commands/"
+to = "/post/2021-12-28-creating-git-alias-commands"
+status = 301
+force = true
+
+[[redirects]]
+from = "/posts/2022-02-06-siwa-oasis-trip-to-cairo/"
+to = "/post/2022-02-06-siwa-oasis-trip-to-cairo"
+status = 301
+force = true
 
 #[[headers]]
 #for = "/*"
