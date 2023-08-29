@@ -6,7 +6,7 @@ favicon = "/favicon.ico"
 
 [footer]
 since = 2021
-customText = "License GPLv3 | <a href="https://iamjeremie.me/page/terms" title="Read terms and conditions of this website">Terms</a>"
+customText = 'License GPLv3 | <a href="https://iamjeremie.me/page/terms" title="Read terms and conditions of this website">Terms</a>'
 
 [dateFormat]
 published = "Jan 02, 2006"
