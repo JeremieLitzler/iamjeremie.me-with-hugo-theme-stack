@@ -4,19 +4,9 @@ description: "If you subscribed before April 2023, you will find this useful."
 image: /images/2023-06-06-substack-logo.avif
 imageAlt: Substack logo
 date: 2023-06-06
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/06/how-to-toggle-a-single-newsletter-on-my-publication,
-      },
-    ]
 tags:
   - Substack
 ---
-
-![Substack logo](/images/2023-06-06-substack-logo.avif)
 
 If you subscribed before April 2023, you will find this useful.
 

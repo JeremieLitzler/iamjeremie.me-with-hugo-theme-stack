@@ -4,20 +4,6 @@ description: "Charles has come to an end with his compost comparaison. Let's loo
 date: 2022-10-23
 image: '/images/2022-10-23-compost-testing-and-final-result-charles-dowding-hero.jpg'
 imageAlt: A shovel in a heap of compost
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-next:
-  text: 'Growth differences in three strips of different soil treatment, year five'
-  link: ../../../posts/2022-11-03-year-5-in-3-strips-in-different-soil--charles-dowding/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/compost-testing-and-final-result-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -26,16 +12,11 @@ tags:
   - Compost
 ---
 
-![A shovel in a heap of compost](/images/2022-10-23-compost-testing-and-final-result-charles-dowding-hero.jpg 'Credits: image taken from Charles Dowding’s vlog')
-
 Charles has come to an end with his compost comparaison. Let's look at the results and the conclusion to draw from it.
 
 <!-- more -->
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=jt4azBLuJrc).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Trial setup
 
@@ -209,10 +190,3 @@ When you are making seedlings, starting from a seed, it could make a difference.
 Also, when the plant is big enough, having more drainage with wash away the nutrients.
 
 Compost is brilliant to retain nutrients.
-
-:::center ⏬⏬⏬
-
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

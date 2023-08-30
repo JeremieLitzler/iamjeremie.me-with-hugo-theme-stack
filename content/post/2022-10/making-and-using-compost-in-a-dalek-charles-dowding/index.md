@@ -5,20 +5,6 @@ description: "I wrote the following notes watching the video published on Charle
 date: 2022-10-18
 image: '/images/2022-10-18-making-compost-in-a-dalek--and-how-to-access-it-charles-dowding-hero.jpg'
 imageAlt: A dalek, from Blackwall manufacturer
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-next:
-  text: 'Three Types of Heap, see how they work and the compost they make'
-  link: ../../04/3-heap-types-how-they-work-and-what-they-give-charles-dowding/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/making-compost-in-a-dalek-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -27,16 +13,9 @@ tags:
   - Compost
 ---
 
-Thanks to Charles Dowding for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Charles Dowding's channel.
-You can watch it using [this YouTube link](https://www.youtube.com/watch?v=2scvQgm6HFw).
+Making compost is a really useful to do. Start today!
 
-![A dalek, from Blackwall manufacturer](/images/2022-10-18-making-compost-in-a-dalek--and-how-to-access-it-charles-dowding-hero.jpg "Credits: image taken from Charles Dowding's vlog")
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
-
-Making compost is a really useful to do.
+Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding's channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=2scvQgm6HFw).
 
 See this article to read about Charles's [three types of heap, see how they work and the compost they make](../../2022-04/3-heap-types-how-they-work-and-what-they-give-charles-dowding/index.md).
 
@@ -44,8 +23,7 @@ In this vlog, we will review more detail about the plastic model.
 
 ## When to use one
 
-In small gardens, there may not be space for the 3 bins made of pallets.
-So, it can be that the plastic model (of about 300 L depending on the model) is your pick.
+In small gardens, there may not be space for the 3 bins made of pallets. So, it can be that the plastic model (of about 300 L depending on the model) is your pick.
 
 ## How to get the compost out
 
@@ -79,6 +57,3 @@ I am reviewing [all the vlogs not only from Charles](../../../tag/charles-dowdin
 - or [Damien Dekarz (in French)](https://jeremielitzler.fr/tag/damien-dekarz/) and other French sources.
 
 Also, [Charles provides a book](https://amzn.to/3ELjByW) about his No Dig method, containing much information about composting.
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

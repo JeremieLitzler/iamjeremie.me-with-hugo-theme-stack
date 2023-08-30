@@ -4,28 +4,12 @@ description: "What can you do in July? Moreno walks us through his garden to sho
 image: /images/2023-07-03-bumblebees-on-echinacea-flowers.jpg
 imageAlt: Bumblebees on Echinacea flowers
 date: 2023-07-03
-prev:
-  text: "See all my notes from The Dutch Farmer’s vlogs"
-  link: ../../../tag/the-dutch-farmer/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/07/market-gardening-in-july-the-dutch-farmer,
-      },
-    ]
 categories:
   - Gardening
 tags:
   - The Dutch Farmer
   - In July
 ---
-
-![Bumblebees on Echinacea flowers](/images/2023-07-03-bumblebees-on-echinacea-flowers.jpg 'Credits: image taken from The Dutch Farmer’s vlog')
 
 What can you do in July? Moreno walks us through his garden to show us the different gardening tasks to perform this month.
 
@@ -41,7 +25,11 @@ You can watch it using [this YouTube link](https://www.youtube.com/watch?v=Saujr
 
 It usually happens early on the month of July.
 
-:::tip Personal note This year 2023 was my first year to grow garlic and with over 100 cloves planted, we are happy with the green garlic we enjoy in May and June and the dry garlic we’ll enjoy the rest of the summer. :::
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
+This year 2023 was my first year to grow garlic and with over 100 cloves planted, we are happy with the green garlic we enjoy in May and June and the dry garlic we’ll enjoy the rest of the summer.
+
+{{< /blockcontainer >}}
 
 Moreno is quite happy with the multi-crop beds. Remember, he talked about it in [his March episode](../../2023-03/market-gardening-in-march-the-dutch-farmer/index.md).
 
@@ -84,8 +72,3 @@ All this applies to large tomatoes. In fact, the cherry and cocktail types are b
 July is the month when harvesting is the focus and it is when you will make most of the year’s revenue.
 
 Still, soon, it will be time to prepare for the fall and winter crops.
-
-:::center ⏬⏬⏬ :::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

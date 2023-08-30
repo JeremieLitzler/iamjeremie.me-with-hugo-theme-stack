@@ -18,9 +18,6 @@ Growing your own food is a great skill to learn. You can start on a small area t
 
 Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards's channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=8HmQqsTM8co).
 
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
-
 ## Food self-sufficiency: a definition
 
 It is the goal to grow your own food you need to eat every day.
@@ -115,7 +112,9 @@ Be aware that you will need to think about storage for some food if you want to 
 
 You need to take into account the potential failures, so add 20 to 25% to the estimate, so in the example, we will need an extra 6 plants of garlic.
 
-:::tip Personal tip I have started in August 2022 to track the quantity of the food purchases we make.
+{{< blockcontainer jli-notice-tip "Personal tip" >}}
+
+I have started in August 2022 to track the quantity of the food purchases we make.
 
 It is easy today to scan a grocery ticket and convert it using an image to text online tool like [Online OCR](https://www.onlineocr.net/).
 
@@ -129,7 +128,9 @@ Please feel free to use it as a template. At the end, it will be very quick to i
 
 You will need to adjust the values in the "Constants" tab as you go.
 
-After a while, it will be easy to input your purchase if you buy by the season and if you are regular. [Contact me if you have questions](../../../page/contact-me/index.md) on how to use the sheet or if you want me to demo it in a video. :::
+After a while, it will be easy to input your purchase if you buy by the season and if you are regular. [Contact me if you have questions](../../../page/contact-me/index.md) on how to use the sheet or if you want me to demo it in a video.
+
+{{< /blockcontainer >}}
 
 ### Conclusion
 
@@ -143,8 +144,3 @@ What benefits do you get from eating out of season?
 - you will have to be more creative on how to use the crops you get. See [Huw and Sam's blog for recipes](https://farmerandchef.co.uk/blog).
 
 Look at what is special about every single season and you will become of more self-sufficient.
-
-:::center ⏬⏬⏬ :::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

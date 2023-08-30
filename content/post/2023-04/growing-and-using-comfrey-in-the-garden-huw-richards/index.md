@@ -4,20 +4,6 @@ description: "Comfrey provides many benefits in the garden, from composting to m
 image: /images/2023-04-18-comfrey-plant.jpg
 imageAlt: A comfrey plant
 date: 2023-04-18
-prev:
-  text: 'See all my notes from Huw Richards’ vlogs'
-  link: ../../../tag/huw-richards/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/04/growing-and-using-comfrey-in-the-garden-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -25,12 +11,9 @@ tags:
   - Comfrey
 ---
 
-![A comfrey plant](/images/2023-04-18-comfrey-plant.jpg 'Credits: image taken from Huw Richards’ vlog')
-
 Comfrey provides many benefits in the garden, from composting to mulching. Let’s look at it.
 
-Thanks to Huw Richards for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Huw Richards’ channel.
+Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards’ channel.
 
 <!-- more -->
 
@@ -39,9 +22,6 @@ You can watch the original vlogs using the following links:
 - [2 Methods of Comfrey Propagation](https://www.youtube.com/watch?v=yq3qloPXUzU)
 - [Growing and Using Comfrey—Perfect Plant for Permaculture Vegetable Gardening](https://www.youtube.com/watch?v=z5BspGhgNrk)
 - [How to Propagate Comfrey - 2 Great Methods](https://www.youtube.com/watch?v=KMdiDcLwthk)
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## What is comfrey
 
@@ -79,11 +59,13 @@ As a mulch, you will simply apply the raw leave at the bottom of the plant you w
 
 The propagation is easy.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 At the end of last year, I had little comfrey plants growing near the main plants (very likely from seeds).
 
 I transplanted them in another location in my garden and they’re successfully growing since the spring began.
-:::
+
+{{< /blockcontainer >}}
 
 The other method is to dig out some mature plant and use the roots propagate.
 
@@ -96,10 +78,3 @@ I’m wondering if simply bearing the piece in the soil doesn’t just work as w
 The comfrey “bocking 14” variety is especially good at propagation from a small section of roots.
 
 The best time to do this is late spring or early summer.
-
-:::center
-⏬⏬⏬
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

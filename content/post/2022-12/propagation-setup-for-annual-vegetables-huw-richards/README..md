@@ -2,17 +2,6 @@
 title: My Propagation Setup for Annual Vegetables, Compost, Watering, Space etc, by Huw Richards
 The pescription: 'The propagation technique helps the gardener have the strong seedlings for the annual growing season.'
 date: 2022-12-18
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/12/propagation-setup-for-annual-vegetables-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -21,8 +10,6 @@ tags:
   - Propagation
 ---
 
-![Onions and peas in module trays](/images/2022-12-18-onions-and-peas-in-module-trays.jpg 'Credits: image taken from Huw Richards’s vlog')
-
 The propagation technique helps the gardener have the strong seedlings for the annual growing season.
 
 Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards’s channel.
@@ -30,9 +17,6 @@ Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the followi
 <!-- more -->
 
 You can watch it using [this YouTube link](https://www.youtube.com/watch?v=JqODyqSnbKk).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## A potting bench
 
@@ -45,22 +29,22 @@ The potting bench includes:
   - Module trays of various sizes (deep-rooted for peas and beans, or shallower trays for general-purpose seeds)
   - Labels made from recycled materials
 
-:::tip How to make your labels
+{{< blockcontainer jli-notice-tip "How to make your labels" >}}
 
 Huw mentioned yogurt pots.
 
 I use the wood of an old crate.
 
-:::
+{{< /blockcontainer >}}
 
 - A box for unfinished seed packets
   - It’s very rare to sow a full packet of seeds, so keep those in a sturdy box, away from the humidity and sun.
 
-:::tip Seed or multi-purpose compost
+{{< blockcontainer jli-notice-tip "Seed or multi-purpose compost" >}}
 
 Huw had found that seed compost is too expensive for the actual benefits and multi-purpose compost does a good job for propagation.
 
-:::
+{{< /blockcontainer >}}
 
 ## Where to put the seed trays
 
@@ -106,13 +90,13 @@ The steps are simple:
 6. Sow enough seeds. See [this article from a vlog of Charles Dowding](../../2022-11/early-summer-2018-at-homeacres-charles-dowding/index.md#what-can-you-sow-in-the-beginning-of-june-in-the-uk) for a few examples.
 7. Gently fill the holes with some more compost
 
-:::tip Why before sowing
+{{< blockcontainer jli-notice-tip "Why before sowing" >}}
 
 Huw likes to do this because once the seed is in the module, the water can displace it.
 
 Also, you won’t need to water again after sowing if the weather is overcast.
 
-:::
+{{< /blockcontainer >}}
 
 ## Cold frame
 
@@ -125,6 +109,3 @@ Huw mentioned it rather quickly at the end.
 I have got a lot of old wooden windows that I’d like to use to build either a cold frame or a tiny greenhouse.
 
 Stay tuned!
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

@@ -4,17 +4,6 @@ description: "Gardening is full of conflicting advice. So who should you believe
 date: 2022-10-31
 image: '/images/2022-10-31-a-garden-bed-with-mostly-squashes.jpg'
 imageAlt: A view from the air of a large squash patch in a garden
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/identify-problems-with-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -25,16 +14,11 @@ tags:
   - Mildew
 ---
 
-![A view from the air of a large squash patch in a garden](/images/2022-10-31-a-garden-bed-with-mostly-squashes.jpg 'Credits: image taken from Charles Dowding’s vlog')
-
 Gardening is full of conflicting advice. So who should you believe. You might see a problem in a garden, is it really? Let’s dive into it with Charles.
 
 <!-- more -->
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=TOhfV7X9cFE).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Mildew
 
@@ -78,11 +62,11 @@ It’s absolutely not true.
 
 Maybe, if it tastes woody, it’s more to do with a poor soil?
 
-:::tip Interesting fact
+{{< blockcontainer jli-notice-tip "Interesting fact" >}}
 
 When you cut open a fresh beetroot, you should see some _rings_, one for every moon cycle.
 
-:::
+{{< /blockcontainer >}}
 
 Sowing Swiss chard shouldn’t happen too early to avoid bolting. Charles suggests for his location to sow charts in April.
 
@@ -101,10 +85,3 @@ It’s indicating a low nitrogen level.
 Sometimes, a plant won’t grow for some reason.
 
 Blaming yourself is then counterproductive. Observe instead and find out why the plant didn’t grow.
-
-:::center ⏬⏬⏬
-
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

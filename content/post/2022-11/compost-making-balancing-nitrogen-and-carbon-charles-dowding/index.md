@@ -4,17 +4,6 @@ description: "Successful compost can be summarized by a good a good balance of g
 date: 2022-11-04
 image: '/images/2022-11-04-aerial-view-of-charles-garden-as-he-walks-to-the-compost-heap.jpg'
 imageAlt: Aerial view of Charles garden as he walks to the compost heap
-prev:
-  text: 'See all my notes from Charles Dowding’s vlogs'
-  link: ../../../tag/charles-dowding
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/compost-is-balancing-green-brown-charles-dowding,
-      },
-    ]
 categories:
   - Permaculture
   - Gardening
@@ -22,8 +11,6 @@ tags:
   - No Dig
   - Compost
 ---
-
-![Aerial view of Charles garden as he walks to the compost heap](/images/2022-11-04-aerial-view-of-charles-garden-as-he-walks-to-the-compost-heap.jpg 'Credits: image taken from Charles Dowding’s vlog')
 
 Successful compost can be summarized by a good a good balance of green or brown. Let's review the must-know with Charles.
 

@@ -4,28 +4,12 @@ description: 'Spring is here and a lot is happening in the garden: bees are at w
 image: /images/2023-03-06-a-man-in-a-garden-sowing-seed-on-a-garden-bed.jpg
 imageAlt: A man in a garden sowing seed on a garden bed
 date: 2023-03-06
-prev:
-  text: 'See all my notes from The Dutch Farmer’s vlogs'
-  link: ../../../tag/the-dutch-farmer/
-next:
-  text: 'A Day in The Life of a Farmer in April, by The Dutch Farmer'
-  link: ../../04/a-day-in-the-life-of-a-farmer-in-april-the-dutch-farmer/
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/03/market-gardening-in-march-the-dutch-farmer/,
-      },
-    ]
 categories:
   - Gardening
 tags:
   - The Dutch Farmer
   - In March
 ---
-
-![A man in a garden sowing seed on a garden bed](/images/2023-03-06-a-man-in-a-garden-sowing-seed-on-a-garden-bed.jpg 'Credits: image taken from The Dutch Farmer’s vlog')
 
 Spring is here and a lot is happening in the garden: bees are at work, sowing new crops is the main job and overwinters crops are still producing.
 
@@ -55,9 +39,13 @@ Moreno is planting them between a _fence_ of garlic: the strawberries between ev
 
 ![A bed for perennial crops in between 2 rows of garlic](images/a-bed-for-perrenial-crops-in-between-2-rows-of-garlic.jpg 'Crédits: image extraite du vlog de The Dutch Farmer')
 
-:::tip Personal note What I have found about the Alium family is that it’s a great repellant for slugs.
+{{< blockcontainer jli-notice-tip "Personal note" >}}
 
-I planted my strawberries in the fall of this year, at the same time as the garlic _protecting_ them. :::
+What I have found about the Alium family is that it’s a great repellant for slugs.
+
+I planted my strawberries in the fall of this year, at the same time as the garlic _protecting_ them.
+
+{{< /blockcontainer >}}
 
 ### Peas
 
@@ -96,7 +84,7 @@ Working with the soil lifecycle, introducing perennial plants and trees is a key
 
 Another factor in favor of this is the diversity it brings to the garden. Compared to a single crop field, grown on bare soil, do we see the difference?
 
-::: tip Personal note How do I plan for a sustainable garden?
+{{< blockcontainer jli-notice-tip "Personal note" >}} How do I plan for a sustainable garden?
 
 I have added about 10 cm to 15 cm of autumn leaves on all the beds in November and December.
 
@@ -108,7 +96,9 @@ Maybe we may grow more on highly industrialized farms, what about the quality an
 
 Aren't respectful gardening techniques more profitable in the long term even if yields are lower?
 
-==Thinking about it before buying your next carrots from your supermarket or the tomatoes that shouldn’t be available at this time.== :::
+==Thinking about it before buying your next carrots from your supermarket or the tomatoes that shouldn’t be available at this time.==
+
+{{< /blockcontainer >}}
 
 See the detailed explanation and point of view from Moreno at [8:10 to 11:00](https://youtu.be/xILmYuRdjUM?t=490)
 
@@ -118,7 +108,11 @@ It allows creative thinking is a key to success.
 
 Moreno is trying out turmeric and ginger!
 
-::: tip Personal note I’ve been wanting to try this also! Let’s see how Moreno goes about it. :::
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
+I’ve been wanting to try this also! Let’s see how Moreno goes about it.
+
+{{< /blockcontainer >}}
 
 First, start small when experimenting.
 
@@ -160,7 +154,9 @@ Water it so it’s moist but not wet. See Moreno showing the squeeze technique [
 
 ![Large tray of 2 cm hole filled with potting mix](images/large-tray-of-2-cm-hole-filled-with-potting-mix.jpg 'Crédits: image extraite du vlog de The Dutch Farmer')
 
-:::warning Make to double-check the filling of the side and corner hole. :::
+{{< blockcontainer jli-notice-warning "Make to double-check the filling of the side and corner hole." >}}
+
+{{< /blockcontainer >}}
 
 Once filled, lift and drop from a 25 cm height the tray to compact slightly the medium.
 
@@ -174,11 +170,17 @@ The depth depends on the crops, but usually, for lettuce, 1 cm or 2 cm will suff
 
 Then, sow individually the seeds, add another layer of compost mix to cover the seeds and water a little again.
 
-::: warning Label it and date it :::
+{{< blockcontainer jli-notice-warning "Label it and date it" >}}
 
-::: tip Personal note I use a GLORIA Hobby 100 Pressure Sprayer (available [in France](https://amzn.to/3HDhcaX), [in the UK](https://amzn.to/3PtT1xK); [in the US](https://amzn.to/3HGzSH5), this brand doesn’t seem to be available.).
+{{< /blockcontainer >}}
 
-It’s quite handy as you can adjust the spray finely. Also, it’s sturdier than a bigger version sprayer (not the same brand) of 5 liters capacity. It broke twice after a year :( So I recommend a 1 liter like this Gloria model. :::
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
+I use a GLORIA Hobby 100 Pressure Sprayer (available [in France](https://amzn.to/3HDhcaX), [in the UK](https://amzn.to/3PtT1xK); [in the US](https://amzn.to/3HGzSH5), this brand doesn’t seem to be available.).
+
+It’s quite handy as you can adjust the spray finely. Also, it’s sturdier than a bigger version sprayer (not the same brand) of 5 liters capacity. It broke twice after a year :( So I recommend a 1 liter like this Gloria model.
+
+{{< /blockcontainer >}}
 
 ## Composting
 
@@ -206,7 +208,9 @@ It’s a great to go from:
 - waste to crop production
 - waste to egg production
 
-::: tip Personal note You can make all your own compost yourself? Yes, but it will require time and a lot of energy.
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
+You can make all your own compost yourself? Yes, but it will require time and a lot of energy.
 
 The compost need of garden is pretty important and even if you’re quite fit, don’t you need to keep some energy for more important tasks when you could get cheap compost locally?
 
@@ -220,9 +224,6 @@ Companies specialize in producing good compost. Perform a cost analysis before d
 
 You may be surprised.
 
-However, you should make some of your own compost. Simply find the best balance between making it and buying it. :::
+However, you should make some of your own compost. Simply find the best balance between making it and buying it.
 
-::: center ⏬⏬⏬ :::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
+{{< /blockcontainer >}}

@@ -28,16 +28,11 @@ tags:
   - Propagation
 ---
 
-![Final harvest results](/images/2022-10-21-comparing-different-composts-for-propagation-charles-dowding-hero.jpg 'Credits: image taken from Charles Dowding’s vlog')
-
 Experimenting brings surprises. Charles has been practicing for decades and here, he shares with us how compost can make a difference.
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=XnoZ4jvrY5g).
 
 <!-- more -->
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## The five composts of the trial
 
@@ -123,12 +118,12 @@ As for the other trays, the progress is already quite significant:
 
    ![New horizon compost](images/week-1-new-horizon-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
 
-:::tip The take-out
+{{< blockcontainer jli-notice-tip "The take-out" >}}
 
 - Not much difference between the Yorkshire digested and New Horizon compost
 - The homemade compost isn’t totally successful, probably caused by too much woody material, according to Charles humble opinion. Maybe it is too young.
 
-:::
+{{< /blockcontainer >}}
 
 ## Week 3 updates
 
@@ -156,13 +151,13 @@ But both trays show that the radishes are ready to transplant!
 
    ![New horizon compost](images/week-3-new-horizon-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
 
-:::tip The take-out
+{{< blockcontainer jli-notice-tip "The take-out" >}}
 
 - The homemade compost is caught up, but Charles is not sure what happened to the middle row of radishes, maybe some lack of water.
 - The digested compost indeed doesn’t look to have progressed as much and the color isn’t as green as the rest.
 - The Moorland Gold compost give out bigger seedlings, while the New Horizon shows more green plants.
 
-:::
+{{< /blockcontainer >}}
 
 ## Week 8 updates
 
@@ -209,13 +204,13 @@ Here are the pictures of the harvest, compost by compost:
 
    ![Worm compost vs. Moorland Gold potting compost](images/week-5-worm-compost-vs-moorland-gold-potting-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
 
-:::tip The take-out
+{{< blockcontainer jli-notice-tip "The take-out" >}}
 
 - The worm compost shows less slug damage than the others.
 - The Moorland Gold compost is good, followed by the New Horizon compost!
 - The homemade compost produced less, probably caused by the initial slow growth of a row of radishes.
 
-:::
+{{< /blockcontainer >}}
 
 ### The lettuces
 
@@ -234,11 +229,11 @@ For the worm compost vs. Moorland compost:
 | Worm                  | 220             |
 | Moorland Gold potting | 360             |
 
-:::tip The take-out
+{{< blockcontainer jli-notice-tip "The take-out" >}}
 
 - The homemade compost produced much better for the lettuces than the radishes, even if the seedlings weren’t looking as big as for the other composts.
 
-:::
+{{< /blockcontainer >}}
 
 ## Conclusion
 
@@ -265,10 +260,3 @@ The usual difference between sowing compost and potting compost is that the seed
 ### Do you really need sowing compost for seedlings
 
 According to Charles’s experience, it doesn’t make a big difference, apart from the price...
-
-:::center ⏬⏬⏬
-
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

@@ -4,20 +4,6 @@ description: "I wrote the following notes watching the video published on Charle
 date: 2022-11-01
 image: '/images/2022-11-01-wini-walbaum-charles-dowding--no-dig--straw-hay-for-dry-climate--compost.jpg'
 imageAlt: A garden in Chile with a lot of sunflowers
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/wini-walbaum-and-charles-dowding-share-no-dig,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -29,17 +15,9 @@ tags:
   - Chile
 ---
 
-Charles was contacted by some Chilean gardeners practicing no dig gardening.
-Here, they exchange on their challenges, their success and how growing vegetables in different atmospheres really look like.
+Charles was contacted by some Chilean gardeners practicing no dig gardening. Here, they exchange on their challenges, their success and how growing vegetables in different atmospheres really look like.
 
-![A garden in Chile with a lot of sunflowers](images/2022-11-01-wini-walbaum-charles-dowding--no-dig--straw-hay-for-dry-climate--compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
-
-Thanks to Charles Dowding for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Charles Dowding’s channel.
-You can watch it using [this YouTube link](https://www.youtube.com/watch?v=zTXrx-gaadA).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
+Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=zTXrx-gaadA).
 
 ## Presentation
 
@@ -73,25 +51,25 @@ Yet, No Dig provides them both what they need.
 
 ### Wini’s climate
 
-In Chile, it’s essential to keep the water in the ground, to retain moisture and spend less water.
-Wini has found out that no dig really helps to achieve that.
+In Chile, it’s essential to keep the water in the ground, to retain moisture and spend less water. Wini has found out that no dig really helps to achieve that.
 
 She has to water every day.
 
 ### Charle’s climate
 
-On the contrary, Charles is trying to make sure the rain is draining.
-He receives 90 mm of rain every month.
+On the contrary, Charles is trying to make sure the rain is draining. He receives 90 mm of rain every month.
 
 Yet, because of No Dig, he needs not to worry about muddy bouts. The compost (for the garden) and woodchips (for the alleys) allow to have a clean soil.
 
 ![Pouring 5 liters on dig and no dig beds](images/pouring-5-liters-on-dig-and-no-dig-beds.jpg 'Credits: image taken from Charles Dowding’s vlog')
 
-:::tip Interesting fact
+{{< blockcontainer jli-notice-tip "Interesting fact" >}}
+
 Charles has snow at one point and as the snow was melting, one bed retained the snow. It was a dig bed!
 
 It’s saying that No Dig is keeping some warmth in the soil.
-:::
+
+{{< /blockcontainer >}}
 
 ## Who inspired Charles
 
@@ -125,11 +103,13 @@ So she mulches with hay and it worked.
 
 With their roots, trees are draining the water because the root breaks down the soil so it’s then less moist.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 As they said and I agree, it would depend on your situation.
 
 My garden contains a lot of clay, so having small oaks, an almond tree and plants like comfrey or borage will loosen the soil, which is good for the vegetable I grow.
-:::
+
+{{< /blockcontainer >}}
 
 ## Visit of Wini’s garden
 
@@ -169,11 +149,13 @@ On a shallow bed (about 10 cm in depth), the compost dry very fast, even with h
 
 She uses hay heavily. Without it, the first 4 to 5 cm of compost will dry out and will fly with the wind.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 Living in Ardèche has a similar climate to Wini, so I do use a lot of dead leaves that I gather in the fall and cover the ground with a 20 cm deep layer.
 
 It’s the blanket of the winter.
-:::
+
+{{< /blockcontainer >}}
 
 The downside of mulching is that bugs will live under it.
 
@@ -199,7 +181,8 @@ The first year is the hardest year.
 
 Digging this new area would require a lot of energy because of the abundance of clay.
 
-:::tip Be happy with clay
+{{< blockcontainer jli-notice-tip "Be happy with clay" >}}
+
 No Dig works **really** well with clay.
 
 Why?
@@ -209,7 +192,7 @@ Why?
 - it doesn’t stick to boots anymore
 - it builds a soil that has a good balance of drainage and moisture.
 
-:::
+{{< /blockcontainer >}}
 
 ### Weeding efficiently
 

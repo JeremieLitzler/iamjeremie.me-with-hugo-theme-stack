@@ -4,17 +4,6 @@ description: 'Sometimes it is difficult to build a compost bin. Huw shares a tri
 date: 2022-12-01
 image: '/images/2022-12-01-huw-watering-his-compost-pathway.jpg'
 imageAlt: Someone watering a path between 2 garden beds
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/12/make-compost-from-your-garden-pathways-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -22,16 +11,11 @@ tags:
   - Compost
 ---
 
-![Someone watering a path between 2 garden beds](/images/2022-12-01-huw-watering-his-compost-pathway.jpg 'A path between beds is a space available to let your imagination express itself. Credits: image taken from Huw Richards’s vlog')
-
 Sometimes it’s difficult to build a compost bin. Huw shares a trick to do without.
 
 <!-- more -->
 
 Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=7vAwurGpl-M).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## The source of the idea
 
@@ -94,6 +78,3 @@ It will bring enough air to the organisms breaking down the materials.
 ## What’s next
 
 Try it yourself with a portion of your garden pathways. And share your observations!
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

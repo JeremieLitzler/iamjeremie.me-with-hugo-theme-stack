@@ -13,7 +13,7 @@ tags:
   - Jamstack
 ---
 
-_Note:_ H1 is included in the frontmatter, property `title`. Check out [the VuePress docs](https://v2.vuepress.vuejs.org/reference/default-theme/frontmatter.html).
+_Note:_ H1 is included in the frontmatter in the property `title`. Check out [the Hugo docs](https://gohugo.io/content-management/front-matter/).
 
 ## Titre H2
 
@@ -95,8 +95,8 @@ export default uniquePropHOC(['time', 'seconds'])(Expire);
 
 ## Tables
 
-| Col 1 | Col 2           | Col 3                                                |
-| ----- | --------------- | ---------------------------------------------------- |
+| Col 1 | Col 2 | Col 3 |
+| --- | --- | --- |
 | Value | Very long value | So long that it will scroll horizontally? I hope so! |
 
 Check out [the source on GitHub](https://github.com/JeremieLitzler/journal/blob/main/docs/posts/2021-01-28-styleguide/index.md).

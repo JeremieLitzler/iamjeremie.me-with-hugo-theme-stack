@@ -2,17 +2,6 @@
 title: How to Make a Compost Bin the Easy Way from Pallets, with Huw Richards
 description: 'It is easy to make your own. Start hunting for the pallets and you will be done in no time!'
 date: 2022-12-14
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/12/how-to-make-a-compost-bin-from-pallets-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -29,9 +18,6 @@ Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the followi
 You can watch it using [this YouTube link](https://www.youtube.com/watch?v=RJcPKtVPuIE).
 
 This vlog features Jack Monroe.
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## What do you need
 
@@ -55,11 +41,11 @@ The tools:
 2. Screw the modified pallets to the unmodified pallets using the 3 wood blocks.
 3. Done!
 
-:::warning More details...
+{{< blockcontainer jli-notice-warning "More details..." >}}
 
 I will add the pictures when I build it this way. The idea just came when I watched Huw’s vlog.
 
-:::
+{{< /blockcontainer >}}
 
 ## How to build the version with the wire
 
@@ -68,11 +54,11 @@ I will add the pictures when I build it this way. The idea just came when I watc
 3. Tie the wire around the top and bottom of each corner in the same way as the screwing method.
 4. Done!
 
-:::warning More details...
+{{< blockcontainer jli-notice-warning "More details..." >}}
 
 I will add the pictures when I build it this way. The idea just came when I watched Huw’s vlog.
 
-:::
+{{< /blockcontainer >}}
 
 ## Comments from Huw in this vlog
 

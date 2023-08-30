@@ -4,28 +4,12 @@ description: "Huw is trying a new method with no garden plan to experiment and l
 image: /images/2023-07-24-aerial-view-of-huw-s-garden.jpg
 imageAlt: Aerial view of Huw's garden
 date: 2023-07-24
-prev:
-  text: "See all my notes from Huw Richards’ vlogs"
-  link: ../../../tag/huw-richards/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/07/vegetable-garden-tour-in-july-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
   - Huw Richards
   - In July
 ---
-
-![Aerial view of Huw’s garden](/images/2023-07-24-aerial-view-of-huw-s-garden.jpg 'Credits: image taken from Huw Richards’ vlog')
 
 Huw is trying a new method with no garden plan to experiment and learn.
 
@@ -41,11 +25,11 @@ This method is important to optimize the garden space and always have something 
 
 For example, Huw followed potatoes with leaks in this month of July.
 
-:::tip Bouncing of leaks
+{{< blockcontainer jli-notice-tip "Bouncing of leaks" >}}
 
 If a leak looks a little bit sad after transplantation, it’s OK. Water them and they will recover shortly.
 
-:::
+{{< /blockcontainer >}}
 
 ## Harvesting lettuces
 
@@ -93,11 +77,9 @@ At the moment, we have got comfrey, borages, Echinacea, one cosmos flower, self-
 
 ![cosmos flowers](images/cosmos-flowers.jpg 'Credits: image from the vlog of Huw Richards')
 
-:::tip
+{{< blockcontainer jli-notice-tip "To keep the cosmos flowers flowering, remove the dead flowers." >}}
 
-To keep the cosmos flowers flowering, remove the dead flowers.
-
-:::
+{{< /blockcontainer >}}
 
 ## Growing onions
 
@@ -120,12 +102,3 @@ It’s amazing to harvest your own seed, making your garden resilient as you ent
 I’d love to find those pink and purple sweet peas that Huw grows. Mine are only white.
 
 You like this article, consider subscribing to the newsletter and you will receive up to two articles each week, on Mondays and Thursdays.
-
-:::center
-
-⏬⏬⏬
-
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

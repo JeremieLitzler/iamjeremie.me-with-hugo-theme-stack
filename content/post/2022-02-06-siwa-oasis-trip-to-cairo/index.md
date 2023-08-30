@@ -19,9 +19,7 @@ tags:
   - Siwa oasis
 ---
 
-![A person walking near the Sphynx and the Pyramids of Egypt.](/images/2022-02-06-siwa-oasis-trip-to-cairo-hero.jpg)
-
-Day 1: the trip to Cairo in details
+This article describes Day 1, the trip to Cairo in details.
 
 <!-- more -->
 
@@ -41,11 +39,9 @@ Thankfully, only 1 hour later, the airport is freed again and checking desks are
 
 ## 3:00 PM
 
-The flight had 1 hour delay so we got to the gate with almost no waiting.
-And there were no issue with the boarding and the COVID madness.
+The flight had 1 hour delay so we got to the gate with almost no waiting. And there were no issue with the boarding and the COVID madness.
 
-Before the take-off, we made sure to remind our host in Cairo that we had a lot a luggage, especially after the taxi incident.
-No surprise: our host tells us he can't pick us but kindly book us a taxi from Cairo airport to his place.
+Before the take-off, we made sure to remind our host in Cairo that we had a lot a luggage, especially after the taxi incident. No surprise: our host tells us he can't pick us but kindly book us a taxi from Cairo airport to his place.
 
 ## 3:00 PM > 8:00 PM
 
@@ -57,14 +53,11 @@ In Cairo airport, we had no issues with the COVID PRC certificates.
 
 The VISA was a joke: we didn't need to present any for me and the girls, even though I read we have to print it out...
 
-And Aurélie took 5 minutes of waiting at the line to buy a $25 visa stamp from a dedicated shop... And that's it. No question, no passport required.
-Maybe because it was 8PM or because it was a sunday?
-The shop even took Euros at the time, in case you are wondering!
+And Aurélie took 5 minutes of waiting at the line to buy a $25 visa stamp from a dedicated shop... And that's it. No question, no passport required. Maybe because it was 8PM or because it was a sunday? The shop even took Euros at the time, in case you are wondering!
 
 Then, while waiting for and getting the luggage, which took ages to come, we had to contact somehow the taxi driver: either we would buy a local simcard (plenty shops saling them on site) or ask someone to call him.
 
-Thankfully the same saoudi man from the plane was waiting like us to get his luggage too. He helped us but the original taxi booked was gone already (we were too late) and our host had been given a different number of another taxi.
-But that we didn't know because we had no Internet connection.
+Thankfully the same saoudi man from the plane was waiting like us to get his luggage too. He helped us but the original taxi booked was gone already (we were too late) and our host had been given a different number of another taxi. But that we didn't know because we had no Internet connection.
 
 It was a little challenging because it was really difficult to know who could be trusted and could not.
 

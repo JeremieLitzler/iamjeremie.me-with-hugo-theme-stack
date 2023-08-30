@@ -9,7 +9,7 @@ tags:
   - Screens
 ---
 
-[Read the french version](https://jeremielitzler.fr/2021/08/reduire-son-exposition-a-la-lumiere-bleue/)
+[Read the french version](https://jeremielitzler.fr/post/2021-08/reduire-son-exposition-a-la-lumiere-bleue/)
 
 ## Do you know about the _blue light_
 
@@ -42,8 +42,10 @@ It works similarly to Windows 10:
 
 ![Android setup of the parameter](/images/reduce-blue-light-android.jpg)
 
-:::tip
-You might also notice that I use the _Dark mode_. That also helps, but not everyone likes it. It’s a matter of taste..
-:::
+{{< blockcontainer jli-notice-tip "You might also notice that I use the <em>Dark mode</em>." >}}
+
+That also helps, but not everyone likes it. It’s a matter of taste..
+
+{{< /blockcontainer >}}
 
 Enjoy!

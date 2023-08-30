@@ -2,20 +2,6 @@
 title: Winter vegetables in January in years 1 and 10, by Charles Dowding
 description: 'In Janury, Charles explains what he does and what grows in his garden.'
 date: 2023-01-10
-prev:
-  text: 'See all my notes from Charles Dowding’s vlogs'
-  link: ../../../tag/charles-dowding/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/01/winter-vegetables-in-january-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -24,8 +10,6 @@ tags:
   - In January
 ---
 
-![Spinach under a tunnel](/images/2023-01-10-spinach-under-a-tunnel.jpg 'Credits: image taken from Charles Dowding’s vlog')
-
 In January, Charles explains what he does and what grows in his garden.
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding's channel.
@@ -33,9 +17,6 @@ Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the foll
 <!-- more -->
 
 You can watch it using [this YouTube link](https://www.youtube.com/watch?v=nY32M39jQ1k).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## New garden area: how is it going
 
@@ -132,8 +113,3 @@ Once planted, you will need to add some woodchip yearly as the old ones break do
 Those plants don't need a highly nutritious soil.
 
 See how it looked back in June 2021 [in this vlog](https://www.youtube.com/watch?v=qrwy4U7kjtI&t=0s).
-
-:::center ⏬⏬⏬ :::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

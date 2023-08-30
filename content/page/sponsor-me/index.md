@@ -1,11 +1,15 @@
 ---
 containerClass: participate
-title: Support my work sharing more notes and experiences
+title: Support my work
 description: Taking notes from the large amount of worthwhile vlogs to watch needs time. I’m doing it because I want to learn more about the topics of web technologies, health, permaculture & more. If you want to thank me through a participation, it will be highly appreciated and it will help provide more content to you, dear reader.
 date: 2021-08-10
-head:
-  - [link, { rel: canonical, href: https://iamjeremie.me/page/sponsor-me/ }]
-article: false
+menu:
+    main: 
+        weight: 20
+        params:
+            icon: heart-handshake
+
+comments: false
 ---
 
 When I started this blog, I had a goal in mind: take notes as much as I can to be able to build a knowledge base for my family’s projects towards more autonomy in many areas of life.
@@ -39,25 +43,10 @@ Starting at 5 euros (or the available currencies), you can also provide your sup
 
 Make your pick:
 
-<!-- markdownlint-disable MD033 -->
-
-<article class="participate participate-options">
-  <p>
-    <a href="https://buy.stripe.com/4gw6pVaGpbkZ4oM6oH" target="_blank" class="nav-link action-button primary" aria-label="Help me each year">Yearly</a>
-  </p>
-  <p>
-    <a href="https://buy.stripe.com/cN2dSnaGp2Ot1cA4gA" target="_blank" class="nav-link action-button secondary" aria-label="Help me each year">Monthly</a>
-  </p>
-  <p>
-    <a href="https://buy.stripe.com/eVadSnaGp3SxdZm5kF" target="_blank" class="nav-link action-button secondary" aria-label="One time tip">Once</a>
-  </p>
-</article>
+{{< donate-options >}}
 
 ## Sign up to the newsletter
 
 If you can’t give me a monetary thank, that's alright. Signing up to my newsletter will be helpful too!
 
 Through Substack, I publish my articles, so yo will know when a new one is available.
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

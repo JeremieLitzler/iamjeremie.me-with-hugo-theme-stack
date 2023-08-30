@@ -4,20 +4,6 @@ description: 'Charles explains how to build a very cheap compost heap system tha
 date: 2022-11-17
 image: '/images/2022-11-17-compost-heaps-made-with-pallet.jpg'
 imageAlt: 3 bays for your compost heap using wood pallets
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/4-compost-heaps-in-3-bays-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -26,14 +12,9 @@ tags:
   - Compost
 ---
 
-![Compost heaps made of wood pallets](/images/2022-11-17-compost-heaps-made-with-pallet.jpg 'Using wood pallets, you can build your 3 bays for your compost heap. Credits: image taken from Charles Dowding’s vlog')
-
 Charles explains how to build a very cheap compost heap system that you can construct yourself in very little time.
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=3gAwfzy0qLw).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 This system is applying to more people than Charles’s huge compost heap I have taken not about. See my other notes on the matter using the [_Compost_ tag](../../../tag/compost/).
 
@@ -59,13 +40,13 @@ For Charles, it takes two months with his large garden (one and a half acres).
 
 It might take less for you. Hence, you will need to adjust the size of the heap.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
 
 For example, I don’t produce nor possess enough material to fill a heap made of full-sized pallets.
 
 So I made one from half of a pallet and I will see if I need bigger or not as I manage to gather more material.
 
-:::
+{{< /blockcontainer >}}
 
 ## Turning the compost
 
@@ -177,25 +158,18 @@ It isn’t always necessary, if it rains normally.
 
 But if the weather is really dry, you will need to add water.
 
-:::tip How do you know you need water and how much do you need?
+{{< blockcontainer jli-notice-tip "How do you know you need water and how much do you need?" >}}
 
 Well, it’s something you need to assess from your personal circumstances: weather, material you put in.
 
 In the early stage, you decide based on how it looks and feels.
 
-Later, when the material has degraded enough, use the _squeeze technique_ described in [this article](../compost-from-clippings-and-other-waste-charles-dowding/index.md#consistency-of-the-compost).
+Later, when the material has degraded enough, use the _squeeze technique_ described in [this article](/post/2022-11/compost-from-clippings-and-other-waste-charles-dowding/index.md#consistency-of-the-compost).
 
-:::
+{{< /blockcontainer >}}
 
 ## Conclusion
 
 Making compost is like taking care of a pet. Take care of it.
 
 And your vegetable beds will enjoy the great nourishment from it!
-
-:::center ⏬⏬⏬
-
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

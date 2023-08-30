@@ -4,20 +4,6 @@ description: "What is happening in the small garden of Charles Dowding in mid-Ju
 image: /images/2023-07-04-charles-standing-in-the-small-garden.jpg
 imageAlt: Charles standing in the small garden
 date: 2023-07-04
-prev:
-  text: "See all my notes from Charles Dowding’s vlogs"
-  link: ../../../tag/charles-dowding/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/07/small-garden-in-july-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -26,8 +12,6 @@ tags:
   - In July
 ---
 
-![Charles standing in the small garden](/images/2023-07-04-charles-standing-in-the-small-garden.jpg 'Credits: image taken from Charles Dowding’s vlog')
-
 What is happening in the small garden of Charles Dowding in mid-July 2019?
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel.
@@ -35,9 +19,6 @@ Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the foll
 <!-- more -->
 
 You can watch it using [this YouTube link](https://www.youtube.com/watch?v=FF-AzoTg3EY).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 A lot of second planting happened already.
 
@@ -63,11 +44,15 @@ In place of the early lettuces (which gave out many kilograms of food), carrots 
 
 ![New carrots sown](images/new-carrots-sown.jpg 'Credits: image from the vlog of Charles Dowding')
 
-:::tip Charles recommends To harvest lettuce, Charles picks only the outer leaves so that the lettuce keep on producing and it helps the lettuce not to bolt.
+{{< blockcontainer jli-notice-tip "Charles recommends" >}}
+
+To harvest lettuce, Charles picks only the outer leaves so that the lettuce keep on producing and it helps the lettuce not to bolt.
 
 ![New lettuces](images/new-lettuces.jpg 'Credits: image from the vlog of Charles Dowding')
 
-The above lettuces were sown on the 1st of July and planted the 24th of July. :::
+The above lettuces were sown on the 1st of July and planted the 24th of July.
+
+{{< /blockcontainer >}}
 
 In the same row, Charles planted kale, the Cavolo Nero kind. They will crop up in the fall and maybe even through the winter.
 
@@ -83,7 +68,11 @@ To finish the row, Charles planted French beans, following the radishes and garl
 
 Charles planted French beans in between the garlic and radishes, always optimizing the space.
 
-:::tip Rabbit protection Rabbits love young leaves and Charles uses a winter mesh to protect the crops. :::
+{{< blockcontainer jli-notice-tip "Rabbit protection" >}}
+
+Rabbits love young leaves and Charles uses a winter mesh to protect the crops.
+
+{{< /blockcontainer >}}
 
 ## In the third row
 
@@ -95,11 +84,15 @@ Peas for shoots were replaced by Swedes (Gowrie kind).
 
 ![Growrie Swedes](images/growrie-swedes.jpg 'Credits: image from the vlog of Charles Dowding')
 
-:::warning About Swede and insects The Swedes require a mesh one to prevent the summer insects to infest the crops.
+{{< blockcontainer jli-notice-warning "About Swede and insects" >}}
+
+The Swedes require a mesh one to prevent the summer insects to infest the crops.
 
 ![Swede affected by insects](images/swede-affected-by-insects.jpg 'Credits: image from the vlog of Charles Dowding')
 
-If you don’t, the Swedes will fork and they won’t taste as good. :::
+If you don’t, the Swedes will fork and they won’t taste as good.
+
+{{< /blockcontainer >}}
 
 Next, Charles planted some summer crops, like:
 
@@ -122,8 +115,3 @@ The takeaway is that you can:
 
 - use the space when available,
 - plan to sow and plant using a plan.
-
-:::center ⏬⏬⏬ :::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

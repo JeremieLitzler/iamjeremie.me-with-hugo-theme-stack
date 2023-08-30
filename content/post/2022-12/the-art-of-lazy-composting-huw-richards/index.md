@@ -4,20 +4,6 @@ description: 'Sometimes, we think of making compost as a complex process, but, i
 date: 2022-12-06
 image: '/images/2022-12-06-the-art-of-lazy-title-overlaying-someone-handling-fennel.jpg'
 imageAlt: Someone cutting vegetables in a garden
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/the-art-of-lazy-composting-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -28,14 +14,7 @@ tags:
 
 Sometimes, we think of making compost as a complex process, but, in reality, it’s easy to produce high-quality compost.
 
-![Someone cutting vegetables in a garden](/images/2022-12-06-the-art-of-lazy-title-overlaying-someone-handling-fennel.jpg ' Often the compost comes from the waste of the vegetable garden. Credits: image taken from Huw Richards’s vlog')
-
-Thanks to Huw Richards for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Huw Richards’s channel.
-You can watch it using [this YouTube link](https://www.youtube.com/watch?v=swLkA1cHJ4Y).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
+Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=swLkA1cHJ4Y).
 
 ## What is compost
 
@@ -58,13 +37,17 @@ You will typically add:
 - green material: grass, vegetable waste, coffee ground…
 - brown material: dead leaves, wood, cardboard…
 
-:::tip About grass clipping
-Apply it in a thin layer (2–3 cm maximum) because it can get sludgy if too thick.
-:::
+{{< blockcontainer jli-notice-tip "About grass clipping" >}}
 
-:::tip Personal note
+Apply it in a thin layer (2–3 cm maximum) because it can get sludgy if too thick.
+
+{{< /blockcontainer >}}
+
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 I have found that mixing grass clippings with wood dust helps build a thin compost and helps to avoid the sludge.
-:::
+
+{{< /blockcontainer >}}
 
 ## Ratio of green and brown
 
@@ -84,9 +67,11 @@ The only thing to do: press on the material to compact it a little.
 
 Put on some boots, climb in the bin and jump!
 
-:::warning Jumping in the compost bin
+{{< blockcontainer jli-notice-warning "Jumping in the compost bin" >}}
+
 Don’t do it if you didn’t build a strong structure 🤣
-:::
+
+{{< /blockcontainer >}}
 
 Finally, cover the compost with cardboard to keep some rainfall off the compost pile. You want moisture but you don’t have anaerobic environment.
 

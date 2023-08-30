@@ -4,37 +4,17 @@ description: "A gardener can't have too much compost and in fact you may not be 
 date: 2022-12-02
 image: '/images/2022-12-02-sheep-wool-as-a-compostable-material.jpg'
 imageAlt: Some old sheep wool
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/8-free-ingredients-to-bulk-compost-huw-richards,
-      },
-    ]
-categories:
   - Gardening
 tags:
   - Huw Richards
   - Compost
 ---
 
-![Some old sheep wool](/images/2022-12-02-sheep-wool-as-a-compostable-material.jpg 'I have two sheep at home and I use their wool for the garden. Credits: image taken from Huw Richards’s vlog')
-
 A gardener can’t have too much compost and in fact you may not be able to create enough. Huw will give tips to how to improve that.
 
 <!-- more -->
 
 Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the vlog published on Huw Richards’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=BO8wWBjnsXU).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Base layer
 
@@ -68,11 +48,11 @@ You need to tear it up before throwing it to the compost bin.
 
 If you live near a sea, you can take advantage of the seaweed you can collect on the beaches.
 
-:::warning Check regulations in your area
+{{< blockcontainer jli-notice-warning "Check regulations in your area" >}}
 
 Apparently, harvesting seaweed is regulated in some places… Ask before you get into trouble.
 
-:::
+{{< /blockcontainer >}}
 
 Regarding the salt impact on the compost created, you can lay out the seaweed on grass so rain can wash the salt off and then put it in the compost bin.
 
@@ -100,11 +80,11 @@ Then give it a soaking because it’s a dry material.
 
 It isn’t always easy to source this ingredient. Look for a shop or a pub that used a lot of it.
 
-:::warning Sourcing organic coffee ground?
+{{< blockcontainer jli-notice-warning "Sourcing organic coffee ground?" >}}
 
 Use caution about the origin of the coffee. Maybe no coffee ground is better than coffee ground from coffee grown with pesticides and other chemicals.
 
-:::
+{{< /blockcontainer >}}
 
 Still, it’s high in nitrogen and it boosts the microbial activity.
 
@@ -114,7 +94,7 @@ Still, it’s high in nitrogen and it boosts the microbial activity.
 
 Collect as much as you can and bag them to use later during the year.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
 
 I’m currently gathering a lot of them. So far in early December 2022, I harvested 8 cube meters of dead leaves in various sizes.
 
@@ -122,7 +102,7 @@ I use it mostly to apply a blanket for the beds during winter.
 
 Also I use it to add to my kitchen and garden compost bin as well as the composting toilet waste after emptying the bucket.
 
-:::
+{{< /blockcontainer >}}
 
 ## Ratio of various ingredients
 
@@ -149,6 +129,3 @@ It doesn’t cost anything often except your time and ingenuity to source materi
 It helps you grow better and stronger vegetables that will help you reach more self-sufficiency in food.
 
 Start now! Start today!
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

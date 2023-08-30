@@ -26,14 +26,9 @@ tags:
   - Compost
 ---
 
-![A garden with cabbage and other vegetables](/images/2022-10-30-compost-making-qa-charles-dowding-hero.jpg 'Credits: image taken from Charles Dowding’s vlog')
-
 A few questions and answers about making compost to use in the garden.
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=BIV4lljN6Aw).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 Growing vegetables can be all about compost.
 
@@ -106,10 +101,3 @@ It tells us that the ecosystem of the garden isn’t just vegetables and flowers
 The presentation of Charles’s method is showing us that the goal is to impact the least natural processes.
 
 With the heap, we just accelerate the decomposition in balance with the nature around us.
-
-:::center ⏬⏬⏬
-
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

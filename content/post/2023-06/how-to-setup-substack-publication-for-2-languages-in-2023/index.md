@@ -4,28 +4,15 @@ description: "Let's look at the steps to set it up so you can provide contents i
 image: /images/2023-06-06-substack-logo.avif
 imageAlt: Substack logo
 date: 2023-06-06
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/06/how-to-setup-substack-publication-for-2-languages-in-2023,
-      },
-    ]
 categories:
   - Digital Business
 tags:
   - Substack
 ---
 
-![Substack logo](/images/2023-06-06-substack-logo.avif)
-
 Let’s look at the steps to set it up so you can provide contents in two languages.
 
 <!-- more -->
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 When it comes to creating your newsletter, you have a wide choice of solutions.
 
@@ -227,8 +214,3 @@ Here is their answer:
 ![Reply of Substack support team about localization of content](images/reply-of-substack-support-team-about-localization-of-content.jpg)
 
 Let’s be patient and hope for a release to come soon!
-
-:::center ⏬⏬⏬ :::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

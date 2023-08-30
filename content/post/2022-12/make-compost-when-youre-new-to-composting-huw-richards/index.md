@@ -2,25 +2,12 @@
 title: Simple Guide to Composting | How to Make Compost When You're New to Composting, by Huw Richards
 description: "Making your own compost is the key to a successful garden. Let's see what tips Huw has to share."
 date: 2022-12-22
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/12/make-compost-when-youre-new-to-composting-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
   - Huw Richards
   - Compost
 ---
-
-![Old squash stems in a compost bin](/images/2022-12-22-old-squash-stems-in-a-compost-bin.jpg 'Credits: image taken from Huw Richards’s vlog')
 
 Making your own compost is the key to a successful garden. Let’s see what tips Huw has to share.
 
@@ -29,9 +16,6 @@ Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the followi
 <!-- more -->
 
 You can watch it using [this YouTube link](https://www.youtube.com/watch?v=kt6mIoKK6wE).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 You can call a garden “a garden” if you don’t make your compost.
 

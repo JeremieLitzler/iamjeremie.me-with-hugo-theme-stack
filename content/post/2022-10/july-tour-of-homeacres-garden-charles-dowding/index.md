@@ -5,17 +5,6 @@ description: "Charles Dowding walks through his new no dig garden, talking about
 date: 2022-10-15
 image: '/images/2022-10-15-a-pea-pod-with-large-seeds-in-the-hands-of-charles.jpg'
 imageAlt: A pea pod with large seeds in the hands of Charles
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../tag/charles-dowding/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/10/july-tour-of-homeacres-garden-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -25,16 +14,11 @@ tags:
   - Compost
 ---
 
-![A pea pod with large seeds in the hands of Charles](/images/2022-10-15-a-pea-pod-with-large-seeds-in-the-hands-of-charles.jpg "Credits: image taken from Charles Dowding's vlog")
-
 Charles Dowding walks through his new no dig garden, talking about harvests, pest covers, compost, watering.
 
 <!-- more -->
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding's channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=tzjdcDQ7A8E).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Introduction
 
@@ -52,17 +36,25 @@ Using a plastic cover, most of the former weeds are kept at bay and Charles is n
 
   ![A lot of squash plants covering the soil well](images/patch-of-squashes.jpg "Credits: image taken from Charles Dowding's vlog")
 
-:::tip Using plastic Plastic has its place in gardening.
+{{< blockcontainer jli-notice-tip "Using plastic" >}}
+
+Plastic has its place in gardening.
 
 First, you can use it over several years.
 
-Second, it works great to cover a weedy patch. :::
+Second, it works great to cover a weedy patch.
 
-:::tip About butternut Butternut plants need warm to grow well.
+{{< /blockcontainer >}}
+
+{{< blockcontainer jli-notice-tip "About butternut" >}}
+
+Butternut plants need warm to grow well.
 
 That is why the plants below are smaller than the Crow prince above:
 
-![Butternut squash plants](images/butternut-squash.jpg "Credits: image taken from Charles Dowding's vlog") :::
+![Butternut squash plants](images/butternut-squash.jpg "Credits: image taken from Charles Dowding's vlog")
+
+{{< /blockcontainer >}}
 
 ## Potatoes close to the point of harvest
 
@@ -190,8 +182,3 @@ Charles suggests watching [Joe Lampl's channel](https://www.youtube.com/user/joe
 Picking your tomatoes not fully rip take some stress off the plant, which can focus the other fruits, new fruits and the leaves.
 
 And you don't lose flavor from the tomatoes by harvesting them this way.
-
-:::center ⏬⏬⏬ :::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

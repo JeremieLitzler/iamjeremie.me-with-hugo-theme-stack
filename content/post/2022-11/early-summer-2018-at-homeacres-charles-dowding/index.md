@@ -4,17 +4,6 @@ description: "I wrote the following notes watching the video published on Charle
 date: 2022-11-14
 image: '/images/2022-11-14-homeacres-in-july-2018.jpg'
 imageAlt: Homeacres garden is full with vegetables
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../tag/charles-dowding/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/11/early-summer-2018-at-homeacres-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -26,14 +15,9 @@ tags:
 
 Charles is showing us how his Homeacres is doing in early summer 2018.
 
-![Homeacres garden, full with vegetables](images/2022-11-14-homeacres-in-july-2018.jpg 'Credits: image taken from Charles Dowding’s vlog')
-
 <!-- more -->
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=vFqHe9qqZwU).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 In early summer, everything is growing fast. So you need to be present and be on the lookout.
 
@@ -67,7 +51,7 @@ Another example is replacing broad beans with cabbage in the beginning of summer
 
 ## What can you sow in the beginning of June in the UK
 
-:::tip Boltardy beetroot
+{{< blockcontainer jli-notice-tip "Boltardy beetroot" >}}
 
 It’s a fast-growing variety and it can be used for early sowing.
 
@@ -75,23 +59,23 @@ Beetroots are sown in pockets of about 4 seeds, remembering that some seeds won�
 
 Charles thins the seedlings down to 4 beetroots per module.
 
-:::
+{{< /blockcontainer >}}
 
-:::tip Spring onions
+{{< blockcontainer jli-notice-tip "Spring onions" >}}
 
 They’re sown in pockets of about 8–10 seeds per module.
 
 Spring onions are very versatile because you can eat them when they’re small, or let them grow into bulbs.
 
-:::
+{{< /blockcontainer >}}
 
-:::tip Gowrie swede
+{{< blockcontainer jli-notice-tip "Gowrie swede" >}}
 
 They’re sown in pockets of about 2–3 seeds per module.
 
 Then, you will need to thin to one root.
 
-:::
+{{< /blockcontainer >}}
 
 What else? In mid to late spring, Charles sowed the following, which are ready to be planted in the beginning of June:
 
@@ -122,33 +106,33 @@ A spring onion will turn a bit woody if left too long in the ground with the see
 
 Charles clears out some kohlrabi sown in February, planted early April with a net on to prevent cabbage root flies to attack them.
 
-:::tip About cabbage root flies
+{{< blockcontainer jli-notice-tip "About cabbage root flies" >}}
 
 Charles doesn’t have a solution against the cabbage root flies except for the net over it.
 
 He talked about another technique, but people have reported it doesn’t work.
 
-:::
+{{< /blockcontainer >}}
 
 Then, you will need to remove any weed.
 
 You can also walk on the bed, especially after harvesting kohlrabi or anything with big roots to firm the compost again.
 
-:::tip Remember
+{{< blockcontainer jli-notice-tip "Remember" >}}
 
 Walking on your bed covered with compost, you can’t compact it. You’ll firm it.
 
-:::
+{{< /blockcontainer >}}
 
 In summer, you will need to water the compost if dry.
 
-:::warning Why not make your bed too mounded
+{{< blockcontainer jli-notice-warning "Why not make your bed too mounded" >}}
 
 When you pour water on it, even with a soil covered with compost, the water will run off to the sides.
 
 So you want the bed to be leveled. It’s easier to water and keep the moisture on the bed.
 
-:::
+{{< /blockcontainer >}}
 
 After you watered maybe a second time, you’re ready to plan the leaks.
 
@@ -168,11 +152,11 @@ For example, Charles is sowing carrots between lettuce.
 
 You will need to water well on the inside of the trench only so it’s efficient in water usage.
 
-:::tip Tip
+{{< blockcontainer jli-notice-tip "Tip" >}}
 
 Wait a little bit before sowing the seeds, just like for the leeks earlier.
 
-:::
+{{< /blockcontainer >}}
 
 Sowing carrots requires precision. You don’t want too many sown in the same space. It’s always possible to thin them. But you could also save seeds by sowing just what you need.
 
@@ -220,7 +204,7 @@ Coriander, spinach, peas fall in that category as well. Always depending on your
 
 With compost, it slowly releases the water to the plants, as it acts as a sponge
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
 
 Where I live in Ardèche, I do also water every other day.
 
@@ -228,7 +212,7 @@ The most difficult time is when the sun literally burns everything like this pas
 
 So think about shading. It doesn’t have to block all the sun, but it will help tremendously to keep your crops alive.
 
-:::
+{{< /blockcontainer >}}
 
 ## Reminders about compost
 

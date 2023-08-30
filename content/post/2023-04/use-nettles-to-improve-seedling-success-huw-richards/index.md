@@ -4,20 +4,6 @@ description: 'When you grow seedlings, good care of the plants is key. Using net
 image: /images/2023-04-11-a-bowl-of-nettle-with-brown-sugar.jpg
 imageAlt: A bowl of nettle with brown sugar
 date: 2023-04-11
-prev:
-  text: 'See all my notes from Huw Richards’ vlogs'
-  link: ../../../tag/huw-richards/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/04/use-nettles-to-improve-seedling-success-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -25,19 +11,13 @@ tags:
   - Nettle
 ---
 
-![A bowl of nettle with brown sugar](/images/2023-04-11-a-bowl-of-nettle-with-brown-sugar.jpg 'Credits: image taken from Huw Richards’ vlog')
-
 When you grow seedlings, good care of the plants is key. Using nettle, we can increase and reach success.
 
-Thanks to Huw Richards for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Huw Richards’ channel.
+Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards’ channel.
 
 <!-- more -->
 
 You can watch it using [this YouTube link](https://www.youtube.com/watch?v=DlLWanDZwuU).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## What is FPJ
 
@@ -121,14 +101,17 @@ You will just need:
 
 ### The procedure
 
-:::note The scale of the current procedure
+{{< blockcontainer jli-notice-note "The scale of the current procedure" >}}
+
 The following quantities apply for a 1-liter jar.
-:::
+
+{{< /blockcontainer >}}
 
 1. Collect 125 gr of fresh stinging nettles.
 
-:::tip Pick them early in the morning
-:::
+{{< blockcontainer jli-notice-tip "Pick them early in the morning" >}}
+
+{{< /blockcontainer >}}
 
 2. Don’t water the nettles.
 3. Put the nettles in the bowl and sizzle them.
@@ -182,8 +165,9 @@ Add a few drops (for 250 ml at a ration 1:500, you will need 2 ml of juice, wh
 
 The time you leave the seeds in the water depends on the seed.
 
-:::tip Record what you do and compare soaked seeds and not soaked seeds to compare
-:::
+{{< blockcontainer jli-notice-tip "Record what you do and compare soaked seeds and not soaked seeds to compare" >}}
+
+{{< /blockcontainer >}}
 
 Once the seedlings are in the ground, you either:
 
@@ -193,10 +177,3 @@ Once the seedlings are in the ground, you either:
 Either method should be applied in the morning.
 
 Again, if you like those articles, let me know by subscribing to my free newsletter.
-
-:::center
-⏬⏬⏬
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

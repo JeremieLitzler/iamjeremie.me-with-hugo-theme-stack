@@ -21,16 +21,11 @@ tags:
   - Garlic
 ---
 
-![A garlic and some cloves](/images/2022-09-29-a-garlic-and-some-cloves.jpg 'Credits: picture by [Skitterphoto](https://www.pexels.com/fr-fr/photo/ail-aliments-brouiller-concentrer-630766/)')
-
 Step by step, Moreno shows how to plant this crop successfully.
 
 <!-- more -->
 
 Thanks to The Dutch Farmer for sharing his wisdom and knowledge! I wrote the following notes watching the video published on The Dutch Farmer's channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=BNR8b4_o2LA).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Times
 
@@ -85,10 +80,3 @@ About 2 months later, garlic is dried ...
 You simply cut off the dried stem.
 
 ![Store garlic by cutting the stem](images/augsut-30-ready-to-store.jpg "Credits: image taken from The Dutch Farmer's vlog.")
-
-:::center ⏬⏬⏬
-
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

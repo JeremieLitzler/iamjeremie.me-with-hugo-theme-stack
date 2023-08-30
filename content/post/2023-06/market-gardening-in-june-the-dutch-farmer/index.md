@@ -4,28 +4,12 @@ description: "We become quite busy in June with some harvesting, more sowing and
 image: /images/2023-06-05-a-man-weeding-alleys-between-garden-beds.jpg
 imageAlt: A man weeding alleys between garden beds
 date: 2023-06-05
-prev:
-  text: "See all my notes from The Dutch Farmer’s vlogs"
-  link: ../../../tag/the-dutch-farmer/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/06/market-gardening-in-june-the-dutch-farmer,
-      },
-    ]
 categories:
   - Gardening
 tags:
   - The Dutch Farmer
   - In June
 ---
-
-![A man weeding alleys between garden beds](/images/2023-06-05-a-man-weeding-alleys-between-garden-beds.jpg 'Credits: image taken from The Dutch Farmer’s vlog')
 
 We become quite busy in June with some harvesting, more sowing and weeding. Let’s look at how to optimize each task.
 
@@ -34,11 +18,6 @@ Thanks to Moreno for sharing his wisdom and knowledge! I wrote the following not
 <!-- more -->
 
 You can watch it using [this YouTube link](https://www.youtube.com/watch?v=d1OJTXRhy4k).
-
-:::center ⏬⏬⏬ :::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Harvesting lettuce
 
@@ -57,7 +36,9 @@ As usual, in market gardening, keep track of:
 - the date,
 - the quantity
 
-:::tip Use a garden journal Moreno shares some details about the journals that he keeps up with.
+{{< blockcontainer jli-notice-tip "Use a garden journal" >}}
+
+Moreno shares some details about the journals that he keeps up with.
 
 It allows you to record all the important information from the farm.
 
@@ -66,7 +47,9 @@ For example, in addition to the information above, it’s a good idea to record:
 - the number of days to maturity of crops depending on the period of the year
 - the time to perform certain tasks
 
-The goal is to gather the information will help make the market gardening more profitable. :::
+The goal is to gather the information will help make the market gardening more profitable.
+
+{{< /blockcontainer >}}
 
 Coming back to the lettuce, it’s important to lower the temperature of the salad to keep fresh longer.
 
@@ -94,13 +77,15 @@ Then, every 25 cm, as the plant grows, he sets 2 strings, in each side of the p
 
 Who wants to weed? Not me.
 
-:::tip Personal note Just yesterday, I spent 1h15 weeding. What Moreno shares here isn’t applicable to all situations.
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
+Just yesterday, I spent 1h15 weeding. What Moreno shares here isn’t applicable to all situations.
 
 However, this year, I spent the time covering with a big amount of cardboard and woodchips the alleys of my garden and it has made a big difference so far.
 
 There is still weeds coming out. But the roots are shallow and the weeds are really easy to pull up, especially the bindweed and couch grass.
 
-:::
+{{< /blockcontainer >}}
 
 Moreno uses two methods:
 
@@ -113,13 +98,19 @@ For market gardening, the no-dig approach really brings its benefits to keep a c
 
 Moreno weeds his garden 4 times a year, usually when he replaces a harvested crop with the next crop to sow or plant.
 
-:::warning The key to weed-free garden Never let weeds get established.
+{{< blockcontainer jli-notice-warning "The key to weed-free garden" >}}
 
-If a weed goes to seed, remove it and keep a good eye on that area to remove the new weeds from that area. :::
+Never let weeds get established.
+
+If a weed goes to seed, remove it and keep a good eye on that area to remove the new weeds from that area.
+
+{{< /blockcontainer >}}
 
 Another trick Moreno shares: for the edges, cover them with landscape fabric and a good 5 cm of woodchips.
 
-:::tip Personal note On my property, we have a lot of historical weeds:
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
+On my property, we have a lot of historical weeds:
 
 - couch grass
 - bindweeds
@@ -135,11 +126,8 @@ So far this year, the bindweed is what I see the most. The funny thing is that i
 
 It’s therefore very easy to pull them out, and a long string of root with it.
 
-I’ll keep on adding more cardboard and woodchips on top, which will build up a good soil structure and will kill the weeds. :::
+I’ll keep on adding more cardboard and woodchips on top, which will build up a good soil structure and will kill the weeds.
+
+{{< /blockcontainer >}}
 
 You liked this article? Consider subscribing to help me write more :)
-
-:::center ⏬⏬⏬ :::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

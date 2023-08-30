@@ -9,8 +9,6 @@ categories:
   - Relationships
 ---
 
-![Little girls hugging](/images/be-nicer.jpg)
-
 It is not expensive.
 
 It is not hard.

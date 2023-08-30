@@ -4,20 +4,6 @@ description: "I wrote the following notes watching the video published on Charle
 date: 2022-11-03
 image: '/images/2022-11-03-aerial-view-of-homeacre-garden-with-the-title-of-the-vlog-hero.jpg'
 imageAlt: Aerial view of Homeacre garden with the title of the vlog
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-next:
-  text: 'How much, how little compost do you need to grow great vegetables'
-  link: ../../10/how-much-compost-to-grow-great-vegetables-charles-dowding/
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/year-5-in-3-strips-experiment-charles-dowding,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -26,16 +12,11 @@ tags:
   - Compost
 ---
 
-![Aerial view of Homeacre garden with the title of the vlog](/images/2022-11-03-aerial-view-of-homeacre-garden-with-the-title-of-the-vlog-hero.jpg 'Credits: image taken from Charles Dowding’s vlog')
-
 I took notes about the trial at a later stage in [an earlier article](../../2022-10/compost-testing-and-final-result-charles-dowding/index.md) about the same three-strip trial, which started in 2014.
 
 <!-- more -->
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=u0V-5qXQz9U).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 They shot the vlog on the 8th of September 2019. So this is the 6th year of doing this comparison.
 
@@ -108,6 +89,3 @@ Also, Charles weights the harvest but discarding the outer leaves and anything t
 And he observed that strip Three produced more waste over time.
 
 In the end, the strip Two is the best strip.
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

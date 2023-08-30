@@ -4,20 +4,6 @@ description: "Making your own compost is key to self-sufficiency and Huw will pr
 date: 2022-11-21
 image: '/images/2022-11-21-how-to-stop-buying-compost-tips-for-compost-self-sufficiency-huw-richards.jpg'
 imageAlt: A hand full of compost
-prev:
-  text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      meta,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/11/tips-for-compost-self-sufficiency-huw-richards,
-      },
-    ]
 categories:
   - Gardening
 tags:
@@ -26,16 +12,9 @@ tags:
   - Compost
 ---
 
-![A hand full of compost](/images/2022-11-21-how-to-stop-buying-compost-tips-for-compost-self-sufficiency-huw-richards.jpg 'Credits: image taken from Huw Richards’s vlog')
-
 Making your own compost is key to self-sufficiency and Huw will provide us with a few tips.
 
-Thanks to Huw Richards for sharing his wisdom and knowledge!
-I wrote the following notes watching the video published on Huw Richards’s channel.
-You can watch it using [this YouTube link](https://www.youtube.com/watch?v=xbwVlBzAGZU).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
+Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Huw Richards’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=xbwVlBzAGZU).
 
 ## Starting disclaimer
 
@@ -78,7 +57,8 @@ Count the number of beds you have and time that by 100 liters. It will give the 
 
 Also, take a 20% extra so you’re sure not to run out.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 Of course, not everyone can build a garden with the same rectangular frame.
 
 For instance, my garden has a weird shape, so the beds are rarely rectangular.
@@ -86,7 +66,8 @@ For instance, my garden has a weird shape, so the beds are rarely rectangular.
 So make your beds with creativity, using the space efficiently,
 
 Also, using the material you have available for free can decrease your bill.
-:::
+
+{{< /blockcontainer >}}
 
 ## Making compost
 
@@ -132,13 +113,15 @@ And at the end, you have harvested the crops that grew in those hot beds and you
 
 Huw thinks it could work well on the previously mentioned deep mulch chicken compost.
 
-:::tip Always be on the lookup
+{{< blockcontainer jli-notice-tip "Always be on the lookup" >}}
+
 When you make your compost, you will need to be mindful to the material you can gather to make your compost.
 
 People throw a lot of things that can go on the compost heap.
 
 I’m preparing to look around my area to see who would be giving away their grass clippings, saving them time as they don’t have to go the local public waste factory.
-:::
+
+{{< /blockcontainer >}}
 
 ### Woodchips
 
@@ -156,21 +139,26 @@ So using compost with a good portion of saw dust might just be the good recipe f
 
 And you may wonder if it isn’t too high in carbon and that it might suck the nitrogen out of the ground. Well, it’s always a matter of balance. You won’t apply saw dust as is the beds. You will mix it with some green material and let it degrade.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 Having used saw dust the past year to make my compost from grass clipping mixed the saw dust and kitchen waste, I have to say that the result in terms of texture and look seems promising.
 
 I will use it next year and I’ll report my findings.
-:::
 
-:::warning A word of caution
+{{< /blockcontainer >}}
+
+{{< blockcontainer jli-notice-warning "A word of caution" >}}
+
 Make sure the wood saw dust you collect is free from preservatives before you plan to put it on a compost heap.
-:::
+
+{{< /blockcontainer >}}
 
 ### Dead leaves
 
 Same as saw dust, dead leaves are available and cheap, and mixed well with green materials, you can create a great compost.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 I use leaves as my winter duvet for the garden in a 10 cm to 20 cm layer.
 
 Since I don’t have the best orientation in the winter with about four and a half hours of sun (weather permitting), I don’t plant anything during the winter months.
@@ -178,7 +166,8 @@ Since I don’t have the best orientation in the winter with about four and a ha
 Last year was my first year applying this covering and by the end of this year harvest, I can tell you, the leaves have all disappeared.
 
 I think it has helped to create a smoother soil, from which I can more easily pull out the weeds.
-:::
+
+{{< /blockcontainer >}}
 
 ### Coffee grounds
 
@@ -190,9 +179,11 @@ It’s high in nitrogen, so you can assimilate it to a green material.
 
 Obviously, your kitchen waste participate to filling the heap.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 I put in 5 liters of kitchen waste daily, mainly vegetables waste.
-:::
+
+{{< /blockcontainer >}}
 
 The local highly available weeds can become a great source of material. Huw has a lot of bracken (_Pteridium_) around his garden.
 
@@ -200,17 +191,21 @@ The local highly available weeds can become a great source of material. Huw has 
 
 Cardboard suits a lot of applications in the garden: from covering in the No Dig method to brown material additions to the heap.
 
-:::tip Glues on cardboard
+{{< blockcontainer jli-notice-tip "Glues on cardboard" >}}
+
 Huw tells glues are almost always strach-based, meaning they come from a plant-based source.
 
 But, verify your sources.
-:::
+
+{{< /blockcontainer >}}
 
 Huw lives near the coast so he harvests seaweed from the coastline after a storm or a high tide.
 
-:::tip How to remove the salt
+{{< blockcontainer jli-notice-tip "How to remove the salt" >}}
+
 Lay it on the ground a little while then let it dry and it will be ready to use.
-:::
+
+{{< /blockcontainer >}}
 
 Finally, using cover crops produces a lot of materials to bulk up the compost heap.
 
@@ -228,7 +223,8 @@ So for your first year, brainstorm:
 
 Within a year, you will have your very own homemade compost.
 
-:::tip Personal note
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
 My goal for the 2022–2023 year is:
 
 - Finding more sources of grass clippings closer to home, even if I can get a trailer-full of it from the mowing my company loan (I know nobody spray anything on it).
@@ -240,7 +236,4 @@ My goal for the 2022–2023 year is:
 
 <!-- See the progress is [this journaling article](../../2023-09/gardening-in-2022-2023/index.md). -->
 
-:::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
+{{< /blockcontainer >}}

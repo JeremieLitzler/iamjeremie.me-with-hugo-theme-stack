@@ -2,28 +2,12 @@
 title: A Day in The Life of a Farmer in January, by The Dutch Farmer
 description: 'What does a day in January look like? The Dutch Farmer will detail it to us.'
 date: 2023-01-13
-prev:
-  text: 'See all my notes from The Dutch Farmer’s vlogs'
-  link: ../../../tag/the-dutch-farmer/
-next:
-  text: 'A Day in The Life of a Farmer in February, by The Dutch Farmer'
-  link: ../../02/a-day-in-the-life-of-a-farmer-in-february-the-dutch-farmer/
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/life-of-a-farmer-in-january-the-dutch-farmer,
-      },
-    ]
 categories:
   - Gardening
 tags:
   - The Dutch Farmer
   - In January
 ---
-
-![Spinach plants close-up](/images/2023-01-13-spinach-close-up.jpg 'Credits: image taken from The Dutch Farmer’s vlog')
 
 What does a day in January look like? The Dutch Farmer will detail it to us.
 
@@ -32,9 +16,6 @@ Thanks to Moreno for sharing his wisdom and knowledge! I wrote the following not
 <!-- more -->
 
 You can watch it using [this YouTube link](https://www.youtube.com/watch?v=ScBleHwOkgA).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ![Wood burning in a stove](images/wood-burning-in-a-stove.jpg "Credits: image taken from The Dutch Farmer's vlog")
 
@@ -155,7 +136,11 @@ Another multiplication that you can do is dividing a root into several pieces.
 
 For example, with rhubarb, you create 12 new plants with one mother root. You just need to make sure each piece contains a crown.
 
-:::tip Personal note I'm sure I will find a vlog that explains this in detail. :::
+{{< blockcontainer jli-notice-tip "Personal note" >}}
+
+I'm sure I will find a vlog that explains this in detail.
+
+{{< /blockcontainer >}}
 
 ## Early sowing
 
@@ -174,8 +159,3 @@ The technique is to start with the goal in mind.
 How much do you need to earn to live your chosen lifestyle, pay the bills and save. Moreno goes into more details [on this vlog untitled _How to Start a Farm From Scratch (Beginner's Guide to Growing Vegetables for Profit)_](https://www.youtube.com/watch?v=fRlUhUWS0Hk).
 
 As always, stay tuned as I take more notes about Moreno and his vlog on his Dutch Farmer channel.
-
-:::center ⏬⏬⏬ :::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>

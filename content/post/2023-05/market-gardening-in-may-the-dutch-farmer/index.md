@@ -4,28 +4,12 @@ description: 'In May, it is getting serious, with a lot of crops to plant and to
 image: /images/2023-05-01-gooseberry-bush-with-fruits.jpg
 imageAlt: Gooseberry bush with fruits
 date: 2023-05-01
-prev:
-  text: 'See all my notes from The Dutch Farmer’s vlogs'
-  link: ../../../tag/the-dutch-farmer/
-#next:
-#  text: ''
-#  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/05/market-gardening-in-may-the-dutch-farmer,
-      },
-    ]
 categories:
   - Gardening
 tags:
   - The Dutch Farmer
   - In May
 ---
-
-![Gooseberry bush with fruits](/images/2023-05-01-gooseberry-bush-with-fruits.jpg 'Credits: image taken from The Dutch Farmer’s vlog')
 
 In May, it’s getting serious, with a lot of crops to plant and to start harvesting.
 
@@ -34,9 +18,6 @@ Thanks to Moreno for sharing his wisdom and knowledge! I wrote the following not
 <!-- more -->
 
 You can watch it using [this YouTube link](https://www.youtube.com/watch?v=y-pugIGF5TU).
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
 
 ## Growing food is an invaluable skill
 
@@ -136,8 +117,3 @@ Small farms are extremely important for the well-being of communities today.
 Start your garden today!
 
 For more articles like this one, consider subscribing.
-
-:::center ⏬⏬⏬ :::
-
-<!-- markdownlint-disable MD033 -->
-<p class="newsletter-wrapper"><iframe class="newsletter-embed" src="https://iamjeremie.substack.com/embed" frameborder="0" scrolling="no"></iframe></p>
