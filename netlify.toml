@@ -574,6 +574,36 @@ to = "/post/2022-02-06-siwa-oasis-trip-to-cairo"
 status = 301
 force = true
 
+[[redirects]]
+from = "fr/articles/2022-06-01-retour-d-exprerience-sur-une-installation-pv-1mois"
+to = "https://jeremielitzler.fr/post/2022-06/retour-d-experience-sur-une-installation-pv-1mois/"
+status = 301
+force = true
+
+[[redirects]]
+from = "0000/optimiser-l-autonomie-alimentaire/"
+to = "/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/about"
+to = "/page/about/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/page/mentions-legales/"
+to = "/page/terms/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/fr/a-propos.html"
+to = "https://jeremielitzler.fr/page/a-propos/"
+status = 301
+force = true
+
 #[[headers]]
 #for = "/*"
 #[headers.values]
