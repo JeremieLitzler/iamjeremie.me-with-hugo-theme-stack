@@ -604,6 +604,12 @@ to = "https://jeremielitzler.fr/page/a-propos/"
 status = 301
 force = true
 
+[[redirects]]
+from = "/posts/2020-03-09-be-nicer.html"
+to = "/post/2020-03-09-be-nicer/"
+status = 301
+force = true
+
 #[[headers]]
 #for = "/*"
 #[headers.values]
