@@ -1,0 +1,25 @@
+{
+  "Frontmatter Template": {
+    "scope": "markdown",
+    "prefix": "set frontmatter no vlog",
+    "body": [
+      "---",
+      "title: \"$1\"",
+      "description: \"$7\"",
+      "image: /images/$2-$3.jpg",
+      "imageAlt: $4",
+      "date: $2",
+      "category:",
+      "  - $5",
+      "tag:",
+      "  - $6",
+      "---",
+      "",
+      "$7",
+      "",
+      "<!-- more -->",
+      ""
+    ],
+    "description": "Set fronmatter to the new post"
+  }
+}

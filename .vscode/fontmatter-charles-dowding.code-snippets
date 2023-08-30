@@ -1,0 +1,31 @@
+{
+  "FM Template Charles Dowding": {
+    "scope": "markdown",
+    "prefix": "set frontmatter charles d",
+    "body": [
+      "---",
+      "title: $1, by Charles Dowding",
+      "description: \"$7\"",
+      "image: /images/$2-$3.jpg",
+      "imageAlt: $4",
+      "date: $2",
+      "categories:",
+      "  - Gardening",
+      "tags:",
+      "  - Charles Dowding",
+      "  - No Dig",
+      "  - $5",
+      "---",
+      "",
+      "$7",
+      "",
+      "Thanks to Charles Dowding for sharing his wisdom and knowledge!",
+      "I wrote the following notes watching the video published on Charles Dowding's channel.",
+      "",
+      "<!-- more -->",
+      "",
+      "You can watch it using [this YouTube link]($6)."
+    ],
+    "description": "Set fronmatter to the new post"
+  }
+}

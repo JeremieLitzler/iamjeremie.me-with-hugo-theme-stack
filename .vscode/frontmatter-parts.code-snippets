@@ -1,0 +1,14 @@
+{
+  "FM Template category": {
+    "scope": "yaml",
+    "prefix": "set frontmatter category",
+    "body": ["${1||}"],
+    "description": "Set category"
+  },
+  "FM Template tag": {
+    "scope": "yaml",
+    "prefix": "set frontmatter tag",
+    "body": ["${1||}"],
+    "description": "Set category"
+  }
+}

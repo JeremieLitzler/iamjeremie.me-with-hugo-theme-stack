@@ -1,0 +1,30 @@
+{
+  "FM Template Huw Richards": {
+    "scope": "markdown",
+    "prefix": "set frontmatter huw r",
+    "body": [
+      "---",
+      "title: $1, by Huw Richards",
+      "description: \"$7\"",
+      "image: /images/$2-$3.jpg",
+      "imageAlt: $4",
+      "date: $2",
+      "categories:",
+      "  - Gardening",
+      "tags:",
+      "  - Huw Richards",
+      "  - $5",
+      "---",
+      "",
+      "$7",
+      "",
+      "Thanks to Huw Richards for sharing his wisdom and knowledge!",
+      "I wrote the following notes watching the video published on Huw Richards’ channel.",
+      "",
+      "<!-- more -->",
+      "",
+      "You can watch it using [this YouTube link]($6)."
+    ],
+    "description": "Set fronmatter to the new post"
+  }
+}
