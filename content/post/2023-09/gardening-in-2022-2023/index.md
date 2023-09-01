@@ -6,6 +6,8 @@ image: '/images/default.jpg'
 imageAlt:
 categories:
   - Gardening
+
+draft: true
 ---
 
 This year, I took lots of notes about the jobs performed in the garden.
@@ -16,6 +18,7 @@ Enjoy
 
 ## Table of contents
 
+<!--
 - [Month of October 2022](2022-10.md)
 - [Month of November 2022](2022-10.md)
 - [Month of December 2022](2022-10.md)
@@ -27,7 +30,7 @@ Enjoy
 - [Month of June 2022](2023-06.md)
 - [Month of July 2023](2023-07.md)
 - [Month of August 2023](2023-08.md)
-- [Month of September 2023](2023-09.md)
+- [Month of September 2023](2023-09.md) -->
 
 ## What are the lessons of the year
 
