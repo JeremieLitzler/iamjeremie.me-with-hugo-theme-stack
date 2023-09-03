@@ -1,5 +1,5 @@
 ---
-isDraft: false
+
 title: Why You Should Harvest Garlic in May, by Huw Richards
 description: "I wrote the following notes watching the video published on Huw Richards's channel"
 date: 2022-10-03

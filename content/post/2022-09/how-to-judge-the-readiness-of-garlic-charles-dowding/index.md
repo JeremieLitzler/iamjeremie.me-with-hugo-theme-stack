@@ -1,5 +1,5 @@
 ---
-isDraft: false
+
 title: How to judge the readiness of garlic, by Charles Dowding
 description: I wrote the following notes watching the video published on Charles Dowding’s channel
 date: 2022-09-22

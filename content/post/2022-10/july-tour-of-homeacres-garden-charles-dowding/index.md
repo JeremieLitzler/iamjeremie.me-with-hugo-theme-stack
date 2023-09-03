@@ -1,5 +1,5 @@
 ---
-isDraft: false
+
 title: July tour of new no dig garden, by Charles Dowding
 description: "Charles Dowding walks through his new no dig garden, talking about harvests, pest covers, compost, watering."
 date: 2022-10-15

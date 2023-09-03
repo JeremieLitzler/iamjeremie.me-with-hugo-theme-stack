@@ -1,5 +1,5 @@
 ---
-isDraft: false
+
 title: How to Plant Garlic From Start to Finish, by The Dutch Farmer
 description: "Step by step, Moreno shows how to plant this crop successfully."
 date: 2022-09-29

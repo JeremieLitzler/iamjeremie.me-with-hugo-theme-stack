@@ -1,5 +1,5 @@
 ---
-isDraft: true
+
 title: How to Start a No Dig Bed and Compost Differences, by Charles Dowding
 description: "The steps are simple and I have validated the process and the efficacy of the technique to creating a living soil."
 date: 2022-10-26

@@ -1,5 +1,5 @@
 ---
-isDraft: false
+
 title: How to Grow Garlic, simple steps for HUGE yields, with Huw Richards
 description: "Garlic is a healthy crop to grow for your meal. Huw shares with us his pro tips to harvest plenty of them."
 date: 2022-09-30

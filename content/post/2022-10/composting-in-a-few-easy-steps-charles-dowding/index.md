@@ -1,5 +1,5 @@
 ---
-isDraft: true
+
 title: Composting in a few easy steps, by Charles Dowding
 description: "Charles presents quick ways to make and use compost in a no dig garden."
 date: 2022-10-27

@@ -1,5 +1,5 @@
 ---
-isDraft: false
+
 title: Easy earthing up on potatoes with compost, with Charles Dowding
 description: "Using compost, Charles shares a trick that makes it easy and quick earth potatoes. Try it!"
 date: 2022-10-19

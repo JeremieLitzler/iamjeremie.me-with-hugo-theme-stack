@@ -1,5 +1,5 @@
 ---
-isDraft: true
+
 title: You can compost all weeds, by Charles Dowding
 description: "I wrote the following notes watching the video published on Charles Dowding's channel"
 date: 2022-10-20

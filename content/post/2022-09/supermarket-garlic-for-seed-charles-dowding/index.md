@@ -1,5 +1,5 @@
 ---
-isDraft: false
+
 title: Supermarket Garlic For Seed, by Charles Dowding
 description: A full harvest of a wide range of a different quality garlic gives the gardener a sense of accomplishment. Plus, you will enjoy deliciously-spiced meals.
 date: 2022-09-22

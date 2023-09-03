@@ -1,5 +1,5 @@
 ---
-isDraft: true
+
 title: Comparing different composts for propagation, by Charles Dowding
 description: 'Experimenting brings surprises. Charles has been practicing for decades and here, he shares with us how compost can make a difference.'
 date: 2022-10-21

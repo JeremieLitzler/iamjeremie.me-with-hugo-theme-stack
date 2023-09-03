@@ -1,5 +1,5 @@
 ---
-isDraft: true
+
 title: Making compost in a dalek, and how to access it, by Charles Dowding
 description: "I wrote the following notes watching the video published on Charles Dowding's channel"
 date: 2022-10-18
