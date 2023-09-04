@@ -1,7 +1,7 @@
 ---
 title: "How to run a NodeJS REST API on Cloudways?"
 description: "I am developping a custom search API from VuePress static websites and I needed to host it. Since I have a Cloudways VPS, let's see how to run the REST API."
-image: /images/2023-07-07-nodejs-logo.jpg
+image: images/2023-07-07-nodejs-logo.jpg
 imageAlt: "The NodeJS logo, from NodeJS website"
 date: 2023-07-07
 categories:

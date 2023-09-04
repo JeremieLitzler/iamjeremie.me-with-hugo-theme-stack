@@ -1,7 +1,7 @@
 ---
 title: Amazing Way to Use NETTLES to Improve Seedling Success, by Huw Richards
 description: 'When you grow seedlings, good care of the plants is key. Using nettle, we can increase and reach success.'
-image: /images/2023-04-11-a-bowl-of-nettle-with-brown-sugar.jpg
+image: images/2023-04-11-a-bowl-of-nettle-with-brown-sugar.jpg
 imageAlt: A bowl of nettle with brown sugar
 date: 2023-04-11
 categories:

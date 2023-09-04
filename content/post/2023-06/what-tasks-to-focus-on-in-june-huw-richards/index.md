@@ -1,7 +1,7 @@
 ---
 title: What tasks to focus on in June, by Huw Richards
 description: "In June, it is warm and everything is growing fast, vegetables and weeds. Let's look at what Huw is recommending to do this month."
-image: /images/2023-06-22-huw-s-garden-in-june.jpg
+image: images/2023-06-22-huw-s-garden-in-june.jpg
 imageAlt: "Huw's garden in June"
 date: 2023-06-22
 categories:

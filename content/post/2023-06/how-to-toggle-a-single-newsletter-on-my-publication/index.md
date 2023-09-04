@@ -1,7 +1,7 @@
 ---
 title: 'How to toggle a single newsletter on my Substack publication'
 description: "If you subscribed before April 2023, you will find this useful."
-image: /images/2023-06-06-substack-logo.avif
+image: images/2023-06-06-substack-logo.webp
 imageAlt: Substack logo
 date: 2023-06-06
 tags:

@@ -2,7 +2,7 @@
 title: "7 Habits from Stephen Covey - Inside Out"
 description: "Consistency is key, at home, at work, everywhere. What I like about the Inside Out approach is that it makes you accountable. Let's dive into the topic."
 date: 2023-09-04
-image: 2023-09-31-internalized-principles-and-patterns-of-behavior.jpg
+image: images/2023-09-31-internalized-principles-and-patterns-of-behavior.jpg
 imageAlt: Internalized principles and patterns of behavior
 categories:
   - Books

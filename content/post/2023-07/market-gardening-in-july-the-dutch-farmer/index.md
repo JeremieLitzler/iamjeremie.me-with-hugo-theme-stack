@@ -1,7 +1,7 @@
 ---
 title: Market Gardening in July, by The Dutch Farmer
 description: "What can you do in July? Moreno walks us through his garden to show us the different gardening tasks to perform this month."
-image: /images/2023-07-03-bumblebees-on-echinacea-flowers.jpg
+image: images/2023-07-03-bumblebees-on-echinacea-flowers.jpg
 imageAlt: Bumblebees on Echinacea flowers
 date: 2023-07-03
 categories:

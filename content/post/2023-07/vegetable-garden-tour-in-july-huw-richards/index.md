@@ -1,7 +1,7 @@
 ---
 title: Vegetable Garden Tour in July, by Huw Richards
 description: "Huw is trying a new method with no garden plan to experiment and learn."
-image: /images/2023-07-24-aerial-view-of-huw-s-garden.jpg
+image: images/2023-07-24-aerial-view-of-huw-s-garden.jpg
 imageAlt: Aerial view of Huw's garden
 date: 2023-07-24
 categories:

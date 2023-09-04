@@ -1,7 +1,7 @@
 ---
 title: Market Gardening in April, by The Dutch Farmer
 description: 'April is a month when you will transplant a lot and there are steps that you can follow to make it successful.'
-image: /images/2023-04-03-a-tool-to-make-holes-in-the-soil-to-transplant.jpg
+image: images/2023-04-03-a-tool-to-make-holes-in-the-soil-to-transplant.jpg
 imageAlt: A tool that helps making holes in the soil to transplat the seedlings
 date: 2023-04-03
 categories:

@@ -1,7 +1,7 @@
 ---
 title: Market Gardening in March, by The Dutch Farmer
 description: 'Spring is here and a lot is happening in the garden: bees are at work, sowing new crops is the main job and overwinter crops are still producing.'
-image: /images/2023-03-06-a-man-in-a-garden-sowing-seed-on-a-garden-bed.jpg
+image: images/2023-03-06-a-man-in-a-garden-sowing-seed-on-a-garden-bed.jpg
 imageAlt: A man in a garden sowing seed on a garden bed
 date: 2023-03-06
 categories:

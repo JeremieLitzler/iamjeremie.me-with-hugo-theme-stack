@@ -1,7 +1,7 @@
 ---
 title: "Migrate from Vuepress to Hugo"
 description: "I have used VuePress for a year. At work, we use it for documenting our processes and guides (about 400+ articles). But it became slow."
-image: 2023-08-30-hugo-homepage.jpg
+image: images/2023-08-30-hugo-homepage.jpg
 imageAlt: Hugo homepage
 date: 2023-08-30
 categories:

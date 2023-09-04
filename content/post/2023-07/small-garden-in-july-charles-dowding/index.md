@@ -1,7 +1,7 @@
 ---
 title: A Small Garden in July, by Charles Dowding
 description: "What is happening in the small garden of Charles Dowding in mid-July 2019?"
-image: /images/2023-07-04-charles-standing-in-the-small-garden.jpg
+image: images/2023-07-04-charles-standing-in-the-small-garden.jpg
 imageAlt: Charles standing in the small garden
 date: 2023-07-04
 categories:

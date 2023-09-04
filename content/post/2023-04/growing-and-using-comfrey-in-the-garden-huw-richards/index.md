@@ -1,7 +1,7 @@
 ---
 title: Growing and Using Comfrey In the garden, by Huw Richards
 description: "Comfrey provides many benefits in the garden, from composting to mulching. Let's look at it."
-image: /images/2023-04-18-comfrey-plant.jpg
+image: images/2023-04-18-comfrey-plant.jpg
 imageAlt: A comfrey plant
 date: 2023-04-18
 categories:

@@ -1,7 +1,7 @@
 ---
 title: 'How to setup Substack publication for 2 languages in 2023'
 description: "Let's look at the steps to set it up so you can provide contents in two languages."
-image: /images/2023-06-06-substack-logo.avif
+image: images/2023-06-06-substack-logo.webp
 imageAlt: Substack logo
 date: 2023-06-06
 categories:

@@ -2,16 +2,8 @@
 title: 'How is my digital presence setup?'
 description: 'In 2023, there are a lot of solutions to build your digital presence. In this article, I will share my current setup and why I use it.'
 date: 2023-03-30
-image: /images/2023-03-30-a-laptop-and-notebook-on-a-desk.jpg
+image: images/2023-03-30-a-laptop-and-notebook-on-a-desk.jpg
 imageAlt: A laptop and a notebook on a desk
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2023/03/how-is-setup-my-digital-presence-today/,
-      },
-    ]
 categories:
   - Digital Business
 ---

@@ -1,7 +1,7 @@
 ---
 title: Market Gardening in June, by The Dutch Farmer
 description: "We become quite busy in June with some harvesting, more sowing and weeding. Let's look at how to optimize each task."
-image: /images/2023-06-05-a-man-weeding-alleys-between-garden-beds.jpg
+image: images/2023-06-05-a-man-weeding-alleys-between-garden-beds.jpg
 imageAlt: A man weeding alleys between garden beds
 date: 2023-06-05
 categories:

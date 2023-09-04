@@ -1,7 +1,7 @@
 ---
 title: The Nettle, An Incredibly Useful Permaculture Plant, by Huw Richards
 description: 'Yes, nettle is a weed. But do you know a lot of weeds that are 10 times more useful than dreadful?'
-image: /images/2023-04-10-close-up-on-a-female-nettle.jpg
+image: images/2023-04-10-close-up-on-a-female-nettle.jpg
 imageAlt: Close up on a female nettle
 date: 2023-04-10
 categories:

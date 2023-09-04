@@ -1,7 +1,7 @@
 ---
 title: Market Gardening in May, by The Dutch Farmer
 description: 'In May, it is getting serious, with a lot of crops to plant and to start harvesting.'
-image: /images/2023-05-01-gooseberry-bush-with-fruits.jpg
+image: images/2023-05-01-gooseberry-bush-with-fruits.jpg
 imageAlt: Gooseberry bush with fruits
 date: 2023-05-01
 categories:
