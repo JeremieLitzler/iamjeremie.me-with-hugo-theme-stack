@@ -1,9 +1,9 @@
 ---
 title: "7 Habits from Stephen Covey - Inside Out"
 description: "Consistency is key, at home, at work, everywhere. What I like about the Inside Out approach is that it makes you accountable. Let's dive into the topic."
+date: 2023-09-04
 image: images/2023-09-31-internalized-principles-and-patterns-of-behavior.jpg
 imageAlt: Internalized principles and patterns of behavior
-date: 2023-09-31
 categories:
   - Books
 tags:
@@ -36,8 +36,7 @@ At page 39, the paradigm shift is interesting to look at in the occasion that I
 
 > A man and his children came into the subway, the kids were very loud and annoying the other passengers. The father didn’t seem to care.
 >
-> Stephen R. Covey came to him and asked that he controlled them so they annoy the fellow passengers.
-> The man just witnessed his wife die an hour ago.
+> Stephen R. Covey came to him and asked that he controlled them so they annoy the fellow passengers. The man just witnessed his wife die an hour ago.
 
 Think about this paradigm: is it worth screaming and getting angry after children when they _annoy_ you? Certainly not.
 
@@ -114,8 +113,7 @@ A balanced P/PC occurs when the assets are preserved, but not only.
 
 Similarly, asset balance is key to success and effectiveness.
 
-What does it mean?
-If you have too much physical assets over human assets, what would happen for a married couple had too many _golden eggs_ but no relationship?
+What does it mean? If you have too much physical assets over human assets, what would happen for a married couple had too many _golden eggs_ but no relationship?
 
 Another example: you could buy a tool made with wooden handles that helps you aerate the soil in the garden. You use it often because it does its job very well. But neglect to store it by leaving it outside. Weeks after weeks and the rain falls, the wood of the handle begins to rot and eventually, during a use, the handles break and you left with nothing to take care of the garden. You will need to buy a new handle while taking a few seconds at each use would have prevented this from happening.
 
