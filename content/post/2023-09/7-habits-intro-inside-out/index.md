@@ -4,9 +4,9 @@ description: "Consistency is key, at home, at work, everywhere. What I like abou
 image: images/2023-09-31-internalized-principles-and-patterns-of-behavior.jpg
 imageAlt: Internalized principles and patterns of behavior
 date: 2023-09-31
-category:
+categories:
   - Books
-tag:
+tags:
   - 7 Habits of highly successful people
 ---
 
