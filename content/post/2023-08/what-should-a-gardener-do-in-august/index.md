@@ -1,7 +1,7 @@
 ---
 title: What should a gardener do in August
 description: "In August, the garden may feel like a jungle. And yet, gaps may start to appear. Let's see what Huw suggests to fill them out."
-image: images/2023-08-31-harvested-onions.jpg
+image: 2023-08-31-harvested-onions.jpg
 imageAlt: Harvested onions
 date: 2023-08-31
 categories:
