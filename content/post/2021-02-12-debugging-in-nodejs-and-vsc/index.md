@@ -2,7 +2,7 @@
 title: How to debug a Nodejs project in VSC
 description: Debugging is at the heart of software development. Enable it today in your favorite IDE.
 date: 2021-02-12
-image: '/images/2021-02-12-debugging-in-nodejs-and-vsc.jpg'
+image: '2021-02-12-debugging-in-nodejs-and-vsc.jpg'
 imageAlt: A robot connected to a computer on a soccer field.
 categories:
   - Web Development

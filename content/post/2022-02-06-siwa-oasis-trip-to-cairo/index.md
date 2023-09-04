@@ -2,16 +2,8 @@
 title: 'Siwa: an oasis in the heart of the Sahara #1'
 description: 'Day 1: the trip to Cairo'
 date: 2022-02-26
-image: '/images/2022-02-06-siwa-oasis-trip-to-cairo-hero.jpg'
+image: '2022-02-06-siwa-oasis-trip-to-cairo-hero.jpg'
 imageAlt: A person walking near the Sphynx and the Pyramids of Egypt.
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/siwa-oasis-2022-day-1,
-      },
-    ]
 categories:
   - Travel
 tags:

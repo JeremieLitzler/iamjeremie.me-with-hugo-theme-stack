@@ -2,7 +2,7 @@
 title: Three Types of Heap, see how they work and the compost they make, by Charles Dowding
 description: This articles contain my notes from the vlog by Charles Dowding
 date: 2022-04-20
-image: '/images/2022-04-20-three-types-of-heap-for-compost.webp'
+image: '2022-04-20-three-types-of-heap-for-compost.webp'
 imageAlt: 'Cover of the vlog from Youtube and Charles Dowding'
 categories:
   - Gardening
@@ -59,8 +59,7 @@ So with three bins, for example
 
 ### [A large wood structure](https://www.youtube.com/watch?v=b7Aa525oW34&t=855s)
 
-It will cost more because of the amount of wood.
-But with a large size (1.5 meter cube), the heat goes much higher and therefore, the compost can be ready faster.
+It will cost more because of the amount of wood. But with a large size (1.5 meter cube), the heat goes much higher and therefore, the compost can be ready faster.
 
 It takes 5 weeks to fill it with a 4000 m².
 
