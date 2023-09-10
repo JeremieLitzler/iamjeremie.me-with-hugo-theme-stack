@@ -176,7 +176,7 @@ to this link in HTML:
 <a href="https://mydomain.com/page/about/">My link to another page within the site</a>
 ```
 
-While you could use the `{{</* ref "/path/to/page-or-post/" */>}}` shortcode as the Hugo documentation tells you, it is not particular and lack intellisense within VSC for me to select the files.
+While you could use the `{{</* ref "/path/to/page-or-post/" */>}}` shortcode as the Hugo documentation tells you, it is not practical and lack intellisense within VSC for me to select the files.
 
 {{< blockcontainer jli-notice-warning "If you want to show shortcode example in fenced code blocks like above...">}}
 
@@ -194,7 +194,7 @@ You have to put it under `layouts/_default/_markup/render-link.html`.
 
 {{< blockcontainer jli-notice-warning "About non index.md files" >}}
 
-However, for any file not named `index.md` would not work.
+However, for relative links to any file not named `index.md`, it will not work.
 
 I use this pattern for large pages:
 
@@ -221,8 +221,6 @@ content/
         |__ my-article/
             |__ images/
             |__ index.md
-            |__ part-1/
-                |__ index.md
             |__ part-1/
                 |__ index.md
             |__ part-2/
