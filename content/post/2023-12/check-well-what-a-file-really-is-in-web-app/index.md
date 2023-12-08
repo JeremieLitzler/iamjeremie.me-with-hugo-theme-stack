@@ -1,5 +1,5 @@
 ---
-title: "Really check a file is in file upload"
+title: "Really check what a file is on file upload"
 description: "When you build a web application, it is really easy for someone to upload a file that is not what it seems. Let's how to solve this security breach."
 #image: images/.jpg
 #imageAlt: 
