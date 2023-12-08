@@ -12,14 +12,14 @@ Hello everyone,
 
 Do you know the magic number and it is useful for?
 
-It is the found in the first two bytes of a binary file and it tells what kind of file you have in your hands.
+You can find it in the first two bytes of a binary file and it tells what file you have in your hands.
 
 It is useful to know about it if you are building web applications where users can upload files.
 
 Did you know that looking up the extension in the file name or the MIME type is not 100% accurate? 
-In fact, someone can fake a jpeg image when it is an executable in reality...
+Someone can easily fake a jpeg image when it is an executable in reality…
 
-That's when the magic number comes in handy!
+That’s when the magic number comes in handy!
 
 Here is an implementation example in C# [in this Gist](https://gist.github.com/JeremieLitzler/fb0fb0ec22225947e8bb28817d2ac314)
 
