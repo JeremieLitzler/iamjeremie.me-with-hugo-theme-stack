@@ -10,7 +10,7 @@ categories:
 
 Hello everyone,
 
-Do you know the magic number and it is useful for?
+Do you know the magic number and what is it useful for?
 
 You can find it in the first two bytes of a binary file and it tells what file you have in your hands.
 
