@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Teaching on Jérémie Litzler</title><link>https://iamjeremie.me/tags/teaching/</link><description>Recent content in Teaching on Jérémie Litzler</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 08 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://iamjeremie.me/tags/teaching/index.xml" rel="self" type="application/rss+xml"/><item><title>What can you teach about problem solving to a developer</title><link>https://iamjeremie.me/post/2022-09/what-can-you-teach-about-problem-solving/</link><pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2022-09/what-can-you-teach-about-problem-solving/</guid><description>&lt;img src="https://iamjeremie.me/images/2022-09-08-what-can-you-teach-about-problem-solving.jpg" alt="Featured image of post What can you teach about problem solving to a developer" />&lt;p>This is a very short essay about what can you teach about problem-solving to a new developer. But it is not limited to software development, I think.&lt;/p>
+&lt;p>&lt;em>I will enhance the post in later iterations&amp;hellip;&lt;/em>&lt;/p>
+&lt;p>Let&amp;rsquo;s break it down into 5 points&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="point-1-breakdown-your-initial-problem-into-small-chunks">Point 1: breakdown your initial problem into small chunks&lt;/h2>
+&lt;p>It is well recognized that breaking down a big project is the entry point to build an efficient product.&lt;/p>
+&lt;p>Why? With small chuncks, you will be able to draw the story of the product and you will be more aware the possible user routes.&lt;/p>
+&lt;h2 id="point-2-keep-things-simple">Point 2: Keep things simple&lt;/h2>
+&lt;p>A simple system is a system that works and that will be easy to update and improve with new features.&lt;/p>
+&lt;p>Don&amp;rsquo;t over think it, like overusing abstraction. Make the product efficient for your users and your developers to work with.&lt;/p>
+&lt;h2 id="point-3-identify-well-the-inputs-that-will-produce-the-desired-output">Point 3: Identify well the inputs that will produce the desired output&lt;/h2>
+&lt;p>Define what the inputs are, how they&amp;rsquo;re going to work together to produce the output.&lt;/p>
+&lt;p>You need to know what the source of your inputs: a human being, an API, a file, etc.&lt;/p>
+&lt;p>Then, make sure you gather and name well your output. The best is to use term that the enduser understand.&lt;/p>
+&lt;h2 id="point-4-seek-feedback-through-iteration">Point 4: Seek feedback through iteration&lt;/h2>
+&lt;p>Feedback is key to know if your product is doing what the customer asked for.&lt;/p>
+&lt;p>Iterating several times will help to ease the bug hunt.&lt;/p>
+&lt;p>It is a good idea to set up a little form or list of things you want to get from feedback, so that the person testing doesn&amp;rsquo;t just say to you:&lt;/p>
+&lt;blockquote>
+&lt;p>It doesn&amp;rsquo;t work&amp;hellip;&lt;/p>
+&lt;/blockquote>
+&lt;p>Guide the tester and the end user with hints of what you need to solve an anomaly.&lt;/p>
+&lt;h2 id="point-5-trace-the-system-in-execution-to-troubleshoot-it-efficiently">Point 5: Trace the system in execution to troubleshoot it efficiently&lt;/h2>
+&lt;p>The worse thing is to deploy a product that you think works as intended, but, when the customer puts his hands on it, everything breaks.&lt;/p>
+&lt;p>Be sure to trace the important data or processes that you would need to troubleshoot a problem. Usually, it is done in the development process, because you will debug your app or you will need information to solve bugs you find.&lt;/p>
+&lt;p>Where you would set breakpoints is probably a good place to put a trace!&lt;/p>
+&lt;p>Please leave &lt;a href="https://twitter.com/LitzlerJeremie/status/1567739380659355648?s=20&amp;amp;t=Zq68OGQA99ctcTuy8RIf6A">your thoughts on Twitter&lt;/a>.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>Photo by &lt;!-- raw HTML omitted -->Brett Jordan&lt;!-- raw HTML omitted --> on &lt;!-- raw HTML omitted -->Unsplash&lt;!-- raw HTML omitted -->&lt;/p></description></item></channel></rss>

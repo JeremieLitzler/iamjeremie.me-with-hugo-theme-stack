@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learning JavaScript, on Jérémie Litzler</title><link>https://iamjeremie.me/tags/learning-javascript/</link><description>Recent content in Learning JavaScript, on Jérémie Litzler</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://iamjeremie.me/tags/learning-javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>JavaScript30 - Course review</title><link>https://iamjeremie.me/post/2021-01-26-js30-by-wesbos/</link><pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2021-01-26-js30-by-wesbos/</guid><description>&lt;img src="https://iamjeremie.me/images/js30-by-wesbos.png" alt="Featured image of post JavaScript30 - Course review" />&lt;h2 id="what">What&lt;/h2>
+&lt;p>The course helps strengthen your skills with the new features available in JavaScript (ES6 or ECMAScript 2015 and beyond) as well as with the good old features in the span of 30 challenges (one per day if you can). Oh, by the way, it is free!&lt;/p>
+&lt;h2 id="where">Where&lt;/h2>
+&lt;p>The course can be found on &lt;a href="https://javascript30.com/">https://javascript30.com/&lt;/a>. You just need a good Visual Studio Code or your favorite code editor.&lt;/p>
+&lt;h2 id="who">Who&lt;/h2>
+&lt;p>The course is taught by Wes Bos (&lt;a href="https://wesbos.com">checkout his website&lt;/a>), a Canadian developer and teacher.&lt;/p>
+&lt;p>He has created many, many courses about JavaScript that thousands of students have taken. I have personally completed his ES6 course.&lt;/p>
+&lt;p>He is very engaging when he teaches and that is something that keeps you interested during the entire course.&lt;/p>
+&lt;h2 id="the-good">The Good&lt;/h2>
+&lt;p>There is a wide range of topics that you work on technically.&lt;/p>
+&lt;p>I particularly liked to learn about:&lt;/p>
+&lt;ul>
+&lt;li>building a custom video player,&lt;/li>
+&lt;li>playing with the media devices (webcam),&lt;/li>
+&lt;li>persisting data with local storage in the browser,&lt;/li>
+&lt;li>discovering the JavaScript console methods that I never used: &lt;code>time&lt;/code>, &lt;code>assert&lt;/code> and &lt;code>dir&lt;/code> which are quite useful! I used to use only console.log,&lt;/li>
+&lt;li>playing the speech synthesis,&lt;/li>
+&lt;li>really nailing the array methods down,&lt;/li>
+&lt;li>listening the keyboard strokes to perform cool stuff,&lt;/li>
+&lt;li>replicating the Stripe website navigation (I want to finish the keyboard navigation as Wes doesn&amp;rsquo;t cover that),&lt;/li>
+&lt;li>catching mouse and touch events to interact with the UI…&lt;/li>
+&lt;/ul>
+&lt;p>I think taking his ES6 course or any other course on Modern JavaScript will be a good help prior to taking this 30 days challenge.&lt;/p>
+&lt;p>Check out &lt;a href="https://js30-by-jeremiel.netlify.app/">my exercise solutions live here&lt;/a>.&lt;/p>
+&lt;h2 id="the-missingbits">The Missing bits&lt;/h2>
+&lt;p>It would have been great if Wes had summarized the instructions for each challenge.&lt;/p>
+&lt;p>I tried to write them down at the beginning of each course so I could have a go on my own before watching / checking the solution.&lt;/p>
+&lt;p>Something, you have to view the render of the solution to get those requirements right.&lt;/p>
+&lt;p>Also, a few accessibility tricks using JavaScript would be good to help the new web developers be really aware of that end-user need.&lt;/p>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>Going through the entire course took me 47h in total.&lt;/p>
+&lt;p>Thanks Wes for creating this awesome month-long challenge. I learned quite a few sweet tricks.&lt;/p>
+&lt;p>Next stop in company of Wes: his &lt;a href="https://learnnode.com/">Learn Node course&lt;/a> to apply all those ES6+ skills to a full-fledged project. Stay tuned!&lt;/p>
+&lt;p>Before that, I need to create myself a &lt;a href="https://www.netlify.com/blog/2020/05/04/building-a-markdown-blog-with-next-9.4-and-netlify/">little blog powered with NextJS and Netlify&lt;/a>! So far so good on &lt;a href="https://iamjeremie.me">my personal site&lt;/a>!&lt;/p></description></item></channel></rss>
