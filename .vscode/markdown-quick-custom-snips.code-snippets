@@ -23,12 +23,6 @@
     "body": ["**Mes notes :** [lire l'article]($1)"],
     "description": "Add a link to notes Fr"
   },
-  "Snippet 'My notes' EN": {
-    "scope": "markdown",
-    "prefix": "add notes link en",
-    "body": ["**My notes:** [read them here]($1)"],
-    "description": "Add a link to notes EN"
-  },
   "Snippet newsletter no arrow": {
     "scope": "markdown",
     "prefix": "newsletter",
@@ -49,30 +43,6 @@
       "<p class=\"newsletter-wrapper\"><iframe class=\"newsletter-embed\" src=\"https://iamjeremie.substack.com/embed\" frameborder=\"0\" scrolling=\"no\"></iframe></p>"
     ],
     "description": "Add substack newsletter block with arrow"
-  },
-  "Note generic EN": {
-    "scope": "markdown",
-    "prefix": "generic note",
-    "body": [":::tip $1", "$2", ":::"],
-    "description": "add generic note en"
-  },
-  "Note warning EN": {
-    "scope": "markdown",
-    "prefix": "wwarning note",
-    "body": [":::warning $1", "$2", ":::"],
-    "description": "add warning note en"
-  },
-  "Personal note EN": {
-    "scope": "markdown",
-    "prefix": "personal note en",
-    "body": [":::tip Personal note", "$1", ":::"],
-    "description": "add personal note en"
-  },
-  "Personal note FR": {
-    "scope": "markdown",
-    "prefix": "personal note fr",
-    "body": [":::tip Note personnelle", "$1", ":::"],
-    "description": "add personal note fr"
   },
   "Exerpt marker": {
     "scope": "markdown",
