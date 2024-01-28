@@ -5,7 +5,7 @@ image: images/2022-05-02-retour-d-exprerience-sur-une-installation-pv-1mois-cons
 imageAlt: "Daily unattended consumption after commissioning of the PV system (source: Linky)"
 date: 2022-06-01
 categories:
-  - Energy
+  - Using Energy
 tags:
   - Photovoltaic
   - Self-consumption
