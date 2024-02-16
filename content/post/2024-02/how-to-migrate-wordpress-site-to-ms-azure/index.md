@@ -28,7 +28,10 @@ The architecture of the WordPress App Service on Microsoft Azure is the followin
 
 Credit: image from [this article](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/infrastructure/wordpress-app-service) on Microsoft Learn.
 
-I following the [Microsoft guide](https://learn.microsoft.com/en-us/azure/app-service/migrate-wordpress)
+From [the Portal](https://portal.azure.com/#home),
+
+1. You select `Create a resource`
+2. I followed the [Microsoft guide](https://learn.microsoft.com/en-us/azure/app-service/migrate-wordpress)
 
 ## Clean up the resources
 
@@ -46,6 +49,8 @@ To enable it is a litlle bit tricky to find, but I will share the steps:
 - Save and restart the App Service.
 
 You can find the row confirguration in the [Azure Resource Explorer](https://resources.azure.com), but it is more sensitive to edit over there.
+
+You need to go under _subscriptions > Microsoft Azure Sponsorship > resourceGroup > RG-YourOrg-Websites > providers > Microsoft.Web > sites > YourWebsiteName (aka name of the App service)_.
 
 ## Migrate from a shared hosting to Azure
 
@@ -69,7 +74,16 @@ As for the post's migration actions, what Microsoft lists is pretty much what I 
 
 ## Cost: for non-profits, take advantage of Microsoft's sponsorship
 
-See more details at [https://www.microsoft.com/en-us/nonprofits/azure](https://www.microsoft.com/en-us/nonprofits/azure).
+If you are a non-profits organization, you can benefit from a Sponsorship from Microsoft.
+
+At the time of writing, it is $2000 per year!
+
+For that amount, you can easily host a large website. In the case I dealt with, we have:
+
+- two MySQL servers, one at $10.21 per month (small website for now) and another at $62.33 per month (large website with several thousand pages and a good steady traffic with a spike on Saturdays).
+- an App Service Plan (_Premium v2 P1V2_) at $75.92 per month.
+- a storage account with 772 GB of Blob storage and 6 GB of File storage.
+  See more details at [https://www.microsoft.com/en-us/nonprofits/azure](https://www.microsoft.com/en-us/nonprofits/azure).
 
 ## Maintenance and updates with deployment slots
 
