@@ -1,8 +1,8 @@
 ---
 title: "How to migrate a WordPress site to Microsoft Azure"
 description: "I did a migration from InMotion shared hosting to Microsoft Azure in 2023 for a non profit organization in the US. I learned a lot as a first experience with Azure. Here is how it went."
-image: /images/-.jpg
-imageAlt:
+image: /images/wordpress-app-service-diagram.png
+imageAlt: "Architecture diagram of WordPress on Azure's App Service"
 date: 2024-02-13
 categories:
   - Tutorials
