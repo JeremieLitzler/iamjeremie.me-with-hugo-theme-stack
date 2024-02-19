@@ -20,7 +20,7 @@ You need to:
 - be able to access to the source hosting you want to migrate to.
 - be able to add the plugin `` to migrate the website content.
 
-## Create an app service plan
+## Create an app service
 
 The architecture of the WordPress App Service on Microsoft Azure is the following:
 
@@ -31,11 +31,86 @@ Credit: image from [this article](https://learn.microsoft.com/en-us/azure/archit
 From [the Portal](https://portal.azure.com/#home),
 
 1. You select `Create a resource`
-2. I followed the [Microsoft guide](https://learn.microsoft.com/en-us/azure/app-service/migrate-wordpress)
+2. I followed the [Microsoft guide](https://learn.microsoft.com/en-us/azure/app-service/migrate-wordpress): here are the steps summarize into 5 steps:
+
+![Step 1: select the App Service templace](images/create-app-service-with-new-plan-step-1.jpg)
+
+Use the official Microsoft option.
+
+![Step 2: define the project, e.g. where is hosted the server, what size it will be and the initial WordPress credentials account.](images/create-app-service-with-new-plan-step-2.jpg)
+
+The importants steps here are:
+
+- creating a new Resource group to organize what will be created, for example with the `RG_Websites_Ressources`.
+- selecting the initial App service Plan size.
+
+NB: if you perform a migration, the initial WordPress credentials account isn't really important since you will override it in later stages.
+
+![Step 3: select the addons](images/create-app-service-with-new-plan-step-3.jpg)
+
+In my case, I **unchecked everything**, _unlike it is shown in the screenshot_.
+
+If you need to create a storage account, you can do it seperatly.
+
+![Step 4: add a staging slot](images/create-app-service-with-new-plan-step-4.jpg)
+
+This is not necessary right now.
+
+![Step 5: add tags](images/create-app-service-with-new-plan-step-5.jpg)
+
+I think it is important to tag the resources that you're about to create.
+
+It will organize under the resource group.
+
+![Summary before creation](images/create-app-service-with-new-plan-summary.jpg)
+
+The creation takes a while. So take a break and come back 15-20 minutes.
 
 ## Clean up the resources
 
+To to view all the resources you've just created, go to [homepage](https://portal.azure.com/#home) and select `Resource groups`.
+
+![Access the resource groups](images/access-resource-group-from-home.jpg)
+
+Then, select the resource group you created earlies, for example `RG_Websites_Ressources`.
+
+When you create an App service using the template in the Azure marketplace, it creates a bit too many resources.
+
+I haven't noted all the ones that I deleted so let me show you which to keep:
+
+- One Storage account
+- One App Service per website
+- One database instance per App service
+- One Virtual network
+
+If you happen to create several App service using the previous step method, you will end up with a lot of resources.
+
+However, it is to create a new App service from an existing one.
+
+The only distinct resources you need is an App service and a MySQL server isntance (even that one you could share but I haven't run into that scenario).
+
 ## Size the resources correctly
+
+The good news, you can resize the App service and / or the MySQL server later on.
+
+In my case, I had 2 websites and one was was significantly lager than the other.
+
+To modify the size of the App Service, simply:
+
+- browse to the App service resource.
+- select the `Scale up (App Service Plan)` blade.
+- select the desired size.
+- confirm by clicking the `Select` button.
+
+To modify the MySQL server resource:
+
+- browse to the resource.
+- select the `Compute + storage` blade.
+- select the Compute tier: either `Burstable`, `General Purpose` or `Business Critical`.
+- select the Compute size.
+- adjust the Storage size (minimum of 20 GiB is useful more than enough).
+- adjust the backups retention if needed
+- confirm by clicking the `Save` button
 
 ## Configure the app service with HTTP2
 
