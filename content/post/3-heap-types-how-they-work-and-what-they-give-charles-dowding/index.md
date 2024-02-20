@@ -2,22 +2,15 @@
 title: Three Types of Heap, see how they work and the compost they make, by Charles Dowding
 description: This articles contain my notes from the vlog by Charles Dowding
 date: 2022-04-20
-image: '/images/2022-04-20-three-types-of-heap-for-compost.webp'
-imageAlt: 'Cover of the vlog from Youtube and Charles Dowding'
+image: "/images/2022-04-20-three-types-of-heap-for-compost.webp"
+imageAlt: "Cover of the vlog from Youtube and Charles Dowding"
 prev:
   text: "See all my notes from Charles Dowding's vlogs"
   link: ../../../tag/charles-dowding/
 next:
-  text: 'July 2022 tour of new no dig, harvests, pest covers, compost, watering, by Charles Dowding'
+  text: "July 2022 tour of new no dig, harvests, pest covers, compost, watering, by Charles Dowding"
   link: ../../../posts/2022-10-15-july-2022-tour-of-homeacres-garden-charles-dowding/
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/three-types-of-heap-charles-dowding,
-      },
-    ]
+relcanonical: https://iamjeremie.substack.com/p/three-types-of-heap-charles-dowding
 categories:
   - Gardening
 tags:

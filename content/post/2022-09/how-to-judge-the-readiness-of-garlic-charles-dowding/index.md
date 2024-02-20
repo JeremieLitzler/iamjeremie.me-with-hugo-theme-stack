@@ -1,18 +1,10 @@
 ---
-
 title: How to judge the readiness of garlic, by Charles Dowding
 description: I wrote the following notes watching the video published on Charles Dowding’s channel
 date: 2022-09-22
-image: '/images/2022-09-22-how-to-judge-the-readiness-of-garlic-charles-dowding-hero.jpg'
+image: "/images/2022-09-22-how-to-judge-the-readiness-of-garlic-charles-dowding-hero.jpg"
 imageAlt: Sprouting garlic
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/09/how-to-judge-the-readiness-of-garlic-charles-dowding,
-      },
-    ]
+relcanonical: https://iamjeremie.me/2022/09/how-to-judge-the-readiness-of-garlic-charles-dowding
 categories:
   - Gardening
 tags:

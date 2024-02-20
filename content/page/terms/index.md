@@ -2,8 +2,7 @@
 title: Terms and Conditions
 description: This is the terms and conditions page
 date: 2021-08-10
-head:
-  - [link, { rel: canonical, href: https://iamjeremie.me/page/terms/ }]
+relcanonical: https://iamjeremie.me/page/terms/
 article: false
 ---
 

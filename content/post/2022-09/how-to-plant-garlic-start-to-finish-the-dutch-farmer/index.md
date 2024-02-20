@@ -1,18 +1,15 @@
 ---
-
 title: How to Plant Garlic From Start to Finish, by The Dutch Farmer
 description: "Step by step, Moreno shows how to plant this crop successfully."
 date: 2022-09-29
-image: '/images/2022-09-29-a-garlic-and-some-cloves.jpg'
-imageAlt: 'A garlic and some cloves, picture by Skitterphoto: https://www.pexels.com/fr-fr/photo/ail-aliments-brouiller-concentrer-630766/'
+image: "/images/2022-09-29-a-garlic-and-some-cloves.jpg"
+imageAlt: "A garlic and some cloves, picture by Skitterphoto: https://www.pexels.com/fr-fr/photo/ail-aliments-brouiller-concentrer-630766/"
 prev:
   text: "See all my notes from The Dutch Farmer's vlogs"
   link: ../../../tag/the-dutch-farmer/
 next:
-  text: 'Grow garlic, an easy crop with no dig, hard or softneck, and tips for harvest'
+  text: "Grow garlic, an easy crop with no dig, hard or softneck, and tips for harvest"
   link: ../grow-garlic-easy-with-no-dig-tips-for-harvest-charles-dowding/
-#head:
-#  - [link, { rel: canonical, href: url }]
 categories:
   - Gardening
 tags:

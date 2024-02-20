@@ -1,24 +1,16 @@
 ---
-
 title: How to Grow Garlic, simple steps for HUGE yields, with Huw Richards
 description: "Garlic is a healthy crop to grow for your meal. Huw shares with us his pro tips to harvest plenty of them."
 date: 2022-09-30
-image: '/images/2022-09-30-a-dry-garlic.jpg'
+image: "/images/2022-09-30-a-dry-garlic.jpg"
 imageAlt: A dry garlic
 prev:
   text: "See all my notes from Huw Richards' vlogs"
   link: ../../../tag/huw-richards/
 next:
-  text: 'The Simple Way to Becoming Self-Sufficient in Food'
+  text: "The Simple Way to Becoming Self-Sufficient in Food"
   link: ../../10/the-simple-way-to-food-self-sufficiency-huw-richards/
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/09/how-to-grow-garlic-simple-steps-for-huge-yields-huw-richards/,
-      },
-    ]
+relcanonical: https://iamjeremie.me/2022/09/how-to-grow-garlic-simple-steps-for-huge-yields-huw-richards/
 categories:
   - Gardening
 tags:

@@ -1,18 +1,16 @@
 ---
-
 title: Grow garlic, an easy crop with no dig, hard or softneck, and tips for harvest, by Charles Dowding
 description: I wrote the following notes watching the video published on Charles Dowding's channel
 date: 2022-09-28
-image: '/images/2022-09-22-supermarket-garlic-for-seed-charles-dowding-hero.webp'
+image: "/images/2022-09-22-supermarket-garlic-for-seed-charles-dowding-hero.webp"
 imageAlt: "Harvest of elephant garlic from Charles Dowding's garden"
 prev:
   text: "See all my notes from Charles Dowding's vlogs"
   link: ../../../tag/charles-dowding/
 next:
-  text: 'Supermarket Garlic For Seed'
+  text: "Supermarket Garlic For Seed"
   link: ../supermarket-garlic-for-seed-charles-dowding/
-head:
-  - [link, { rel: canonical, href: https://iamjeremie.me/posts/2022-09-28-grow-garlic-easy-with-no-dig-tips-for-harvest-charles-dowding }]
+relcanonical: https://iamjeremie.me/posts/2022-09-28-grow-garlic-easy-with-no-dig-tips-for-harvest-charles-dowding
 categories:
   - Gardening
 tags:

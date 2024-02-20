@@ -2,16 +2,9 @@
 title: What can you teach about problem solving to a developer
 description: Where do you start, what needs to be in the mind of the developer, etc...
 date: 2022-09-08
-image: '/images/2022-09-08-what-can-you-teach-about-problem-solving.jpg'
-imageAlt: 'Keep things simple scrabble letters'
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.me/2022/09/what-can-you-teach-about-problem-solving,
-      },
-    ]
+image: "/images/2022-09-08-what-can-you-teach-about-problem-solving.jpg"
+imageAlt: "Keep things simple scrabble letters"
+relcanonical: https://iamjeremie.me/2022/09/what-can-you-teach-about-problem-solving
 categories:
   - Web Development
 tags:

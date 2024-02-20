@@ -1,24 +1,16 @@
 ---
-
 title: Comparing different composts for propagation, by Charles Dowding
-description: 'Experimenting brings surprises. Charles has been practicing for decades and here, he shares with us how compost can make a difference.'
+description: "Experimenting brings surprises. Charles has been practicing for decades and here, he shares with us how compost can make a difference."
 date: 2022-10-21
-image: '/images/2022-10-21-comparing-different-composts-for-propagation-charles-dowding-hero.jpg'
+image: "/images/2022-10-21-comparing-different-composts-for-propagation-charles-dowding-hero.jpg"
 imageAlt: Final harvest results
 prev:
-  text: 'See all my notes from Charles Dowding’s vlogs'
+  text: "See all my notes from Charles Dowding’s vlogs"
   link: ../../../tag/charles-dowding/
 #next:
 #  text: ''
 #  link: ..//index.md
-head:
-  - [
-      link,
-      {
-        rel: canonical,
-        href: https://iamjeremie.substack.com/p/comparing-composts-propagation-charles-dowding,
-      },
-    ]
+relcanonical: https://iamjeremie.substack.com/p/comparing-composts-propagation-charles-dowding
 categories:
   - Gardening
 tags:
@@ -38,29 +30,29 @@ Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the foll
 
 1. Homemade compost that is 8–10 months old
 
-   ![Homemade compost](images/homemade-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![Homemade compost](images/homemade-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 2. Purchased compost from a company called Moorland Gold in Yorkshire, UK, and there are two types: one for seeds, one for potting and container
 
-   ![Purchased compost from a company in Yorkshire, UK](images/purchased-yorkshire-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![Purchased compost from a company in Yorkshire, UK](images/purchased-yorkshire-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 3. Some gifted compost from digestion of plant fibers to produce methane for propagation (I didn’t quite catch the name of the brand...). The compost of the byproduct of digestion.
 
-   ![Gifted compost for propagation](images/gifted-propagation-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![Gifted compost for propagation](images/gifted-propagation-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 4. Some gifted New Horizon compost
 
-   ![New horizon compost](images/new-horizon-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![New horizon compost](images/new-horizon-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 5. Worm compost
 
-   ![Worm compost](images/worm-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![Worm compost](images/worm-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 ## Method used for the trial
 
 Charles used 15-module trays.
 
-![15-module tray for seedlings](images/15-module-tray.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![15-module tray for seedlings](images/15-module-tray.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 I will review the vlogs from Charles about the trays later.
 
@@ -104,19 +96,19 @@ As for the other trays, the progress is already quite significant:
 
 1. Homemade compost
 
-   ![Homemade compost](images/week-1-homemade-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![Homemade compost](images/week-1-homemade-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 2. Moorland Gold compost
 
-   ![Tray from Yorkshire’s compost](images/week-1-yorkshire-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![Tray from Yorkshire’s compost](images/week-1-yorkshire-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 3. Digested compost
 
-   ![Tray from digested compost](images/week-1-digested-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![Tray from digested compost](images/week-1-digested-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 4. New Horizon compost
 
-   ![New horizon compost](images/week-1-new-horizon-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![New horizon compost](images/week-1-new-horizon-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 {{< blockcontainer jli-notice-tip "The take-out" >}}
 
@@ -137,19 +129,19 @@ But both trays show that the radishes are ready to transplant!
 
 1. Homemade compost
 
-   ![Homemade compost](images/week-3-homemade-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![Homemade compost](images/week-3-homemade-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 2. Moorland Gold compost
 
-   ![Tray from Yorkshire’s compost](images/week-3-yorkshire-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![Tray from Yorkshire’s compost](images/week-3-yorkshire-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 3. Digested compost
 
-   ![Tray from digested compost](images/week-3-digested-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![Tray from digested compost](images/week-3-digested-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 4. New Horizon compost
 
-   ![New horizon compost](images/week-3-new-horizon-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![New horizon compost](images/week-3-new-horizon-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 {{< blockcontainer jli-notice-tip "The take-out" >}}
 
@@ -184,25 +176,25 @@ Here are the pictures of the harvest, compost by compost:
 
 1. Homemade compost
 
-   ![Homemade compost](images/week-8-homemade-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![Homemade compost](images/week-8-homemade-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 2. Moorland Gold compost
 
-   For the seed compost: ![Tray from Yorkshire’s compost](images/week-8-yorkshire-seed-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   For the seed compost: ![Tray from Yorkshire’s compost](images/week-8-yorkshire-seed-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
-   For the potting compost ![Tray from Yorkshire’s compost](images/week-8-yorkshire-potting-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   For the potting compost ![Tray from Yorkshire’s compost](images/week-8-yorkshire-potting-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 3. Digested compost
 
-   ![Tray from digested compost](images/week-8-digested-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![Tray from digested compost](images/week-8-digested-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 4. New Horizon compost
 
-   ![New horizon compost](images/week-8-new-horizon-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![New horizon compost](images/week-8-new-horizon-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 5. Worm compost vs. Moorland Gold potting compost
 
-   ![Worm compost vs. Moorland Gold potting compost](images/week-5-worm-compost-vs-moorland-gold-potting-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+   ![Worm compost vs. Moorland Gold potting compost](images/week-5-worm-compost-vs-moorland-gold-potting-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 {{< blockcontainer jli-notice-tip "The take-out" >}}
 
