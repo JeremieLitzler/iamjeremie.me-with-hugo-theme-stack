@@ -9,7 +9,7 @@ categories:
 tags:
   - Microsoft Azure
   - WordPress
-#draft: true
+draft: true
 ---
 
 ## Prerequisites
