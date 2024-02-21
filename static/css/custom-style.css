@@ -2,7 +2,7 @@
   --theme-color: #3eaf7c;
   --accent-color: var(--theme-color);
   --body-text-color: rgba(0, 0, 0, 0.8);
-  
+
   --notice-note-light: #fdfdfe;
   --notice-note-dark: #858585;
   --notice-tip-light: #e6f6e6;
@@ -13,9 +13,9 @@
   --notice-danger-dark: #e13238;
 }
 
-:root[data-scheme=dark] {
+:root[data-scheme="dark"] {
   --body-text-color: rgba(255, 255, 255, 0.8);
-  
+
   --notice-note-light: #858585;
   --notice-note-dark: #fdfdfe;
   --notice-tip-light: var(--theme-color);
@@ -34,7 +34,13 @@ a {
   text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   color: var(--body-text-color);
 }
 
@@ -49,6 +55,69 @@ h1, h2, h3, h4, h5, h6, p {
 .article-title a:hover {
   border: 1px dashed var(--theme-color);
 }
+
+.right-sidebar.sticky {
+  top: 0;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+summary.section-title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+summary .widget-title {
+  text-indent: 0.25em;
+  text-decoration: underline;
+}
+
+summary .widget-title-hint {
+  text-decoration: none;
+}
+
+/*ARTICLE styles*/
+
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.article-content blockquote,
+.article-content figure,
+.article-content .highlight,
+.article-content pre,
+.article-content .gallery,
+.article-content .video-wrapper,
+.article-content .table-wrapper,
+.article-content .s_video_simple {
+  margin-left: calc((var(--card-padding)) * -0); /*was -1 instead of -0*/
+  margin-right: calc((var(--card-padding)) * -0); /*was -1 instead of -0*/
+  width: calc(100% + var(--card-padding) * 0); /*was -0 instead of 0*/
+}
+.main-article img {
+  width: 100%;
+}
+
+figure {
+  background-color: var(--accent-color);
+  border: 4px solid var(--accent-color);
+  border-radius: 0.5em;
+  color: var(--accent-color-text);
+}
+
+figure img {
+  border-radius: 0.5em;
+}
+
+.article-content figure figcaption {
+  color: var(--accent-color-text);
+}
+
 iframe.newsletter-embed {
   width: 100%;
   height: 16em;
@@ -106,7 +175,6 @@ iframe.newsletter-embed {
   width: initial;
 }
 
-
 .jli-notice p {
   margin: 0;
 }
@@ -114,7 +182,6 @@ iframe.newsletter-embed {
 .jli-notice-title {
   font-weight: bold;
 }
-
 
 .jli-notice-note {
   background-color: var(--notice-note-light);
@@ -138,4 +205,24 @@ iframe.newsletter-embed {
   background-color: var(--notice-danger-light);
   border: 1px solid var(--notice-danger-dark);
   border-left: 4px solid var(--notice-danger-dark);
+}
+
+details > summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 0.5em;
+}
+
+details summary::after {
+  content: "⬇️ Click to open";
+  font-size: x-small;
+  margin-right: 1em;
+  margin-left: auto;
+}
+details[open] summary::after {
+  content: "⬆️ Click to close";
+  font-size: x-small;
+  margin-left: auto;
 }
