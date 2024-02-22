@@ -7,7 +7,7 @@ date: 2024-02-16
 categories:
   - Web Development
 tags:
-  - Netlify
+  - TypeScript
   - Tip Of The Day
 relcanonical: https://www.linkedin.com/pulse/making-unused-method-argument-compliant-typescript-eslint-litzler-uiktf/
 ---
