@@ -103,19 +103,21 @@ summary .widget-title-hint {
   width: 100%;
 }
 
+@media (min-width: 30em) {
+  .main-article img {
+    width: 50%;
+  }
+}
+
 figure {
-  background-color: var(--accent-color);
-  border: 4px solid var(--accent-color);
+  /* background-color: var(--accent-color); */
+  /* border: 4px solid var(--accent-color); */
   border-radius: 0.5em;
   color: var(--accent-color-text);
 }
 
 figure img {
   border-radius: 0.5em;
-}
-
-.article-content figure figcaption {
-  color: var(--accent-color-text);
 }
 
 iframe.newsletter-embed {
