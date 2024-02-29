@@ -2,7 +2,7 @@
 title: "Creating a store with Vue 3, Pinia and TypeScript"
 description: "State management lets you run a faster application. For a while now, Pinia has replaced Vuex in Vue applications. And with Pinia, it’s time to embrace the Composition API, even within the stores."
 image: images/2024-03-01-pinia-image-from.jpg
-imageAlt: "Contents of a Pinia store"
+imageAlt: "Image of the Pinia logo made by VueSchool.io"
 date: 2024-03-01
 categories:
   - Web Development
