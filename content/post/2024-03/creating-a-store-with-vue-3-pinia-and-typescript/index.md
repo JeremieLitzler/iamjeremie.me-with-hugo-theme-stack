@@ -41,7 +41,7 @@ export const useCategoryStore = defineStore('CategoryStore', {
 });
 ```
 
-Wit TypeScript, it becomes:
+With TypeScript, it becomes:
 
 ```tsx
 import { ref } from "vue";
