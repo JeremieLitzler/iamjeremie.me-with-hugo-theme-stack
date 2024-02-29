@@ -1,6 +1,6 @@
 ---
 title: "Creating a store with Vue 3, Pinia and TypeScript"
-description: "State management enables you to run a faster application. For a while now, Pinia has replaced Vuex in Vue applications. And with Pinia, it is time to embrace the Composition API, even within the stores."
+description: "State management lets you run a faster application. For a while now, Pinia has replaced Vuex in Vue applications. And with Pinia, it’s time to embrace the Composition API, even within the stores."
 image: images/2024-03-01-pinia-image-from.jpg
 imageAlt: "Contents of a Pinia store"
 date: 2024-03-01
@@ -15,7 +15,7 @@ Pinia is the recommended state management plugin in Vue applications.
 
 Though you can use it with the “_Option API_” way, if you are using TypeScript, go for the “_Composition API_” way. Yes, even within the stores, you can use the setup pattern.
 
-With JavaScript, you would have for example:
+With JavaScript, you would have, for example:
 
 ```jsx
 import { ref } from 'vue';
@@ -69,9 +69,9 @@ export const useCategoryStore = defineStore("CategoryStore", () => {
 });
 ```
 
-The arrow fuction you see after the name of the store uses the function definition with the setup pattern.
+The arrow function you see after the name of the store uses the function definition with the setup pattern.
 
 Special thanks to :
 
-- [this thread on GitHub](https://github.com/vuejs/pinia/discussions/983#discussioncomment-2045733) for guiding me to understand the technique.
+- [This thread on GitHub](https://github.com/vuejs/pinia/discussions/983#discussioncomment-2045733) for guiding me to understand the technique.
 - [VueSchool.io](https://vueschool.io/) for the [hero image](https://github.com/vueschool/pinia-the-enjoyable-vue-store)
