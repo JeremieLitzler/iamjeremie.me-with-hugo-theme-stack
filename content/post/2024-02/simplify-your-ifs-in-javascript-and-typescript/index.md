@@ -1,6 +1,6 @@
 ---
 title: "Simplify your ifs in JavaScript and TypeScript"
-description: "Code quality, is that something you take care of in your everyday tasks? I do. But sometimes, it is not simply just about saving keystrokes or a number of characters. Let’s dive it"
+description: "Code quality, is that something you take care of in your everyday tasks? I do. But sometimes, it is not simply just about saving keystrokes or a number of characters. Let’s dive into it"
 image: images/2024-02-23-code-sample.jpg
 imageAlt: "Contents of a TypeScript file"
 date: 2024-02-23

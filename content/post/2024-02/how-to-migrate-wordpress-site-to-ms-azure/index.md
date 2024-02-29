@@ -126,9 +126,9 @@ In my case, I had 2 websites and one was significantly larger than the other.
 To modify the size of the app service, simply:
 
 - Browse to the app service resource.
-- Select the `Scale up (app service Plan)`blade.
+- Select the `Scale up (app service Plan)` blade.
 - Select the desired size.
-- Confirm by clicking the `Select`button.
+- Confirm by clicking the `Select` button.
 
 To modify the MySQL server resource:
 
@@ -138,7 +138,7 @@ To modify the MySQL server resource:
 - Select the Compute size.
 - Adjust the Storage size (minimum of 20 GiB is useful more than enough).
 - Adjust the backup settings if needed
-- confirm by clicking the `Save`button
+- confirm by clicking the `Save` button
 
 ## Configure the app service with HTTP/2
 

@@ -2,7 +2,7 @@
 title: "Using path aliases in a Vue.js project"
 description: "The developer experience on Vue.js projects can greatly improve using a simple configuration. Here is how you will make sure your imports are not relatively declared."
 image: images/2024-02-19-vite.config.ts-contents.jpg
-imageAlt: 'Contents of the "vite.config.ts files'
+imageAlt: 'Contents of the "vite.config.ts file'
 date: 2024-02-19
 categories:
   - Web Development
