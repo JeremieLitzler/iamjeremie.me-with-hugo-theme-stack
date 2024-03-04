@@ -13,15 +13,15 @@ tags:
 
 If you are building a medium-sized application, you will end up using navigation guards to browse the different pages of your application.
 
-The basic usecase is when you want to check an element exists before loading its details (for example on `beforeEnter`).
+The basic use case is when you want to check an element exists before loading its details (for example on `beforeEnter`).
 
-Now, if you are building the application with Vue 3 and Pinia, you will do this by querying a particular store.
+Now, if you are building the application with Vue 3 and Pinia, you will do this by querying a store.
 
-However, Pinia isn’t loaded on the application until the `mount` call and you load the router before that…
+However, the application doesn’t load Pinia until the `mount` call and you load the router before that…
 
-Therefore, Pinia will throw an error _"getActivePinia()" was called but there was no active Pinia. Are you trying to use a store before calling "app.use(pinia)"? See https://pinia.vuejs.org/core-concepts/outside-component-usage.html for help. This will fail in production._
+Therefore, Pinia will throw an error _“getActivePinia()” was called but there was no active Pinia. Are you trying to use a store before calling “app.use(pinia)”? See https://pinia.vuejs.org/core-concepts/outside-component-usage.html for help. This will fail in production._
 
-What is the solution? I followed the steps of [this stackoverflow answer](https://stackoverflow.com/a/70714477).
+What is the solution? I followed the steps of [this Stackoverflow answer](https://stackoverflow.com/a/70714477).
 
 1. Create a `pinia.ts` file to create the Pinia instance. Place it in the same location that you put your stores.
 2. Import it and call `use` on the application instance in `main.ts`
