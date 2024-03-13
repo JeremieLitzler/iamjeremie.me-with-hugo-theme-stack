@@ -3,7 +3,7 @@ title: "Extract arrays from a list of objects into a single array."
 description: "Have you ever needed to put arrays from a list of objects into the single array? JavaScript provides a native API to do it and it’s simple."
 image: images/2024-03-13-shoes-sorted-into-trays.jpg
 imageAlt: "Shoes sorted into trays"
-date: 2024-03-13
+date: 2024-03-12
 categories:
   - Web Development
 tags:
