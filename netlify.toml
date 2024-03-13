@@ -1,3 +1,15 @@
+# Thanks to https://answers.netlify.com/t/support-guide-how-to-use-the-ignore-command/37517
+[build]
+ignore = "exit 1"
+publish = "public"
+
+[[plugins]]
+package = "netlify-plugin-hugo-cache-resources"
+
+[plugins.inputs]
+# If it should show more verbose logs (optional, default = true)
+debug = true"
+ 
 [[redirects]]
 from = "/2022/04/3-heap-types-how-they-work-and-what-they-give-charles-dowding/"
 to = "/post/2022-04/3-heap-types-how-they-work-and-what-they-give-charles-dowding"
@@ -614,7 +626,3 @@ force = true
 #for = "/*"
 #[headers.values]
 #Content-Security-Policy = "default-src 'self';"
-
-# Thanks to https://answers.netlify.com/t/support-guide-how-to-use-the-ignore-command/37517
-[build]
-ignore = "exit 1"
