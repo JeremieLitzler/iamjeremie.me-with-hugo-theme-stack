@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SEO on Jérémie Litzler</title><link>https://iamjeremie.me/tags/seo/</link><description>Recent content in SEO on Jérémie Litzler</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://iamjeremie.me/tags/seo/index.xml" rel="self" type="application/rss+xml"/><item><title>How to add cannonical URL to a Hugo blog?</title><link>https://iamjeremie.me/post/2024-03/how-to-add-cannonical-url-to-a-hugo-blog/</link><pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2024-03/how-to-add-cannonical-url-to-a-hugo-blog/</guid><description>&lt;img src="https://iamjeremie.me/post/2024-03/how-to-add-cannonical-url-to-a-hugo-blog/images/2024-03-15-a-smartphone-and-a-pen-on-a-desk.jpg" alt="Featured image of post How to add cannonical URL to a Hugo blog?" />&lt;p>I’m using the &lt;a href="https://github.com/CaiJimmy/hugo-theme-stack">Hugo theme stack&lt;/a> from &lt;a href="https://jimmycai.com/">Jimmy Cai&lt;/a>.&lt;/p>
+&lt;p>It already includes in the head template the code to add a canonical link.&lt;/p>
+&lt;p>But, at one stage, I had to set a link from an article I published on a publishing platform.&lt;/p>
+&lt;p>Therefore, I couldn’t let the theme generate a canonical link automatically.&lt;/p>
+&lt;h2 id="the-goal">The goal&lt;/h2>
+&lt;p>I wanted to keep the automation for articles first published on my blog.&lt;/p>
+&lt;p>Then, in some cases, I wanted to republish an article on my blog while it was already available on the Internet.&lt;/p>
+&lt;h2 id="why">Why&lt;/h2>
+&lt;p>In SEO, the best practices are:&lt;/p>
+&lt;ul>
+&lt;li>Each webpage must have a canonical link.&lt;/li>
+&lt;li>A single webpage with the same content must be published once and only once in the Internet.&lt;/li>
+&lt;/ul>
+&lt;p>If you break those two rules, then the web crawlers won’t index your pages and you will miss out on some traffic.&lt;/p>
+&lt;h2 id="solution-using-the-hugo-theme-stack">Solution using the Hugo theme stack&lt;/h2>
+&lt;p>First I had to find where the canonical link was generated. I found it in &lt;code>layouts/partials/head/head.html&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;canonical&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Permalink }}&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Now, how could I specify within the frontmatter of a given article that I wanted the canonical link to be a specific one?&lt;/p>
+&lt;p>With a little search, I’ve found &lt;a href="https://discourse.gohugo.io/t/how-to-add-cannonical-url-to-a-blog/34670/4">this thread on the Hugo forum&lt;/a>.&lt;/p>
+&lt;p>The frontmatter data is accessible through &lt;code>.Params&lt;/code> that contains key/value pairs.&lt;/p>
+&lt;p>The key is the name of the frontmatter property.&lt;/p>
+&lt;p>In my case, I named the canonical &lt;code>relcanonical&lt;/code> and the value had to be a string.&lt;/p>
+&lt;p>It gives you the following:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nn">---&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">relcanonical&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://iamjeremie.me&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nn">---&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>The &lt;code>head.html&lt;/code> line above had to change to the following:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-htm" data-lang="htm">&lt;span class="line">&lt;span class="cl">{{ with .Params.relcanonical }}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;canonical&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ . | relLangURL }}&amp;#34;&lt;/span> &lt;span class="na">itemprop&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;url&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ else -}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;canonical&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Permalink }}&amp;#34;&lt;/span> &lt;span class="na">itemprop&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;url&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ end -}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>In the above code,&lt;/p>
+&lt;ul>
+&lt;li>When the &lt;code>relcanonical&lt;/code> is set (&lt;code>{{ with .Params.relcanonical }}&lt;/code>)&lt;/li>
+&lt;li>Use its value, which is the &lt;code>.&lt;/code> in &lt;code>{{ . }}&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;div class="jli-notice jli-notice-note" id="The moustache syntax is used for Go programming within the HTML template" >
+&lt;p class="jli-notice-title">The moustache syntax is used for Go programming within the HTML template&lt;/p>&lt;/div>
+&lt;p>I hope you found this useful.&lt;/p>
+&lt;p>Credit : Photo by &lt;a href="https://unsplash.com/@steve_j?utm_content=creditCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=unsplash">Steve Johnson&lt;/a> on &lt;a href="https://unsplash.com/photos/black-smartphone-beside-pen-rNYCrcjUnOA?utm_content=creditCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=unsplash">Unsplash&lt;/a>.&lt;/p></description></item></channel></rss>

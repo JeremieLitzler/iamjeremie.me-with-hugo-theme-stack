@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Substack on Jérémie Litzler</title><link>https://iamjeremie.me/tags/substack/</link><description>Recent content in Substack on Jérémie Litzler</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 06 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://iamjeremie.me/tags/substack/index.xml" rel="self" type="application/rss+xml"/><item><title>How to setup Substack publication for 2 languages in 2023</title><link>https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/</link><pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/</guid><description>&lt;img src="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/2023-06-06-substack-logo.webp" alt="Featured image of post How to setup Substack publication for 2 languages in 2023" />&lt;p>Let’s look at the steps to set it up so you can provide contents in two languages.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>When it comes to creating your newsletter, you have a wide choice of solutions.&lt;/p>
+&lt;p>I chose Substack because of their values: putting the writers first and provide efficient tools to help them grow their subscriber base.&lt;/p>
+&lt;p>However, when you speak 2 languages fluently, it isn’t straight forward how you can maintain a newsletter in each language in a single publication.&lt;/p>
+&lt;p>You could use two distinct publications, but I had written quite a few posts when I realized I needed to tidy up my publication regarding the dual-language content.&lt;/p>
+&lt;p>Plus, some parts of the publication can’t be translated anyways.&lt;/p>
+&lt;h2 id="english-must-be-the-default-language">English must be the default language&lt;/h2>
+&lt;p>As of today, you can’t set up all the texts in your preferred language.&lt;/p>
+&lt;p>The following will be in English, so pick the values carefully:&lt;/p>
+&lt;ul>
+&lt;li>the Publication name,&lt;/li>
+&lt;li>the Short description (it could include both languages, but it’s limited to 258 characters…),&lt;/li>
+&lt;li>the Categories,&lt;/li>
+&lt;li>the Square logo,&lt;/li>
+&lt;li>the Cover photo, that is displayed on the welcome page,&lt;/li>
+&lt;li>the Site design, which is simply the main color, the layout and font steps,&lt;/li>
+&lt;li>the Publication details, with your name, copyright and mailing address.&lt;/li>
+&lt;/ul>
+&lt;p>Some navigation tabs will always be in English, for now. However, the subscribing buttons will be translated to the visitor&amp;rsquo;s browser language.&lt;/p>
+&lt;p>For example, on my Chrome profile, I see:&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-english-chrome-profile.jpg"
+width="413"
+height="266"
+srcset="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-english-chrome-profile_hu24fd18e8efa657369a7970969049c92c_71723_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-english-chrome-profile_hu24fd18e8efa657369a7970969049c92c_71723_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-english-chrome-profile_hu24fd18e8efa657369a7970969049c92c_71723_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Subscription embed on a English Chrome profile"
+class="gallery-image"
+data-flex-grow="155"
+data-flex-basis="372px"
+>
+&lt;/p>
+&lt;p>With a French Chrome profile, I see:&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-french-chrome-profile.jpg"
+width="407"
+height="272"
+srcset="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-french-chrome-profile_hu5240e3a695959b68f903d53e337043ce_67370_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-french-chrome-profile_hu5240e3a695959b68f903d53e337043ce_67370_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-french-chrome-profile_hu5240e3a695959b68f903d53e337043ce_67370_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Subscription embed on a French Chrome profile"
+class="gallery-image"
+data-flex-grow="149"
+data-flex-basis="359px"
+>
+&lt;/p>
+&lt;p>Regarding the following, we will look at how to set them up in the following paragraphs:&lt;/p>
+&lt;ul>
+&lt;li>the About page,&lt;/li>
+&lt;li>the Welcome email,&lt;/li>
+&lt;li>the Navigation,&lt;/li>
+&lt;li>the Sections,&lt;/li>
+&lt;li>the Email banner, header, and footer settings&lt;/li>
+&lt;li>the Email opt-out page&lt;/li>
+&lt;/ul>
+&lt;h2 id="setup-the-about-page">Setup the About page&lt;/h2>
+&lt;p>I chose to write the content of this page in two languages.&lt;/p>
+&lt;p>You can &lt;a href="https://iamjeremie.substack.com/about">view it here&lt;/a>.&lt;/p>
+&lt;p>The setup is simple: I use &lt;code>heading2&lt;/code> to separate the content of each language.&lt;/p>
+&lt;p>Also, I added a link to my blog for more detailed information, which is, of course, available in two languages.&lt;/p>
+&lt;h2 id="setup-sections-to-create-a-newsletter-per-language">Setup sections to create a newsletter per language&lt;/h2>
+&lt;p>Next, we will create the sections, which is also called the newsletters.&lt;/p>
+&lt;p>For each one, you can customize:&lt;/p>
+&lt;ul>
+&lt;li>the title&lt;/li>
+&lt;li>the description&lt;/li>
+&lt;li>the email sender name, if your name set above in the Publication details isn’t language-friendly for the language you’re dealing with.&lt;/li>
+&lt;li>the web URL of the section/newsletter.&lt;/li>
+&lt;li>the fact that you want to hide the posts under this section from the homepage.&lt;/li>
+&lt;/ul>
+&lt;p>Substack says about this point:&lt;/p>
+&lt;blockquote>
+&lt;p>If checked, posts from this section won’t appear on your publication homepage or publication archive. Posts will still appear in the section’s page.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>and a logo, if you need it to be different from the Publication logo.&lt;/li>
+&lt;/ul>
+&lt;h2 id="setup-the-navigation">Setup the Navigation&lt;/h2>
+&lt;p>Once the sections are created, you can tidy up the navigation, visible on top of each page of your publication.&lt;/p>
+&lt;p>I don’t remember exactly the default, but you will have:&lt;/p>
+&lt;ul>
+&lt;li>the Homepage,&lt;/li>
+&lt;li>the Archive page,&lt;/li>
+&lt;li>the About page,&lt;/li>
+&lt;li>each Section page,&lt;/li>
+&lt;li>and the Newsletters page&lt;/li>
+&lt;/ul>
+&lt;p>I hide the Archive page and the Sections (which are added automatically on creation.&lt;/p>
+&lt;p>That will give you a neat result (highlighted in red):&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/the-newsletter-page-with-a-clean-navigation.jpg"
+width="600"
+height="424"
+srcset="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/the-newsletter-page-with-a-clean-navigation_hu15f94f573cfb831a27bcb4a71b67d91c_85078_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/the-newsletter-page-with-a-clean-navigation_hu15f94f573cfb831a27bcb4a71b67d91c_85078_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/the-newsletter-page-with-a-clean-navigation_hu15f94f573cfb831a27bcb4a71b67d91c_85078_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="The newsletter page with a clean navigation"
+class="gallery-image"
+data-flex-grow="141"
+data-flex-basis="339px"
+>
+&lt;/p>
+&lt;h2 id="setup-the-welcome-email">Setup the Welcome email&lt;/h2>
+&lt;p>Similarly, the welcome email is written using &lt;code>heading3&lt;/code> to separate the languages (&lt;code>heading2&lt;/code> is used for the title).&lt;/p>
+&lt;p>What is important here is the section you will add to explain the new subscriber how to enable either the publication’s updates or a selected newsletter (maybe your subscriber speaks only French).&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/helping-the-subscriber-to-pick-his-optins.jpg"
+width="600"
+height="304"
+srcset="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/helping-the-subscriber-to-pick-his-optins_hucf6c7d500a9247a363f90e2ff1172255_62594_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/helping-the-subscriber-to-pick-his-optins_hucf6c7d500a9247a363f90e2ff1172255_62594_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/helping-the-subscriber-to-pick-his-optins_hucf6c7d500a9247a363f90e2ff1172255_62594_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Helping the subscriber to pick his opt-ins"
+class="gallery-image"
+data-flex-grow="197"
+data-flex-basis="473px"
+>
+&lt;/p>
+&lt;p>In my case, I will need to write a special post to my current French subscribers to help them opt-in to the French newsletter only.&lt;/p>
+&lt;h2 id="my-welcome-email">My welcome email&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;span class="lnt">36
+&lt;/span>&lt;span class="lnt">37
+&lt;/span>&lt;span class="lnt">38
+&lt;/span>&lt;span class="lnt">39
+&lt;/span>&lt;span class="lnt">40
+&lt;/span>&lt;span class="lnt">41
+&lt;/span>&lt;span class="lnt">42
+&lt;/span>&lt;span class="lnt">43
+&lt;/span>&lt;span class="lnt">44
+&lt;/span>&lt;span class="lnt">45
+&lt;/span>&lt;span class="lnt">46
+&lt;/span>&lt;span class="lnt">47
+&lt;/span>&lt;span class="lnt">48
+&lt;/span>&lt;span class="lnt">49
+&lt;/span>&lt;span class="lnt">50
+&lt;/span>&lt;span class="lnt">51
+&lt;/span>&lt;span class="lnt">52
+&lt;/span>&lt;span class="lnt">53
+&lt;/span>&lt;span class="lnt">54
+&lt;/span>&lt;span class="lnt">55
+&lt;/span>&lt;span class="lnt">56
+&lt;/span>&lt;span class="lnt">57
+&lt;/span>&lt;span class="lnt">58
+&lt;/span>&lt;span class="lnt">59
+&lt;/span>&lt;span class="lnt">60
+&lt;/span>&lt;span class="lnt">61
+&lt;/span>&lt;span class="lnt">62
+&lt;/span>&lt;span class="lnt">63
+&lt;/span>&lt;span class="lnt">64
+&lt;/span>&lt;span class="lnt">65
+&lt;/span>&lt;span class="lnt">66
+&lt;/span>&lt;span class="lnt">67
+&lt;/span>&lt;span class="lnt">68
+&lt;/span>&lt;span class="lnt">69
+&lt;/span>&lt;span class="lnt">70
+&lt;/span>&lt;span class="lnt">71
+&lt;/span>&lt;span class="lnt">72
+&lt;/span>&lt;span class="lnt">73
+&lt;/span>&lt;span class="lnt">74
+&lt;/span>&lt;span class="lnt">75
+&lt;/span>&lt;span class="lnt">76
+&lt;/span>&lt;span class="lnt">77
+&lt;/span>&lt;span class="lnt">78
+&lt;/span>&lt;span class="lnt">79
+&lt;/span>&lt;span class="lnt">80
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="gh"># Welcome! Bienvenue !
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gh">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">This email is written in english and french.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Cet e-mail est écrit en anglais et français. Défilez un peu plus bas pour le français.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## For english speakers
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Ready to learn more?
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">You are in the right place!
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">If you are like me, you may wonder how to do that or this in a wide range of fields of work.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">I would like to share my experiences and provide a good return on investment to you.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">You will start receiving updates right here in your inbox. You can also log in to [&lt;span class="nt">Substack&lt;/span>](&lt;span class="na">https://substack.com/&lt;/span>) to read the archives [&lt;span class="nt">in english&lt;/span>](&lt;span class="na">https://iamjeremie.substack.com/s/the-newsletter?utm_source=blog_english&lt;/span>) or [&lt;span class="nt">in french&lt;/span>](&lt;span class="na">https://iamjeremie.substack.com/s/le-bulletin-d-information?utm_source=blog_english&lt;/span>).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Enable the newsletter(s) you need
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">From your SubStack account, you willl need to toggle the newsletter(s), either english, french or both, you want to receive notifications for.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Use [&lt;span class="nt">this link to access your settings&lt;/span>](&lt;span class="na">https://iamjeremie.substack.com/account&lt;/span>). You will see this:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Choose what you want to receive&lt;/span>](&lt;span class="na">images/helping-the-subscriber-to-pick-his-optins.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">As shown above, you will receive only posts published under the publication.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Use the toggle to either:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> receive only posts from the english newsletter named “The Newsletter”.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> receive only posts from the french newsletter named “Le bulletin d’information”.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Some housekeeping…
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">If you can’t find the newsletter, check your Spam folder. And please mark this address as ‘not spam.’ If the newsletter isn’t in your spam folder, either, you should look in the Promotions tab.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">You can always see everything on the [&lt;span class="nt">SubStack website&lt;/span>](&lt;span class="na">https://iamjeremie.substack.com/&lt;/span>).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Thanks again, and please recommend to your friends if you feel like it.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">hr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## Pour les francophones
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Prêt à apprendre davantage ?
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Vous êtes au bon endroit !
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Si vous êtes comme moi, vous vous demandez peut-être comment faire ceci ou cela dans un large éventail de domaines.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">J&amp;#39;aimerais partager mes expériences et vous fournir un bon retour sur investissement.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Vous commencerez à recevoir des mises à jour ici même dans votre boîte de réception. Vous pouvez également vous connecter [&lt;span class="nt">au site Web de Substack&lt;/span>](&lt;span class="na">https://substack.com/&lt;/span>) pour lire les archives complètes ([en anglais](https://iamjeremie.substack.com/s/the-newsletter?utm_source=blog_english) ou [&lt;span class="nt">en français&lt;/span>](&lt;span class="na">https://iamjeremie.substack.com/s/le-bulletin-d-information?utm_source=blog_english&lt;/span>)).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Activez la ou les newsletters dont vous avez besoin
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Depuis votre compte SubStack, vous devrez basculer le ou les bulletins d’information, en anglais, en français ou les deux, pour lesquelles vous souhaitez recevoir des notifications.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Utilisez [&lt;span class="nt">ce lien pour accéder à vos paramètres concernant ma publication&lt;/span>](&lt;span class="na">https://iamjeremie.substack.com/account&lt;/span>). Vous verrez ceci :
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Choisissez ce que vous voulez recevoir&lt;/span>](&lt;span class="na">images/helping-the-subscriber-to-pick-his-optins.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Comme indiqué ci-dessus, vous ne recevrez que les messages publiés sous la publication (première ligne).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Utilisez la bascule pour :
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> recevoir uniquement les messages de la newsletter anglaise nommée &amp;#34;The Newsletter&amp;#34; (troisième ligne).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> recevoir uniquement les messages de la newsletter française nommée &amp;#34;Le bulletin d&amp;#39;information&amp;#34; (seconde ligne).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Un peu de ménage…
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Si vous ne trouvez pas le bulletin d’information, vérifiez votre dossier Spam. Et veuillez marquer cette adresse comme &amp;#34;non spam&amp;#34;. Si le bulletin d’information ne se trouve pas non plus dans votre dossier Spam, vous devriez regarder dans l&amp;#39;onglet Promotions.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Vous pouvez toujours tout voir [&lt;span class="nt">sur le site Web de Substack&lt;/span>](&lt;span class="na">https://iamjeremie.substack.com/&lt;/span>).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Merci encore et recommendez moi à vos amis si vous en avez envie.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">hr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="setup-the-opt-out-email-in-both-languages">Setup the opt-out email in both languages&lt;/h2>
+&lt;p>Just like you did for the welcome email, you will use the same techniques to define dual language content on the opt-out email.&lt;/p>
+&lt;h2 id="are-you-doing-it-differently">Are you doing it differently&lt;/h2>
+&lt;p>Let me know in the comment!&lt;/p>
+&lt;p>I asked Substack when they will have the full support for the languages we need.&lt;/p>
+&lt;p>Here is their answer:&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/reply-of-substack-support-team-about-localization-of-content.jpg"
+width="1142"
+height="390"
+srcset="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/_hu04f03cd89f5a098fdffbcde33207d8a4_95281_5c916512ba3ad6b2f7a9f0374ad38b42.jpg 360w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/_hu04f03cd89f5a098fdffbcde33207d8a4_95281_89ab7e338103bf53c21662eb56d46ac9.jpg 600w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/_hu04f03cd89f5a098fdffbcde33207d8a4_95281_9380f827737595fea0f331a7aaac148c.jpg 1024w"
+loading="lazy"
+alt="Reply of Substack support team about localization of content"
+class="gallery-image"
+data-flex-grow="292"
+data-flex-basis="702px"
+>
+&lt;/p>
+&lt;p>Let’s be patient and hope for a release to come soon!&lt;/p></description></item><item><title>How to toggle a single newsletter on my Substack publication</title><link>https://iamjeremie.me/post/2023-06/how-to-toggle-a-single-newsletter-on-my-publication/</link><pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2023-06/how-to-toggle-a-single-newsletter-on-my-publication/</guid><description>&lt;img src="https://iamjeremie.me/post/2023-06/how-to-toggle-a-single-newsletter-on-my-publication/images/2023-06-06-substack-logo.webp" alt="Featured image of post How to toggle a single newsletter on my Substack publication" />&lt;p>If you subscribed before April 2023, you will find this useful.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>Following &lt;a href="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/#my-welcome-email">this link&lt;/a>, it will explain you how to opt-in to the newsletter you want.&lt;/p>
+&lt;p>You have full control 😊&lt;/p>
+&lt;p>&lt;a href="https://iamjeremie.me/page/contact-me/">Contact me&lt;/a> if you need further assistance.&lt;/p></description></item></channel></rss>

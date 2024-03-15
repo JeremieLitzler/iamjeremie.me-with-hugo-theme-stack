@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Using Energy on Jérémie Litzler</title><link>https://iamjeremie.me/categories/using-energy/</link><description>Recent content in Using Energy on Jérémie Litzler</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://iamjeremie.me/categories/using-energy/index.xml" rel="self" type="application/rss+xml"/><item><title>Photovoltaic: my feedback after 2 months</title><link>https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/</link><pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/</guid><description>&lt;img src="https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/2022-05-02-retour-d-exprerience-sur-une-installation-pv-1mois-conso-jour-absent-pv.jpg" alt="Featured image of post Photovoltaic: my feedback after 2 months" />&lt;p>Seven years ago, we bought our house and the property is about 4000 m², on a very rocky terrace (“AOC &lt;em>Saint Joseph&lt;/em>” in Ardèche).&lt;/p>
+&lt;p>It wasn’t very inviting for planting anything (we tried and keep trying with the &lt;a href="https://www.youtube.com/c/CharlesDowding1nodig">“&lt;em>No Dig&lt;/em>” method by Charles Dowding&lt;/a> and &lt;a href="https://www.youtube.com/c/permacultureetc">Damien Dekarz’s advice, in France&lt;/a>). However, it seemed exploitable for putting up some photovoltaic panels.&lt;/p>
+&lt;div class="jli-notice jli-notice-note" id="Notice" >
+&lt;p class="jli-notice-title">Notice&lt;/p>&lt;p>This article was &lt;a href="https://jeremielitzler.fr/post/2022-06/retour-d-experience-sur-une-installation-pv-1mois/">published originally in French in June 2022&lt;/a>. It has been translated, but the units and images with text remain in French as it’s difficult to get them in English language.&lt;/p>&lt;/div>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;p>We heat our domestic hot water in off-peak hours. It’s a 200-liter-big water tank with 10 cm of raw sheep’s wool layer that we added the first winter, because it’s in the garage, temperatures can go as low as 8° C. I know we could do it differently, but we don’t have anywhere else to put it.&lt;/p>
+&lt;p>This insulation let us reduce our consumption from 12 to 13kWh to heat the water to 8–10 kWh for one day, with equivalent hot water consumption.&lt;/p>
+&lt;h2 id="why-a-pv-system">Why A PV System?&lt;/h2>
+&lt;h3 id="measuring-our-consumption">Measuring Our Consumption&lt;/h3>
+&lt;p>I’m pretty careful about electricity consumption and I agree with those who advocate &lt;a href="https://negawatt.org/La-sobriete-energetique">energy sobriety (french article)&lt;/a> to reduce our impact on the environment.&lt;/p>
+&lt;p>I made an estimate of our consumption in 2016, listing each electrified item, because, for me, knowing the household’s consumption and the breakdown on equipment is the first step towards greater efficiency and awareness about energy usage. I recently &lt;a href="https://jeremielitzler.fr/post/2022-05/les-bases-d-une-installation-solaire-en-autonomie/">took notes (french article)&lt;/a> on an interview between &lt;a href="https://nospiedssurterre.fr/">Rémi chez “&lt;em>Nos pieds sur terre&lt;/em>”&lt;/a> and &lt;a href="https://www.youtube.com/c/LArchiPelle">Brian, of “&lt;em>l’Archipelle&lt;/em>”&lt;/a> which validates this first step.&lt;/p>
+&lt;p>I had estimated 2900 kWh over 1 year. You can consult &lt;a href="https://docs.google.com/spreadsheets/d/1-1A2I04MqVy3-zxMwQJ7Zy83OP200ruxGRUNXsHlNbQ/edit?usp=sharing">this table&lt;/a> for details and feel free to copy the Google Sheets for your case.&lt;/p>
+&lt;p>You can see, for example, that I had estimated the hot water production to take 30% of the total estimate.&lt;/p>
+&lt;p>&lt;em>NB:&lt;/em> the table excludes the oven, dishwasher and air purifier (&lt;a href="https://www.murprotec.fr/filtre-cta.php">Murprotec CTA5&lt;/a>) installed in 2018.&lt;/p>
+&lt;p>I also closely monitored our consumption with:&lt;/p>
+&lt;ul>
+&lt;li>a daily reading on the EDF digital meter for several years,&lt;/li>
+&lt;li>then more recently, thanks to Linky, a weekly reading, to know our passive consumption (e.g., how much does the house need as a minimum?) and our day and night consumption,&lt;/li>
+&lt;li>and in the case of water heaters, specific metering from November 2019 after buying an old digital meter from EDF.&lt;/li>
+&lt;/ul>
+&lt;p>Here’s what it’s been like since 2014:&lt;/p>
+&lt;ul>
+&lt;li>our all-inclusive annual consumption:&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Month&lt;/th>
+&lt;th>2014&lt;/th>
+&lt;th>2015&lt;/th>
+&lt;th>2016&lt;/th>
+&lt;th>2017&lt;/th>
+&lt;th>2018&lt;/th>
+&lt;th>2019&lt;/th>
+&lt;th>2020&lt;/th>
+&lt;th>2021&lt;/th>
+&lt;th>2022&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>306.00&lt;/td>
+&lt;td>331.00&lt;/td>
+&lt;td>334.00&lt;/td>
+&lt;td>273.00&lt;/td>
+&lt;td>313.00&lt;/td>
+&lt;td>305.00&lt;/td>
+&lt;td>320.00&lt;/td>
+&lt;td>417.00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>452.00&lt;/td>
+&lt;td>288.00&lt;/td>
+&lt;td>250.00&lt;/td>
+&lt;td>270.00&lt;/td>
+&lt;td>270.00&lt;/td>
+&lt;td>353.00&lt;/td>
+&lt;td>295.00&lt;/td>
+&lt;td>100.00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>270.00&lt;/td>
+&lt;td>296.00&lt;/td>
+&lt;td>252.00&lt;/td>
+&lt;td>188.00&lt;/td>
+&lt;td>293.00&lt;/td>
+&lt;td>310.00&lt;/td>
+&lt;td>260.00&lt;/td>
+&lt;td>268.00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>157.00&lt;/td>
+&lt;td>211.00&lt;/td>
+&lt;td>81.00&lt;/td>
+&lt;td>195.00&lt;/td>
+&lt;td>141.00&lt;/td>
+&lt;td>246.00&lt;/td>
+&lt;td>253.00&lt;/td>
+&lt;td>118.00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>292.00&lt;/td>
+&lt;td>221.00&lt;/td>
+&lt;td>254.00&lt;/td>
+&lt;td>200.00&lt;/td>
+&lt;td>238.00&lt;/td>
+&lt;td>217.00&lt;/td>
+&lt;td>213.00&lt;/td>
+&lt;td>79.00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>265.00&lt;/td>
+&lt;td>176.00&lt;/td>
+&lt;td>88.00&lt;/td>
+&lt;td>172.00&lt;/td>
+&lt;td>182.00&lt;/td>
+&lt;td>258.00&lt;/td>
+&lt;td>156.00&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>123.45&lt;/td>
+&lt;td>205.00&lt;/td>
+&lt;td>191.00&lt;/td>
+&lt;td>171.00&lt;/td>
+&lt;td>191.00&lt;/td>
+&lt;td>191.00&lt;/td>
+&lt;td>82.00&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>213.59&lt;/td>
+&lt;td>138.00&lt;/td>
+&lt;td>194.00&lt;/td>
+&lt;td>86.00&lt;/td>
+&lt;td>132.00&lt;/td>
+&lt;td>116.00&lt;/td>
+&lt;td>187.00&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>137.96&lt;/td>
+&lt;td>174.00&lt;/td>
+&lt;td>182.00&lt;/td>
+&lt;td>132.00&lt;/td>
+&lt;td>204.00&lt;/td>
+&lt;td>198.00&lt;/td>
+&lt;td>58.00&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>265.00&lt;/td>
+&lt;td>141.00&lt;/td>
+&lt;td>164.00&lt;/td>
+&lt;td>219.00&lt;/td>
+&lt;td>139.00&lt;/td>
+&lt;td>214.00&lt;/td>
+&lt;td>347.00&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11&lt;/td>
+&lt;td>373.00&lt;/td>
+&lt;td>218.00&lt;/td>
+&lt;td>254.00&lt;/td>
+&lt;td>251.00&lt;/td>
+&lt;td>304.00&lt;/td>
+&lt;td>313.00&lt;/td>
+&lt;td>277.00&lt;/td>
+&lt;td>298.00&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12&lt;/td>
+&lt;td>332.00&lt;/td>
+&lt;td>358.00&lt;/td>
+&lt;td>292.00&lt;/td>
+&lt;td>291.00&lt;/td>
+&lt;td>305.00&lt;/td>
+&lt;td>382.00&lt;/td>
+&lt;td>334.00&lt;/td>
+&lt;td>369.00&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Total&lt;/td>
+&lt;td>705.00&lt;/td>
+&lt;td>3058.00&lt;/td>
+&lt;td>2727.00&lt;/td>
+&lt;td>2532.00&lt;/td>
+&lt;td>2515.00&lt;/td>
+&lt;td>2798.00&lt;/td>
+&lt;td>3019.00&lt;/td>
+&lt;td>2838.00&lt;/td>
+&lt;td>982.00&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>our electric consumption to heat water:&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Month&lt;/th>
+&lt;th>2014&lt;/th>
+&lt;th>2015&lt;/th>
+&lt;th>2016&lt;/th>
+&lt;th>2017&lt;/th>
+&lt;th>2018&lt;/th>
+&lt;th>2019&lt;/th>
+&lt;th>2020&lt;/th>
+&lt;th>2021&lt;/th>
+&lt;th>2022&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>117.00&lt;/td>
+&lt;td>120.00&lt;/td>
+&lt;td>138.00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>109.00&lt;/td>
+&lt;td>106.00&lt;/td>
+&lt;td>60.00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>112.00&lt;/td>
+&lt;td>93.00&lt;/td>
+&lt;td>46.00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>88.00&lt;/td>
+&lt;td>83.00&lt;/td>
+&lt;td>31.00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>73.00&lt;/td>
+&lt;td>81.00&lt;/td>
+&lt;td>8.00&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>84.00&lt;/td>
+&lt;td>35.00&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>44.00&lt;/td>
+&lt;td>8.00&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>18.00&lt;/td>
+&lt;td>48.00&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>53.00&lt;/td>
+&lt;td>12.00&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>64&lt;/td>
+&lt;td>122&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>95.00&lt;/td>
+&lt;td>107&lt;/td>
+&lt;td>120&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>0.00&lt;/td>
+&lt;td>111.00&lt;/td>
+&lt;td>118&lt;/td>
+&lt;td>129&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Total&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>0&lt;/td>
+&lt;td>206&lt;/td>
+&lt;td>987&lt;/td>
+&lt;td>957&lt;/td>
+&lt;td>283&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>This confirmed the estimate of 30% consumption by the cumulus.&lt;/p>
+&lt;h3 id="sunshine-exposure-simulation">Sunshine Exposure Simulation&lt;/h3>
+&lt;p>I also carried out a sunshine simulation using the &lt;a href="https://re.jrc.ec.europa.eu/pvg_tools/fr/#PVP">“PHOTOVOLTAIC GEOGRAPHICAL INFORMATION SYSTEM”&lt;/a> at the roof of the house (lowest point on the property) and at the highest terrace on the property (sunniest point).&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Month&lt;/th>
+&lt;th>Hours (house roof)&lt;/th>
+&lt;th>Hours (terrace)&lt;/th>
+&lt;th>Diff. in % of sunshine&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>124.07&lt;/td>
+&lt;td>191.80&lt;/td>
+&lt;td>+ 35.31%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>174.13&lt;/td>
+&lt;td>230.27&lt;/td>
+&lt;td>+ 24.38%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>274.47&lt;/td>
+&lt;td>313.67&lt;/td>
+&lt;td>+ 12.50%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>328.07&lt;/td>
+&lt;td>358.20&lt;/td>
+&lt;td>+ 8.41%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>386.80&lt;/td>
+&lt;td>435.40&lt;/td>
+&lt;td>+ 11.16%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>394.93&lt;/td>
+&lt;td>443.87&lt;/td>
+&lt;td>+ 11.02%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>398.93&lt;/td>
+&lt;td>450.27&lt;/td>
+&lt;td>+ 11.40%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>359.47&lt;/td>
+&lt;td>398.27&lt;/td>
+&lt;td>+ 9.74%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9&lt;/td>
+&lt;td>293.93&lt;/td>
+&lt;td>325.20&lt;/td>
+&lt;td>+ 9.61%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>228.87&lt;/td>
+&lt;td>281.20&lt;/td>
+&lt;td>+ 18.61%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11&lt;/td>
+&lt;td>140.40&lt;/td>
+&lt;td>210.27&lt;/td>
+&lt;td>+ 33.23%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12&lt;/td>
+&lt;td>105.33&lt;/td>
+&lt;td>162.47&lt;/td>
+&lt;td>+ 35.17%&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Annually 3209.40&lt;/td>
+&lt;td>3800.87&lt;/td>
+&lt;td>+ 15.56%&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>As you can see, there’s no contest!&lt;/p>
+&lt;p>If we wanted to generate electricity from the sun, the terrace is the best site, even if the property doesn’t have the most ideal sun exposure in the world. We’re on the first third of a 300-meter-high hill.&lt;/p>
+&lt;h2 id="why-only-build-in-2022">Why Only Build In 2022?&lt;/h2>
+&lt;p>My prerequisites for the project were:&lt;/p>
+&lt;ul>
+&lt;li>to respect a maximum budget of 2,000 euros, with reuse of panels to reduce costs and for environmental reasons.&lt;/li>
+&lt;li>not to inject the unused production onto the grid, i.e., to consume as much as possible.&lt;/li>
+&lt;li>to be profitable before replacing sensitive elements (inverter in particular).&lt;/li>
+&lt;/ul>
+&lt;p>So I read a lot on the subject (for ex. &lt;a href="https://forum-photovoltaique.fr/">a French photovoltaic forum&lt;/a>) and simulated the cost on the various web shops selling PV equipment, but I didn’t go for it because of:&lt;/p>
+&lt;ul>
+&lt;li>the cost of the equipment&lt;/li>
+&lt;li>the fact that companies only sell setups of 3kWp at prices ranging from 7,000 to 15,000 euros.&lt;/li>
+&lt;/ul>
+&lt;p>Also, the fact that the installation couldn’t be carried out on the roof of the house was blocking me. I wanted to avoid giving away the electricity not consumed (injected into the grid) to companies (Enedis, Engie, etc.) who sell it to us at increasingly high prices. In France, it’s mandatory to install on a roof to sell the production from PV modules.&lt;/p>
+&lt;p>In May 2022, the grid buys the electricity at &lt;a href="https://www.insunwetrust.solar/blog/le-solaire-et-vous/tarif-rachat-photovoltaique/#:~:text=%F0%9F%92%B0%20What%20is%20the%20amount,0%2C10%20%E2%82%AC%20per%20kWh.">6 to 10 cents&lt;/a> whereas it sells it to me for between 17 and 22 centimes (my night-day tariff with Engie in May 2022).&lt;/p>
+&lt;p>At the end of 2021, I receive an email on my “Leboncoin” alert entitled “photovoltaic panels” (“Leboncoin” is like “Craiglist”). It was from a craftsman promoting his services to use the photovoltaic solution for hot water production at more or less 1000 euros. I said to myself: “This is within my budget and the craftsman I was looking for!”&lt;/p>
+&lt;h2 id="presentation-of-the-installation">Presentation Of The Installation&lt;/h2>
+&lt;p>After some very interesting discussions with the SolaireEthic craftsman (see &lt;a href="https://solairethic.fr/">his very interesting website&lt;/a>), we decided on the following solution:&lt;/p>
+&lt;ul>
+&lt;li>1 &lt;a href="https://usa.apsystems.com/qs1/">APSystems QS1 microinverter (4 MPPT)&lt;/a>.&lt;/li>
+&lt;li>1 underground 6 mm² AC line 120 m long from the target terrace on the property to the house (50 cm from the main switchboard in the house).
+&lt;ul>
+&lt;li>The overall distance is due to the location of the terrace.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>8 panels of 190 Wp recycled (7–8 years old), i.e. 1520 Wp
+&lt;ul>
+&lt;li>If we take into account the 0.3% reduction in production, we’re looking at between 1484 and 1488 Wp.&lt;/li>
+&lt;li>The 0.3% value comes from the study carried out since 1992 in Savoie (I don’t have the link), but quoted in &lt;a href="https://jeremielitzler.fr/post/2022-05/les-bases-d-une-installation-solaire-en-autonomie/index.md">my note-taking (§ “Dimensioning photovoltaic panels”) (french article)&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>I then:&lt;/p>
+&lt;ul>
+&lt;li>Dug the trench (not easy with rocky soil, very cold temperatures, between December 2022 and January 2023, and a 25-meter difference in altitude between the terrace and the house).&lt;/li>
+&lt;li>Ordered the self-consumption optimization kit from &lt;a href="https://mk2pvrouter.co.uk/">Robin Emley (now retired)&lt;/a>, assembled by &lt;a href="https://sites.google.com/view/le-professolaire/">Le Profes’Solaire&lt;/a> (unfortunately, he has stopped his assembly service, but he still seems to offer welding).&lt;/li>
+&lt;/ul>
+&lt;p>Here is the result:&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/2022-mm-dd-retour-d-exprerience-sur-une-installation-pv-1mois-diagramme.jpg"
+width="1064"
+height="1990"
+srcset="https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/_hu9dea0ed994c536cd262c8ed9a6a03738_168942_d17f61135e2cb10a0db271d99deb4b8f.jpg 360w, https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/_hu9dea0ed994c536cd262c8ed9a6a03738_168942_a0219daa7701c2c50579d372265b558f.jpg 600w, https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/_hu9dea0ed994c536cd262c8ed9a6a03738_168942_ff46760f8653d62ff63bf643cf26970f.jpg 1024w"
+loading="lazy"
+alt="Installation plan"
+class="gallery-image"
+data-flex-grow="53"
+data-flex-basis="128px"
+>
+&lt;/p>
+&lt;h2 id="what-do-the-figures-say-after-2-months">What Do The Figures Say After 2 Months?&lt;/h2>
+&lt;p>From April 1 to May 31, we measured the following:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>month&lt;/th>
+&lt;th>produced (kWh)&lt;/th>
+&lt;th>self-consumed (kWh)&lt;/th>
+&lt;th>injected into the grid (kWh)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>April&lt;/td>
+&lt;td>160.6&lt;/td>
+&lt;td>147.6&lt;/td>
+&lt;td>13&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>May&lt;/td>
+&lt;td>210.4&lt;/td>
+&lt;td>186.4&lt;/td>
+&lt;td>24&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>So we have a good consumption of production (&amp;gt; 90%). There would be less injection if:&lt;/p>
+&lt;ul>
+&lt;li>I’d connected the solar router’s CT the right way, which I didn’t do until April 4!
+&lt;ul>
+&lt;li>It measures the direction of electricity.&lt;/li>
+&lt;li>If it goes to the grid, it activates the solar router.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>We had a storage system to either:
+&lt;ul>
+&lt;li>consume at night&lt;/li>
+&lt;li>consume later&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>If we compare the same data from commissioning on March 27 to April 4, we see:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>produced (kWh)&lt;/th>
+&lt;th>self-consumed (kWh)&lt;/th>
+&lt;th>fed into the grid (kWh)&lt;/th>
+&lt;th>stored (kWh)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>30.8&lt;/td>
+&lt;td>12.8&lt;/td>
+&lt;td>18&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>It gives a 40% of production consumption.&lt;/p>
+&lt;p>BTW, the reason why I chose not to make a deal with the grid provider is that you can’t resell when the panels are installed on the ground. See § “What are the conditions for selling solar electricity to EDF?” on &lt;a href="https://www.choisir.com/energie/articles/104505/l-obligation-d-achat-solaire-d-edf">this article in french&lt;/a>.&lt;/p>
+&lt;h2 id="what-are-my-observations">What Are My Observations?&lt;/h2>
+&lt;h3 id="solar-router-from-robin-emleyhttpsmk2pvroutercouk">Solar Router From &lt;a href="https://mk2pvrouter.co.uk/">Robin Emley&lt;/a>&lt;/h3>
+&lt;p>It’s very efficient.&lt;/p>
+&lt;p>I’ve observed that you inject about 100Wh into the grid with the solar router, or 1 kWh every 10 days, when we produce 6 to 7 kWh per day. This is very marginal and acceptable.&lt;/p>
+&lt;p>On the other hand, the mechanical meters I’ve fitted to the router outputs don’t allow you to count kWh precisely. It seems under-measured. In fact, the solar router count doesn’t match with those mechanical meters.&lt;/p>
+&lt;p>Perhaps lowering the water heater resistance so that “power produced = power used” would make the measurements more accurate.&lt;/p>
+&lt;p>Indeed, depending on the power of the appliance, there was less metering because of the intermittence of the current sent by the router.&lt;/p>
+&lt;p>For example, with a 600 W dehydrator, the count is more accurate.&lt;/p>
+&lt;h3 id="domestic-hot-water">Domestic Hot Water&lt;/h3>
+&lt;p>We’ve set the water heater thermostat to 4 over 5 when heating via solar instead of 3 over 5 when heating during off-peak hours.&lt;/p>
+&lt;p>On a sunny day, the sun heats more than enough for the day.&lt;/p>
+&lt;p>On a gray day, we manage to maintain the temperature.&lt;/p>
+&lt;p>If the weather was worse, there would be 2 days of hot water in stock after a fine day. Of course, this varies according to hot water use.&lt;/p>
+&lt;p>I’ve considered installing a second 200-liter hot water tank to store solar-generated hot water.&lt;/p>
+&lt;p>However, it’s an investment of 700 to 800 euros and the need isn’t really there, as we don’t really need 400 liters of hot water, especially during the summer. Plus, we only welcome 2 or 3 extra people very rarely during the year.&lt;/p>
+&lt;h3 id="management-problem-between-the-router-power-supply-and-the-night-day-contactor">Management Problem Between The Router Power Supply And The Night-Day Contactor&lt;/h3>
+&lt;p>As shown in the installation diagram above, I’ve set up the two water heater power supplies in parallel. However, I should have a switch that controls the power source next to the router rather than doing it manually in the garage.&lt;/p>
+&lt;p>There’s also some strange behavior on the efficiency of the night/day contactor. It doesn’t receive the signal we’re in night mode or, maybe, the signal from the grid is missing? I don’t know whether it’s a bad connection or a network problem. In fact, before Linky was installed, we’d had inconsistencies where the contactor was &lt;em>active&lt;/em> during the day while it was set in &lt;em>Auto&lt;/em> mode..&lt;/p>
+&lt;h3 id="daily-consumption-with-presence">Daily Consumption With Presence&lt;/h3>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/2022-05-02-retour-d-exprerience-sur-une-installation-pv-1mois-conso-jour-present.jpg"
+width="1026"
+height="479"
+srcset="https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/_hufa724ba4ffe50029fe5818af5ec63a78_73208_7f340ce0ba63a2490dac558c1ec4fe6b.jpg 360w, https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/_hufa724ba4ffe50029fe5818af5ec63a78_73208_adb8435a3c63248297b0e3766a3de2f7.jpg 600w, https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/_hufa724ba4ffe50029fe5818af5ec63a78_73208_2e6d6afe2a7937522f2ec052212afc58.jpg 1024w"
+loading="lazy"
+alt="Daily consumption with presence (source: Linky)"
+class="gallery-image"
+data-flex-grow="214"
+data-flex-basis="514px"
+>
+&lt;/p>
+&lt;p>We can clearly see the refrigerator cycling on and off, and the peak represents the dishwasher running between midnight and 3 a.m.&lt;/p>
+&lt;h3 id="daily-consumption-in-our-absence">Daily Consumption In Our Absence&lt;/h3>
+&lt;p>In February 2022, we were away for 5 weeks. The average daily consumption was 2.5 kWh.&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/2022-05-02-retour-d-exprerience-sur-une-installation-pv-1mois-conso-jour-absent-nopv.jpg"
+width="1025"
+height="469"
+srcset="https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/_hub39af68c9d486bd0bdefad63724287a3_155770_572cfc136f2eafabafd891a728d51a66.jpg 360w, https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/_hub39af68c9d486bd0bdefad63724287a3_155770_654e6c7a2dca84fa2956e27244143625.jpg 600w, https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/_hub39af68c9d486bd0bdefad63724287a3_155770_128d9179ab5df6b8f5c4f6a432b934f8.jpg 1024w"
+loading="lazy"
+alt="Daily unattended consumption before the PV system was commissioned (source: Linky)"
+class="gallery-image"
+data-flex-grow="218"
+data-flex-basis="524px"
+>
+&lt;/p>
+&lt;p>In April 2022, we were away for a few days. The average daily consumption dropped to 0.7 kWh, i.e. -72%. Not bad!&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/2022-05-02-retour-d-exprerience-sur-une-installation-pv-1mois-conso-jour-absent-pv.jpg"
+width="1028"
+height="473"
+srcset="https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/_hub96ab904ff7038eec1121f15c836ffe8_87788_2e1c7f3a66ee97d3557bc3b6cd8e81aa.jpg 360w, https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/_hub96ab904ff7038eec1121f15c836ffe8_87788_4670dd1592b32cf1690574945ee880d6.jpg 600w, https://iamjeremie.me/post/2022-06/rex-photovoltaic-setup-after-1-month/images/_hub96ab904ff7038eec1121f15c836ffe8_87788_67ee2083327e126be5c630f64be93782.jpg 1024w"
+loading="lazy"
+alt="Daily unattended consumption after commissioning of the PV system (source: Linky)"
+class="gallery-image"
+data-flex-grow="217"
+data-flex-basis="521px"
+>
+&lt;/p>
+&lt;h2 id="whats-next">What’s Next?&lt;/h2>
+&lt;p>I’m going to:&lt;/p>
+&lt;ol>
+&lt;li>Try to estimate from the PVG reports and our setup how long it will take to make the installation profitable.&lt;/li>
+&lt;li>Provide feedback in October, e.g., 6 months after commissioning.&lt;/li>
+&lt;li>Talk to Rémi at “&lt;em>Nos pieds sur terre&lt;/em>” about making our installation cost-effective.&lt;/li>
+&lt;/ol>
+&lt;p>See you soon!&lt;/p></description></item><item><title>Do we need the coronavirus to reduce our impact on our environment?</title><link>https://iamjeremie.me/post/2020-03-25-do-we-need-the-covid-to-reduce-our-impact-on-nature/</link><pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2020-03-25-do-we-need-the-covid-to-reduce-our-impact-on-nature/</guid><description>&lt;img src="https://iamjeremie.me/images/do-we-need-the-coronavirus-hero.jpeg" alt="Featured image of post Do we need the coronavirus to reduce our impact on our environment?" />&lt;h2 id="air-and-noice-pollution-have-decreased">Air and Noice pollution have decreased&lt;/h2>
+&lt;p>&lt;a href="https://www.cnews.fr/france/2020-03-23/pollution-bruit-lumiere-les-effets-inattendus-du-confinement-paris-939284">Some of the media in France&lt;/a> are starting after a week of lockdown to notice that the pollution levels (noise, air, light) have significantly decreased. It seems that in Lyon, &lt;a href="https://france3-regions.francetvinfo.fr/auvergne-rhone-alpes/rhone/lyon/coronavirus-confinement-jamais-lyon-qualite-air-n-ete-bonne-1805728.html">the air quality has never been so good than now&lt;/a>!&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/images/do-we-need-the-coronavirus-to-reduce-lyon-pollution.jpg"
+loading="lazy"
+alt="Air quality in Lyon on 24/03/2020"
+>
+(&lt;a href="https://www.atmo-auvergnerhonealpes.fr/monair/commune/69123">source&lt;/a>)&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/images/do-we-need-the-coronavirus-to-reduce-lyon-pollution2.jpg"
+loading="lazy"
+alt="Air quality for the last 10 days in Lyon"
+>
+(&lt;a href="https://www.atmo-auvergnerhonealpes.fr/monair/commune/69123">source&lt;/a>)&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/images/do-we-need-the-coronavirus-to-reduce-grenoble-pollution.jpg"
+loading="lazy"
+alt="Air quality in Grenoble on 24/03/2020"
+>
+(&lt;a href="https://www.atmo-auvergnerhonealpes.fr/monair/commune/38185">source&lt;/a>)&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/images/do-we-need-the-coronavirus-to-reduce-grenoble-pollution2.jpg"
+loading="lazy"
+alt="Air quality for the last 10 days in Grenoble"
+>
+(&lt;a href="https://www.atmo-auvergnerhonealpes.fr/monair/commune/38185">source&lt;/a>)&lt;/p>
+&lt;h2 id="is-that-a-surprise">Is that a surprise?&lt;/h2>
+&lt;p>To me, if you tell people to stay home, not only you will reduce the amount of time spent in the car (air pollution) which generate a lot of noise from the occasional horns and just the fact of driving (noise pollution). So, no it is not a surprise. In my neighborhood, we can hear the different (and we don’t live in a big city).&lt;/p>
+&lt;h2 id="are-people-aware-of-the-change">Are people aware of the change?&lt;/h2>
+&lt;p>It depends on what they are doing. Yes, lockdown means you stay home. Period. Those in cities might not have a balcony, nor a private garden. So they might not even breathe the renewed, clean air from outside (you should if you are not). If most of the population doesn’t become aware of the benefits of reduced use of gasoline-powered transportation, what lessons are we going to learn about the current situation? That the media are very much hyped about the coronavirus? That you might die from it?&lt;/p>
+&lt;h2 id="have-you-wondered-about-what-really-kills-people-for-years">Have you wondered about what really kills people for years?&lt;/h2>
+&lt;p>In &lt;a href="https://heated.medium.com/theres-an-epidemic-that-s-a-bigger-threat-than-the-coronavirus-ce6e0697185b">There’s an Epidemic That’s a Bigger Threat Than the Coronavirus, Dr. David L. Katz&lt;/a> reminds us that diet-related diseases kill thousands every year.&lt;/p>
+&lt;blockquote>
+&lt;p>Poor overall diet quality is &lt;a href="https://www.nytimes.com/2019/08/26/opinion/food-nutrition-health-care.html">the single leading cause of premature death in the United States today&lt;/a>, causing an estimated 500,000 or so deaths each year.&lt;/p>
+&lt;/blockquote>
+&lt;p>Did you know that? Do you think it is a fad? If so, why? I have been improving my diet for the past 10 years now and, not only did I lose a significant amount of weight, but also I learn to pick better sources: I choose the organic products rather the regular ones when it is something that is not produced in my area. I purchase food from local farmer markets, which I admit are numerous in the Rhone Valley. I refrain from purchasing goods in supermarkets whenever possible.&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/images/do-we-need-the-coronavirus-market.jpeg"
+loading="lazy"
+alt="Photo by Ashley Winkler on Unsplash"
+>
+&lt;/p>
+&lt;p>The result &lt;strong>from my own experience&lt;/strong>: a couple of running nose and coughing per year. However, I cannot guarantee that perfect diet (what is it in the first place?) will immune you from Coronavirus but it can help. Do you allow for the possibility that it can? Now, I might be lashed on for the following but I want to get out: what about smoking or substance abuse? Are you going to tell me that it doesn’t: Cause more death every year than Coronavirus? Cause economic stress on our society because of the expensive cancer treatments? Numb the mind in a way that we can’t feel what’s around us and loose the contact with the people and the nature? Maybe, before complaining about how the governments are going to ask us to give to climb back the economic ladder, what can &lt;strong>&lt;em>YOU&lt;/em>&lt;/strong> do to reduce the economic and health stress in your life?&lt;/p>
+&lt;h2 id="what-can-we-do-after-coronavirus">What can we do after Coronavirus?&lt;/h2>
+&lt;p>Wake up? Stop dreaming? Take care of what you have been given? It is simpler than we think. Pause and look around you. Some people take a car to go to work when they live 3 kilometers from work. Why? Some people eat sugar-loaded food that they know (because they tell me) is bad for them. Why? Because we have to die from something? Well, is that case, I leave the question hanging: is Coronavirus that bad?&lt;/p></description></item><item><title>Balance your time. Balance your time.</title><link>https://iamjeremie.me/post/2020-03-22-take-the-time/</link><pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2020-03-22-take-the-time/</guid><description>&lt;img src="https://iamjeremie.me/images/take-the-time.jpeg" alt="Featured image of post Balance your time. Balance your time." />&lt;p>&lt;a href="https://jeremie-litzler.medium.com/take-the-time-for-your-spouse-take-the-time-for-your-children-take-the-time-for-you-dbd896e37638">Support me by reading the story on Medium&lt;/a>!&lt;/p>
+&lt;p>Take the time for your spouse.&lt;/p>
+&lt;p>Take the time for your children.&lt;/p>
+&lt;p>Take the time for you.&lt;/p>
+&lt;p>Balance all that and be satisfied that what you get is what you get.&lt;/p>
+&lt;p>Think about what you can do with a very focused mind, not going left or right when you are pulled in those directions.&lt;/p>
+&lt;p>No, look in front of you and work towards that goal.&lt;/p>
+&lt;p>Yes you see it, it is always in sight. So you can reach it.&lt;/p>
+&lt;p>But, don’t forget: the journey is more rewarding than the goal to reach.
+It’s during the journey that you learn to reach your goal.&lt;/p>
+&lt;p>You may just find that the goal is as important as what you learned to get to it.&lt;/p>
+&lt;p>Having balanced lifestyle will help because extremes are toxic. They are the reason you go right or left, loosing focus on the Goal.&lt;/p>
+&lt;p>It must be adjusted often, like adding weight the wavering scale of life.&lt;/p>
+&lt;p>Be the master of it.&lt;/p></description></item><item><title>Be nicer. Period</title><link>https://iamjeremie.me/post/2020-03-09-be-nicer/</link><pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2020-03-09-be-nicer/</guid><description>&lt;img src="https://iamjeremie.me/images/be-nicer.jpg" alt="Featured image of post Be nicer. Period" />&lt;p>It is not expensive.&lt;/p>
+&lt;p>It is not hard.&lt;/p>
+&lt;p>It is not a burden.&lt;/p>
+&lt;p>Being nice a skill that will change your life.&lt;/p>
+&lt;p>Being nice will put a smile on your face and consequently on the other one face.&lt;/p>
+&lt;p>Being nice is the right thing to do even if you don’t feel like it!&lt;/p>
+&lt;p>So, what do you choose to do?&lt;/p></description></item></channel></rss>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JavaScript on Jérémie Litzler</title><link>https://iamjeremie.me/tags/javascript/</link><description>Recent content in JavaScript on Jérémie Litzler</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://iamjeremie.me/tags/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>Extract arrays from objects into a single array</title><link>https://iamjeremie.me/post/2024-03/extract-arrays-from-a-list-of-objects-into-a-single-array/</link><pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2024-03/extract-arrays-from-a-list-of-objects-into-a-single-array/</guid><description>&lt;img src="https://iamjeremie.me/post/2024-03/extract-arrays-from-a-list-of-objects-into-a-single-array/images/2024-03-13-shoes-sorted-into-trays.jpg" alt="Featured image of post Extract arrays from objects into a single array" />&lt;p>It’s simple: use the &lt;code>Array.prototype.flatMap()&lt;/code> method along with the object destructuring.&lt;/p>
+&lt;p>For example, you have this array of objects. Each object contains an array of primitive values:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="s2">&amp;#34;categories&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;forums&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-KpOx5Y4AqRr3sB4Ybwj&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-KsjO4_W3W9Q2Z2UmuPr&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">],&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;name&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Feedback &amp;amp; Information&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;slug&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;feedback-and-information&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;-KpR7vRkiRPpbUd_TVAR&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;forums&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-KsjPat5MWCx-dkjNVg8&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-KsjPjasLh0TFtZmffEo&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-Kvd1Vg_ankLYgrxC50F&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-KvdCowY9mDvM0EH8Pvs&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-KvhkEl6F673igPtnbso&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">],&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;name&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Discussions&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;slug&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;discussions&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;-KsjPKA6hDuHlQK_lJWO&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;forums&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-Kvclvu_Qd9QdS9ciqUl&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-KvcmOcppNYK8NCesmB9&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">],&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;name&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Comedy&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;slug&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;comedy&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;-KvclpNRjpI5W-j0JQGU&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>If you want to get the forum strings, using object destructuring and &lt;code>flatMap&lt;/code> will provide you the solution:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-tsx" data-lang="tsx">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">const&lt;/span> &lt;span class="nx">forums&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">categories&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">flatMap&lt;/span>&lt;span class="p">(({&lt;/span> &lt;span class="nx">forums&lt;/span> &lt;span class="p">})&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nx">forums&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>The result will give you:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-KpOx5Y4AqRr3sB4Ybwj&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-KsjO4_W3W9Q2Z2UmuPr&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-KsjPat5MWCx-dkjNVg8&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-KsjPjasLh0TFtZmffEo&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-Kvd1Vg_ankLYgrxC50F&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-KvdCowY9mDvM0EH8Pvs&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-KvhkEl6F673igPtnbso&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-Kvclvu_Qd9QdS9ciqUl&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;-KvcmOcppNYK8NCesmB9&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;a href="https://jsfiddle.net/puzzlout/98w7h4xL/">Check out the JSFiddle demo&lt;/a> to prove it.&lt;/p>
+&lt;p>Enjoy!&lt;/p>
+&lt;p>Credit : Photo by &lt;a href="https://unsplash.com/@alevisionco?utm_content=creditCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=unsplash">Alev Takil&lt;/a> on &lt;a href="https://unsplash.com/photos/assorted-color-sneakers-d-1FY75fh_s?utm_content=creditCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=unsplash">Unsplash&lt;/a>.&lt;/p></description></item><item><title>Using path aliases in a Vue.js project</title><link>https://iamjeremie.me/post/2024-02/using-an-alias-in-a-vuejs-project/</link><pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2024-02/using-an-alias-in-a-vuejs-project/</guid><description>&lt;img src="https://iamjeremie.me/post/2024-02/using-an-alias-in-a-vuejs-project/images/2024-02-19-vite.config.ts-contents.jpg" alt="Featured image of post Using path aliases in a Vue.js project" />&lt;p>I find this trick very handy once you have set it up.&lt;/p>
+&lt;h2 id="in-javascript-projects">In JavaScript projects&lt;/h2>
+&lt;p>Add the alias to jsconfig.json to have intellisense super powers and the advatange of absolute paths:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;compilerOptions&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">...&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;paths&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;@/*&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;./src/*&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">...&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="in-typescript-projects">In TypeScript projects&lt;/h2>
+&lt;ol>
+&lt;li>Install the package: &lt;code>@types/node&lt;/code> as dev dependency.&lt;/li>
+&lt;li>Import the &lt;code>fileURLToPath&lt;/code> and &lt;code>URL&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-typescript" data-lang="typescript">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">fileURLToPath&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">URL&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="kr">from&lt;/span> &lt;span class="s2">&amp;#34;node:url&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="3">
+&lt;li>Add the &lt;code>resolve&lt;/code> option in &lt;code>vite.config.ts&lt;/code> :&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-typescript" data-lang="typescript">&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">resolve&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">alias&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;@&amp;#34;&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">fileURLToPath&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">new&lt;/span> &lt;span class="nx">URL&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;./src&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kr">import&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">meta&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">url&lt;/span>&lt;span class="p">)),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="4">
+&lt;li>Add the alias to &lt;code>tsconfig.json&lt;/code> to avoid ESLint complaints and have intellisense super powers:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">&amp;#34;compilerOptions&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">...&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;paths&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;@/*&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;./src/*&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">...&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>JavaScript30 - Course review</title><link>https://iamjeremie.me/post/2021-01-26-js30-by-wesbos/</link><pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2021-01-26-js30-by-wesbos/</guid><description>&lt;img src="https://iamjeremie.me/images/js30-by-wesbos.png" alt="Featured image of post JavaScript30 - Course review" />&lt;h2 id="what">What&lt;/h2>
+&lt;p>The course helps strengthen your skills with the new features available in JavaScript (ES6 or ECMAScript 2015 and beyond) as well as with the good old features in the span of 30 challenges (one per day if you can). Oh, by the way, it is free!&lt;/p>
+&lt;h2 id="where">Where&lt;/h2>
+&lt;p>The course can be found on &lt;a href="https://javascript30.com/">https://javascript30.com/&lt;/a>. You just need a good Visual Studio Code or your favorite code editor.&lt;/p>
+&lt;h2 id="who">Who&lt;/h2>
+&lt;p>The course is taught by Wes Bos (&lt;a href="https://wesbos.com">checkout his website&lt;/a>), a Canadian developer and teacher.&lt;/p>
+&lt;p>He has created many, many courses about JavaScript that thousands of students have taken. I have personally completed his ES6 course.&lt;/p>
+&lt;p>He is very engaging when he teaches and that is something that keeps you interested during the entire course.&lt;/p>
+&lt;h2 id="the-good">The Good&lt;/h2>
+&lt;p>There is a wide range of topics that you work on technically.&lt;/p>
+&lt;p>I particularly liked to learn about:&lt;/p>
+&lt;ul>
+&lt;li>building a custom video player,&lt;/li>
+&lt;li>playing with the media devices (webcam),&lt;/li>
+&lt;li>persisting data with local storage in the browser,&lt;/li>
+&lt;li>discovering the JavaScript console methods that I never used: &lt;code>time&lt;/code>, &lt;code>assert&lt;/code> and &lt;code>dir&lt;/code> which are quite useful! I used to use only console.log,&lt;/li>
+&lt;li>playing the speech synthesis,&lt;/li>
+&lt;li>really nailing the array methods down,&lt;/li>
+&lt;li>listening the keyboard strokes to perform cool stuff,&lt;/li>
+&lt;li>replicating the Stripe website navigation (I want to finish the keyboard navigation as Wes doesn&amp;rsquo;t cover that),&lt;/li>
+&lt;li>catching mouse and touch events to interact with the UI…&lt;/li>
+&lt;/ul>
+&lt;p>I think taking his ES6 course or any other course on Modern JavaScript will be a good help prior to taking this 30 days challenge.&lt;/p>
+&lt;p>Check out &lt;a href="https://js30-by-jeremiel.netlify.app/">my exercise solutions live here&lt;/a>.&lt;/p>
+&lt;h2 id="the-missingbits">The Missing bits&lt;/h2>
+&lt;p>It would have been great if Wes had summarized the instructions for each challenge.&lt;/p>
+&lt;p>I tried to write them down at the beginning of each course so I could have a go on my own before watching / checking the solution.&lt;/p>
+&lt;p>Something, you have to view the render of the solution to get those requirements right.&lt;/p>
+&lt;p>Also, a few accessibility tricks using JavaScript would be good to help the new web developers be really aware of that end-user need.&lt;/p>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>Going through the entire course took me 47h in total.&lt;/p>
+&lt;p>Thanks Wes for creating this awesome month-long challenge. I learned quite a few sweet tricks.&lt;/p>
+&lt;p>Next stop in company of Wes: his &lt;a href="https://learnnode.com/">Learn Node course&lt;/a> to apply all those ES6+ skills to a full-fledged project. Stay tuned!&lt;/p>
+&lt;p>Before that, I need to create myself a &lt;a href="https://www.netlify.com/blog/2020/05/04/building-a-markdown-blog-with-next-9.4-and-netlify/">little blog powered with NextJS and Netlify&lt;/a>! So far so good on &lt;a href="https://iamjeremie.me">my personal site&lt;/a>!&lt;/p></description></item><item><title>ES6 for everyone - Course review</title><link>https://iamjeremie.me/post/2020-12-20-es6-by-wesbos/</link><pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2020-12-20-es6-by-wesbos/</guid><description>&lt;img src="https://iamjeremie.me/images/es6-by-wesbos.png" alt="Featured image of post ES6 for everyone - Course review" />&lt;h2 id="what">What&lt;/h2>
+&lt;p>The course is about learning the new features available in JavaScript (it has been available for quite a while) from ES6 and more. Check &lt;a href="http://es6-features.org/">the features of ES6 and beyond&lt;/a>.&lt;/p>
+&lt;h2 id="where">Where&lt;/h2>
+&lt;p>The course can be purchased from &lt;a href="https://www.es6.io">www.es6.io&lt;/a>. You just need a good Visual Studio Code or your favorite code editor.&lt;/p>
+&lt;h2 id="who">Who&lt;/h2>
+&lt;p>The course is taught by Wes Bos (&lt;a href="https://wesbos.com">checkout his website&lt;/a>), a canadian developer and teacher. He has created many many courses about JavaScript that thousand of students have taken.&lt;/p>
+&lt;p>He is very engaging when he teaches and that is something that keeps you interested during the entire course.&lt;/p>
+&lt;h2 id="the-good">The Good&lt;/h2>
+&lt;p>It covers almost all of the features of ES6 (what about &lt;a href="http://es6-features.org/#Collation">Internationalization &amp;amp; Localization&lt;/a>? Maybe it wasn’t available as part of ES6 at the time… ask Wes!).&lt;/p>
+&lt;p>Despite some of the lessons missing more concrete use cases, the majority of the lessons were full of good examples. Wes provides the starter files and the solution. But have a go, challenge yourself and try to code it yourself.&lt;/p>
+&lt;p>In my case, I really went into the details of the Promises, ES6 Tooling and Async+Await lessons.&lt;/p>
+&lt;p>Also, the slack community was super great! I had to ask a couple of questions and wow, Wes has someone that looks like is dedicated to the courses and he answers very quickly. &lt;a href="https://twitter.com/_asjas?lang=fr">Thanks A-J Roos&lt;/a>!&lt;/p>
+&lt;h2 id="the-bad">The Bad&lt;/h2>
+&lt;p>Nothing really blocking. Read on to the missing bits to know more.&lt;/p>
+&lt;h2 id="the-missing-bits">The Missing bits&lt;/h2>
+&lt;p>The course is old (released in 2017) and would need a little update, especially in lesson 13 where we learn to use webpack and babel. Maybe a course could be built about that&amp;hellip;&lt;/p>
+&lt;p>It might need a refresher, especially to help the people who are really new to npm. Or an advice would be to practice npm.&lt;/p>
+&lt;p>What I did is stick to the exact same npm package versions that Wes used so that I would get the same result.&lt;/p>
+&lt;p>If you follow along, you will find out that installing the latest packages will not work since the courses doesn’t cover the breaking change in the webpack and babel packages.&lt;/p>
+&lt;p>No matter what, the community is there to help.&lt;/p>
+&lt;p>Also, there are exercises and they are good but the course would be really great if the student could have a clear understanding of use cases to use such or such features.&lt;/p>
+&lt;p>Maybe a small project with, for each stage, a focus on each feature studied would have been a great way to practice the feature. That’s what is done in the &lt;a href="https://iamjeremie.me/post/2020-03-22-webresponsive-bootcamp-by-scrimba/">Responsive Web Design Bootcamp course&lt;/a> over &lt;a href="https://scrimba.com/">at Scrimba&lt;/a>.&lt;/p>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>Going through the entire course took me 15 hours.&lt;/p>
+&lt;p>I had taken the “Mobile Web Specialist” nanodegree at Udacity where I learned mainly the service worker technology and the prerequisite was to learn about ES6 before diving into the more complex PWA topic.&lt;/p>
+&lt;p>You can read my courses notes on &lt;a href="https://github.com/JeremieLitzler/wesbos-es6/blob/master/index.md">the dedicated repository&lt;/a>. Thanks Wes for creating this course and many others. I have purchased quite a few of his courses.&lt;/p>
+&lt;p>Next stop: the &lt;a href="https://javascript30.com/">JavaScript30 course&lt;/a> that might just be the course to fill the whole of the missing bits. Stay tuned!&lt;/p></description></item><item><title>Exploring ES2018 and ES2019</title><link>https://iamjeremie.me/post/2018-02-22-es2018-es2019-notes/</link><pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2018-02-22-es2018-es2019-notes/</guid><description>&lt;p>&lt;a href="https://exploringjs.com/es2018-es2019/toc.html">Check the book out&lt;/a>.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VuePress on Jérémie Litzler</title><link>https://iamjeremie.me/tags/vuepress/</link><description>Recent content in VuePress on Jérémie Litzler</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://iamjeremie.me/tags/vuepress/index.xml" rel="self" type="application/rss+xml"/><item><title>Style guide of the site (H1)</title><link>https://iamjeremie.me/post/2021-01-28-styleguide/</link><pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2021-01-28-styleguide/</guid><description>&lt;img src="https://iamjeremie.me/images/2021-01-28-styleguide.jpg" alt="Featured image of post Style guide of the site (H1)" />&lt;p>&lt;em>Note:&lt;/em> H1 is included in the frontmatter in the property &lt;code>title&lt;/code>. Check out &lt;a href="https://gohugo.io/content-management/front-matter/">the Hugo docs&lt;/a>.&lt;/p>
+&lt;h2 id="titre-h2">Titre H2&lt;/h2>
+&lt;h3 id="titre-h3">Titre H3&lt;/h3>
+&lt;h4 id="titre-h4">Titre H4&lt;/h4>
+&lt;h5 id="titre-h5">Titre H5&lt;/h5>
+&lt;p>A paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim dui et orci vehicula pellentesque. Mauris ac porta nulla. Vivamus scelerisque imperdiet metus, non egestas ipsum scelerisque a. Maecenas quis blandit dui, viverra scelerisque libero. Duis ac neque nisl. Nulla interdum leo quam, eu blandit leo cursus in. Fusce aliquet lobortis dui, ut varius ligula mollis ut. In a lorem at enim viverra consectetur luctus a diam. Praesent at justo eu ex fringilla tempus nec vel velit. Integer nec suscipit lectus. Nullam sem neque, ullamcorper sit amet viverra in, gravida id ante. Duis cursus aliquet massa.&lt;/p>
+&lt;p>Quisque pharetra consectetur nulla, vel iaculis eros ultricies vitae. Nullam non eros id lorem volutpat laoreet non in arcu. Duis facilisis pretium libero eu tincidunt. Duis mauris tellus, commodo condimentum nibh scelerisque, tincidunt condimentum felis. Donec blandit, enim vitae vulputate auctor, quam dui molestie tortor, non pretium est orci vel lorem. Duis porta tortor faucibus ipsum efficitur molestie a nec felis. Mauris ullamcorper sed magna ut aliquet. Ut in nibh scelerisque, malesuada erat non, dapibus nibh. Duis aliquam porttitor consequat. Morbi elementum libero sed maximus accumsan.&lt;/p>
+&lt;h2 id="a-link">A link&lt;/h2>
+&lt;p>&lt;a href="https://iamjeremie.me/">A markdown link&lt;/a>.&lt;/p>
+&lt;h2 id="an-image">An image&lt;/h2>
+&lt;p>
+&lt;img src="https://iamjeremie.me/images/default.jpg"
+loading="lazy"
+alt="An image"
+>
+&lt;/p>
+&lt;h2 id="a-bullet-list">A bullet list&lt;/h2>
+&lt;ul>
+&lt;li>Item 1&lt;/li>
+&lt;li>Item 2
+&lt;ul>
+&lt;li>Item 2.1&lt;/li>
+&lt;li>Item 2.2&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Item 3&lt;/li>
+&lt;/ul>
+&lt;h2 id="a-short-quote">A short quote&lt;/h2>
+&lt;blockquote>
+&lt;p>A short quote of a few words&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="a-long-quote">A long quote&lt;/h2>
+&lt;blockquote>
+&lt;p>Quoting text multilines.&lt;/p>
+&lt;p>And more of the same quote that is long and allows to test how the text wraps in the width of the container.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="a-quote-of-a-quote-double-level">A quote of a quote (double level)&lt;/h2>
+&lt;blockquote>
+&lt;p>first level of quote&lt;/p>
+&lt;blockquote>
+&lt;p>A double level quote that is long and allows to test how the text wraps in the width of the container.&lt;/p>
+&lt;/blockquote>
+&lt;p>And first level again&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="code-highlighting">Code highlighting&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="nx">React&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;react&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="nx">uniquePropHOC&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;./lib/unique-prop-hoc&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// this comment is here to demonstrate an extremely long line length, well beyond what you should probably allow in your own code, though sometimes you&amp;#39;ll be highlighting code you can&amp;#39;t refactor, which is unfortunate but should be handled gracefully
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">class&lt;/span> &lt;span class="nx">Expire&lt;/span> &lt;span class="kr">extends&lt;/span> &lt;span class="nx">React&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">Component&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">constructor&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">props&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">super&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">props&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">state&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">component&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">props&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">children&lt;/span> &lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">componentDidMount&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">setTimeout&lt;/span>&lt;span class="p">(()&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">setState&lt;/span>&lt;span class="p">({&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">component&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">props&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">time&lt;/span> &lt;span class="o">||&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">props&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">seconds&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="mi">1000&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">render&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">state&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">component&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">export&lt;/span> &lt;span class="k">default&lt;/span> &lt;span class="nx">uniquePropHOC&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;time&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;seconds&amp;#39;&lt;/span>&lt;span class="p">])(&lt;/span>&lt;span class="nx">Expire&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="special-styles">Special styles&lt;/h2>
+&lt;blockquote>
+&lt;p>A block quote with &lt;del>strikethrough&lt;/del> and a URL: &lt;a href="https://reactjs.org">See here&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="tables">Tables&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Col 1&lt;/th>
+&lt;th>Col 2&lt;/th>
+&lt;th>Col 3&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Value&lt;/td>
+&lt;td>Very long value&lt;/td>
+&lt;td>So long that it will scroll horizontally? I hope so!&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Check out &lt;a href="https://github.com/JeremieLitzler/journal/blob/main/docs/posts/2021-01-28-styleguide/index.md">the source on GitHub&lt;/a>.&lt;/p>
+&lt;p>Hero photo by &lt;a href="https://unsplash.com/@janlosert?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText">Jan Losert&lt;/a> on Unsplash.&lt;/p></description></item></channel></rss>

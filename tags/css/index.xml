@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CSS on Jérémie Litzler</title><link>https://iamjeremie.me/tags/css/</link><description>Recent content in CSS on Jérémie Litzler</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://iamjeremie.me/tags/css/index.xml" rel="self" type="application/rss+xml"/><item><title>Building an HTML accordion without JavaScript</title><link>https://iamjeremie.me/post/2024-03/build-a-html-friendly-accordeon-without-javascript/</link><pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2024-03/build-a-html-friendly-accordeon-without-javascript/</guid><description>&lt;img src="https://iamjeremie.me/post/2024-03/build-a-html-friendly-accordeon-without-javascript/images/2024-02-11-a-vintage-accordeon.jpg" alt="Featured image of post Building an HTML accordion without JavaScript" />&lt;p>Do you know the &lt;code>details&lt;/code> and &lt;code>summary&lt;/code> HTML element?&lt;/p>
+&lt;p>You should.&lt;/p>
+&lt;p>To create an accordion with no JavaScript, they are your friends.&lt;/p>
+&lt;p>But you may want to customize the look.&lt;/p>
+&lt;p>Using the &lt;code>::after&lt;/code> pseudo-class on the &lt;code>summary&lt;/code> element, you can add some content with the &lt;code>content&lt;/code> property.&lt;/p>
+&lt;p>What about changing the content based on the state of the &lt;code>details&lt;/code> element (e.g. opened or closed)?&lt;/p>
+&lt;p>Apply a different style when the accordion is open using the &lt;code>details[open]&lt;/code> selector.&lt;/p>
+&lt;p>Here is the live demo I use on my blog &lt;a href="https://jsfiddle.net/puzzlout/j09efgpn/">on JSFiddle&lt;/a>.&lt;/p>
+&lt;p>Enjoy!&lt;/p>
+&lt;p>Credit : Photo by &lt;a href="https://unsplash.com/@gaellemarcel?utm_content=creditCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=unsplash">Gaelle Marcel&lt;/a> on &lt;a href="https://unsplash.com/photos/brown-chest-near-wall-MwMmOtj6z2c?utm_content=creditCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=unsplash">Unsplash&lt;/a>.&lt;/p></description></item><item><title>The Responsive Web Design Bootcamp - Course review</title><link>https://iamjeremie.me/post/2020-03-22-webresponsive-bootcamp-by-scrimba/</link><pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2020-03-22-webresponsive-bootcamp-by-scrimba/</guid><description>&lt;img src="https://iamjeremie.me/images/webresponsive-bootcamp-by-scrimba.png" alt="Featured image of post The Responsive Web Design Bootcamp - Course review" />&lt;h2 id="what">What&lt;/h2>
+&lt;p>The course is about web responsive design using HTML and CSS.&lt;/p>
+&lt;p>The topics covered are comprehensive, yet not all is covered (I will detail later on).&lt;/p>
+&lt;h2 id="where">Where&lt;/h2>
+&lt;p>The course is taught &lt;a href="https://scrimba.com/">on Scrimba&lt;/a>, an interactive course platform with tons of free courses already and many paid courses that, in my opinion, are really worth it, at least for this course I am reviewing.&lt;/p>
+&lt;p>The course is found &lt;a href="https://scrimba.com/learn/responsive">through this link&lt;/a> (non-affiliated).&lt;/p>
+&lt;p>The platform itself is actually what made me buy the course. You can interact with the video as you go and edit the code the teacher typing. Cool, uh?&lt;/p>
+&lt;p>Even better, you can save your edits to the code so that you can follow along the version of the teacher and go back to your version (e.g. it is kinda of a branch like in Git) when you pause the video.&lt;/p>
+&lt;p>This is something I haven&amp;rsquo;t seen anywhere else (I have done course on Udemy and Audacity) and this tops all of them.&lt;/p>
+&lt;p>I recommend having a try by signing up. Pick a free course and see it for yourself.&lt;/p>
+&lt;h2 id="who">Who&lt;/h2>
+&lt;p>Kevin Powell is the teacher. His curriculum is impressive and yet, I didn&amp;rsquo;t know him before the course.&lt;/p>
+&lt;p>Throughout the course, you will find out that his voice is clear and his words are accurate to explain the concept at hand.&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/images/webresponsive-bootcamp-by-scrimba-teacher.png"
+loading="lazy"
+alt="Kevin picture"
+>
+&lt;/p>
+&lt;p>I am experienced in the CSS and HTML technologies, having worked in the Web sphere since 2009. So I actually went 1.4x time the normal speed throughout the course ;)&lt;/p>
+&lt;p>Still, when I was stuck in a point, Kevin&amp;rsquo;s examples made it clear and I really feel like I saved into my programming toolkit the skills taught by him to really be able to apply it in the real-life scenarios.&lt;/p>
+&lt;h2 id="the-good">The Good&lt;/h2>
+&lt;p>Let&amp;rsquo;s now review the course: I thought I knew my topic… How wrong was I!&lt;/p>
+&lt;p>First, typography: I knew that using relative units as better than fixed units. Well, how thankful was I to learn exactly when to use each unit.&lt;/p>
+&lt;p>For example, rem is the recommended units for font-size while em is the unit we should prefer to px.&lt;/p>
+&lt;p>Second, Flexbox: who hasn&amp;rsquo;t used float in the last 10 years? who wasn&amp;rsquo;t tired of it and used Bootstrap to create &amp;ldquo;grid-like&amp;rdquo; layout that didn&amp;rsquo;t break?&lt;/p>
+&lt;p>Yes, but even with Bootstrap, and maybe I wasn&amp;rsquo;t using it properly, I feel like I was replacing the CSS hell with the HTML hell. What I mean by that is that the markup felt much more dense or decorative than for the purpose of the layout. You know the &amp;ldquo;Callback hell&amp;rdquo; in JavaScript, well I felt the &amp;ldquo;&amp;lt;\div&amp;gt; hell&amp;rdquo; with Bootstrap.&lt;/p>
+&lt;p>Note: I have use Bootstrap 4 over the past year for work (not that I chose it) and I think the version 4 has helped a lot to solve the version 3 issues.&lt;/p>
+&lt;p>I think that the content and project of the course are well made and I was actually pushed to test more as Kevin always emphasized.&lt;/p>
+&lt;p>For example, &lt;a href="https://jeremiel-with-scrimba-rd.netlify.app/4.taking.flexbox.to.the.next.level/2.justify-content.and.align-items/">I made this utility&lt;/a> to visually see the result of the properties &lt;em>flex-directions&lt;/em>, &lt;em>align-items&lt;/em> and &lt;em>justify-contents&lt;/em>.&lt;/p>
+&lt;p>Third, CSS grid: it was the one topic I was, kind of, apprehending. I started Wesbos&amp;rsquo;s course but I didn&amp;rsquo;t finish it. I&amp;rsquo;m not saying it is because Wes but I wasn&amp;rsquo;t motivated enough.&lt;/p>
+&lt;p>With Kevin, I was and I not only learned a lot of cool tricks to build a template layout but also I learned to use it in ways that I didn&amp;rsquo;t expect.&lt;/p>
+&lt;p>Now, it is full-speed ahead with CSS Grid and Flexbox, the vanilla style when it is possible.&lt;/p>
+&lt;h2 id="the-bad">The Bad&lt;/h2>
+&lt;p>The main element missing, in my opinion, in the course is a more detailed use of web responsive images.&lt;/p>
+&lt;p>In my opinion, images are not only about &amp;lsquo;width: 100%&amp;rsquo; and &amp;lsquo;object: fit&amp;rsquo; ;)&lt;/p>
+&lt;p>What about &amp;lsquo;scrset&amp;rsquo; and &amp;lsquo;sizes&amp;rsquo;?&lt;/p>
+&lt;p>How and when to use them?&lt;/p>
+&lt;p>I know that those attributes are not supported with IE and even not with Edge 14 and lower, but I think it is an important part of the web and images will always be displayed on websites :)&lt;/p>
+&lt;p>Adding this missing bit would make the course more complete.&lt;/p>
+&lt;p>Images are a big part of the web space. Even on Medium.com, you can see a lot of images.&lt;/p>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>I recommended the course for anyone who is self-taught.&lt;/p>
+&lt;p>Why? Because, in fact, the course is done well and you can learn from others.&lt;/p>
+&lt;p>Sometimes, especially with fundamentals like CSS and HTML, learning it wrong may be hard to unlearn later (it depends on your mindset and if you are willing to learn from others).&lt;/p>
+&lt;p>Personally, I measure the value of this course by learning the skills to build a website without any CSS framework (ok, except Font Awesome, but I&amp;rsquo;m looking to build that from scratch) like Bootstrap or Foundation (I know the former only).&lt;/p>
+&lt;p>Going through the entire course took me :&lt;/p>
+&lt;ul>
+&lt;li>2.65 hours for module 1&lt;/li>
+&lt;li>7.77 hours for module 2&lt;/li>
+&lt;li>7.70 hours for module 3&lt;/li>
+&lt;li>5.53 hours for module 4&lt;/li>
+&lt;li>5.60 hours for module 5&lt;/li>
+&lt;li>and finally a good 14 hours for module 6.&lt;/li>
+&lt;/ul>
+&lt;p>So I took me 43.25 hours to complete the course and really increase my skills. That&amp;rsquo;s only 4 and a half weeks if you work 2 hours per weekday on it. On the final project, I did try my best not to watch Kevin&amp;rsquo;s solution, hence the greater amount of time spent. When I got stuck (ex: the hero image, the main grid trick, the mobile menu), I was watching the videos to be inspired but then, &lt;a href="https://jeremiel-with-scrimba-rd.netlify.app/6.taking.it.to.the.next.level/1.final.project.instructor/index.html">his solution&lt;/a> is different than &lt;a href="https://jeremiel-with-scrimba-rd.netlify.app/6.taking.it.to.the.next.level/2.final.project.myself/">my final render&lt;/a>.&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/images/webresponsive-bootcamp-by-scrimba-final-project.png"
+loading="lazy"
+alt="Final project"
+>
+&lt;/p>
+&lt;p>Now, before moving to JavaScript or ReactJS or Vue or UI courses, I’d like to apply my skills to undo all the Bootstrap 3 templates I used on my existing projects and see if I can achieve the same look and feel with no HTML template and css framework (except Font Awesome.&lt;/p>
+&lt;p>I am certain I can :)&lt;/p>
+&lt;p>&lt;a href="https://jeremiel-with-scrimba-rd.netlify.com/">My study website&lt;/a> is hosted powered by the awesome Netlify.&lt;/p>
+&lt;p>Thanks Kevin. Thanks Scrimba team for this opportunity to learn.&lt;/p></description></item><item><title>CSS Variables</title><link>https://iamjeremie.me/post/2018-02-21-css-variables/</link><pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2018-02-21-css-variables/</guid><description>&lt;h2 id="sources">Sources&lt;/h2>
+&lt;p>&lt;a href="https://medium.freecodecamp.org/learn-css-variables-in-5-minutes-80cf63b4025d">Medium article by Per Harald Borgen&lt;/a>&lt;/p>
+&lt;h2 id="why-learn-css-variables">Why learn CSS Variables?&lt;/h2>
+&lt;ul>
+&lt;li>To build a theme where you will reuse a property value many many many times
+&lt;ul>
+&lt;li>ex: the brand color or the size of a button.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>To build better responsive designs&lt;/li>
+&lt;/ul>
+&lt;h2 id="local-vs-global">Local vs Global&lt;/h2>
+&lt;h3 id="global">Global&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">:&lt;/span>&lt;span class="nd">root&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">--brand-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">blue&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">button&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">brand&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="kc">color&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="local">Local&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">alert&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">--alert-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mh">#ff6f69&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">alert&lt;/span> &lt;span class="nt">p&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">alert&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="kc">color&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">border&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="kc">solid&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">alert&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="kc">color&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="better-responsiveness">Better responsiveness&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">:&lt;/span>&lt;span class="nd">root&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">--main-font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">16&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">media&lt;/span> &lt;span class="nt">all&lt;/span> &lt;span class="nt">and&lt;/span> &lt;span class="o">(&lt;/span>&lt;span class="nt">max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">600px&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">:root&lt;/span> &lt;span class="err">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">--main-font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">12&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="how-to-access-variables-with-javascript">How to access variables with JavaScript&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">var&lt;/span> &lt;span class="nx">root&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">document&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">querySelector&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;:root&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">var&lt;/span> &lt;span class="nx">rootStyles&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">getComputedStyle&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">root&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">var&lt;/span> &lt;span class="nx">mainColor&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">rootStyles&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getPropertyValue&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;--main-color&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">root&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">style&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">setProperty&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;--main-color&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;#88d8b0&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>A BEM Cheatsheet</title><link>https://iamjeremie.me/post/2018-02-21-bem-cheatsheet/</link><pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2018-02-21-bem-cheatsheet/</guid><description>&lt;h2 id="sources">Sources&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://getbem.com/naming/">BEM site&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.freecodecamp.org/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849">Medium article by Ohans Emmanuel&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="examples-for-blocks">Examples for &lt;strong>Blocks&lt;/strong>&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">stick-man&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">font-family&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">Roboto&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">hash-man&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">font-family&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">Hastag&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="examples-for-elements">Examples for &lt;strong>Elements&lt;/strong>&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">stick-man__head&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">10&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">stick-man__arm&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">4&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">stick-man__leg&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">5&lt;/span>&lt;span class="kt">em&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="examples-for-modifiers">Examples for &lt;strong>Modifiers&lt;/strong>&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">stick-man--red&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">red&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">stick-man--blue&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">blue&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="combining-blocks-elements-and-modifiers">Combining Blocks, Elements and Modifiers&lt;/h2>
+&lt;p>Let&amp;rsquo;s make a stick man with a big head and another one with a small head&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">stick-man__head--big&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">large&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">stick-man__head--small&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">small&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

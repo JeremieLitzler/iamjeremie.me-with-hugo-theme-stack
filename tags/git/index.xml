@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git on Jérémie Litzler</title><link>https://iamjeremie.me/tags/git/</link><description>Recent content in Git on Jérémie Litzler</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 28 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://iamjeremie.me/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>How to create aliases to use Git CLI more</title><link>https://iamjeremie.me/post/2021-12-28-creating-git-alias-commands/</link><pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2021-12-28-creating-git-alias-commands/</guid><description>&lt;h2 id="what-are-git-aliases">What are Git aliases&lt;/h2>
+&lt;p>Have you ever wondered if you could skip typing &lt;code>git add /path/to/filename &amp;amp;&amp;amp; git commit &amp;quot;my message&amp;quot; &amp;amp;&amp;amp; git push&lt;/code>? That&amp;rsquo;s what git aliases are for.&lt;/p>
+&lt;h2 id="how-to-create-an-alias">How to create an alias&lt;/h2>
+&lt;p>Using the &lt;code>git config&lt;/code> command, we can declare globally the aliases. For example:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">git config --global alias.todo &lt;span class="s2">&amp;#34;! git grep --extended-regexp -I --line-number --break --heading --color=auto &amp;#39;TODO|FIXME&amp;#39;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="what-are-example-of-aliases-that-can-be-helpful">What are example of aliases that can be helpful&lt;/h2>
+&lt;h3 id="my-aliases">My aliases&lt;/h3>
+&lt;h4 id="add-via-direct-git-config-edition">Add via direct git config edition&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">git config --global --edit
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="add-via-cli">Add via CLI&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">## List existing aliases&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git config --global alias.alias &lt;span class="s2">&amp;#34;! git config --get-regexp alias&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">## Hard reset&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git config --global alias.hr &lt;span class="s2">&amp;#34;! git reset --hard HEAD&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">## Soft reset&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git config --global alias.sr &lt;span class="s2">&amp;#34;! git reset --soft HEAD^&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">## Hard reset and pull&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Can&amp;#39;t add the following.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Maybe edit the git config file directly as the alias should work...&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Maybe an escape issue?&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git config --global alias.hrp &lt;span class="s2">&amp;#34;!f() { git hr &amp;amp;&amp;amp; git pull }; f&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="what-are-my-aliases">What are my aliases&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">[alias]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> conf = ! notepad /c/Users/Jeremiel/.gitconfig
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> #conf = ! git config --global --edit
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ac = ! git add -A &amp;amp;&amp;amp; git commit -m
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> acc = ! git add $1 &amp;amp;&amp;amp; git commit -m &amp;#34;$2&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> sr = ! git reset --soft HEAD^
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> hr = ! git reset --hard HEAD
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ceb = ! git checkout -t
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> cb = ! git checkout -b
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> c = ! git checkout
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> rpm = ! git hr &amp;amp;&amp;amp; git checkout main &amp;amp;&amp;amp; git pull
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> mm = ! git merge main
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> bv = ! bash bump-site-version.sh
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> t = ! git tag -a
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> tp = ! git push origin ```
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> #For VuePress publishing
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> pub = ! npm run docs:build &amp;amp;&amp;amp; git push
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> dev = ! npm run docs:dev
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> build = ! npm run docs:build
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="articles-i-read-while-researching-the-topic">Articles I read while researching the topic&lt;/h2>
+&lt;p>&lt;a href="https://bitbucket.org/durdn/cfg/src/master/.gitconfig?at=master">https://bitbucket.org/durdn/cfg/src/master/.gitconfig?at=master&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/">https://www.durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://www.atlassian.com/blog/git/advanced-git-aliases">https://www.atlassian.com/blog/git/advanced-git-aliases&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://stackoverflow.com/questions/3321492/git-alias-with-positional-parameters">https://stackoverflow.com/questions/3321492/git-alias-with-positional-parameters&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://borntocode.fr/git-alias-etre-un-bon-developpeur-faineant/">https://borntocode.fr/git-alias-etre-un-bon-developpeur-faineant/&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Fundamentals on Jérémie Litzler</title><link>https://iamjeremie.me/categories/web-fundamentals/</link><description>Recent content in Web Fundamentals on Jérémie Litzler</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://iamjeremie.me/categories/web-fundamentals/index.xml" rel="self" type="application/rss+xml"/><item><title>Style guide of the site (H1)</title><link>https://iamjeremie.me/post/2021-01-28-styleguide/</link><pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2021-01-28-styleguide/</guid><description>&lt;img src="https://iamjeremie.me/images/2021-01-28-styleguide.jpg" alt="Featured image of post Style guide of the site (H1)" />&lt;p>&lt;em>Note:&lt;/em> H1 is included in the frontmatter in the property &lt;code>title&lt;/code>. Check out &lt;a href="https://gohugo.io/content-management/front-matter/">the Hugo docs&lt;/a>.&lt;/p>
+&lt;h2 id="titre-h2">Titre H2&lt;/h2>
+&lt;h3 id="titre-h3">Titre H3&lt;/h3>
+&lt;h4 id="titre-h4">Titre H4&lt;/h4>
+&lt;h5 id="titre-h5">Titre H5&lt;/h5>
+&lt;p>A paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dignissim dui et orci vehicula pellentesque. Mauris ac porta nulla. Vivamus scelerisque imperdiet metus, non egestas ipsum scelerisque a. Maecenas quis blandit dui, viverra scelerisque libero. Duis ac neque nisl. Nulla interdum leo quam, eu blandit leo cursus in. Fusce aliquet lobortis dui, ut varius ligula mollis ut. In a lorem at enim viverra consectetur luctus a diam. Praesent at justo eu ex fringilla tempus nec vel velit. Integer nec suscipit lectus. Nullam sem neque, ullamcorper sit amet viverra in, gravida id ante. Duis cursus aliquet massa.&lt;/p>
+&lt;p>Quisque pharetra consectetur nulla, vel iaculis eros ultricies vitae. Nullam non eros id lorem volutpat laoreet non in arcu. Duis facilisis pretium libero eu tincidunt. Duis mauris tellus, commodo condimentum nibh scelerisque, tincidunt condimentum felis. Donec blandit, enim vitae vulputate auctor, quam dui molestie tortor, non pretium est orci vel lorem. Duis porta tortor faucibus ipsum efficitur molestie a nec felis. Mauris ullamcorper sed magna ut aliquet. Ut in nibh scelerisque, malesuada erat non, dapibus nibh. Duis aliquam porttitor consequat. Morbi elementum libero sed maximus accumsan.&lt;/p>
+&lt;h2 id="a-link">A link&lt;/h2>
+&lt;p>&lt;a href="https://iamjeremie.me/">A markdown link&lt;/a>.&lt;/p>
+&lt;h2 id="an-image">An image&lt;/h2>
+&lt;p>
+&lt;img src="https://iamjeremie.me/images/default.jpg"
+loading="lazy"
+alt="An image"
+>
+&lt;/p>
+&lt;h2 id="a-bullet-list">A bullet list&lt;/h2>
+&lt;ul>
+&lt;li>Item 1&lt;/li>
+&lt;li>Item 2
+&lt;ul>
+&lt;li>Item 2.1&lt;/li>
+&lt;li>Item 2.2&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Item 3&lt;/li>
+&lt;/ul>
+&lt;h2 id="a-short-quote">A short quote&lt;/h2>
+&lt;blockquote>
+&lt;p>A short quote of a few words&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="a-long-quote">A long quote&lt;/h2>
+&lt;blockquote>
+&lt;p>Quoting text multilines.&lt;/p>
+&lt;p>And more of the same quote that is long and allows to test how the text wraps in the width of the container.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="a-quote-of-a-quote-double-level">A quote of a quote (double level)&lt;/h2>
+&lt;blockquote>
+&lt;p>first level of quote&lt;/p>
+&lt;blockquote>
+&lt;p>A double level quote that is long and allows to test how the text wraps in the width of the container.&lt;/p>
+&lt;/blockquote>
+&lt;p>And first level again&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="code-highlighting">Code highlighting&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="nx">React&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;react&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="nx">uniquePropHOC&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;./lib/unique-prop-hoc&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// this comment is here to demonstrate an extremely long line length, well beyond what you should probably allow in your own code, though sometimes you&amp;#39;ll be highlighting code you can&amp;#39;t refactor, which is unfortunate but should be handled gracefully
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">class&lt;/span> &lt;span class="nx">Expire&lt;/span> &lt;span class="kr">extends&lt;/span> &lt;span class="nx">React&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">Component&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">constructor&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">props&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kr">super&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">props&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">state&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">component&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nx">props&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">children&lt;/span> &lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">componentDidMount&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">setTimeout&lt;/span>&lt;span class="p">(()&lt;/span> &lt;span class="p">=&amp;gt;&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">setState&lt;/span>&lt;span class="p">({&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">component&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">null&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">props&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">time&lt;/span> &lt;span class="o">||&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">props&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">seconds&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="mi">1000&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">render&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">state&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">component&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">export&lt;/span> &lt;span class="k">default&lt;/span> &lt;span class="nx">uniquePropHOC&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;time&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;seconds&amp;#39;&lt;/span>&lt;span class="p">])(&lt;/span>&lt;span class="nx">Expire&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="special-styles">Special styles&lt;/h2>
+&lt;blockquote>
+&lt;p>A block quote with &lt;del>strikethrough&lt;/del> and a URL: &lt;a href="https://reactjs.org">See here&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="tables">Tables&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Col 1&lt;/th>
+&lt;th>Col 2&lt;/th>
+&lt;th>Col 3&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Value&lt;/td>
+&lt;td>Very long value&lt;/td>
+&lt;td>So long that it will scroll horizontally? I hope so!&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Check out &lt;a href="https://github.com/JeremieLitzler/journal/blob/main/docs/posts/2021-01-28-styleguide/index.md">the source on GitHub&lt;/a>.&lt;/p>
+&lt;p>Hero photo by &lt;a href="https://unsplash.com/@janlosert?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText">Jan Losert&lt;/a> on Unsplash.&lt;/p></description></item><item><title>JavaScript30 - Course review</title><link>https://iamjeremie.me/post/2021-01-26-js30-by-wesbos/</link><pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2021-01-26-js30-by-wesbos/</guid><description>&lt;img src="https://iamjeremie.me/images/js30-by-wesbos.png" alt="Featured image of post JavaScript30 - Course review" />&lt;h2 id="what">What&lt;/h2>
+&lt;p>The course helps strengthen your skills with the new features available in JavaScript (ES6 or ECMAScript 2015 and beyond) as well as with the good old features in the span of 30 challenges (one per day if you can). Oh, by the way, it is free!&lt;/p>
+&lt;h2 id="where">Where&lt;/h2>
+&lt;p>The course can be found on &lt;a href="https://javascript30.com/">https://javascript30.com/&lt;/a>. You just need a good Visual Studio Code or your favorite code editor.&lt;/p>
+&lt;h2 id="who">Who&lt;/h2>
+&lt;p>The course is taught by Wes Bos (&lt;a href="https://wesbos.com">checkout his website&lt;/a>), a Canadian developer and teacher.&lt;/p>
+&lt;p>He has created many, many courses about JavaScript that thousands of students have taken. I have personally completed his ES6 course.&lt;/p>
+&lt;p>He is very engaging when he teaches and that is something that keeps you interested during the entire course.&lt;/p>
+&lt;h2 id="the-good">The Good&lt;/h2>
+&lt;p>There is a wide range of topics that you work on technically.&lt;/p>
+&lt;p>I particularly liked to learn about:&lt;/p>
+&lt;ul>
+&lt;li>building a custom video player,&lt;/li>
+&lt;li>playing with the media devices (webcam),&lt;/li>
+&lt;li>persisting data with local storage in the browser,&lt;/li>
+&lt;li>discovering the JavaScript console methods that I never used: &lt;code>time&lt;/code>, &lt;code>assert&lt;/code> and &lt;code>dir&lt;/code> which are quite useful! I used to use only console.log,&lt;/li>
+&lt;li>playing the speech synthesis,&lt;/li>
+&lt;li>really nailing the array methods down,&lt;/li>
+&lt;li>listening the keyboard strokes to perform cool stuff,&lt;/li>
+&lt;li>replicating the Stripe website navigation (I want to finish the keyboard navigation as Wes doesn&amp;rsquo;t cover that),&lt;/li>
+&lt;li>catching mouse and touch events to interact with the UI…&lt;/li>
+&lt;/ul>
+&lt;p>I think taking his ES6 course or any other course on Modern JavaScript will be a good help prior to taking this 30 days challenge.&lt;/p>
+&lt;p>Check out &lt;a href="https://js30-by-jeremiel.netlify.app/">my exercise solutions live here&lt;/a>.&lt;/p>
+&lt;h2 id="the-missingbits">The Missing bits&lt;/h2>
+&lt;p>It would have been great if Wes had summarized the instructions for each challenge.&lt;/p>
+&lt;p>I tried to write them down at the beginning of each course so I could have a go on my own before watching / checking the solution.&lt;/p>
+&lt;p>Something, you have to view the render of the solution to get those requirements right.&lt;/p>
+&lt;p>Also, a few accessibility tricks using JavaScript would be good to help the new web developers be really aware of that end-user need.&lt;/p>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>Going through the entire course took me 47h in total.&lt;/p>
+&lt;p>Thanks Wes for creating this awesome month-long challenge. I learned quite a few sweet tricks.&lt;/p>
+&lt;p>Next stop in company of Wes: his &lt;a href="https://learnnode.com/">Learn Node course&lt;/a> to apply all those ES6+ skills to a full-fledged project. Stay tuned!&lt;/p>
+&lt;p>Before that, I need to create myself a &lt;a href="https://www.netlify.com/blog/2020/05/04/building-a-markdown-blog-with-next-9.4-and-netlify/">little blog powered with NextJS and Netlify&lt;/a>! So far so good on &lt;a href="https://iamjeremie.me">my personal site&lt;/a>!&lt;/p></description></item><item><title>ES6 for everyone - Course review</title><link>https://iamjeremie.me/post/2020-12-20-es6-by-wesbos/</link><pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2020-12-20-es6-by-wesbos/</guid><description>&lt;img src="https://iamjeremie.me/images/es6-by-wesbos.png" alt="Featured image of post ES6 for everyone - Course review" />&lt;h2 id="what">What&lt;/h2>
+&lt;p>The course is about learning the new features available in JavaScript (it has been available for quite a while) from ES6 and more. Check &lt;a href="http://es6-features.org/">the features of ES6 and beyond&lt;/a>.&lt;/p>
+&lt;h2 id="where">Where&lt;/h2>
+&lt;p>The course can be purchased from &lt;a href="https://www.es6.io">www.es6.io&lt;/a>. You just need a good Visual Studio Code or your favorite code editor.&lt;/p>
+&lt;h2 id="who">Who&lt;/h2>
+&lt;p>The course is taught by Wes Bos (&lt;a href="https://wesbos.com">checkout his website&lt;/a>), a canadian developer and teacher. He has created many many courses about JavaScript that thousand of students have taken.&lt;/p>
+&lt;p>He is very engaging when he teaches and that is something that keeps you interested during the entire course.&lt;/p>
+&lt;h2 id="the-good">The Good&lt;/h2>
+&lt;p>It covers almost all of the features of ES6 (what about &lt;a href="http://es6-features.org/#Collation">Internationalization &amp;amp; Localization&lt;/a>? Maybe it wasn’t available as part of ES6 at the time… ask Wes!).&lt;/p>
+&lt;p>Despite some of the lessons missing more concrete use cases, the majority of the lessons were full of good examples. Wes provides the starter files and the solution. But have a go, challenge yourself and try to code it yourself.&lt;/p>
+&lt;p>In my case, I really went into the details of the Promises, ES6 Tooling and Async+Await lessons.&lt;/p>
+&lt;p>Also, the slack community was super great! I had to ask a couple of questions and wow, Wes has someone that looks like is dedicated to the courses and he answers very quickly. &lt;a href="https://twitter.com/_asjas?lang=fr">Thanks A-J Roos&lt;/a>!&lt;/p>
+&lt;h2 id="the-bad">The Bad&lt;/h2>
+&lt;p>Nothing really blocking. Read on to the missing bits to know more.&lt;/p>
+&lt;h2 id="the-missing-bits">The Missing bits&lt;/h2>
+&lt;p>The course is old (released in 2017) and would need a little update, especially in lesson 13 where we learn to use webpack and babel. Maybe a course could be built about that&amp;hellip;&lt;/p>
+&lt;p>It might need a refresher, especially to help the people who are really new to npm. Or an advice would be to practice npm.&lt;/p>
+&lt;p>What I did is stick to the exact same npm package versions that Wes used so that I would get the same result.&lt;/p>
+&lt;p>If you follow along, you will find out that installing the latest packages will not work since the courses doesn’t cover the breaking change in the webpack and babel packages.&lt;/p>
+&lt;p>No matter what, the community is there to help.&lt;/p>
+&lt;p>Also, there are exercises and they are good but the course would be really great if the student could have a clear understanding of use cases to use such or such features.&lt;/p>
+&lt;p>Maybe a small project with, for each stage, a focus on each feature studied would have been a great way to practice the feature. That’s what is done in the &lt;a href="https://iamjeremie.me/post/2020-03-22-webresponsive-bootcamp-by-scrimba/">Responsive Web Design Bootcamp course&lt;/a> over &lt;a href="https://scrimba.com/">at Scrimba&lt;/a>.&lt;/p>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>Going through the entire course took me 15 hours.&lt;/p>
+&lt;p>I had taken the “Mobile Web Specialist” nanodegree at Udacity where I learned mainly the service worker technology and the prerequisite was to learn about ES6 before diving into the more complex PWA topic.&lt;/p>
+&lt;p>You can read my courses notes on &lt;a href="https://github.com/JeremieLitzler/wesbos-es6/blob/master/index.md">the dedicated repository&lt;/a>. Thanks Wes for creating this course and many others. I have purchased quite a few of his courses.&lt;/p>
+&lt;p>Next stop: the &lt;a href="https://javascript30.com/">JavaScript30 course&lt;/a> that might just be the course to fill the whole of the missing bits. Stay tuned!&lt;/p></description></item><item><title>The Responsive Web Design Bootcamp - Course review</title><link>https://iamjeremie.me/post/2020-03-22-webresponsive-bootcamp-by-scrimba/</link><pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2020-03-22-webresponsive-bootcamp-by-scrimba/</guid><description>&lt;img src="https://iamjeremie.me/images/webresponsive-bootcamp-by-scrimba.png" alt="Featured image of post The Responsive Web Design Bootcamp - Course review" />&lt;h2 id="what">What&lt;/h2>
+&lt;p>The course is about web responsive design using HTML and CSS.&lt;/p>
+&lt;p>The topics covered are comprehensive, yet not all is covered (I will detail later on).&lt;/p>
+&lt;h2 id="where">Where&lt;/h2>
+&lt;p>The course is taught &lt;a href="https://scrimba.com/">on Scrimba&lt;/a>, an interactive course platform with tons of free courses already and many paid courses that, in my opinion, are really worth it, at least for this course I am reviewing.&lt;/p>
+&lt;p>The course is found &lt;a href="https://scrimba.com/learn/responsive">through this link&lt;/a> (non-affiliated).&lt;/p>
+&lt;p>The platform itself is actually what made me buy the course. You can interact with the video as you go and edit the code the teacher typing. Cool, uh?&lt;/p>
+&lt;p>Even better, you can save your edits to the code so that you can follow along the version of the teacher and go back to your version (e.g. it is kinda of a branch like in Git) when you pause the video.&lt;/p>
+&lt;p>This is something I haven&amp;rsquo;t seen anywhere else (I have done course on Udemy and Audacity) and this tops all of them.&lt;/p>
+&lt;p>I recommend having a try by signing up. Pick a free course and see it for yourself.&lt;/p>
+&lt;h2 id="who">Who&lt;/h2>
+&lt;p>Kevin Powell is the teacher. His curriculum is impressive and yet, I didn&amp;rsquo;t know him before the course.&lt;/p>
+&lt;p>Throughout the course, you will find out that his voice is clear and his words are accurate to explain the concept at hand.&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/images/webresponsive-bootcamp-by-scrimba-teacher.png"
+loading="lazy"
+alt="Kevin picture"
+>
+&lt;/p>
+&lt;p>I am experienced in the CSS and HTML technologies, having worked in the Web sphere since 2009. So I actually went 1.4x time the normal speed throughout the course ;)&lt;/p>
+&lt;p>Still, when I was stuck in a point, Kevin&amp;rsquo;s examples made it clear and I really feel like I saved into my programming toolkit the skills taught by him to really be able to apply it in the real-life scenarios.&lt;/p>
+&lt;h2 id="the-good">The Good&lt;/h2>
+&lt;p>Let&amp;rsquo;s now review the course: I thought I knew my topic… How wrong was I!&lt;/p>
+&lt;p>First, typography: I knew that using relative units as better than fixed units. Well, how thankful was I to learn exactly when to use each unit.&lt;/p>
+&lt;p>For example, rem is the recommended units for font-size while em is the unit we should prefer to px.&lt;/p>
+&lt;p>Second, Flexbox: who hasn&amp;rsquo;t used float in the last 10 years? who wasn&amp;rsquo;t tired of it and used Bootstrap to create &amp;ldquo;grid-like&amp;rdquo; layout that didn&amp;rsquo;t break?&lt;/p>
+&lt;p>Yes, but even with Bootstrap, and maybe I wasn&amp;rsquo;t using it properly, I feel like I was replacing the CSS hell with the HTML hell. What I mean by that is that the markup felt much more dense or decorative than for the purpose of the layout. You know the &amp;ldquo;Callback hell&amp;rdquo; in JavaScript, well I felt the &amp;ldquo;&amp;lt;\div&amp;gt; hell&amp;rdquo; with Bootstrap.&lt;/p>
+&lt;p>Note: I have use Bootstrap 4 over the past year for work (not that I chose it) and I think the version 4 has helped a lot to solve the version 3 issues.&lt;/p>
+&lt;p>I think that the content and project of the course are well made and I was actually pushed to test more as Kevin always emphasized.&lt;/p>
+&lt;p>For example, &lt;a href="https://jeremiel-with-scrimba-rd.netlify.app/4.taking.flexbox.to.the.next.level/2.justify-content.and.align-items/">I made this utility&lt;/a> to visually see the result of the properties &lt;em>flex-directions&lt;/em>, &lt;em>align-items&lt;/em> and &lt;em>justify-contents&lt;/em>.&lt;/p>
+&lt;p>Third, CSS grid: it was the one topic I was, kind of, apprehending. I started Wesbos&amp;rsquo;s course but I didn&amp;rsquo;t finish it. I&amp;rsquo;m not saying it is because Wes but I wasn&amp;rsquo;t motivated enough.&lt;/p>
+&lt;p>With Kevin, I was and I not only learned a lot of cool tricks to build a template layout but also I learned to use it in ways that I didn&amp;rsquo;t expect.&lt;/p>
+&lt;p>Now, it is full-speed ahead with CSS Grid and Flexbox, the vanilla style when it is possible.&lt;/p>
+&lt;h2 id="the-bad">The Bad&lt;/h2>
+&lt;p>The main element missing, in my opinion, in the course is a more detailed use of web responsive images.&lt;/p>
+&lt;p>In my opinion, images are not only about &amp;lsquo;width: 100%&amp;rsquo; and &amp;lsquo;object: fit&amp;rsquo; ;)&lt;/p>
+&lt;p>What about &amp;lsquo;scrset&amp;rsquo; and &amp;lsquo;sizes&amp;rsquo;?&lt;/p>
+&lt;p>How and when to use them?&lt;/p>
+&lt;p>I know that those attributes are not supported with IE and even not with Edge 14 and lower, but I think it is an important part of the web and images will always be displayed on websites :)&lt;/p>
+&lt;p>Adding this missing bit would make the course more complete.&lt;/p>
+&lt;p>Images are a big part of the web space. Even on Medium.com, you can see a lot of images.&lt;/p>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>I recommended the course for anyone who is self-taught.&lt;/p>
+&lt;p>Why? Because, in fact, the course is done well and you can learn from others.&lt;/p>
+&lt;p>Sometimes, especially with fundamentals like CSS and HTML, learning it wrong may be hard to unlearn later (it depends on your mindset and if you are willing to learn from others).&lt;/p>
+&lt;p>Personally, I measure the value of this course by learning the skills to build a website without any CSS framework (ok, except Font Awesome, but I&amp;rsquo;m looking to build that from scratch) like Bootstrap or Foundation (I know the former only).&lt;/p>
+&lt;p>Going through the entire course took me :&lt;/p>
+&lt;ul>
+&lt;li>2.65 hours for module 1&lt;/li>
+&lt;li>7.77 hours for module 2&lt;/li>
+&lt;li>7.70 hours for module 3&lt;/li>
+&lt;li>5.53 hours for module 4&lt;/li>
+&lt;li>5.60 hours for module 5&lt;/li>
+&lt;li>and finally a good 14 hours for module 6.&lt;/li>
+&lt;/ul>
+&lt;p>So I took me 43.25 hours to complete the course and really increase my skills. That&amp;rsquo;s only 4 and a half weeks if you work 2 hours per weekday on it. On the final project, I did try my best not to watch Kevin&amp;rsquo;s solution, hence the greater amount of time spent. When I got stuck (ex: the hero image, the main grid trick, the mobile menu), I was watching the videos to be inspired but then, &lt;a href="https://jeremiel-with-scrimba-rd.netlify.app/6.taking.it.to.the.next.level/1.final.project.instructor/index.html">his solution&lt;/a> is different than &lt;a href="https://jeremiel-with-scrimba-rd.netlify.app/6.taking.it.to.the.next.level/2.final.project.myself/">my final render&lt;/a>.&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/images/webresponsive-bootcamp-by-scrimba-final-project.png"
+loading="lazy"
+alt="Final project"
+>
+&lt;/p>
+&lt;p>Now, before moving to JavaScript or ReactJS or Vue or UI courses, I’d like to apply my skills to undo all the Bootstrap 3 templates I used on my existing projects and see if I can achieve the same look and feel with no HTML template and css framework (except Font Awesome.&lt;/p>
+&lt;p>I am certain I can :)&lt;/p>
+&lt;p>&lt;a href="https://jeremiel-with-scrimba-rd.netlify.com/">My study website&lt;/a> is hosted powered by the awesome Netlify.&lt;/p>
+&lt;p>Thanks Kevin. Thanks Scrimba team for this opportunity to learn.&lt;/p></description></item><item><title>Mastering CSS Grid</title><link>https://iamjeremie.me/post/2018-02-23-mastering-css-grid/</link><pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2018-02-23-mastering-css-grid/</guid><description>&lt;ul>
+&lt;li>&lt;a href="https://medium.freecodecamp.org/11-things-i-learned-reading-the-css-grid-specification-fb3983aa5e0">&amp;ldquo;11 Things I Learned Reading the CSS Grid Specification&amp;rdquo; by Ohans Emmanuel&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://medium.freecodecamp.org/my-friend-john-made-a-mistake-in-css-grid-dont-be-like-john-do-this-instead-91649f480da1">&amp;ldquo;My friend John made a mistake in CSS Grid. Don’t be like John — do this instead.&amp;rdquo; by Ohans Emmanuel&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>CSS Variables</title><link>https://iamjeremie.me/post/2018-02-21-css-variables/</link><pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2018-02-21-css-variables/</guid><description>&lt;h2 id="sources">Sources&lt;/h2>
+&lt;p>&lt;a href="https://medium.freecodecamp.org/learn-css-variables-in-5-minutes-80cf63b4025d">Medium article by Per Harald Borgen&lt;/a>&lt;/p>
+&lt;h2 id="why-learn-css-variables">Why learn CSS Variables?&lt;/h2>
+&lt;ul>
+&lt;li>To build a theme where you will reuse a property value many many many times
+&lt;ul>
+&lt;li>ex: the brand color or the size of a button.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>To build better responsive designs&lt;/li>
+&lt;/ul>
+&lt;h2 id="local-vs-global">Local vs Global&lt;/h2>
+&lt;h3 id="global">Global&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">:&lt;/span>&lt;span class="nd">root&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">--brand-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">blue&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">button&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">background-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">brand&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="kc">color&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="local">Local&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">alert&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">--alert-color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mh">#ff6f69&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">alert&lt;/span> &lt;span class="nt">p&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">alert&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="kc">color&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">border&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="kt">px&lt;/span> &lt;span class="kc">solid&lt;/span> &lt;span class="nf">var&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">--&lt;/span>&lt;span class="n">alert&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="kc">color&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="better-responsiveness">Better responsiveness&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">:&lt;/span>&lt;span class="nd">root&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">--main-font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">16&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nt">media&lt;/span> &lt;span class="nt">all&lt;/span> &lt;span class="nt">and&lt;/span> &lt;span class="o">(&lt;/span>&lt;span class="nt">max-width&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="nt">600px&lt;/span>&lt;span class="o">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="err">:root&lt;/span> &lt;span class="err">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">--main-font-size&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">12&lt;/span>&lt;span class="kt">px&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="err">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="how-to-access-variables-with-javascript">How to access variables with JavaScript&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">var&lt;/span> &lt;span class="nx">root&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">document&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">querySelector&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;:root&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">var&lt;/span> &lt;span class="nx">rootStyles&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">getComputedStyle&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">root&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kd">var&lt;/span> &lt;span class="nx">mainColor&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">rootStyles&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">getPropertyValue&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;--main-color&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">root&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">style&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">setProperty&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;--main-color&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;#88d8b0&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Exploring ES2018 and ES2019</title><link>https://iamjeremie.me/post/2018-02-22-es2018-es2019-notes/</link><pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2018-02-22-es2018-es2019-notes/</guid><description>&lt;p>&lt;a href="https://exploringjs.com/es2018-es2019/toc.html">Check the book out&lt;/a>.&lt;/p></description></item></channel></rss>

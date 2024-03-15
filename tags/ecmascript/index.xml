@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ECMASCRIPT on Jérémie Litzler</title><link>https://iamjeremie.me/tags/ecmascript/</link><description>Recent content in ECMASCRIPT on Jérémie Litzler</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://iamjeremie.me/tags/ecmascript/index.xml" rel="self" type="application/rss+xml"/><item><title>ES6 for everyone - Course review</title><link>https://iamjeremie.me/post/2020-12-20-es6-by-wesbos/</link><pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2020-12-20-es6-by-wesbos/</guid><description>&lt;img src="https://iamjeremie.me/images/es6-by-wesbos.png" alt="Featured image of post ES6 for everyone - Course review" />&lt;h2 id="what">What&lt;/h2>
+&lt;p>The course is about learning the new features available in JavaScript (it has been available for quite a while) from ES6 and more. Check &lt;a href="http://es6-features.org/">the features of ES6 and beyond&lt;/a>.&lt;/p>
+&lt;h2 id="where">Where&lt;/h2>
+&lt;p>The course can be purchased from &lt;a href="https://www.es6.io">www.es6.io&lt;/a>. You just need a good Visual Studio Code or your favorite code editor.&lt;/p>
+&lt;h2 id="who">Who&lt;/h2>
+&lt;p>The course is taught by Wes Bos (&lt;a href="https://wesbos.com">checkout his website&lt;/a>), a canadian developer and teacher. He has created many many courses about JavaScript that thousand of students have taken.&lt;/p>
+&lt;p>He is very engaging when he teaches and that is something that keeps you interested during the entire course.&lt;/p>
+&lt;h2 id="the-good">The Good&lt;/h2>
+&lt;p>It covers almost all of the features of ES6 (what about &lt;a href="http://es6-features.org/#Collation">Internationalization &amp;amp; Localization&lt;/a>? Maybe it wasn’t available as part of ES6 at the time… ask Wes!).&lt;/p>
+&lt;p>Despite some of the lessons missing more concrete use cases, the majority of the lessons were full of good examples. Wes provides the starter files and the solution. But have a go, challenge yourself and try to code it yourself.&lt;/p>
+&lt;p>In my case, I really went into the details of the Promises, ES6 Tooling and Async+Await lessons.&lt;/p>
+&lt;p>Also, the slack community was super great! I had to ask a couple of questions and wow, Wes has someone that looks like is dedicated to the courses and he answers very quickly. &lt;a href="https://twitter.com/_asjas?lang=fr">Thanks A-J Roos&lt;/a>!&lt;/p>
+&lt;h2 id="the-bad">The Bad&lt;/h2>
+&lt;p>Nothing really blocking. Read on to the missing bits to know more.&lt;/p>
+&lt;h2 id="the-missing-bits">The Missing bits&lt;/h2>
+&lt;p>The course is old (released in 2017) and would need a little update, especially in lesson 13 where we learn to use webpack and babel. Maybe a course could be built about that&amp;hellip;&lt;/p>
+&lt;p>It might need a refresher, especially to help the people who are really new to npm. Or an advice would be to practice npm.&lt;/p>
+&lt;p>What I did is stick to the exact same npm package versions that Wes used so that I would get the same result.&lt;/p>
+&lt;p>If you follow along, you will find out that installing the latest packages will not work since the courses doesn’t cover the breaking change in the webpack and babel packages.&lt;/p>
+&lt;p>No matter what, the community is there to help.&lt;/p>
+&lt;p>Also, there are exercises and they are good but the course would be really great if the student could have a clear understanding of use cases to use such or such features.&lt;/p>
+&lt;p>Maybe a small project with, for each stage, a focus on each feature studied would have been a great way to practice the feature. That’s what is done in the &lt;a href="https://iamjeremie.me/post/2020-03-22-webresponsive-bootcamp-by-scrimba/">Responsive Web Design Bootcamp course&lt;/a> over &lt;a href="https://scrimba.com/">at Scrimba&lt;/a>.&lt;/p>
+&lt;h2 id="summary">Summary&lt;/h2>
+&lt;p>Going through the entire course took me 15 hours.&lt;/p>
+&lt;p>I had taken the “Mobile Web Specialist” nanodegree at Udacity where I learned mainly the service worker technology and the prerequisite was to learn about ES6 before diving into the more complex PWA topic.&lt;/p>
+&lt;p>You can read my courses notes on &lt;a href="https://github.com/JeremieLitzler/wesbos-es6/blob/master/index.md">the dedicated repository&lt;/a>. Thanks Wes for creating this course and many others. I have purchased quite a few of his courses.&lt;/p>
+&lt;p>Next stop: the &lt;a href="https://javascript30.com/">JavaScript30 course&lt;/a> that might just be the course to fill the whole of the missing bits. Stay tuned!&lt;/p></description></item><item><title>Exploring ES2018 and ES2019</title><link>https://iamjeremie.me/post/2018-02-22-es2018-es2019-notes/</link><pubDate>Thu, 22 Feb 2018 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2018-02-22-es2018-es2019-notes/</guid><description>&lt;p>&lt;a href="https://exploringjs.com/es2018-es2019/toc.html">Check the book out&lt;/a>.&lt;/p></description></item></channel></rss>

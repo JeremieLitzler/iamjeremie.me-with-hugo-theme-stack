@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Digital Business on Jérémie Litzler</title><link>https://iamjeremie.me/categories/digital-business/</link><description>Recent content in Digital Business on Jérémie Litzler</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 06 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://iamjeremie.me/categories/digital-business/index.xml" rel="self" type="application/rss+xml"/><item><title>How to setup Substack publication for 2 languages in 2023</title><link>https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/</link><pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/</guid><description>&lt;img src="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/2023-06-06-substack-logo.webp" alt="Featured image of post How to setup Substack publication for 2 languages in 2023" />&lt;p>Let’s look at the steps to set it up so you can provide contents in two languages.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>When it comes to creating your newsletter, you have a wide choice of solutions.&lt;/p>
+&lt;p>I chose Substack because of their values: putting the writers first and provide efficient tools to help them grow their subscriber base.&lt;/p>
+&lt;p>However, when you speak 2 languages fluently, it isn’t straight forward how you can maintain a newsletter in each language in a single publication.&lt;/p>
+&lt;p>You could use two distinct publications, but I had written quite a few posts when I realized I needed to tidy up my publication regarding the dual-language content.&lt;/p>
+&lt;p>Plus, some parts of the publication can’t be translated anyways.&lt;/p>
+&lt;h2 id="english-must-be-the-default-language">English must be the default language&lt;/h2>
+&lt;p>As of today, you can’t set up all the texts in your preferred language.&lt;/p>
+&lt;p>The following will be in English, so pick the values carefully:&lt;/p>
+&lt;ul>
+&lt;li>the Publication name,&lt;/li>
+&lt;li>the Short description (it could include both languages, but it’s limited to 258 characters…),&lt;/li>
+&lt;li>the Categories,&lt;/li>
+&lt;li>the Square logo,&lt;/li>
+&lt;li>the Cover photo, that is displayed on the welcome page,&lt;/li>
+&lt;li>the Site design, which is simply the main color, the layout and font steps,&lt;/li>
+&lt;li>the Publication details, with your name, copyright and mailing address.&lt;/li>
+&lt;/ul>
+&lt;p>Some navigation tabs will always be in English, for now. However, the subscribing buttons will be translated to the visitor&amp;rsquo;s browser language.&lt;/p>
+&lt;p>For example, on my Chrome profile, I see:&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-english-chrome-profile.jpg"
+width="413"
+height="266"
+srcset="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-english-chrome-profile_hu24fd18e8efa657369a7970969049c92c_71723_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-english-chrome-profile_hu24fd18e8efa657369a7970969049c92c_71723_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-english-chrome-profile_hu24fd18e8efa657369a7970969049c92c_71723_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Subscription embed on a English Chrome profile"
+class="gallery-image"
+data-flex-grow="155"
+data-flex-basis="372px"
+>
+&lt;/p>
+&lt;p>With a French Chrome profile, I see:&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-french-chrome-profile.jpg"
+width="407"
+height="272"
+srcset="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-french-chrome-profile_hu5240e3a695959b68f903d53e337043ce_67370_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-french-chrome-profile_hu5240e3a695959b68f903d53e337043ce_67370_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/subscription-embed-on-a-french-chrome-profile_hu5240e3a695959b68f903d53e337043ce_67370_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Subscription embed on a French Chrome profile"
+class="gallery-image"
+data-flex-grow="149"
+data-flex-basis="359px"
+>
+&lt;/p>
+&lt;p>Regarding the following, we will look at how to set them up in the following paragraphs:&lt;/p>
+&lt;ul>
+&lt;li>the About page,&lt;/li>
+&lt;li>the Welcome email,&lt;/li>
+&lt;li>the Navigation,&lt;/li>
+&lt;li>the Sections,&lt;/li>
+&lt;li>the Email banner, header, and footer settings&lt;/li>
+&lt;li>the Email opt-out page&lt;/li>
+&lt;/ul>
+&lt;h2 id="setup-the-about-page">Setup the About page&lt;/h2>
+&lt;p>I chose to write the content of this page in two languages.&lt;/p>
+&lt;p>You can &lt;a href="https://iamjeremie.substack.com/about">view it here&lt;/a>.&lt;/p>
+&lt;p>The setup is simple: I use &lt;code>heading2&lt;/code> to separate the content of each language.&lt;/p>
+&lt;p>Also, I added a link to my blog for more detailed information, which is, of course, available in two languages.&lt;/p>
+&lt;h2 id="setup-sections-to-create-a-newsletter-per-language">Setup sections to create a newsletter per language&lt;/h2>
+&lt;p>Next, we will create the sections, which is also called the newsletters.&lt;/p>
+&lt;p>For each one, you can customize:&lt;/p>
+&lt;ul>
+&lt;li>the title&lt;/li>
+&lt;li>the description&lt;/li>
+&lt;li>the email sender name, if your name set above in the Publication details isn’t language-friendly for the language you’re dealing with.&lt;/li>
+&lt;li>the web URL of the section/newsletter.&lt;/li>
+&lt;li>the fact that you want to hide the posts under this section from the homepage.&lt;/li>
+&lt;/ul>
+&lt;p>Substack says about this point:&lt;/p>
+&lt;blockquote>
+&lt;p>If checked, posts from this section won’t appear on your publication homepage or publication archive. Posts will still appear in the section’s page.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>and a logo, if you need it to be different from the Publication logo.&lt;/li>
+&lt;/ul>
+&lt;h2 id="setup-the-navigation">Setup the Navigation&lt;/h2>
+&lt;p>Once the sections are created, you can tidy up the navigation, visible on top of each page of your publication.&lt;/p>
+&lt;p>I don’t remember exactly the default, but you will have:&lt;/p>
+&lt;ul>
+&lt;li>the Homepage,&lt;/li>
+&lt;li>the Archive page,&lt;/li>
+&lt;li>the About page,&lt;/li>
+&lt;li>each Section page,&lt;/li>
+&lt;li>and the Newsletters page&lt;/li>
+&lt;/ul>
+&lt;p>I hide the Archive page and the Sections (which are added automatically on creation.&lt;/p>
+&lt;p>That will give you a neat result (highlighted in red):&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/the-newsletter-page-with-a-clean-navigation.jpg"
+width="600"
+height="424"
+srcset="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/the-newsletter-page-with-a-clean-navigation_hu15f94f573cfb831a27bcb4a71b67d91c_85078_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/the-newsletter-page-with-a-clean-navigation_hu15f94f573cfb831a27bcb4a71b67d91c_85078_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/the-newsletter-page-with-a-clean-navigation_hu15f94f573cfb831a27bcb4a71b67d91c_85078_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="The newsletter page with a clean navigation"
+class="gallery-image"
+data-flex-grow="141"
+data-flex-basis="339px"
+>
+&lt;/p>
+&lt;h2 id="setup-the-welcome-email">Setup the Welcome email&lt;/h2>
+&lt;p>Similarly, the welcome email is written using &lt;code>heading3&lt;/code> to separate the languages (&lt;code>heading2&lt;/code> is used for the title).&lt;/p>
+&lt;p>What is important here is the section you will add to explain the new subscriber how to enable either the publication’s updates or a selected newsletter (maybe your subscriber speaks only French).&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/helping-the-subscriber-to-pick-his-optins.jpg"
+width="600"
+height="304"
+srcset="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/helping-the-subscriber-to-pick-his-optins_hucf6c7d500a9247a363f90e2ff1172255_62594_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/helping-the-subscriber-to-pick-his-optins_hucf6c7d500a9247a363f90e2ff1172255_62594_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/helping-the-subscriber-to-pick-his-optins_hucf6c7d500a9247a363f90e2ff1172255_62594_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Helping the subscriber to pick his opt-ins"
+class="gallery-image"
+data-flex-grow="197"
+data-flex-basis="473px"
+>
+&lt;/p>
+&lt;p>In my case, I will need to write a special post to my current French subscribers to help them opt-in to the French newsletter only.&lt;/p>
+&lt;h2 id="my-welcome-email">My welcome email&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;span class="lnt">36
+&lt;/span>&lt;span class="lnt">37
+&lt;/span>&lt;span class="lnt">38
+&lt;/span>&lt;span class="lnt">39
+&lt;/span>&lt;span class="lnt">40
+&lt;/span>&lt;span class="lnt">41
+&lt;/span>&lt;span class="lnt">42
+&lt;/span>&lt;span class="lnt">43
+&lt;/span>&lt;span class="lnt">44
+&lt;/span>&lt;span class="lnt">45
+&lt;/span>&lt;span class="lnt">46
+&lt;/span>&lt;span class="lnt">47
+&lt;/span>&lt;span class="lnt">48
+&lt;/span>&lt;span class="lnt">49
+&lt;/span>&lt;span class="lnt">50
+&lt;/span>&lt;span class="lnt">51
+&lt;/span>&lt;span class="lnt">52
+&lt;/span>&lt;span class="lnt">53
+&lt;/span>&lt;span class="lnt">54
+&lt;/span>&lt;span class="lnt">55
+&lt;/span>&lt;span class="lnt">56
+&lt;/span>&lt;span class="lnt">57
+&lt;/span>&lt;span class="lnt">58
+&lt;/span>&lt;span class="lnt">59
+&lt;/span>&lt;span class="lnt">60
+&lt;/span>&lt;span class="lnt">61
+&lt;/span>&lt;span class="lnt">62
+&lt;/span>&lt;span class="lnt">63
+&lt;/span>&lt;span class="lnt">64
+&lt;/span>&lt;span class="lnt">65
+&lt;/span>&lt;span class="lnt">66
+&lt;/span>&lt;span class="lnt">67
+&lt;/span>&lt;span class="lnt">68
+&lt;/span>&lt;span class="lnt">69
+&lt;/span>&lt;span class="lnt">70
+&lt;/span>&lt;span class="lnt">71
+&lt;/span>&lt;span class="lnt">72
+&lt;/span>&lt;span class="lnt">73
+&lt;/span>&lt;span class="lnt">74
+&lt;/span>&lt;span class="lnt">75
+&lt;/span>&lt;span class="lnt">76
+&lt;/span>&lt;span class="lnt">77
+&lt;/span>&lt;span class="lnt">78
+&lt;/span>&lt;span class="lnt">79
+&lt;/span>&lt;span class="lnt">80
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="gh"># Welcome! Bienvenue !
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gh">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">This email is written in english and french.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Cet e-mail est écrit en anglais et français. Défilez un peu plus bas pour le français.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## For english speakers
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Ready to learn more?
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">You are in the right place!
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">If you are like me, you may wonder how to do that or this in a wide range of fields of work.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">I would like to share my experiences and provide a good return on investment to you.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">You will start receiving updates right here in your inbox. You can also log in to [&lt;span class="nt">Substack&lt;/span>](&lt;span class="na">https://substack.com/&lt;/span>) to read the archives [&lt;span class="nt">in english&lt;/span>](&lt;span class="na">https://iamjeremie.substack.com/s/the-newsletter?utm_source=blog_english&lt;/span>) or [&lt;span class="nt">in french&lt;/span>](&lt;span class="na">https://iamjeremie.substack.com/s/le-bulletin-d-information?utm_source=blog_english&lt;/span>).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Enable the newsletter(s) you need
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">From your SubStack account, you willl need to toggle the newsletter(s), either english, french or both, you want to receive notifications for.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Use [&lt;span class="nt">this link to access your settings&lt;/span>](&lt;span class="na">https://iamjeremie.substack.com/account&lt;/span>). You will see this:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Choose what you want to receive&lt;/span>](&lt;span class="na">images/helping-the-subscriber-to-pick-his-optins.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">As shown above, you will receive only posts published under the publication.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Use the toggle to either:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> receive only posts from the english newsletter named “The Newsletter”.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> receive only posts from the french newsletter named “Le bulletin d’information”.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Some housekeeping…
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">If you can’t find the newsletter, check your Spam folder. And please mark this address as ‘not spam.’ If the newsletter isn’t in your spam folder, either, you should look in the Promotions tab.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">You can always see everything on the [&lt;span class="nt">SubStack website&lt;/span>](&lt;span class="na">https://iamjeremie.substack.com/&lt;/span>).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Thanks again, and please recommend to your friends if you feel like it.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">hr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## Pour les francophones
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Prêt à apprendre davantage ?
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Vous êtes au bon endroit !
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Si vous êtes comme moi, vous vous demandez peut-être comment faire ceci ou cela dans un large éventail de domaines.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">J&amp;#39;aimerais partager mes expériences et vous fournir un bon retour sur investissement.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Vous commencerez à recevoir des mises à jour ici même dans votre boîte de réception. Vous pouvez également vous connecter [&lt;span class="nt">au site Web de Substack&lt;/span>](&lt;span class="na">https://substack.com/&lt;/span>) pour lire les archives complètes ([en anglais](https://iamjeremie.substack.com/s/the-newsletter?utm_source=blog_english) ou [&lt;span class="nt">en français&lt;/span>](&lt;span class="na">https://iamjeremie.substack.com/s/le-bulletin-d-information?utm_source=blog_english&lt;/span>)).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Activez la ou les newsletters dont vous avez besoin
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Depuis votre compte SubStack, vous devrez basculer le ou les bulletins d’information, en anglais, en français ou les deux, pour lesquelles vous souhaitez recevoir des notifications.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Utilisez [&lt;span class="nt">ce lien pour accéder à vos paramètres concernant ma publication&lt;/span>](&lt;span class="na">https://iamjeremie.substack.com/account&lt;/span>). Vous verrez ceci :
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Choisissez ce que vous voulez recevoir&lt;/span>](&lt;span class="na">images/helping-the-subscriber-to-pick-his-optins.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Comme indiqué ci-dessus, vous ne recevrez que les messages publiés sous la publication (première ligne).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Utilisez la bascule pour :
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> recevoir uniquement les messages de la newsletter anglaise nommée &amp;#34;The Newsletter&amp;#34; (troisième ligne).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> recevoir uniquement les messages de la newsletter française nommée &amp;#34;Le bulletin d&amp;#39;information&amp;#34; (seconde ligne).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Un peu de ménage…
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Si vous ne trouvez pas le bulletin d’information, vérifiez votre dossier Spam. Et veuillez marquer cette adresse comme &amp;#34;non spam&amp;#34;. Si le bulletin d’information ne se trouve pas non plus dans votre dossier Spam, vous devriez regarder dans l&amp;#39;onglet Promotions.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Vous pouvez toujours tout voir [&lt;span class="nt">sur le site Web de Substack&lt;/span>](&lt;span class="na">https://iamjeremie.substack.com/&lt;/span>).
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Merci encore et recommendez moi à vos amis si vous en avez envie.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">hr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="setup-the-opt-out-email-in-both-languages">Setup the opt-out email in both languages&lt;/h2>
+&lt;p>Just like you did for the welcome email, you will use the same techniques to define dual language content on the opt-out email.&lt;/p>
+&lt;h2 id="are-you-doing-it-differently">Are you doing it differently&lt;/h2>
+&lt;p>Let me know in the comment!&lt;/p>
+&lt;p>I asked Substack when they will have the full support for the languages we need.&lt;/p>
+&lt;p>Here is their answer:&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/reply-of-substack-support-team-about-localization-of-content.jpg"
+width="1142"
+height="390"
+srcset="https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/_hu04f03cd89f5a098fdffbcde33207d8a4_95281_5c916512ba3ad6b2f7a9f0374ad38b42.jpg 360w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/_hu04f03cd89f5a098fdffbcde33207d8a4_95281_89ab7e338103bf53c21662eb56d46ac9.jpg 600w, https://iamjeremie.me/post/2023-06/how-to-setup-substack-publication-for-2-languages-in-2023/images/_hu04f03cd89f5a098fdffbcde33207d8a4_95281_9380f827737595fea0f331a7aaac148c.jpg 1024w"
+loading="lazy"
+alt="Reply of Substack support team about localization of content"
+class="gallery-image"
+data-flex-grow="292"
+data-flex-basis="702px"
+>
+&lt;/p>
+&lt;p>Let’s be patient and hope for a release to come soon!&lt;/p></description></item><item><title>How is my digital presence setup?</title><link>https://iamjeremie.me/post/2023-03/how-is-setup-my-digital-presence-today/</link><pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2023-03/how-is-setup-my-digital-presence-today/</guid><description>&lt;img src="https://iamjeremie.me/post/2023-03/how-is-setup-my-digital-presence-today/images/2023-03-30-a-laptop-and-notebook-on-a-desk.jpg" alt="Featured image of post How is my digital presence setup?" />&lt;p>In 2023, there are a lot of solutions to build your digital presence. In this article, I will share my current setup and why I use what I use.&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;h2 id="for-websites">For websites&lt;/h2>
+&lt;div class="jli-notice jli-notice-note" id="Pour la version française de cet article" >
+&lt;p class="jli-notice-title">Pour la version française de cet article&lt;/p>&lt;p>&lt;a href="https://jeremielitzler.fr/2023/03/comment-j-organise-mon-activite-digitale/">C&amp;rsquo;est par ici&lt;/a>.&lt;/p>&lt;/div>
+&lt;p>I use three solutions, which I pick depending on the following criteria.&lt;/p>
+&lt;p>For my personal use, I use the VuePress option more and more because of the clear win on hosting cost.&lt;/p>
+&lt;p>Yet, I use the second option to host my clients&amp;rsquo; websites and the third for my WordPress demo websites.&lt;/p>
+&lt;p>All my domain names are registered with OVH. I had a couple registered with Infomaniak, but I’m dropping them this year.&lt;/p>
+&lt;h3 id="vuepress-hosted-on-netlify-and-github">VuePress hosted on Netlify and GitHub&lt;/h3>
+&lt;p>I have been looking for a lightweight and cost-effective solution to build and host websites for a long time.&lt;/p>
+&lt;p>I tried simple HTML files, custom PHP application and WordPress.&lt;/p>
+&lt;p>Even if I use WordPress for my clients because it gives flexibility for them to update content themselves, I didn’t want using it for my personal needs.&lt;/p>
+&lt;p>As a software engineer, I wanted something quick, easy and with the least dependences possible.&lt;/p>
+&lt;p>I discovered VuePress as I started learning about VueJS in 2021.&lt;/p>
+&lt;p>At first, I used a custom theme of VuePress 2, based on the default theme. Then I discovered &lt;a href="https://theme-hope.vuejs.press/">Mr Hope’s theme&lt;/a> which provides all the features I need.&lt;/p>
+&lt;p>It allows me to:&lt;/p>
+&lt;ul>
+&lt;li>customize the styles, navigation, features I need&lt;/li>
+&lt;li>write articles quickly in &lt;a href="https://en.wikipedia.org/wiki/Markdown">Markdown&lt;/a> which VuePress transforms into static HTML files&lt;/li>
+&lt;li>deploy automatically the website with little efforts.&lt;/li>
+&lt;/ul>
+&lt;p>I have built a &lt;a href="https://github.com/Puzzlout/TemplateVuepress/">template repository with multilangual support&lt;/a> with a minimum setup if you’re interested. Or &lt;a href="https://iamjeremie.me/page/contact-me/">contact me if you need help&lt;/a>.&lt;/p>
+&lt;p>Today I use this for:&lt;/p>
+&lt;ul>
+&lt;li>this current website you are on, which is my personal blog&lt;/li>
+&lt;li>&lt;a href="https://demo-inflorescences.netlify.app/">this demo website for a quinoa producer&lt;/a> in Normandy (north west of France)&lt;/li>
+&lt;li>&lt;a href="https://www.passonslecap.fr/">my business idea about teach people to learn how to save on their energy bills&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://puzzlout.com/">my historical business website site&lt;/a> which I recently migrated over from a custom build with Gulp and flat hmtl files.&lt;/li>
+&lt;/ul>
+&lt;p>In all these usecases, the &lt;strong>cost is limited to the custom domain name&lt;/strong> if the &lt;code>my-website.netlify.app&lt;/code>isn’t enough.&lt;/p>
+&lt;h3 id="wordpress-and-divi-hosted-on-infomaniak">WordPress and Divi hosted on Infomaniak&lt;/h3>
+&lt;p>I use WordPress and the Divi builder through &lt;a href="https://www.infomaniak.com/goto/fr/my-easy-site?utm_term=5ff70313bf816">Infomaniak hosting&lt;/a> for clients.&lt;/p>
+&lt;p>It’s very cost-effective with an hosting plan starting at &lt;strong>about 112 euros per year&lt;/strong> (depending on the sale offers at a given moment).&lt;/p>
+&lt;p>It includes a domain, a email account and a web hosting with the Divi builder for free.&lt;/p>
+&lt;p>The manager dashboard is great and more intuitive than OVH’s.&lt;/p>
+&lt;p>The features available really appeals to me who likes to script deployments. Even though I can’t do all I can on Cloudways (&lt;a href="#wordpress-and-divi-on-cloudways">see below&lt;/a>), I can do enough to automate a lot of steps when deploying a WordPress site for a client.&lt;/p>
+&lt;p>Also, the fact that Divi comes for free when you purchase a hosting plan is a good plus.&lt;/p>
+&lt;p>In terms of cost, you will need to pay for the domain and hosting. For a &lt;code>.fr&lt;/code>domain and the bare minimum hosting, it costs about &lt;strong>112 euros per year&lt;/strong>, which may be more than OVH or GoDaddy or IONOS, but the features and performance of Infomaniak beat them clear and square.&lt;/p>
+&lt;p>At the moment, I use this setup for:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://ensembleinstrumentaltournontain.fr/">L&amp;rsquo;ensemble instrumental Tournon-Tain&lt;/a> (a symphonic orchestra in the city where I live).&lt;/li>
+&lt;li>&lt;a href="https://fauriat-ardeche.fr/">Gilles Fauriat&amp;rsquo;s website&lt;/a> who is a stonecutter near Annonay, France.&lt;/li>
+&lt;/ul>
+&lt;div class="jli-notice jli-notice-tip" id="Plus Infomaniak is really working on their impact on the environment" >
+&lt;p class="jli-notice-title">Plus Infomaniak is really working on their impact on the environment&lt;/p>&lt;p>See about their environmental &lt;a href="https://www.infomaniak.com/en/ecology">on their website&lt;/a>.&lt;/p>&lt;/div>
+&lt;p>&lt;a href="https://iamjeremie.me/page/contact-me/">Contact me if you need help or advice&lt;/a> to get started.&lt;/p>
+&lt;h3 id="wordpress-and-divi-on-cloudways">WordPress and Divi on Cloudways&lt;/h3>
+&lt;p>I use WordPress and the Divi builder (which I purchased) and I host on a &lt;a href="https://www.cloudways.com/en/?id=174912">Virtual Private Server (VPS) from Cloudways hosting&lt;/a> all my demo WordPress websites:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://music-demo-wp.puzzlout.com/">A music orchestra demo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://fleuriste-demo.puzzlout.com/">A florist business&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ecole-de-danse-demo.puzzlout.com/">A school dance demo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blank-template-fr.madebyjeremie.fr/">A blank template&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://magasin-producteurs-demo.puzzlout.com/">A storefront demo for local farmer market (with Woocommerce but payment)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://boutique-producteurs-demo.puzzlout.com/">A storefront demo for local farmer market (with Woocommerce and payment possible)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://auto-moto-ecole.puzzlout.com/">A driving school demo&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Why Cloudways for those demo websites? Because Infomaniak is more expensive and less performant for half a dozen demo WordPress sites than a VPS.&lt;/p>
+&lt;p>It costs me &lt;strong>$11.34 per month&lt;/strong> to keep on a minimal VPS running. Cloudways take care of all the server maintenance for me.&lt;/p>
+&lt;p>I only need to update the WordPress sites now and then.&lt;/p>
+&lt;p>I have built a custom workflow to deploy those websites using bash scripts. It’s very similar to Infomaniak scripts.&lt;/p>
+&lt;p>I really like Cloudways because you have access to many features that are usually locked with shared hosting.&lt;/p>
+&lt;p>Compared to Infomaniak&amp;rsquo;s shared hosting, the different is that you own your server and nobody else works on it. At Infomaniak, a VPS cost 30 euros per month at minimum (and yes, it has more power than the 1 GB Digital Ocean droplet).&lt;/p>
+&lt;p>&lt;a href="https://iamjeremie.me/page/contact-me/">Contact me&lt;/a> if you’re interested about the deploy scripts or using Cloudways.&lt;/p>
+&lt;h2 id="for-newsletters">For newsletters&lt;/h2>
+&lt;p>At the moment, I use Substack only.&lt;/p>
+&lt;p>Why?&lt;/p>
+&lt;p>Because it’s free and customizable to reflect your brand.&lt;/p>
+&lt;p>There are two drawbacks so far:&lt;/p>
+&lt;ul>
+&lt;li>The localization isn’t great: when you speak another language than English, you can’t set everything in your language.&lt;/li>
+&lt;li>Even if the membership feature is easy to set up (connecting with your Stripe account), you can only setup subscription in US dollars.&lt;/li>
+&lt;/ul>
+&lt;p>I’m hoping for an update soon to solve the first issue soon.&lt;/p>
+&lt;p>For the membership issue, read on.&lt;/p>
+&lt;h2 id="for-memberships">For memberships&lt;/h2>
+&lt;p>I’ve got no subscribers as of March 30, 2023. But I&amp;rsquo;m working on that thanks to &lt;a href="https://members.dariusforoux.com/digitalbusiness-school">Darius Foroux&amp;rsquo;s Digital Business school training&lt;/a>.&lt;/p>
+&lt;p>However, I have a Stripe account with products in English and French. For those who, one day, will be kind to &lt;a href="https://iamjeremie.me/page/sponsor-me/">support my work with one-time donation or a monthly/yearly subscription&lt;/a>, it is all ready.&lt;/p>
+&lt;p>At the moment, my personal website, for example, is using payment links that allows anyone to pay in 4 different currencies.&lt;/p>
+&lt;p>Maybe this will change in 2023.&lt;/p>
+&lt;p>If you want to follow my progress in the search of the best solution, consider subscribing.&lt;/p></description></item></channel></rss>

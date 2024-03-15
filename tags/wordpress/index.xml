@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WordPress on Jérémie Litzler</title><link>https://iamjeremie.me/tags/wordpress/</link><description>Recent content in WordPress on Jérémie Litzler</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://iamjeremie.me/tags/wordpress/index.xml" rel="self" type="application/rss+xml"/><item><title>How to migrate a WordPress site to Microsoft Azure</title><link>https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/</link><pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate><guid>https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/</guid><description>&lt;img src="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/wordpress-app-service-diagram.png" alt="Featured image of post How to migrate a WordPress site to Microsoft Azure" />&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;p>To get started, you need to:&lt;/p>
+&lt;ul>
+&lt;li>have an account and a subscription whether it’s a free trial or a non-profit sponsorship on Microsoft Azure.&lt;/li>
+&lt;li>be able to access to the source hosting you want to migrate from.&lt;/li>
+&lt;li>be able to install the plugin &lt;code>all-in-one wp migration&lt;/code>on the source website to migrate its content.&lt;/li>
+&lt;/ul>
+&lt;h2 id="create-the-app-service">Create the app service&lt;/h2>
+&lt;p>The architecture of the WordPress app service on Microsoft Azure is the following:&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/wordpress-app-service-diagram-with-highlights.png"
+width="1638"
+height="717"
+srcset="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/wordpress-app-service-diagram-with-highlights_hu0c0158546072368d1fa0b47dc84effe5_95915_360x0_resize_box_3.png 360w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/wordpress-app-service-diagram-with-highlights_hu0c0158546072368d1fa0b47dc84effe5_95915_600x0_resize_box_3.png 600w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/wordpress-app-service-diagram-with-highlights_hu0c0158546072368d1fa0b47dc84effe5_95915_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Diagram from Microsoft Learn"
+class="gallery-image"
+data-flex-grow="228"
+data-flex-basis="548px"
+>
+&lt;/p>
+&lt;p>Credit: image from &lt;a href="https://learn.microsoft.com/en-us/azure/architecture/example-scenario/infrastructure/wordpress-app-service">this article&lt;/a> on Microsoft Learn.&lt;/p>
+&lt;p>What we will focus the most on will be the &lt;strong>App Service&lt;/strong> and the &lt;strong>Azure Database for MySQL flexible server&lt;/strong>.&lt;/p>
+&lt;p>I will mention the Storage account but I won’t go into the details.&lt;/p>
+&lt;p>So, from &lt;a href="https://portal.azure.com/#home">the Portal&lt;/a>,&lt;/p>
+&lt;ol>
+&lt;li>You select &lt;code>Create a resource&lt;/code>&lt;/li>
+&lt;li>I followed the &lt;a href="https://learn.microsoft.com/en-us/azure/app-service/migrate-wordpress">Microsoft guide on WordPress migration&lt;/a> and here are the steps summarized into 5 steps:&lt;/li>
+&lt;/ol>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-1.jpg"
+width="1920"
+height="861"
+srcset="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-1_hu7d1e3904949ddf7da0054ae7534645fe_416343_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-1_hu7d1e3904949ddf7da0054ae7534645fe_416343_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-1_hu7d1e3904949ddf7da0054ae7534645fe_416343_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Step 1: select the app service template"
+class="gallery-image"
+data-flex-grow="222"
+data-flex-basis="535px"
+>
+&lt;/p>
+&lt;div class="jli-notice jli-notice-tip" id="Tip" >
+&lt;p class="jli-notice-title">Tip&lt;/p>&lt;p>Use the official Microsoft App Service option.&lt;/p>&lt;/div>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-2.jpg"
+width="1899"
+height="1435"
+srcset="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-2_hudc96a6c55382978722c8f86ce65f8319_432845_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-2_hudc96a6c55382978722c8f86ce65f8319_432845_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-2_hudc96a6c55382978722c8f86ce65f8319_432845_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Step 2: define the project, e.g., where is hosted the server, what size it will be and the initial WordPress credentials account."
+class="gallery-image"
+data-flex-grow="132"
+data-flex-basis="317px"
+>
+&lt;/p>
+&lt;div class="jli-notice jli-notice-tip" id="The importants steps here are:" >
+&lt;p class="jli-notice-title">The importants steps here are:&lt;/p>&lt;ul>
+&lt;li>creating a new Resource group to organize the resources created, for example with the &lt;code>RG_Websites_Ressources&lt;/code>.&lt;/li>
+&lt;li>selecting the initial App Service plan size, starting from free.&lt;/li>
+&lt;/ul>
+&lt;p>NB: if you perform a migration, the initial WordPress credentials account isn’t important since you will override it in later stages.&lt;/p>&lt;/div>
+&lt;div class="jli-notice jli-notice-warning" id="Free tier may be too small for WordPress..." >
+&lt;p class="jli-notice-title">Free tier may be too small for WordPress...&lt;/p>&lt;/div>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-3.jpg"
+width="1912"
+height="1509"
+srcset="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-3_hu8ec7fb9bd2c262866eb480e17f6a7465_556052_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-3_hu8ec7fb9bd2c262866eb480e17f6a7465_556052_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-3_hu8ec7fb9bd2c262866eb480e17f6a7465_556052_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Step 3: select the addons"
+class="gallery-image"
+data-flex-grow="126"
+data-flex-basis="304px"
+>
+&lt;/p>
+&lt;div class="jli-notice jli-notice-tip" id="In my case..." >
+&lt;p class="jli-notice-title">In my case...&lt;/p>&lt;p>I &lt;strong>unchecked everything&lt;/strong>, &lt;em>unlike it’s shown in the screenshot&lt;/em>.&lt;/p>
+&lt;p>If you need to create a storage account, you can do it separately.&lt;/p>&lt;/div>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-4.jpg"
+width="1920"
+height="530"
+srcset="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-4_hu8ec7fb9bd2c262866eb480e17f6a7465_181828_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-4_hu8ec7fb9bd2c262866eb480e17f6a7465_181828_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-4_hu8ec7fb9bd2c262866eb480e17f6a7465_181828_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Step 4: add a staging slot"
+class="gallery-image"
+data-flex-grow="362"
+data-flex-basis="869px"
+>
+&lt;/p>
+&lt;div class="jli-notice jli-notice-note" id="This is not necessary right now." >
+&lt;p class="jli-notice-title">This is not necessary right now.&lt;/p>&lt;/div>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-5.jpg"
+width="1920"
+height="861"
+srcset="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-5_hu8ec7fb9bd2c262866eb480e17f6a7465_222343_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-5_hu8ec7fb9bd2c262866eb480e17f6a7465_222343_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-step-5_hu8ec7fb9bd2c262866eb480e17f6a7465_222343_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Step 5: add tags"
+class="gallery-image"
+data-flex-grow="222"
+data-flex-basis="535px"
+>
+&lt;/p>
+&lt;div class="jli-notice jli-notice-tip" id="Tagging" >
+&lt;p class="jli-notice-title">Tagging&lt;/p>&lt;p>I think it’s important to tag the resources that you’re about to create.&lt;/p>&lt;/div>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-summary.jpg"
+width="1920"
+height="1711"
+srcset="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-summary_hu7d1e3904949ddf7da0054ae7534645fe_404886_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-summary_hu7d1e3904949ddf7da0054ae7534645fe_404886_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/create-app-service-with-new-plan-summary_hu7d1e3904949ddf7da0054ae7534645fe_404886_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Summary before creation"
+class="gallery-image"
+data-flex-grow="112"
+data-flex-basis="269px"
+>
+&lt;/p>
+&lt;div class="jli-notice jli-notice-note" id="" >
+&lt;p class="jli-notice-title">&lt;/p>&lt;p>The creation takes a while. So take a break and come back 15–20 minutes.&lt;/p>&lt;/div>
+&lt;h2 id="clean-up-the-resources">Clean up the resources&lt;/h2>
+&lt;p>To view all the resources you’ve just created, go to &lt;a href="https://portal.azure.com/#home">Portal homepage&lt;/a> and select &lt;code>Resource groups&lt;/code>tile.&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/access-resource-group-from-home.jpg"
+width="1396"
+height="350"
+srcset="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/access-resource-group-from-home_huaea79c5c709c3fb3a875e90223da5611_114193_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/access-resource-group-from-home_huaea79c5c709c3fb3a875e90223da5611_114193_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/access-resource-group-from-home_huaea79c5c709c3fb3a875e90223da5611_114193_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Access the resource groups"
+class="gallery-image"
+data-flex-grow="398"
+data-flex-basis="957px"
+>
+&lt;/p>
+&lt;p>Then, select the resource group you created earlier, for example &lt;code>RG_Websites_Ressources&lt;/code>.&lt;/p>
+&lt;p>When you create an app service using the template in the Azure marketplace, it creates a bit too many resources.&lt;/p>
+&lt;p>I haven’t noted all the ones that I deleted so let me show you which you need to keep:&lt;/p>
+&lt;ul>
+&lt;li>One storage account&lt;/li>
+&lt;li>One app service per website&lt;/li>
+&lt;li>One database instance per app service&lt;/li>
+&lt;li>One virtual network&lt;/li>
+&lt;/ul>
+&lt;p>If you happen to create several app services using the previous step method, you will end up with a lot of resources.&lt;/p>
+&lt;p>Plus, you will have one App Service plan per creation, which may not be something you want. For example, on the project, we’re running 2 app services using a single App Service plan.&lt;/p>
+&lt;p>It’s easy to create a new app service from an existing one.&lt;/p>
+&lt;p>The only distinct resources you need is an app service and a MySQL server instance (and even that one you could share between app services but I haven’t run into that scenario).&lt;/p>
+&lt;h2 id="size-the-resources-correctly">Size the resources correctly&lt;/h2>
+&lt;p>The good news is that you can resize the app service and / or the MySQL server after creation. And all it takes is &lt;em>just&lt;/em> a few clicks.&lt;/p>
+&lt;p>In my case, I had 2 websites and one was significantly larger than the other.&lt;/p>
+&lt;p>To modify the size of the app service, simply:&lt;/p>
+&lt;ul>
+&lt;li>Browse to the app service resource.&lt;/li>
+&lt;li>Select the &lt;code>Scale up (app service Plan)&lt;/code> blade.&lt;/li>
+&lt;li>Select the desired size.&lt;/li>
+&lt;li>Confirm by clicking the &lt;code>Select&lt;/code> button.&lt;/li>
+&lt;/ul>
+&lt;p>To modify the MySQL server resource:&lt;/p>
+&lt;ul>
+&lt;li>Browse to the resource.&lt;/li>
+&lt;li>Select the &lt;code>Compute + storage&lt;/code>blade.&lt;/li>
+&lt;li>Select the Compute tier: either &lt;code>Burstable&lt;/code>, &lt;code>General Purpose&lt;/code> or &lt;code>Business Critical&lt;/code>.&lt;/li>
+&lt;li>Select the Compute size.&lt;/li>
+&lt;li>Adjust the Storage size (minimum of 20 GiB is useful more than enough).&lt;/li>
+&lt;li>Adjust the backup settings if needed&lt;/li>
+&lt;li>confirm by clicking the &lt;code>Save&lt;/code> button&lt;/li>
+&lt;/ul>
+&lt;h2 id="configure-the-app-service-with-http2">Configure the app service with HTTP/2&lt;/h2>
+&lt;p>With WordPress, themes and plugins can generate quite a lot of requests on each page load. HTTP/2 leverage technology to optimize that and ditch the bundling strategy we have used with HTTP/1.1 servers.&lt;/p>
+&lt;p>Microsoft announced HTTP/2 support in &lt;a href="https://azure.microsoft.com/fr-fr/blog/announcing-http-2-support-in-azure-app-service/">this article&lt;/a> on March 27, 2018.&lt;/p>
+&lt;p>To enable it, here are the steps:&lt;/p>
+&lt;ul>
+&lt;li>Go to the &lt;em>app service&lt;/em>&lt;/li>
+&lt;li>Select &lt;em>Configuration blade&lt;/em> and then the &lt;em>General Settings&lt;/em> tab&lt;/li>
+&lt;li>Scroll down to find the HTTP/2 setting and set it to &lt;code>2.0&lt;/code>.&lt;/li>
+&lt;li>Save and restart the app service.&lt;/li>
+&lt;/ul>
+&lt;p>You can also find the raw configuration of the app service in the &lt;a href="https://resources.azure.com">Azure Resource Explorer&lt;/a>, but it’s more sensitive to edit over there.&lt;/p>
+&lt;p>You need to go under &lt;em>subscriptions &amp;gt; Microsoft Azure Sponsorship &amp;gt; resourceGroup &amp;gt; RG-YourOrg-Websites &amp;gt; providers &amp;gt; Microsoft.Web &amp;gt; sites &amp;gt; YourWebsiteName (aka name of the app service)&lt;/em>.&lt;/p>
+&lt;h2 id="migrate-from-the-shared-hosting-to-microsoft-azure">Migrate from the shared hosting to Microsoft Azure&lt;/h2>
+&lt;p>This was the main task.&lt;/p>
+&lt;p>While I started to perform the migration using &lt;a href="https://learn.microsoft.com/en-us/azure/app-service/migrate-wordpress#manual-migration-process">the manual method&lt;/a> for greater flexibility, I had to go back to &lt;a href="https://learn.microsoft.com/en-us/azure/app-service/migrate-wordpress#migrate-wordpress-with-all-in-one-wp-migration-plugin">the plugin method&lt;/a>.&lt;/p>
+&lt;p>Why?&lt;/p>
+&lt;p>The &lt;a href="https://www.advancedcustomfields.com/">Advanced Custom Fields plugin&lt;/a> wasn’t working after performing the manual steps. It was a no-go since the existing website used it heavily.&lt;/p>
+&lt;p>After a few attempts to find the cause, I finally migrated the website using the All-In-One WP Migration plugin.&lt;/p>
+&lt;p>The steps were pretty simple and nothing is missing in the guide.&lt;/p>
+&lt;p>As for the post’s migration actions, what Microsoft lists is pretty much what I did:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Search and replace (paths and domains) using &lt;a href="https://wordpress.org/plugins/better-search-replace/">&lt;em>Better Replace&lt;/em> plugin&lt;/a> to use the temporary domain (for ex.: &lt;code>mywebsite.azurewebsites.net&lt;/code>).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Configure the custom domain once we had checked that all the functionalities worked and the pages all used the temporary domain. To configure your site with a custom domain follow the steps described in &lt;a href="https://learn.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain">the guide “Map existing custom DNS name”&lt;/a>.&lt;/p>
+&lt;div class="jli-notice jli-notice-warning" id="You will need access the DNS Zone edition for that step ⬆️" >
+&lt;p class="jli-notice-title">You will need access the DNS Zone edition for that step ⬆️&lt;/p>&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>Update SSL certificates: once Microsoft Azure serves the domain, it’s as simple as going to the &lt;code>Custom domains&lt;/code>blade in the app service and add the binding to be &lt;code>SNI SSL&lt;/code>. This requires that you configure your registar to point the target domain to Microsoft Azure.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="cost-for-non-profits-take-advantage-of-microsofts-sponsorship">Cost: for non-profits, take advantage of Microsoft’s sponsorship&lt;/h2>
+&lt;p>If you’re a non-profit organization, you can benefit from a Sponsorship from Microsoft.&lt;/p>
+&lt;p>At the time of writing, it’s &lt;strong>$2000 per year&lt;/strong>!&lt;/p>
+&lt;p>For that amount, you can easily host a large website. In the case I dealt with, we have:&lt;/p>
+&lt;ul>
+&lt;li>two MySQL servers,
+&lt;ul>
+&lt;li>the first at $62.33 per month (large website with more than 6000 pages and posts and a good steady traffic with a spike on Saturdays).&lt;/li>
+&lt;li>the second at $10.21 per month (small website for now),&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>an app service Plan (&lt;em>Premium v2 P1V2&lt;/em>) at $75.92 per month, which is enough to run 2 app services.&lt;/li>
+&lt;li>a storage account with 772 GB of Blob storage and 6 GB of File storage (yes, the organization serves a lot of audio, video and PDF files).&lt;/li>
+&lt;/ul>
+&lt;p>Learn more at &lt;a href="https://www.microsoft.com/en-us/nonprofits/azure">https://www.microsoft.com/en-us/nonprofits/azure&lt;/a>.&lt;/p>
+&lt;h2 id="maintenance-and-updates-with-deployment-slots">Maintenance and updates with deployment slots&lt;/h2>
+&lt;p>Even if I was tempted to use a plugin for that, I didn’t.&lt;/p>
+&lt;p>In the following paragraphs, I detail the steps I took to use deployment slots.&lt;/p>
+&lt;h3 id="why-deployment-slots">Why deployment slots&lt;/h3>
+&lt;p>Once you completed migrating the website, it’s time to think about how to perform the maintenance. That includes updating the core of WordPress, the theme and the plugins.&lt;/p>
+&lt;p>While you could use a plugin, such as UpdrafPlus or something else, I recommend using the deployment slots, native of Microsoft Azure, and they’re free of charge.&lt;/p>
+&lt;p>I agree with you: it’s more technical, but the app service plan available to you includes it.&lt;/p>
+&lt;p>Plus, I personally tried UpdrafPlus on Microsoft Azure and it didn’t go as well as I’d have hoped (random locking the database if the MySQL wasn’t big enough).&lt;/p>
+&lt;p>I have shared below a full procedure used for months by this former client in the US. And it works great!&lt;/p>
+&lt;h3 id="about-backups-in-microsoft-azure">About backups in Microsoft Azure&lt;/h3>
+&lt;p>Before we dive into the procedure itself, let’s talk about the backups.&lt;/p>
+&lt;p>By default, your database instance and app service are back up automatically.&lt;/p>
+&lt;p>The database is backed up once a day, around one hour after its creation.
+You can take manual backup at any time, within the limit of 50 per instance.&lt;/p>
+&lt;div class="jli-notice jli-notice-note" id="About that limit" >
+&lt;p class="jli-notice-title">About that limit&lt;/p>&lt;p>When you create a new instance (which is the case when you perform maintenance), the counter starts from 0 again.&lt;/p>
+&lt;p>So you will never run out 😁&lt;/p>&lt;/div>
+&lt;p>The app service is backed up every hour. You could set up manual backups but I don’t see a use for it.
+Plus, it requires to setup a storage account (additional costs) and to hook it up to the app service.&lt;/p>
+&lt;p>No doing a manual backup of the app service means the synchronization between the database and the app service may be out a bit.&lt;/p>
+&lt;p>To avoid loss of data, I recommend taking a manual backup of the database right after an automatic backup of the app service (this is a step in the procedure).&lt;/p>
+&lt;p>Also refrain from making modifications (apart from the updates to perform) before completing the maintenance tasks.&lt;/p>
+&lt;h3 id="use-the-deployment-slots">Use the deployment slots&lt;/h3>
+&lt;p>When you have an app service running, you need to go to the &lt;code>Deployment slots&lt;/code>blade.&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/deployment-slots-blade.jpg"
+width="427"
+height="517"
+srcset="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/deployment-slots-blade_hu6f7c238f1eb67bac162fc37962a9d19b_98465_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/deployment-slots-blade_hu6f7c238f1eb67bac162fc37962a9d19b_98465_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/deployment-slots-blade_hu6f7c238f1eb67bac162fc37962a9d19b_98465_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Available in the App Service blades"
+class="gallery-image"
+data-flex-grow="82"
+data-flex-basis="198px"
+>
+&lt;/p>
+&lt;p>Once in the dashboard, you can create a slot from &lt;code>Add Slot&lt;/code>:&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/deployment-slots-dashboard.jpg"
+width="1334"
+height="313"
+srcset="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/deployment-slots-dashboard_hu54cc8172d3bf1922ad555d8c1b05b8f8_83024_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/deployment-slots-dashboard_hu54cc8172d3bf1922ad555d8c1b05b8f8_83024_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/deployment-slots-dashboard_hu54cc8172d3bf1922ad555d8c1b05b8f8_83024_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="The deployment slots dashboard"
+class="gallery-image"
+data-flex-grow="426"
+data-flex-basis="1022px"
+>
+&lt;/p>
+&lt;p>You will need to:&lt;/p>
+&lt;ul>
+&lt;li>Enter the name of the slot. Below, I share how I name it.&lt;/li>
+&lt;li>Select the parent app service to clone the settings from.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/configuring-the-slot.jpg"
+width="585"
+height="330"
+srcset="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/configuring-the-slot_hu07dc05523e4da5bad12ba1b0ff9f8f24_48058_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/configuring-the-slot_hu07dc05523e4da5bad12ba1b0ff9f8f24_48058_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/configuring-the-slot_hu07dc05523e4da5bad12ba1b0ff9f8f24_48058_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Configuration of the slot"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="425px"
+>
+&lt;/p>
+&lt;ul>
+&lt;li>Confirm by clicking &lt;code>Add&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;p>After a few seconds, the deployment slots dashboard is updated:&lt;/p>
+&lt;p>
+&lt;img src="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/deployment-slots-dashboard-updated.jpg"
+width="1325"
+height="351"
+srcset="https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/deployment-slots-dashboard-updated_hu7222e7562e96af75aedfa96189c94a8f_85105_360x0_resize_q75_box.jpg 360w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/deployment-slots-dashboard-updated_hu7222e7562e96af75aedfa96189c94a8f_85105_600x0_resize_q75_box.jpg 600w, https://iamjeremie.me/post/2024-02/how-to-migrate-wordpress-site-to-ms-azure/images/deployment-slots-dashboard-updated_hu7222e7562e96af75aedfa96189c94a8f_85105_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="The deployment slots dashboard updated with a slot"
+class="gallery-image"
+data-flex-grow="377"
+data-flex-basis="905px"
+>
+&lt;/p>
+&lt;div class="jli-notice jli-notice-note" id="Until January 2024" >
+&lt;p class="jli-notice-title">Until January 2024&lt;/p>&lt;p>You had to add the virtual network to the slot, as it wasn’t &lt;em>copied&lt;/em>.&lt;/p>
+&lt;p>Microsoft seems to have resolved that! Hurray 🎆&lt;/p>&lt;/div>
+&lt;h2 id="next-steps">Next steps&lt;/h2>
+&lt;p>I have created for the organization I worked for &lt;a href="https://docs.google.com/spreadsheets/d/1G8uoIAh-UOGrIepgz0q-iR9WkbgJVocGeL8J9RQMpbY">a Google Sheet checklist&lt;/a> which you can copy and use.&lt;/p>
+&lt;p>If you find an issue or a step that is obsolete, &lt;a href="https://iamjeremie.me/page/contact-me/">let me know&lt;/a>.&lt;/p>
+&lt;p>I recommend going through this procedure monthly or bimonthly. It takes less than one hour after you became familiar with it.&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>I started from scratch, without any experience on Microsoft Azure. Still, I picked up rather quickly and I applied skills I had to organize the resources properly and lead the project to completion.&lt;/p>
+&lt;p>I didn’t do everything but I asked questions about what I didn’t do. The son of the head of the organization pushed to use Microsoft Azure as he’s currently a Principal Cloud Engineer, specialized in cost optimization on Microsoft Azure.&lt;/p>
+&lt;p>He helped settings up the CDN to serve the audio, video and PDF content. He also helped to set up the dedicated Office 365 account used as the account sending emails from the website. Using the plugin &lt;a href="https://wordpress.org/plugins/wpo365-msgraphmailer/">&lt;em>WPO365 | MICROSOFT 365 GRAPH MAILER&lt;/em>&lt;/a>, we connected the forms to the Office 365 account to send the messages.&lt;/p>
+&lt;p>Microsoft Azure can be intimidated with the vast possibilities it provides. It’s a complex ecosystem. Yet, it’s a valuable skill to have and I’m glad I acquired it.&lt;/p></description></item></channel></rss>
