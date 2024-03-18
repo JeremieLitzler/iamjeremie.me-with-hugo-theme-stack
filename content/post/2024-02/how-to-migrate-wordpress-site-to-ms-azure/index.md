@@ -255,14 +255,14 @@ Once in the dashboard, you can perform a restore from the last automatic backup:
 
 You will need to:
 
-- Click on _Create new_ under Deployment slot to customize the slot name (optional)
-  - Enter the name of the slot. Below, I share how I name it.
+- Click on _Create new_ under _Deployment slot_ to customize the _slot_ name (optional)
+  - Enter the name of the _slot_. Below, I share how I name it.
 - Select the parent app service to clone the settings from.
 - Confirm by clicking `Add`.
 
-![The 5 steps to restore the app service into a slot](images/configuring-the-slot.jpg)
+![The 5 steps to restore the app service into a *slot*](images/configuring-the-slot.jpg)
 
-After a few minutes, the deployment slots dashboard (See the _deployment slots blade_) is updated:
+After a few minutes, the deployment _slots_ dashboard (See the _deployment slots blade_) is updated:
 
 ![The deployment slots dashboard updated with a slot](images/deployment-slots-dashboard-updated.jpg)
 
@@ -274,7 +274,13 @@ The action is simple: just click on _Not configured_ for _Virtual network integr
 
 ![Network configuration](images/network-configuration.jpg)
 
-And don't use the _Add slot_ method from the deployment slots dashboard because it doesn't work. In fact, it creates a blank WordPress site and there is too much to do...
+**Be sure to wait 5-10 minutes before adding it**, as this will fail if the slot has not completed its deployment.
+
+{{< /blockcontainer >}}
+
+{{< blockcontainer jli-notice-danger "">}}
+
+And don’t use the _Add slot_ method from the deployment slots dashboard because it doesn’t work. In fact, it creates a blank WordPress site and there is too much to do…
 
 {{< /blockcontainer >}}
 
