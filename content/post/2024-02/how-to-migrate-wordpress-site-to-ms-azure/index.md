@@ -245,32 +245,36 @@ Also refrain from making modifications (apart from the updates to perform) befor
 
 ### Use the deployment slots
 
-When you have an app service running, you need to go to the `Deployment slots`blade.
+When you have an app service running, you need to go to the `Backups` blade.
 
-![Available in the App Service blades](images/deployment-slots-blade.jpg)
+![Available in the App Service blades](images/backups-blade.jpg)
 
-Once in the dashboard, you can create a slot from `Add Slot`:
+Once in the dashboard, you can perform a restore from the last automatic backup:
 
-![The deployment slots dashboard](images/deployment-slots-dashboard.jpg)
+![The Backups dashboard](images/bakcups-dashboard.jpg)
 
 You will need to:
 
-- Enter the name of the slot. Below, I share how I name it.
+- Click on _Create new_ under Deployment slot to customize the slot name (optional)
+  - Enter the name of the slot. Below, I share how I name it.
 - Select the parent app service to clone the settings from.
-
-![Configuration of the slot](images/configuring-the-slot.jpg)
-
 - Confirm by clicking `Add`.
 
-After a few seconds, the deployment slots dashboard is updated:
+![The 5 steps to restore the app service into a slot](images/configuring-the-slot.jpg)
+
+After a few minutes, the deployment slots dashboard (See the _deployment slots blade_) is updated:
 
 ![The deployment slots dashboard updated with a slot](images/deployment-slots-dashboard-updated.jpg)
 
-{{< blockcontainer jli-notice-note "Until January 2024">}}
+{{< blockcontainer jli-notice-warning "Issue ongoing on the portal">}}
 
-You had to add the virtual network to the slot, as it wasn’t _copied_.
+You need to add the virtual network to the _slot_, as it is not _copied_ with the restore method.
 
-Microsoft seems to have resolved that! Hurray 🎆
+The action is simple: just click on _Not configured_ for _Virtual network integration_ on the right of the Networking dashboard and select the appropriate network.
+
+![Network configuration](images/network-configuration.jpg)
+
+And don't use the _Add slot_ method from the deployment slots dashboard because it doesn't work. In fact, it creates a blank WordPress site and there is too much to do...
 
 {{< /blockcontainer >}}
 
