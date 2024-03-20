@@ -11,6 +11,8 @@ tags:
   - Vue.js
 ---
 
+## Starting point
+
 I learn every day to use and improve my usage of TypeScript.
 
 Today, I’ll share the case where I converted from JavaScript to TypeScript for a custom directive in Vue 3.
@@ -35,6 +37,8 @@ export default (app) => {
   app.directive("click-outside", ClickOutsideDirective);
 };
 ```
+
+## How to tackle the challenge
 
 This first thing to deal with is the two arguments of the `mounted` hook and the argument of the `unmounted` hook.
 
@@ -87,7 +91,7 @@ Next, you simply type:
 - The `[event.target](https://developer.mozilla.org/en-US/docs/Web/API/Event/target)` must be casted to a `Node` where you check if the element contains the target.
 - The `app` argument on the final export.
 
-The final code is the following:
+## Final code
 
 ```tsx
 import { App } from "vue";
