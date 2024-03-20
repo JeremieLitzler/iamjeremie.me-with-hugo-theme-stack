@@ -6,7 +6,7 @@ favicon = "/favicon.ico"
 
 [footer]
 since = 2021
-customText = 'License GPLv3 | <a href="https://iamjeremie.me/page/terms" title="Read terms and conditions of this website">Terms</a>'
+customText = 'License GPLv3 | <a href="https://iamjeremie.me/page/terms/" title="Read terms and conditions of this website">Terms</a>'
 
 [dateFormat]
 published = "Jan 02, 2006"
@@ -37,7 +37,7 @@ type = "search"
 type = "archives"
 
 [widgets.homepage.params]
-limit = 5
+limit = 8
 
 [[widgets.homepage]]
 type = "categories"
@@ -53,6 +53,9 @@ limit = 10
 
 [[widgets.page]]
 type = "toc"
+
+[[widget.tagCloud]]
+title = "Categories"
 
 [opengraph.twitter]
 site = ""
@@ -76,55 +79,6 @@ enabled = true
 ## Comments
 [comments]
 enabled = false
-provider = "disqus"
-
-[comments.disqusjs]
-shortname = ""
-apiUrl = ""
-apiKey = ""
-admin = ""
-adminLabel = ""
-
-[comments.utterances]
-repo = ""
-issueTerm = "pathname"
-label = ""
-
-[comments.remark42]
-host = ""
-site = ""
-locale = ""
-
-[comments.vssue]
-platform = ""
-owner = ""
-repo = ""
-clientId = ""
-clientSecret = ""
-autoCreateIssue = false
-
-[comments.waline]
-serverURL = ""
-lang = ""
-visitor = ""
-avatar = ""
-emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
-requiredMeta = ["name", "email", "url"]
-placeholder = ""
-
-[comments.waline.locale]
-admin = "Admin"
-
-[comments.twikoo]
-envId = ""
-region = ""
-path = ""
-lang = ""
-
-[comments.cactus]
-defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
-serverName = "cactus.chat"
-siteName = ""
 
 [comments.giscus]
 repo = ""
@@ -136,14 +90,3 @@ lightTheme = ""
 darkTheme = ""
 reactionsEnabled = 1
 emitMetadata = 0
-
-[comments.gitalk]
-owner = ""
-admin = ""
-repo = ""
-clientID = ""
-clientSecret = ""
-
-[comments.cusdis]
-host = ""
-id = ""
