@@ -2,3 +2,7 @@ public
 resources
 
 *.bak
+node_modules
+.env
+# Local Netlify folder
+.netlify
