@@ -1,6 +1,6 @@
 ---
 title: "Re-rendering components on route change with Vue"
-description: "A best practice when the current route change is to make the router view component using the key property. As described in the official documentation, the key special attribute is primarily used as a hint for Vue’s virtual DOM algorithm to identify vnodes when diffing the new list of nodes against the old list. Let’s see how it can be used with vue-router."
+description: "A best practice when the current route change is to make the router view component unique using the key property. As described in the official documentation, the key special attribute is primarily used as a hint for Vue’s virtual DOM algorithm to identify vnodes when diffing the new list of nodes against the old list. Let’s see how it can be used with vue-router."
 image: images/2024-03-25-some-code-with-key-usage.jpg
 imageAlt: "Some code with key usage that is not a v-for"
 date: 2024-03-25
