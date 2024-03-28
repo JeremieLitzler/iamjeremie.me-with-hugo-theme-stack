@@ -29,3 +29,7 @@
 
 {{- template "_internal/google_analytics.html" . -}}
 {{- partial "head/custom.html" . -}}
+
+{{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}

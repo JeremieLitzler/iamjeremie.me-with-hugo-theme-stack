@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "netlify": "netlify"
+  },
+  "dependencies": {
+    "@netlify/functions": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "netlify-cli": "^17.20.1"
+  }
+}
