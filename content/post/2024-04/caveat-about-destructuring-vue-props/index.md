@@ -53,7 +53,7 @@ Destructuring the _props_ object broke the reactivity and `computed` requires a 
 So the valid code became:
 
 ```tsx
-const props = withDefaults(defineProps<PostListProps>(), {
+cgit onst props = withDefaults(defineProps<PostListProps>(), {
   orderBy: OrderByDirection.Asc,
 });
 const orderedPosts = computed(() => {
