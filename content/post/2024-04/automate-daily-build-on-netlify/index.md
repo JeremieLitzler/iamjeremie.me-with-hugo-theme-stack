@@ -1,6 +1,6 @@
 ---
 title: "Automate daily build on Netlify"
-description: ""
+description: "Scheduling tasks is a common need in software development. With my Hugo blogs, I needed such a task to automate the publishing workflow of my article."
 image: images/2024-04-12-running-recurring-function.jpg
 imageAlt: "Running recurring function"
 date: 2024-04-12
