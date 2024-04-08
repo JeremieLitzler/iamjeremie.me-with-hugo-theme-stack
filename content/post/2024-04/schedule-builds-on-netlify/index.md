@@ -179,4 +179,4 @@ This procedure works as of April 8, 2024.
 
 Since I’m using it for my two blogs, if it breaks, I will update this article accordingly.
 
-Thanks for reading this far and enjoy your automated scheduled Netlify builds.
+Thanks for reading this far and enjoy your scheduled Netlify builds.
