@@ -83,7 +83,7 @@ Here are the steps:
   functions = "functions" #the function was create into the directory 'functions' at the root of your repository.
   ```
 
-- Use this code (I’ve commented on it heavily) :
+- Use this function code (I’ve commented on it heavily) :
 
 ```jsx
 /**
