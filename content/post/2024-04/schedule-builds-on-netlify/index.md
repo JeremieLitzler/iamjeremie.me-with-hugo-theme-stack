@@ -163,7 +163,7 @@ log("RECURRING_PUBLISH>Done registering");
 
 At the end of the build, check _Logs > Functions_ blade under your app:
 
-![Example on my french website](images/2024-04-12-running-recurring-function.jpg)
+![Example on my french website](images/2024-04-10-running-recurring-function.jpg)
 
 The _recurring_publish_ function should appear and tell you it will run the next `cron` time, in the example at 4:00 AM GMT time.
 
