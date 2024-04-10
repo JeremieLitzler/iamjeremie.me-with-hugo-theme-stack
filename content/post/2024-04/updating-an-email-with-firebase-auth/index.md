@@ -1,6 +1,6 @@
 ---
 title: "Updating an e-mail with Firebase Auth"
-description: "Long ago, the workflow to change an e-mail address with Firebase Authentification was simple, but less secure. With Firebase 9, it changed and you need to verify the e-mail address when updating it. I’ll show you how it works.."
+description: "Long ago, the workflow to change an e-mail address with Firebase Authentification was simple, but less secure. With Firebase 9, it changed and you need to verify the e-mail address when updating it. I’ll show you how it works..."
 image: images/2024-04-10-a-few-mailboxes.jpg
 imageAlt: "Some physical mailboxes of different design styles"
 date: 2024-04-12
