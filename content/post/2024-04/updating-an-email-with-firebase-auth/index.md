@@ -30,13 +30,17 @@ For testing purposes only, I recommend **Yopmail**. It allows you to create _thr
 
 Just go to [their website](https://yopmail.com/) and use [the random e-mail address generator](https://yopmail.com/email-generator).
 
-It guarantees that you don’t have someone use the same e-mail address as you and sees some of sensitive information.
+It guarantees that you don’t have someone use the same e-mail address.
+
+{{< blockcontainer jli-notice-warning "Be careful, though, if your e-mails contain sensitive information.">}}
+
+{{< /blockcontainer >}}
 
 ## The code and workflow
 
 ### Send the request to change the e-mail
 
-The workflow may differ from an application to another, so I will share the code that calls the Firebase Authentification API:
+The workflow may differ from an application to another, so I will only share the code that calls the Firebase Authentification API:
 
 ```tsx
 /**
@@ -100,7 +104,11 @@ const secureUpdateEmail = async (newEmail: string) => {
 
 Once the user requested the verification, Firebase sends an e-mail to the new e-mail address.
 
+{{< blockcontainer jli-notice-note "">}}
+
 While you can configure the e-mail template, in the free tier, you’re limited to what you customize.
+
+{{< /blockcontainer >}}
 
 Once the user clicks the link, he brought to a Firebase page. Once Firebase has completed the verification and update, the use can click _Continue_. This is where the `continueUrl` is used.
 
@@ -120,7 +128,7 @@ To test it, you’ll need to:
 
 For the next steps, I’ll let you follow the flow of actions.
 
-You’ll need to open the Yopmail mailbox use the bottom provided by Yopmail after generating the random e-mail address. There, you’ll be able to open the verification e-mail.
+You will need to open the Yopmail mailbox using the e-mail address provided in the update request. There, you’ll be able to open the verification e-mail.
 
 The full code is available [on GitHub](https://github.com/JeremieLitzler/vueschool-course/tree/forum-vite).
 
