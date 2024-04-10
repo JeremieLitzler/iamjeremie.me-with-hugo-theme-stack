@@ -28,3 +28,7 @@ What is the solution? I followed the steps of [this Stackoverflow answer](https:
 3. Import it in `src/router/index.ts` and provide it to your store instance: `const store = useStore( pinia )`
 
 The signature of the store `useStory` doesn’t need to change. Providing the `pinia` instance to the `useStore()` is sufficient to make it work.
+
+If you want to learn Pinia, [VueSchool.io](https://vueschool.io/courses/) has [a great course](https://vueschool.io/courses/pinia-the-enjoyable-vue-store) on the subject! I recommend it.
+
+Credit: image from VueSchool's course on Pinia.
