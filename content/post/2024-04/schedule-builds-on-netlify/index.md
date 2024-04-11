@@ -1,8 +1,8 @@
 ---
 title: "Schedule builds on Netlify"
 description: "Scheduling tasks is a common need in software development. With my Hugo blogs, I needed such a task to automate the publishing workflow of my articles."
-image: images/2024-04-10-running-recurring-function.jpg
-imageAlt: "Running recurring function"
+image: images/2024-04-10-a-clock-in-the-hand-of-someone.jpg
+imageAlt: "A clock in the hand of someone"
 date: 2024-04-10
 categories:
   - Web Development
@@ -11,7 +11,7 @@ tags:
   - Netlify
 ---
 
-Why did I need that?
+## Why plan recurring builds
 
 Using Hugo as a SSG (Static Site Generator), you can write an article and set the publish date in the future.
 
@@ -180,3 +180,5 @@ This procedure works as of April 8, 2024.
 Since I’m using it for my two blogs, if it breaks, I will update this article accordingly.
 
 Thanks for reading this far and enjoy your scheduled Netlify builds.
+
+Credit: top photo by [Lukas Blazek](https://unsplash.com/@goumbik?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/person-holding-white-mini-bell-alarmclock-UAvYasdkzq8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
