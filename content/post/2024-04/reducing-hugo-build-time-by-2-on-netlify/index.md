@@ -47,7 +47,9 @@ The build statistics of my blog repository were the following:
 
 Thinking it was related to the theme, I asked CaiJimmy [in this discussion](https://github.com/CaiJimmy/hugo-theme-stack/discussions/975) on his theme repository.
 
-He recommended [using this plugin](https://github.com/cdeleeuwe/netlify-plugin-hugo-cache-resources#readme), because the image processing is what takes the most resources during the build. The plugin basically caches on the post-build event the `resource` folder where Hugo puts the processed images. Then, on subsequent builds, it uses the cache on the pre-build event.
+He recommended [using this plugin](https://github.com/cdeleeuwe/netlify-plugin-hugo-cache-resources#readme), because the image processing is what takes the most resources during the build.
+
+The plugin basically caches, on the post-build event, the `resources` folder, if not cached already. This is where Hugo puts the processed images. Then, on subsequent builds, it uses the cache on the pre-build event.
 
 The build time became:
 
@@ -69,6 +71,8 @@ An improvement of 36 times isn’t bad, is it? 😁 When I say _reduce by 2_ the
 The important thing to keep in mind: the first build will still be slow so you must have the timeout setting that you can set the `config/_default/config.toml` file with:
 
 ```toml
+# default is 30s
+# see https://gohugo.io/getting-started/configuration/#timeout
 timeout = "60s"
 ```
 
@@ -76,7 +80,7 @@ If you do a `Clear cache and deploy site`, you will see a slow build time.
 
 {{< blockcontainer jli-notice-note "You can actually reproduce this locally">}}
 
-If you remove the `public` and `resource` folder that aren't versionned on repository, you will get:
+If you remove the `public` and `resources` folder that aren't versionned on repository, you will get:
 
 ```log
                    |  EN
