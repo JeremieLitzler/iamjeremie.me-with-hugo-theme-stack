@@ -1,6 +1,6 @@
 ---
 title: "Reducing Hugo build time by 2 on Netlify"
-description: "When you start to have a lot of articles on a Hugo-powered website, the number of images processed can slow down the generation to reach the default timeout. Though you can increase it, I’ve found a solution to avoid that."
+description: "When you start to have a lot of articles on a Hugo-powered website, the number of images processed can slow down the generation to reach the default timeout. Though you can increase it, this is not enough to avoid overconsuming build minutes on Netlify."
 image: images/2024-04-15-still-shot-at-night-in-a-city.jpg
 imageAlt: "Still shot at night in a city"
 date: 2024-04-15
