@@ -68,7 +68,7 @@ The build time became:
 
 An improvement of 36 times isn’t bad, is it? 😁 When I say _reduce by 2_ the build time in the title, I'm talking about the total time that Netlify logs. The 36 times above is for the Hugo build only.
 
-The important thing to keep in mind: the first build will still be slow so you must have the timeout setting that you can set the `config/_default/config.toml` file with:
+The important thing to keep in mind: the first build will still be slow so you must have the `timeout` setting that you can set the `config/_default/config.toml` file with:
 
 ```toml
 # default is 30s
