@@ -40,7 +40,7 @@ defineProps({
       // then the prop is accepted.
       return validValues.includes(value);
     },
-    // omit the following the prop is required with no default value.
+    // omit the following if the prop is required with no default value.
     default() {
       return "default";
     },
