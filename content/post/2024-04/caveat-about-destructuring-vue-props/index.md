@@ -11,6 +11,8 @@ tags:
   - Vue
 ---
 
+## The problem
+
 I will explain my use case: I had a `PostList` component on a forum application. I used this component is two places:
 
 - one needed the posts to be ordered in the ascending order,
@@ -45,6 +47,8 @@ const orderedPosts = computed(() => {
 When I went to test this code, adding a new post worked but it didn’t show in the list.
 
 Using Vue DevTools, I saw the Pinia state updating and the parent component of `PostList` component did provide the full list…
+
+## The reason and solution
 
 Why didn’t the new post appear?
 
