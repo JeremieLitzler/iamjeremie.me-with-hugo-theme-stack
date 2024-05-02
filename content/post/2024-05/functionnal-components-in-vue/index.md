@@ -1,6 +1,6 @@
 ---
-title: "Functionnal components in Vue"
-description: "I discovered functionnal components while training for the level 1 certification of Vue.js. While I might not use it every day as it is very verbose, I’d like to share an example in this article."
+title: "Functional components in Vue"
+description: "I discovered functional components while training for the level 1 certification of Vue.js. While I might not use it every day as it is very verbose, I’d like to share an example in this article."
 image: images/2024-05-01-neon-sign-saying-do-something-great.jpg
 imageAlt: "A neon sign displaying “Do Something Great”"
 date: 2024-05-01
