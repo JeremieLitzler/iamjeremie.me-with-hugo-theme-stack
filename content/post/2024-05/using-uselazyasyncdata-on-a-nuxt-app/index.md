@@ -3,7 +3,7 @@ title: "Using useLazyAsyncData on a Nuxt app"
 description: "In March 2024, I introduced myself with Nuxt while preparation my Vue certification. Here is what I learned about a particular feature."
 image: images/2024-05-10-a-black-dog-resting-on-a-bench.jpg
 imageAlt: "A black dog resting on a bench."
-date: 2024-05-07
+date: 2024-05-10
 categories:
   - Web Development
 tags:
