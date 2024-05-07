@@ -3,7 +3,7 @@ title: "Using useLazyAsyncData on a Nuxt app"
 description: "In March 2024, I introduced myself with Nuxt while preparation my Vue certification. Here is what I learned about a particular feature."
 image: images/2024-05-10-a-black-dog-resting-on-a-bench.jpg
 imageAlt: "A black dog resting on a bench."
-date: 2024-05-10
+date: 2024-05-07
 categories:
   - Web Development
 tags:
@@ -16,6 +16,8 @@ This is another scenario that helped me figure out how asynchronous operations w
 As I was going through the Nuxt 3 Fundamentals course on [Vueschool.io](http://Vueschool.io) in March 2023, in a lesson, we are introduced to `useAsyncData`. It provides an option to work in a lazy mode.
 
 In the Nuxt docs, I’ve found this example that I didn’t follow all the way, my bad, but it allowed me to understand the mechanism.
+
+## The example
 
 Let’s take this example:
 
@@ -67,6 +69,8 @@ If I browser first to the home page for example and then the search page, I woul
 
 Why is that?
 
+## The solution
+
 The problem is at the last line of the `search` method.
 
 If you log in the console `fetchIsPending` and `apiSearchResponse`, the first equals to `true` and the second equals to `undefined`.
@@ -99,6 +103,6 @@ if (!fetchIsPending.value) {
 }
 ```
 
-There you have it: you handle both first request and cached request and the user is happy using your application!
+There you have it: you handle both first request and cached request and the user is happy to use your application!
 
 Credit: Photo by [Priscilla Du Preez](https://unsplash.com/@priscilladupreez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/black-pug-puppy-on-brown-wooden-chair-dOnEFhQ7ojs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
