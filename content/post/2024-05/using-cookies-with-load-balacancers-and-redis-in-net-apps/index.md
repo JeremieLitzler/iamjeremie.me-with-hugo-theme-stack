@@ -2,7 +2,7 @@
 title: "Using cookies with load-balacancers and Redis in .NET apps"
 description: "A colleague of mine recently worked on a problem of cookie for a .NET application backend using cookie to validate some business logic. Here how it is done."
 image: images/2024-05-17-some-started-to-eat-a-cookie.jpg
-imageAlt: "Some started to eat a cookie."
+imageAlt: "Someone started to eat a cookie."
 date: 2024-05-17
 categories:
   - Web Development
@@ -14,13 +14,13 @@ tags:
 
 ## The background of the issue
 
-The project used an infrastructure based on multiple pods using Openshift and this allows to load-balance the frontend and backend.
+The project used infrastructure based on multiple pods using Openshift and this allows load-balancing the frontend and backend.
 
-On the project, Redis was used so store the cookies.
+On the project, we used Redis to store the cookies.
 
 ## The problem
 
-Without load-balancing, no issue occured. The application set the cookies and the applications worked as attended.
+Without load-balancing, no issue occurred. The application set the cookies and the applications worked as attended.
 
 When the project added load-balancing, the applications stopped working.
 
@@ -94,7 +94,7 @@ namespace My.Project.Business.Core.Services.Cache
 }
 ```
 
-From there, he modified the cookie manager class to append or get cookies.
+From there, my colleague modified the cookie manager class to append or get cookies.
 
 ```csharp
 using DocumentFormat.OpenXml.InkML;
@@ -148,7 +148,7 @@ namespace My.Project.Business.Core.Services.Cache
 }
 ```
 
-The, he added as a `Singleton` the cookie manager class in the extension method registering the services (`public static void RegisterServices(this IServiceCollection services, IConfigurationRoot configuration, bool isTestEnvironment)`)
+Then, my colleague added the cookie manager class as a `Singleton` in the extension method registering the services (`public static void RegisterServices(this IServiceCollection services, IConfigurationRoot configuration, bool isTestEnvironment)`)
 
 ```csharp
 services.AddSingleton<ICookieManager, RedisCookieManager>(provider =>
@@ -158,45 +158,42 @@ services.AddSingleton<ICookieManager, RedisCookieManager>(provider =>
 });
 ```
 
-Finally, he updated `Program.cs` startup code to use the new dependency:
+Finally, my colleague updated `Program.cs` startup code to use the new dependency to read the cookie from `OpenIdConnect`:
 
 ```csharp
 public partial class Program {
   private const string API_CORS_POLICY = "ApiCorsPolicy";
 
-        public static void Main(string[] args) {
-            var builder = WebApplication.CreateBuilder(args);
-            var isTestEnvironment = Configuration[IS_TEST_ENV];
-		        // Dependency Injection for Services
-		        builder.Services.RegisterServices(Configuration, isTestEnvironment);
+    public static void Main(string[] args) {
+        var builder = WebApplication.CreateBuilder(args);
+        // Dependency Injection for Services
+        builder.Services.RegisterServices(Configuration);
+        // Dependency Injection for Controllers
+        builder.Services.RegisterControllers(Configuration);
+        // Register Loggers
+        builder.Logging.RegisterLoggingProviders(Configuration, builder.Services);
+        builder
+            .AddCookie()
+            .AddOpenIdConnect(options => {
+                // ... some code is omitted for brevity
+                OnTokenValidated = context => {
+                    var idToken = context.SecurityToken.RawData; // Token ID
+                    var accessToken = context.SecurityToken.RawData; // Access Token
+                    var refreshToken = context.SecurityToken.RawData; // Refresh Token
+                    var sessionId = context.Principal.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                    var key = $ "{sessionId}:cookies:app-auth";
 
-		        // Dependency Injection for Controllers
-		        builder.Services.RegisterControllers(Configuration);
+                    context.HttpContext.RequestServices.GetRequiredService<ICookieManager>()
+                            .AppendResponseCookie(context.HttpContext, key, accessToken, new CookieOptions());
+                        return Task.CompletedTask;
+                        }
+                    };
+                });
 
-		        // Register Loggers
-		        builder.Logging.RegisterLoggingProviders(Configuration, builder.Services);
-		        builder
-              .AddCookie()
-              .AddOpenIdConnect(options => {
-                // ... code omitted for brevity
-                  OnTokenValidated = context => {
-                      var idToken = context.SecurityToken.RawData; // Token ID
-                      var accessToken = context.SecurityToken.RawData; // Access Token
-                      var refreshToken = context.SecurityToken.RawData; // Refresh Token
-                      var sessionId = context.Principal.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-                      var key = $ "{sessionId}:cookies:geste-auth";
-
-                      context.HttpContext.RequestServices.GetRequiredService<ICookieManager>()
-                        .AppendResponseCookie(context.HttpContext, key, accessToken, new CookieOptions());
-                      return Task.CompletedTask;
-                    }
-                };
-              });
-
-              var app = builder.Build();
-              app.Run();
-          }
-       }
+        var app = builder.Build();
+        app.Run();
+    }
+}
 ```
 
 Credit: Photo by [Vyshnavi Bisani](https://unsplash.com/@vyshnavibisani?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/brown-round-cookie-on-white-surface-z8kriatLFdA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
