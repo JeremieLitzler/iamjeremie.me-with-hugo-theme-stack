@@ -3,7 +3,7 @@ title: "Getting information from JWT in C#"
 description: "JWT authentication is a token-based stateless authentication mechanism. It is popularly used as a client-side-based stateless session and it is typically encoded & signed. But how do you decode it? Let's look at this."
 image: images/2024-05-24-html-code-handling-the-failed-on-authentication.jpg
 imageAlt: "HTML code handling the failed on authentication"
-date: 2024-05-23
+date: 2024-05-24
 categories:
   - Web Development
 tags:
