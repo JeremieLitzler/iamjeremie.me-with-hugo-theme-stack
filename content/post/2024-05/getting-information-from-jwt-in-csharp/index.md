@@ -1,6 +1,6 @@
 ---
 title: "Getting information from JWT in C#"
-description: "JWT authentication is a token-based stateless authentication mechanism. It is popularly used as a client-side-based stateless session and it is typically encoded & signed. But how do you decode it? Let's look at this."
+description: "JWT authentication is a token-based stateless authentication mechanism. It is popularly used as a client-side-based stateless session and it is typically encoded & signed. But how do you decode it? Let’s look at this."
 image: images/2024-05-24-html-code-handling-the-failed-on-authentication.jpg
 imageAlt: "HTML code handling the failed on authentication"
 date: 2024-05-24
@@ -11,7 +11,7 @@ tags:
   - Authentication
 ---
 
-Below, I'll describe a simple way to read the header and extract an information.
+Below, I’ll describe a simple way to read the header and extract an information.
 
 ## Logic
 
@@ -53,13 +53,17 @@ public static string GetJwtTokenFromRequest(HttpContext context)
 }
 ```
 
-The code above actually takes care of the presence of `Bearer` in the header value. It is best practice to use it (at least, I've never seen passing or receiving the `Authorization` without `Bearer`)
+The code above actually takes care of the presence of `Bearer` in the header value.
+
+It is best practice to use it (at least, I’ve never seen passing or receiving the `Authorization` without `Bearer`)
 
 ### Decode the JWT value
 
-Let's dive into the decoding.
+Let’s dive into the decoding.
 
 The code below actually validates the siging key (see [ValidateIssuerSigningKey](https://learn.microsoft.com/en-us/dotnet/api/microsoft.identitymodel.tokens.tokenvalidationparameters.validateissuersigningkey?view=msal-web-dotnet-latest#microsoft-identitymodel-tokens-tokenvalidationparameters-validateissuersigningkey)).
+
+To validate other parts, [visit the Microsoft website](https://learn.microsoft.com/en-us/dotnet/api/microsoft.identitymodel.tokens.tokenvalidationparameters?view=msal-web-dotnet-latest).
 
 ```csharp
 public static string GetInformationFromToken(HttpContext context, string dataProp)
