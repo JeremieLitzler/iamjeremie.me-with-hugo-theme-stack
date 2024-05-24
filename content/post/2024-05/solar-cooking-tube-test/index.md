@@ -124,6 +124,6 @@ I also know that I have put it in the first thing in the morning and for most of
 
 Before that, we’ll try baking a clafoutis. It’s risk-free and we know how to prepare it and we have cooked in an electric oven at 150°C.
 
-If you like what I write, please let me know [on X](http://www.twitter.com/share) or [by helping me](.../.../../page/sponsor-me/index.md).
+If you like what I write, please let me know [on X](http://www.twitter.com/share) or [by helping me](../../../page/sponsor-me/index.md).
 
 Thank you 👏.
