@@ -1,6 +1,6 @@
 ---
-title: 'How is my digital presence setup?'
-description: 'In 2023, there are a lot of solutions to build your digital presence. In this article, I will share my current setup and why I use it.'
+title: "How is my digital presence setup?"
+description: "In 2023, there are a lot of solutions to build your digital presence. In this article, I will share my current setup and why I use it."
 date: 2023-03-30
 image: images/2023-03-30-a-laptop-and-notebook-on-a-desk.jpg
 imageAlt: A laptop and a notebook on a desk
@@ -53,7 +53,7 @@ I have built a [template repository with multilangual support](https://github.co
 Today I use this for:
 
 - this current website you are on, which is my personal blog
-- [this demo website for a quinoa producer](https://demo-inflorescences.netlify.app/) in Normandy (north west of France)
+- [this demo website for a quinoa producer](https://inflorescences-normandie.fr/) in Normandy (north west of France)
 - [my business idea about teach people to learn how to save on their energy bills](https://www.passonslecap.fr/).
 - [my historical business website site](https://puzzlout.com/) which I recently migrated over from a custom build with Gulp and flat hmtl files.
 

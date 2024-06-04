@@ -55,20 +55,20 @@ Here’s what it’s been like since 2014:
 
 - our all-inclusive annual consumption:
 
-| Month | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |  | 306.00 | 331.00 | 334.00 | 273.00 | 313.00 | 305.00 | 320.00 | 417.00 |
-| 2 |  | 452.00 | 288.00 | 250.00 | 270.00 | 270.00 | 353.00 | 295.00 | 100.00 |
-| 3 |  | 270.00 | 296.00 | 252.00 | 188.00 | 293.00 | 310.00 | 260.00 | 268.00 |
-| 4 |  | 157.00 | 211.00 | 81.00 | 195.00 | 141.00 | 246.00 | 253.00 | 118.00 |
-| 5 |  | 292.00 | 221.00 | 254.00 | 200.00 | 238.00 | 217.00 | 213.00 | 79.00 |
-| 6 |  | 265.00 | 176.00 | 88.00 | 172.00 | 182.00 | 258.00 | 156.00 |  |
-| 7 |  | 123.45 | 205.00 | 191.00 | 171.00 | 191.00 | 191.00 | 82.00 |  |
-| 8 |  | 213.59 | 138.00 | 194.00 | 86.00 | 132.00 | 116.00 | 187.00 |  |
-| 9 |  | 137.96 | 174.00 | 182.00 | 132.00 | 204.00 | 198.00 | 58.00 |  |
-| 10 | 0.00 | 265.00 | 141.00 | 164.00 | 219.00 | 139.00 | 214.00 | 347.00 |  |
-| 11 | 373.00 | 218.00 | 254.00 | 251.00 | 304.00 | 313.00 | 277.00 | 298.00 |  |
-| 12 | 332.00 | 358.00 | 292.00 | 291.00 | 305.00 | 382.00 | 334.00 | 369.00 |  |
+| Month | 2014   | 2015    | 2016    | 2017    | 2018    | 2019    | 2020    | 2021    | 2022   |
+| ----- | ------ | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------ |
+| 1     |        | 306.00  | 331.00  | 334.00  | 273.00  | 313.00  | 305.00  | 320.00  | 417.00 |
+| 2     |        | 452.00  | 288.00  | 250.00  | 270.00  | 270.00  | 353.00  | 295.00  | 100.00 |
+| 3     |        | 270.00  | 296.00  | 252.00  | 188.00  | 293.00  | 310.00  | 260.00  | 268.00 |
+| 4     |        | 157.00  | 211.00  | 81.00   | 195.00  | 141.00  | 246.00  | 253.00  | 118.00 |
+| 5     |        | 292.00  | 221.00  | 254.00  | 200.00  | 238.00  | 217.00  | 213.00  | 79.00  |
+| 6     |        | 265.00  | 176.00  | 88.00   | 172.00  | 182.00  | 258.00  | 156.00  |        |
+| 7     |        | 123.45  | 205.00  | 191.00  | 171.00  | 191.00  | 191.00  | 82.00   |        |
+| 8     |        | 213.59  | 138.00  | 194.00  | 86.00   | 132.00  | 116.00  | 187.00  |        |
+| 9     |        | 137.96  | 174.00  | 182.00  | 132.00  | 204.00  | 198.00  | 58.00   |        |
+| 10    | 0.00   | 265.00  | 141.00  | 164.00  | 219.00  | 139.00  | 214.00  | 347.00  |        |
+| 11    | 373.00 | 218.00  | 254.00  | 251.00  | 304.00  | 313.00  | 277.00  | 298.00  |        |
+| 12    | 332.00 | 358.00  | 292.00  | 291.00  | 305.00  | 382.00  | 334.00  | 369.00  |        |
 | Total | 705.00 | 3058.00 | 2727.00 | 2532.00 | 2515.00 | 2798.00 | 3019.00 | 2838.00 | 982.00 |
 
 - our electric consumption to heat water:
@@ -95,21 +95,21 @@ This confirmed the estimate of 30% consumption by the cumulus.
 
 I also carried out a sunshine simulation using the [“PHOTOVOLTAIC GEOGRAPHICAL INFORMATION SYSTEM”](https://re.jrc.ec.europa.eu/pvg_tools/fr/#PVP) at the roof of the house (lowest point on the property) and at the highest terrace on the property (sunniest point).
 
-| Month | Hours (house roof) | Hours (terrace) | Diff. in % of sunshine |
-| --- | --- | --- | --- |
-| 1 | 124.07 | 191.80 | + 35.31% |
-| 2 | 174.13 | 230.27 | + 24.38% |
-| 3 | 274.47 | 313.67 | + 12.50% |
-| 4 | 328.07 | 358.20 | + 8.41% |
-| 5 | 386.80 | 435.40 | + 11.16% |
-| 6 | 394.93 | 443.87 | + 11.02% |
-| 7 | 398.93 | 450.27 | + 11.40% |
-| 8 | 359.47 | 398.27 | + 9.74% |
-| 9 | 293.93 | 325.20 | + 9.61% |
-| 10 | 228.87 | 281.20 | + 18.61% |
-| 11 | 140.40 | 210.27 | + 33.23% |
-| 12 | 105.33 | 162.47 | + 35.17% |
-| Annually 3209.40 | 3800.87 | + 15.56% |
+| Month            | Hours (house roof) | Hours (terrace) | Diff. in % of sunshine |
+| ---------------- | ------------------ | --------------- | ---------------------- |
+| 1                | 124.07             | 191.80          | + 35.31%               |
+| 2                | 174.13             | 230.27          | + 24.38%               |
+| 3                | 274.47             | 313.67          | + 12.50%               |
+| 4                | 328.07             | 358.20          | + 8.41%                |
+| 5                | 386.80             | 435.40          | + 11.16%               |
+| 6                | 394.93             | 443.87          | + 11.02%               |
+| 7                | 398.93             | 450.27          | + 11.40%               |
+| 8                | 359.47             | 398.27          | + 9.74%                |
+| 9                | 293.93             | 325.20          | + 9.61%                |
+| 10               | 228.87             | 281.20          | + 18.61%               |
+| 11               | 140.40             | 210.27          | + 33.23%               |
+| 12               | 105.33             | 162.47          | + 35.17%               |
+| Annually 3209.40 | 3800.87            | + 15.56%        |
 
 As you can see, there’s no contest!
 
@@ -143,7 +143,7 @@ After some very interesting discussions with the SolaireEthic craftsman (see [hi
   - The overall distance is due to the location of the terrace.
 - 8 panels of 190 Wp recycled (7–8 years old), i.e. 1520 Wp
   - If we take into account the 0.3% reduction in production, we’re looking at between 1484 and 1488 Wp.
-  - The 0.3% value comes from the study carried out since 1992 in Savoie (I don’t have the link), but quoted in [my note-taking (§ “Dimensioning photovoltaic panels”) (french article)](https://jeremielitzler.fr/post/2022-05/les-bases-d-une-installation-solaire-en-autonomie/index.md).
+  - The 0.3% value comes from the study carried out since 1992 in Savoie (I don’t have the link), but quoted in [my note-taking (§ “Dimensioning photovoltaic panels”) (french article)](https://jeremielitzler.fr/post/2022-05/les-bases-d-une-installation-solaire-en-autonomie/).
 
 I then:
 
@@ -175,8 +175,8 @@ So we have a good consumption of production (> 90%). There would be less injecti
 If we compare the same data from commissioning on March 27 to April 4, we see:
 
 | produced (kWh) | self-consumed (kWh) | fed into the grid (kWh) | stored (kWh) |
-| --- | --- | --- | --- |
-| 30.8 | 12.8 | 18 |
+| -------------- | ------------------- | ----------------------- | ------------ |
+| 30.8           | 12.8                | 18                      |
 
 It gives a 40% of production consumption.
 

@@ -2,14 +2,8 @@
 title: Compost Making Q&A, by Charles Dowding
 description: "A few questions and answers about making compost to use in the garden."
 date: 2022-10-30
-image: '/images/2022-10-30-compost-making-qa-charles-dowding-hero.jpg'
+image: "/images/2022-10-30-compost-making-qa-charles-dowding-hero.jpg"
 imageAlt: A garden with cabbage and other vegetables
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-#next:
-#  text: ''
-#  link: ..//index.md
 head:
   - [
       meta,
@@ -40,7 +34,7 @@ Compost can contain pieces, even some wood, as long as it isn’t too big.
 
 It will provide the nourishment for fungal life.
 
-![Mushrooms among vegetables](images/mushrooms-among-vegetables.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Mushrooms among vegetables](images/mushrooms-among-vegetables.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 You will see tiger or red worms, which are present in the final decomposition phase of the compost. It’s a good indicator that your compost nears readiness.
 
@@ -86,13 +80,13 @@ Yes, you can.
 
 ## What about rats
 
-![A rat on compost in a heap](images/a-rat.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![A rat on compost in a heap](images/a-rat.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 They will like the warmth of the heap, and Charles isn’t overrun by rats so he can’t give much advice about it.
 
 Maybe it’s because cats or wildlife like weasel eat the rats ([see a filmed attack at Homeacres at 8:23](https://youtu.be/BIV4lljN6Aw?t=503)).
 
-![A weasel attacking and killing a rat](images/weasel-attacking-a-rat.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![A weasel attacking and killing a rat](images/weasel-attacking-a-rat.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 It tells us that the ecosystem of the garden isn’t just vegetables and flowers.
 

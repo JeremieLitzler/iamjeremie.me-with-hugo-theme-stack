@@ -1,6 +1,6 @@
 ---
 title: Market Gardening in May, by The Dutch Farmer
-description: 'In May, it is getting serious, with a lot of crops to plant and to start harvesting.'
+description: "In May, it is getting serious, with a lot of crops to plant and to start harvesting."
 image: images/2023-05-01-gooseberry-bush-with-fruits.jpg
 imageAlt: Gooseberry bush with fruits
 date: 2023-05-01
@@ -65,7 +65,7 @@ Yes, growing your own food requires:
   - [how much a little piece of land can produce](https://www.youtube.com/watch?v=D1q8PlgPOIs)
   - and what techniques exist to [optimize the small areas](https://www.youtube.com/watch?v=Y9ysNE5bLdk).
 - some resources (compost mainly, that can be found in your local quarry, which I discovered only a couple of months ago) and tools (your hands ;))
-- some _ressourfulness_ by starting to [read my articles on gardening](../../../tag/gardening) or watching the YouTube channels I document in those articles.
+- some _ressourfulness_ by starting to [read my articles on gardening](../../../tags/gardening) or watching the YouTube channels I document in those articles.
 - some seeds from organic sources.
   - It is key that they produce crops that yield you new fertile seeds for free.
 - the **will to start**
@@ -89,7 +89,7 @@ Try:
 
 ## High tunnel and aphid attack
 
-![Aphids suck juice out of the leaves of plant to look like the above](images/aphids-suck-juice-out-of-the-leaves-of-plant-to-look-like-the-above.jpg 'Credits: image from the vlog of The Dutch Farmer')
+![Aphids suck juice out of the leaves of plant to look like the above](images/aphids-suck-juice-out-of-the-leaves-of-plant-to-look-like-the-above.jpg "Credits: image from the vlog of The Dutch Farmer")
 
 Aphid’s infection causes the leaves of the plant to curl and kill the plant.
 

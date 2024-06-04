@@ -1,8 +1,8 @@
 ---
 title: 4 Compost Heaps in 3 Bays, ready in 6 to 12 months, by Charles Dowding
-description: 'Charles explains how to build a very cheap compost heap system that you can construct yourself in very little time.'
+description: "Charles explains how to build a very cheap compost heap system that you can construct yourself in very little time."
 date: 2022-11-17
-image: '/images/2022-11-17-compost-heaps-made-with-pallet.jpg'
+image: "/images/2022-11-17-compost-heaps-made-with-pallet.jpg"
 imageAlt: 3 bays for your compost heap using wood pallets
 categories:
   - Gardening
@@ -16,7 +16,7 @@ Charles explains how to build a very cheap compost heap system that you can cons
 
 Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the following notes watching the video published on Charles Dowding’s channel. You can watch it using [this YouTube link](https://www.youtube.com/watch?v=3gAwfzy0qLw).
 
-This system is applying to more people than Charles’s huge compost heap I have taken not about. See my other notes on the matter using the [_Compost_ tag](../../../tag/compost/).
+This system is applying to more people than Charles’s huge compost heap I have taken not about. See my other notes on the matter using the [_Compost_ tag](../../../tags/compost/).
 
 ## A brief explanation of the system
 
@@ -24,15 +24,15 @@ Charles simply uses wood pallets, from which he knocks off the bottom to make th
 
 Then he attaches the sides with a wire at each top and bottom corners.
 
-![Close up of the compost heap](images/close-up-compost-heap.jpg 'You can see the wires holding the pallets together. Credits: image taken from Charles Dowding’s vlog')
+![Close up of the compost heap](images/close-up-compost-heap.jpg "You can see the wires holding the pallets together. Credits: image taken from Charles Dowding’s vlog")
 
-![Another close up of a pallet](images/close-up-pallet-attached-together.jpg 'In this image, you find out how simply it’s to fit the pallets together. Credits: image taken from Charles Dowding’s vlog')
+![Another close up of a pallet](images/close-up-pallet-attached-together.jpg "In this image, you find out how simply it’s to fit the pallets together. Credits: image taken from Charles Dowding’s vlog")
 
 With no posts in the corner and no weeding out the area, those heaps require no complex site preparation.
 
 **It’s really simple to make.**
 
-![Compost in the hands of Charles](images/four-and-half-months-old-compost.jpg 'After four and a half months, the compost made from those heaps look very nice already. Credits: image taken from Charles Dowding’s vlog')
+![Compost in the hands of Charles](images/four-and-half-months-old-compost.jpg "After four and a half months, the compost made from those heaps look very nice already. Credits: image taken from Charles Dowding’s vlog")
 
 ## How long does it take to fill the heaps
 
@@ -63,7 +63,7 @@ The manure fork is easier to use than a digging fork. Buy one! If you can, look 
 
 With a three-bay structure, you take the content of the side heaps into the middle one.
 
-![Compost on a garden bed](images/compost-looks-like-that-when-applied-on-a-bed.jpg 'Compost looks like that when applied on a bed. Credits: image taken from Charles Dowding’s vlog')
+![Compost on a garden bed](images/compost-looks-like-that-when-applied-on-a-bed.jpg "Compost looks like that when applied on a bed. Credits: image taken from Charles Dowding’s vlog")
 
 ## Timings when making the compost
 
@@ -86,17 +86,17 @@ With cardboard, you keep in the heap:
 - the moisture
 - the heat
 
-![A view of a heap's side](images/a-heap-side-with-cardboard.jpg 'You can apply cardboard inside. Credits: image taken from Charles Dowding’s vlog')
+![A view of a heap's side](images/a-heap-side-with-cardboard.jpg "You can apply cardboard inside. Credits: image taken from Charles Dowding’s vlog")
 
 ## Creating an air hole
 
 Using a wood post or a tube, you can create an air hole in your heap.
 
-![A wood post on the middle of a heap](images/a-wood-post-on-the-middle-of-a-heap.jpg 'It’s optional, but some have reported it’s useful. Try and see it improve the compost for you. Credits: image taken from Charles Dowding’s vlog')
+![A wood post on the middle of a heap](images/a-wood-post-on-the-middle-of-a-heap.jpg "It’s optional, but some have reported it’s useful. Try and see it improve the compost for you. Credits: image taken from Charles Dowding’s vlog")
 
 ## What about filling the heap in layers
 
-![A young compost heap](images/example-of-layering-in-a-month-old-heap.jpg 'This young compost heap display clearly the layers of green and brown materials. Credits: image taken from Charles Dowding’s vlog')
+![A young compost heap](images/example-of-layering-in-a-month-old-heap.jpg "This young compost heap display clearly the layers of green and brown materials. Credits: image taken from Charles Dowding’s vlog")
 
 Why would you want to do that?
 
@@ -122,7 +122,7 @@ You can put them on: bindweed, couch grass, flower seeds. Just put them in the m
 
 Heat provides what you need to kill the weeds and the seeds.
 
-![A compost thermometer](images/a-compost-thermometer.jpg 'In the red zone, or between 55 °C and 70 °C, weeds and seeds are killed. Credits: image taken from Charles Dowding’s vlog')
+![A compost thermometer](images/a-compost-thermometer.jpg "In the red zone, or between 55 °C and 70 °C, weeds and seeds are killed. Credits: image taken from Charles Dowding’s vlog")
 
 In this temperature range, you retain the fungi activity that is very important too.
 

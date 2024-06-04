@@ -4,13 +4,7 @@ description: I wrote the following notes watching the video published on Charles
 date: 2022-09-28
 image: "/images/2022-09-22-supermarket-garlic-for-seed-charles-dowding-hero.webp"
 imageAlt: "Harvest of elephant garlic from Charles Dowding's garden"
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
-next:
-  text: "Supermarket Garlic For Seed"
-  link: ../supermarket-garlic-for-seed-charles-dowding/
-relcanonical: https://iamjeremie.me/posts/2022-09-28-grow-garlic-easy-with-no-dig-tips-for-harvest-charles-dowding
+relcanonical: https://iamjeremie.me/post/2022-09/grow-garlic-easy-with-no-dig-tips-for-harvest-charles-dowding
 categories:
   - Gardening
 tags:

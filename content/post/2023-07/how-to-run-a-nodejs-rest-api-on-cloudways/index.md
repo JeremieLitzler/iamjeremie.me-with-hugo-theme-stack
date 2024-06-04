@@ -19,7 +19,7 @@ Since I have a Cloudways VPS, let's see how to run the REST API.
 ## What do you need
 
 - Create an account [on Cloudways](https://www.cloudways.com/en/?id=174912).
-- [Provision a VPS](https://unified.cloudways.com/server/create) (the smallest is fine for my REST API).
+- Provision a VPS (`https://unified.cloudways.com/server/create`) (the smallest is fine for my REST API).
 - Create a custom PHP app.
 
 ![Application type to select](images/application-type-to-select.jpg)

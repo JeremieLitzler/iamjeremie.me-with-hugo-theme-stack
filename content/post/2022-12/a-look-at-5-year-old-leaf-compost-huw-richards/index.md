@@ -1,6 +1,6 @@
 ---
 title: A Look at 5 Year Old Leaf Compost - And the Importance of Healthy Soil, by Huw Richards
-description: 'Leaf mold is a brown gold that is easy to make, given you wait that it decomposes over a year or two.'
+description: "Leaf mold is a brown gold that is easy to make, given you wait that it decomposes over a year or two."
 date: 2022-12-26
 
 categories:
@@ -35,4 +35,4 @@ It is a great example how nature work and how you work with it.
 
 If you understand the soil and you can enrich it, you will find the way to grow stronger and more producing vegetables.
 
-To continue reading, use this link about [_Compost_](../../../tag/compost/).
+To continue reading, use this link about [_Compost_](../../../tags/compost/).

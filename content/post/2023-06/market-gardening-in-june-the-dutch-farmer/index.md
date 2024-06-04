@@ -67,11 +67,11 @@ Why do you need support for eggplants and peppers? In the fruits are big, the pl
 
 Moreno uses wood stakes that he sets every 5 plants.
 
-![Strings attached to wood stakes](images/strings-attached-to-wood-stakes.jpg 'Credits: image from the vlog of The Dutch Farmer')
+![Strings attached to wood stakes](images/strings-attached-to-wood-stakes.jpg "Credits: image from the vlog of The Dutch Farmer")
 
 Then, every 25 cm, as the plant grows, he sets 2 strings, in each side of the plant that will hold it over time.
 
-![2 strings hold the plant up and tall](images/2-strings-hold-the-plant-up-and-tall.jpg 'Credits: image from the vlog of The Dutch Farmer')
+![2 strings hold the plant up and tall](images/2-strings-hold-the-plant-up-and-tall.jpg "Credits: image from the vlog of The Dutch Farmer")
 
 ## Weeding
 
@@ -118,7 +118,7 @@ On my property, we have a lot of historical weeds:
 
 Those are the most difficult weeds to get rid of.
 
-Like I said above, I’m trying to weed them out using the no-dig approach as well using cardboard ([from Charles Dowding’s tips](../../../tag/charles-dowding)) and woodchips.
+Like I said above, I’m trying to weed them out using the no-dig approach as well using cardboard ([from Charles Dowding’s tips](../../../tags/charles-dowding)) and woodchips.
 
 It will take a few years to reach a point where the weeds are manageable.
 

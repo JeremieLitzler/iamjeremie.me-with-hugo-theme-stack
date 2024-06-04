@@ -101,6 +101,7 @@ Something like that won’t compile:
 ````markdown
 ```xml{1,26}
 ... some XML ...
+```
 ````
 
 Clean up the occurrences if you have any.
@@ -122,18 +123,18 @@ Hugo requires the markdown files in a directory to be named `index.md` when you 
 
 ```md
 content/
-    |__ post/
-        |__ my-article/
-            |__ index.md
-            |__ images/
+|** post/
+|** my-article/
+|** index.md
+|** images/
 ```
 
 I saw tutorials where people named them `something-else.md`, but it is when you use this other folder structure:
 
 ```md
 content/
-    |__ post/
-        |__ my-article.md
+|** post/
+|** my-article.md
 ```
 
 I prefer the former because I keep the images specific to a post in the same place as the markdown file.
@@ -160,7 +161,7 @@ To be honest, at first, with Hugo-recommended theme, I was a bit confused about 
 
 Then, using [Jimmy](https://github.com/CaiJimmy)’s theme made everything click.
 
-My goal was to keep the natural relative links between the different files (relative links) and use the VuePress syntax provided in the [Mr Hope theme](https://theme-hope.vuejs.press/guide/markdown/container.html) somehow.
+My goal was to keep the natural relative links between the different files (relative links) and use the VuePress syntax provided in the [Mr Hope theme](https://theme-hope.vuejs.press/config/frontmatter/layout.html#containerclass) somehow.
 
 #### Relative links
 
@@ -173,7 +174,9 @@ Out of the box, Hugo doesn't provide the ability to render a relative markdown l
 to this link in HTML:
 
 ```html
-<a href="https://mydomain.com/page/about/">My link to another page within the site</a>
+<a href="https://mydomain.com/page/about/"
+  >My link to another page within the site</a
+>
 ```
 
 While you could use the `{{</* ref "/path/to/page-or-post/" */>}}` shortcode as the Hugo documentation tells you, it is not practical and lack intellisense within VSC for me to select the files.
@@ -200,15 +203,14 @@ I use this pattern for large pages:
 
 ```markdown
 content/
-    |__ post/
-        |__ my-article/
-            |__ images/
-            |__ index.md
-            |__ part-1.md
-            |__ part-2.md
-            |__ ...
-            |__ part-N.md
-
+|** post/
+|** my-article/
+|** images/
+|** index.md
+|** part-1.md
+|** part-2.md
+|** ...
+|** part-N.md
 ```
 
 You need to either:
@@ -217,18 +219,17 @@ You need to either:
 
 ```markdown
 content/
-    |__ post/
-        |__ my-article/
-            |__ images/
-            |__ index.md
-            |__ part-1/
-                |__ index.md
-            |__ part-2/
-                |__ index.md
-            ...
-            |__ part-N/
-                |__ index.md
-
+|** post/
+|** my-article/
+|** images/
+|** index.md
+|** part-1/
+|** index.md
+|** part-2/
+|** index.md
+...
+|** part-N/
+|** index.md
 ```
 
 - Merge the files together.
@@ -271,7 +272,7 @@ root {
   --notice-danger-dark: #e13238;
 }
 
-:root[data-scheme=dark] {
+:root[data-scheme="dark"] {
   --body-text-color: rgba(255, 255, 255, 0.8);
 
   --notice-note-light: #858585;
@@ -298,7 +299,6 @@ root {
   width: initial;
 }
 
-
 .jli-notice p {
   margin: 0;
 }
@@ -306,7 +306,6 @@ root {
 .jli-notice-title {
   font-weight: bold;
 }
-
 
 .jli-notice-note {
   background-color: var(--notice-note-light);
@@ -415,10 +414,11 @@ You must add frontmatter to each markdown file. Otherwise, you see the article b
 You simply need to declare an image in the usual way:
 
 ```markdown
- #when a folder “images” exists at the same level as the markdown file
+#when a folder “images” exists at the same level as the markdown file
 ![My image](images/my-image.jpg)
 
 # when the image is in “/static/images”
+
 ![My image](/images/my-image.jpg)
 ```
 
@@ -456,22 +456,22 @@ One thing I needed to do: the organization of my content. While I used the follo
 
 ```md
 docs/
-    |__ 2023/
-        |__ 08/
-            |__ my-article/
-                |__ index.md
-                |__ images/
+|** 2023/
+|** 08/
+|** my-article/
+|** index.md
+|\_\_ images/
 ```
 
 I move to this structure:
 
 ```md
 content/
-    |__ post/
-        |__ 2023-08
-            |__ my-article/
-                |__ index.md
-                |__ images/
+|** post/
+|** 2023-08
+|** my-article/
+|** index.md
+|\_\_ images/
 ```
 
 I had to implement redirects from the old path to the new one.

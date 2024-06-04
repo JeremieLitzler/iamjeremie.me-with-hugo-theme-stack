@@ -2,7 +2,7 @@
 title: Style guide of the site (H1)
 description: A set of examples of the various elements in a post and how they will look
 date: 2021-01-28
-image: '/images/2021-01-28-styleguide.jpg'
+image: "/images/2021-01-28-styleguide.jpg"
 imageAlt: A Macintosh computer on a desk
 categories:
   - Web Fundamentals
@@ -64,8 +64,8 @@ Quisque pharetra consectetur nulla, vel iaculis eros ultricies vitae. Nullam non
 ## Code highlighting
 
 ```js
-import React from 'react';
-import uniquePropHOC from './lib/unique-prop-hoc';
+import React from "react";
+import uniquePropHOC from "./lib/unique-prop-hoc";
 
 // this comment is here to demonstrate an extremely long line length, well beyond what you should probably allow in your own code, though sometimes you'll be highlighting code you can't refactor, which is unfortunate but should be handled gracefully
 
@@ -86,7 +86,7 @@ class Expire extends React.Component {
   }
 }
 
-export default uniquePropHOC(['time', 'seconds'])(Expire);
+export default uniquePropHOC(["time", "seconds"])(Expire);
 ```
 
 ## Special styles
@@ -95,10 +95,10 @@ export default uniquePropHOC(['time', 'seconds'])(Expire);
 
 ## Tables
 
-| Col 1 | Col 2 | Col 3 |
-| --- | --- | --- |
+| Col 1 | Col 2           | Col 3                                                |
+| ----- | --------------- | ---------------------------------------------------- |
 | Value | Very long value | So long that it will scroll horizontally? I hope so! |
 
-Check out [the source on GitHub](https://github.com/JeremieLitzler/journal/blob/main/docs/posts/2021-01-28-styleguide/index.md).
+Check out [the source on GitHub](https://github.com/JeremieLitzler/iamjeremie.me-with-hugo-theme-stack/blob/main/docs/posts/2021-01-28-styleguide/index.md).
 
 Hero photo by [Jan Losert](https://unsplash.com/@janlosert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash.

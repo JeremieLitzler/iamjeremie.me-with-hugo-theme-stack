@@ -153,7 +153,7 @@ To enable it, here are the steps:
 - Scroll down to find the HTTP/2 setting and set it to `2.0`.
 - Save and restart the app service.
 
-You can also find the raw configuration of the app service in the [Azure Resource Explorer](https://resources.azure.com), but it’s more sensitive to edit over there.
+You can also find the raw configuration of the app service in the Azure Resource Explorer (`https://resources.azure.com`), but it’s more sensitive to edit over there.
 
 You need to go under _subscriptions > Microsoft Azure Sponsorship > resourceGroup > RG-YourOrg-Websites > providers > Microsoft.Web > sites > YourWebsiteName (aka name of the app service)_.
 

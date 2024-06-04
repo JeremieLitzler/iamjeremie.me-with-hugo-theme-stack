@@ -2,7 +2,7 @@
 title: How to Grow Food WITHOUT Compost | Zero-Cost Solutions for Short-Term Vegetable Gardening Success, by Huw Richards
 description: "Creating compost isn't always easy and Huw shares in this article how to grow vegetables with it with no investment."
 date: 2022-12-07
-image: '/images/2022-12-07-a-man-planting-spinach.jpg'
+image: "/images/2022-12-07-a-man-planting-spinach.jpg"
 imageAlt: A man planting spinach
 categories:
   - Gardening
@@ -58,7 +58,7 @@ Applying grass is easy because it produces a lot and you can sprinkle it once a 
 
 ## Wood ash and coffee grounds
 
-![Hands full of wood ash and coffee grounds](images/hands-full-of-wood-ash-and-coffee-grounds.jpg 'Wood ash and coffee grounds fit best on the compost bin, but you can also use them as is in the garden beds. Credits: image taken from Huw Richard’s vlog')
+![Hands full of wood ash and coffee grounds](images/hands-full-of-wood-ash-and-coffee-grounds.jpg "Wood ash and coffee grounds fit best on the compost bin, but you can also use them as is in the garden beds. Credits: image taken from Huw Richard’s vlog")
 
 In wood ash, you will find charcoal that, once broken up, can soak up all the nutrients and provide a slow release of those nutrients to the plants.
 
@@ -66,7 +66,7 @@ Wood ash is high in potassium and phosphorus, both good for plant growth. Howeve
 
 That is when the coffee grounds come into the game.
 
-The myth about coffee ground being too acid isn’t a reality, according to Huw (others like [Charles Dowding](../../tag/charles-dowding/)).
+The myth about coffee ground being too acid isn’t a reality, according to Huw (others like [Charles Dowding](../../tags/charles-dowding/)).
 
 In fact, when you brew the coffee, a lot of the acidity goes away.
 
@@ -78,7 +78,7 @@ If possible, do it right before some rain or watering. The water you will help t
 
 **Comfrey is a must-have for the gardener**.
 
-![Comfrey](images/comfrey.jpg 'Comfrey is easy to grow and propagate. Credits: image taken from Huw Richard’s vlog')
+![Comfrey](images/comfrey.jpg "Comfrey is easy to grow and propagate. Credits: image taken from Huw Richard’s vlog")
 
 I do have half a dozen plants that I’m starting to propagate. The plant provides a huge quantity of nutrient-rich leaves. It can replace animal manure.
 
@@ -95,7 +95,7 @@ The advantage of liquid feed is that it provides soluble nutrients to the plant.
 
 Using comfrey again, you make your own within 2 or 3 weeks.
 
-![A patch of nettles](images/a-patch-of-nettles.jpg 'Nettle make a good liquid feed. Credits: image taken from Huw Richard’s vlog')
+![A patch of nettles](images/a-patch-of-nettles.jpg "Nettle make a good liquid feed. Credits: image taken from Huw Richard’s vlog")
 
 See [this article](../../2022-11/easy-low-cost-plant-feed-to-boost-vegetables-huw-richards/index.md) for a detail explanation about liquid feed.
 
@@ -111,7 +111,7 @@ Use the _little but often_ approach of a range of different solutions.
 
 ## Homemade compost
 
-![Empty pallet compost bins](images/empty-pallet-compost-bins.jpg 'Making your own compost is the currency of the future. Credits: image taken from Huw Richard’s vlog')
+![Empty pallet compost bins](images/empty-pallet-compost-bins.jpg "Making your own compost is the currency of the future. Credits: image taken from Huw Richard’s vlog")
 
 It is huge not to rely on buying compost.
 

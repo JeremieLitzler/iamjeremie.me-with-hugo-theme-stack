@@ -35,7 +35,7 @@ There are many designs, but to my opinion, use pallets.
 
 If you’re a family and don’t run a farm, don’t buy anything else other than screw or nails and a bit of wire. Look at [this article detailing the process](../how-to-make-a-compost-bin-from-pallets-huw-richards/index.md).
 
-If you’re running a farm, then this article won’t explain how to build compost bins optimized for large-scale operations. However, have a read of [the notes I took so far on the compost topic by Charles Dowding](../../../tag/charles-dowding/). He runs a little business and he has a large 6-heap structure.
+If you’re running a farm, then this article won’t explain how to build compost bins optimized for large-scale operations. However, have a read of [the notes I took so far on the compost topic by Charles Dowding](../../../tags/charles-dowding/). He runs a little business and he has a large 6-heap structure.
 
 ## What materials
 

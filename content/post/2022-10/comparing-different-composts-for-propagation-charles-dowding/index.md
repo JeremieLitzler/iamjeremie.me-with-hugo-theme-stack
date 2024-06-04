@@ -4,12 +4,6 @@ description: "Experimenting brings surprises. Charles has been practicing for de
 date: 2022-10-21
 image: "/images/2022-10-21-comparing-different-composts-for-propagation-charles-dowding-hero.jpg"
 imageAlt: Final harvest results
-prev:
-  text: "See all my notes from Charles Dowding’s vlogs"
-  link: ../../../tag/charles-dowding/
-#next:
-#  text: ''
-#  link: ..//index.md
 relcanonical: https://iamjeremie.substack.com/p/comparing-composts-propagation-charles-dowding
 categories:
   - Gardening

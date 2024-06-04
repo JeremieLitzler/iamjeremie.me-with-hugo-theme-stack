@@ -1,9 +1,8 @@
 ---
-
 title: Making compost in a dalek, and how to access it, by Charles Dowding
 description: "I wrote the following notes watching the video published on Charles Dowding's channel"
 date: 2022-10-18
-image: '/images/2022-10-18-making-compost-in-a-dalek--and-how-to-access-it-charles-dowding-hero.jpg'
+image: "/images/2022-10-18-making-compost-in-a-dalek--and-how-to-access-it-charles-dowding-hero.jpg"
 imageAlt: A dalek, from Blackwall manufacturer
 categories:
   - Gardening
@@ -51,9 +50,9 @@ The [heap](https://www.google.com/search?q=heap+meaning) by volume should be:
 
 ## Learn more about composting
 
-I am reviewing [all the vlogs not only from Charles](../../../tag/charles-dowding/) but also other YouTubers like:
+I am reviewing [all the vlogs not only from Charles](../../../tags/charles-dowding/) but also other YouTubers like:
 
-- [Huw Richards](../../../tag/huw-richards/)
-- or [Damien Dekarz (in French)](https://jeremielitzler.fr/tag/damien-dekarz/) and other French sources.
+- [Huw Richards](../../../tags/huw-richards/)
+- or [Damien Dekarz (in French)](https://jeremielitzler.fr/tags/damien-dekarz/) and other French sources.
 
 Also, [Charles provides a book](https://amzn.to/3ELjByW) about his No Dig method, containing much information about composting.

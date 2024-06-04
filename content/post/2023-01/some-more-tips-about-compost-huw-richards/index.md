@@ -1,6 +1,6 @@
 ---
 title: Some more tips from Huw Richards about compost, by Huw Richards
-description: 'Composting is an art that has simple rules. Follow them and you will start your composting journey successfully.'
+description: "Composting is an art that has simple rules. Follow them and you will start your composting journey successfully."
 date: 2023-01-03
 categories:
   - Gardening
@@ -35,13 +35,13 @@ Next, it isn’t a good idea to compost pet manure, from cats and dogs, for exam
 
 However, mostly vegetarian pets like guinea pigs and chicken can work fine.
 
-The interesting fact is that the tip about to keep the compost bin warm. It makes me think of the tip from [Charles Dowding](../../../tag/charles-dowding). He builds his compost bin fully closed on the side.
+The interesting fact is that the tip about to keep the compost bin warm. It makes me think of the tip from [Charles Dowding](../../../tags/charles-dowding). He builds his compost bin fully closed on the side.
 
 {{< blockcontainer jli-notice-tip "Personal note" >}}
 
 I have made 2 compost bins lately and I did make them fully closed, making sure to layer well the green and the brown to always oxygen to stay present.
 
-![Pallet compost bin](images/70-four-sides-wired.jpg 'I simply cut the pallets in half and rearranged the planks to make each side “full”.')
+![Pallet compost bin](images/70-four-sides-wired.jpg "I simply cut the pallets in half and rearranged the planks to make each side “full”.")
 
 {{< /blockcontainer >}}
 

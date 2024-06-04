@@ -2,7 +2,7 @@
 title: Do we need the coronavirus to reduce our impact on our environment?
 description: Or is it something that is under our noses?
 date: 2020-03-25
-image: '/images/do-we-need-the-coronavirus-hero.jpeg'
+image: "/images/do-we-need-the-coronavirus-hero.jpeg"
 imageAlt: Drawing on a wall of a scooter driver
 categories:
   - Health
@@ -36,7 +36,7 @@ It depends on what they are doing. Yes, lockdown means you stay home. Period. Th
 
 In [There’s an Epidemic That’s a Bigger Threat Than the Coronavirus, Dr. David L. Katz](https://heated.medium.com/theres-an-epidemic-that-s-a-bigger-threat-than-the-coronavirus-ce6e0697185b) reminds us that diet-related diseases kill thousands every year.
 
-> Poor overall diet quality is [the single leading cause of premature death in the United States today](https://www.nytimes.com/2019/08/26/opinion/food-nutrition-health-care.html), causing an estimated 500,000 or so deaths each year.
+> Poor overall diet quality is the single leading cause of premature death in the United States today (`https://www.nytimes.com/2019/08/26/opinion/food-nutrition-health-care.html`), causing an estimated 500,000 or so deaths each year.
 
 Did you know that? Do you think it is a fad? If so, why? I have been improving my diet for the past 10 years now and, not only did I lose a significant amount of weight, but also I learn to pick better sources: I choose the organic products rather the regular ones when it is something that is not produced in my area. I purchase food from local farmer markets, which I admit are numerous in the Rhone Valley. I refrain from purchasing goods in supermarkets whenever possible.
 

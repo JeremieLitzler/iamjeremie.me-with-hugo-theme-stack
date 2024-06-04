@@ -1,6 +1,6 @@
 ---
 title: How to Make a Compost Bin the Easy Way from Pallets, with Huw Richards
-description: 'It is easy to make your own. Start hunting for the pallets and you will be done in no time!'
+description: "It is easy to make your own. Start hunting for the pallets and you will be done in no time!"
 date: 2022-12-14
 categories:
   - Gardening
@@ -76,4 +76,4 @@ I found the following interesting:
 
 ## More about composting
 
-Checkout the [_compost_ tag to read more about the topic](../../tag/compost/).
+Checkout the [_compost_ tag to read more about the topic](../../tags/compost/).

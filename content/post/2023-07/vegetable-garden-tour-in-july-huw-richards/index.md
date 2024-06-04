@@ -35,7 +35,7 @@ If a leak looks a little bit sad after transplantation, it’s OK. Water them an
 
 Similarly to Charles Dowding, Huw adopted the method to harvest lettuces by picking the outer leaves regularly, which helps to produce a lot more than cutting the salad.
 
-![Harvesting lettuce](images/harvesting-lettuce.jpg 'Credits: image from the vlog of Huw Richards')
+![Harvesting lettuce](images/harvesting-lettuce.jpg "Credits: image from the vlog of Huw Richards")
 
 ## Growing parsley under runner beans
 
@@ -53,7 +53,7 @@ Interestingly, I never get diseases with those volunteer squashes.
 
 Huw’s garden was already 95% No Dig in 2021, at the time of the shooting of the vlog.
 
-Using [Charles Dowding](../../../tag/charles-dowding) No Dig, he will use organic matter to built up some strong and resilient soil life.
+Using [Charles Dowding](../../../tags/charles-dowding) No Dig, he will use organic matter to built up some strong and resilient soil life.
 
 I’ve been trying out the No Dig also for 3 years. The main challenge is to gather enough organic matter.
 
@@ -67,7 +67,7 @@ With a no garden plan, you prepare seedlings and fill the gaps in beds, finding 
 
 ## Introduce more flowers to the garden
 
-![Flowers and beetroots sharing garden space](images/flowers-and-beetroots-sharing-garden-space.jpg 'Credits: image from the vlog of Huw Richards')
+![Flowers and beetroots sharing garden space](images/flowers-and-beetroots-sharing-garden-space.jpg "Credits: image from the vlog of Huw Richards")
 
 Flowers attract pollinators in the garden.
 
@@ -75,7 +75,7 @@ So, as a message to my future self, grow more. The ladies in the household will 
 
 At the moment, we have got comfrey, borages, Echinacea, one cosmos flower, self-sown from last year.
 
-![cosmos flowers](images/cosmos-flowers.jpg 'Credits: image from the vlog of Huw Richards')
+![cosmos flowers](images/cosmos-flowers.jpg "Credits: image from the vlog of Huw Richards")
 
 {{< blockcontainer jli-notice-tip "To keep the cosmos flowers flowering, remove the dead flowers." >}}
 
@@ -85,13 +85,13 @@ At the moment, we have got comfrey, borages, Echinacea, one cosmos flower, self-
 
 Huw never grows onions from seeds. It takes too much effort.
 
-![Onions bed](images/onions-bed.jpg 'Credits: image from the vlog of Huw Richards')
+![Onions bed](images/onions-bed.jpg "Credits: image from the vlog of Huw Richards")
 
 I tried to grow some this year, but they didn’t do well, at least not as great as the garlic.
 
 ## More diversity of sweet peas
 
-![Colorful sweet peas](images/colorfull-sweet-peas.jpg 'Credits: image from the vlog of Huw Richards')
+![Colorful sweet peas](images/colorfull-sweet-peas.jpg "Credits: image from the vlog of Huw Richards")
 
 Just like Huw, I love sweet peas. They taste just awesome, right off the plant, no need to cook them.
 

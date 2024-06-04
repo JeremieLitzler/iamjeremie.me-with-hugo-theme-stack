@@ -6,7 +6,7 @@ image: "/images/2022-04-20-three-types-of-heap-for-compost.webp"
 imageAlt: "Cover of the vlog from Youtube and Charles Dowding"
 prev:
   text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
+  link: ../../../tags/charles-dowding/
 next:
   text: "July 2022 tour of new no dig, harvests, pest covers, compost, watering, by Charles Dowding"
   link: ../../../posts/2022-10-15-july-2022-tour-of-homeacres-garden-charles-dowding/

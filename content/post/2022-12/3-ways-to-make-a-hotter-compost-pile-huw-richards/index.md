@@ -1,6 +1,6 @@
 ---
 title: 3 Ways to Make a Hotter Compost Pile, by Huw Richards
-description: 'A hot compost means compost ready quicker.'
+description: "A hot compost means compost ready quicker."
 date: 2022-12-28
 categories:
   - Gardening
@@ -80,6 +80,6 @@ Nitrogen means more green material.
 
 Now, what isn't explained in the vlog is how do you get enough green material?
 
-For that, I invite you to [read more on the topic of composting](../../../tag/compost/).
+For that, I invite you to [read more on the topic of composting](../../../tags/compost/).
 
 As always, don't forget to subscribe! I published one article every week and you support means everything to me. Thanks.

@@ -2,11 +2,8 @@
 title: Compost making and results from varied sizes of heap, with Charles Dowding
 description: "Composting can be achieved in various heaps or compost bins. Charles explains to us in this article the options available and the simplest solution is free!"
 date: 2022-10-25
-image: '/images/2022-10-25-compost-thermometer-measuring-temperature-in-a-heap.jpg'
+image: "/images/2022-10-25-compost-thermometer-measuring-temperature-in-a-heap.jpg"
 imageAlt: Compost thermometer indicating 66 °C
-prev:
-  text: "See all my notes from Charles Dowding's vlogs"
-  link: ../../../tag/charles-dowding/
 categories:
   - Gardening
 tags:
@@ -53,13 +50,13 @@ You can make a good compost without turning.
 
 At five months, it is a little bit too young.
 
-![5-month-old compost](images/5-months-old-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![5-month-old compost](images/5-months-old-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 In the above picture, the worms you see were not there before. They are _tiger worms_ which eggs are the materials put in to make the compost and they are helping the composting process.
 
 However, Charles starts using compost after 7 months as the decomposition will continue on the soil.
 
-![7-month-old compost](images/7-months-old-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![7-month-old compost](images/7-months-old-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 ## Sifting compost
 
@@ -67,7 +64,7 @@ Charles only uses the 4 mm sifting tray to prepare potting compost and he only 
 
 ## How much compost and when to spread it
 
-![Mature compost](images/mature-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Mature compost](images/mature-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 Charles covers the garden areas with 2.5 cm **_once a year only_**, anytime of the year.
 
@@ -75,7 +72,7 @@ To make a bed, you will, of course, need a bigger depth to start off.
 
 ## Another kind of heap
 
-![Pallet-made heaps](images/pallet-heaps.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Pallet-made heaps](images/pallet-heaps.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 You can build them out of pallets with their bottom stripped off, to make the side much lighter.
 
@@ -83,13 +80,13 @@ Each side is attached to the two connecting other sides with a simple wire at th
 
 The heaps sit on the ground, not tied to anything.
 
-![Inside a heap being filled](images/inside-a-heap-being-filled.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Inside a heap being filled](images/inside-a-heap-being-filled.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 Inside, you can use cardboard to keep the moisture (when it is very dry in summer for example).
 
 You can throw simply everything.
 
-![Example of weeds and weed roots added as green material](images/example-of-weed-roots.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Example of weeds and weed roots added as green material](images/example-of-weed-roots.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 Weed root can decompose without heat since you keep adding material on top of them.
 
@@ -100,13 +97,13 @@ A lot can go in, such as:
 - lemon peel
 - cardboard waste, as long as it contains no plastic
 
-![A clear picture of what can go in the heap: vegetable waste, banana skin, lemon peel, cardboard waste, as long as it contains no plastic.](images/a-lot-can-go-in.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![A clear picture of what can go in the heap: vegetable waste, banana skin, lemon peel, cardboard waste, as long as it contains no plastic.](images/a-lot-can-go-in.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 For more woody or harder material, like the cauliflower stem below, you should cut it in smaller pieces.
 
 Charles shows below how to cut the stem in the length, which is much easier.
 
-![Cutting a cauliflower stem in half](images/cutting-a-cauliflower-stem.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Cutting a cauliflower stem in half](images/cutting-a-cauliflower-stem.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 Adding woody material is really good to bring more fungal activities, which then helps break down the materials.
 
@@ -116,7 +113,7 @@ Wildlife, like mice, toads, frogs, will be found in the heaps.
 
 Also, worms will multiply and work hard to decompose the compost more and more.
 
-![Mature compost with worms](images/mature-compost-from-pallet-heap.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Mature compost with worms](images/mature-compost-from-pallet-heap.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 ## Woodchip composting
 

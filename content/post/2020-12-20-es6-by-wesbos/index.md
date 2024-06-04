@@ -2,7 +2,7 @@
 title: ES6 for everyone - Course review
 description: Learn how JavaScript works today.
 date: 2020-12-20
-image: '/images/es6-by-wesbos.png'
+image: "/images/es6-by-wesbos.png"
 imageAlt: Screenshot of the course homepage
 categories:
   - Web Fundamentals
@@ -62,6 +62,6 @@ Going through the entire course took me 15 hours.
 
 I had taken the “Mobile Web Specialist” nanodegree at Udacity where I learned mainly the service worker technology and the prerequisite was to learn about ES6 before diving into the more complex PWA topic.
 
-You can read my courses notes on [the dedicated repository](https://github.com/JeremieLitzler/wesbos-es6/blob/master/index.md). Thanks Wes for creating this course and many others. I have purchased quite a few of his courses.
+You can read my courses notes on [the dedicated repository](https://github.com/JeremieLitzler/wesbos-es6/blob/master/README.md). Thanks Wes for creating this course and many others. I have purchased quite a few of his courses.
 
 Next stop: the [JavaScript30 course](https://javascript30.com/) that might just be the course to fill the whole of the missing bits. Stay tuned!

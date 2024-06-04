@@ -6,7 +6,7 @@ image: "/images/2022-09-30-a-dry-garlic.jpg"
 imageAlt: A dry garlic
 prev:
   text: "See all my notes from Huw Richards' vlogs"
-  link: ../../../tag/huw-richards/
+  link: ../../../tags/huw-richards/
 next:
   text: "The Simple Way to Becoming Self-Sufficient in Food"
   link: ../../10/the-simple-way-to-food-self-sufficiency-huw-richards/

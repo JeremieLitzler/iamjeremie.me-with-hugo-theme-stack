@@ -27,9 +27,9 @@ Once activated, you can adjust the intensity: personally, I set it to 50.
 
 Do you see the difference?
 
-![Image with night-time disabled](/images/reduce-blue-light-windows-10-without-nighttime.jpg)
+![Image with night-time disabled](images/reduce-blue-light-windows-10-without-nighttime.jpg)
 
-![Image with night-time enabled](/images/reduce-blue-light-windows-10-with-nighttime.jpg)
+![Image with night-time enabled](images/reduce-blue-light-windows-10-with-nighttime.jpg)
 
 ## How to adjust blue light on Android
 
@@ -40,7 +40,7 @@ It works similarly to Windows 10:
 - you activate the option
 - you adjust it: personally, I set to the maximum!
 
-![Android setup of the parameter](/images/reduce-blue-light-android.jpg)
+![Android setup of the parameter](images/reduce-blue-light-android.jpg)
 
 {{< blockcontainer jli-notice-tip "You might also notice that I use the <em>Dark mode</em>." >}}
 
