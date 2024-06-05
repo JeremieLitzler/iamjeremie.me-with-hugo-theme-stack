@@ -66,7 +66,7 @@ Next, I stapled the aluminized foil thermal insulation to the entire base and ba
 
 I cut in half one of the foam protectors. They come with the tube to stabilize and protect it during tranportation. I then stapled them to the plywood base.
 
-![Front shims view](images/front-tube-shims.jpg)
+![Front shims view](images/cales-du-tube-avant.jpg)
 ![Rear shims view](images/cales-du-tube-arriere.jpg)
 
 For the door, I cut a piece of the fir plank to the diameter of the tube, then cut the top half to fit the tube rounded shape.

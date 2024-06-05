@@ -1,6 +1,10 @@
 {{- $image := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) -}}
 {{- $Permalink := .Destination | relURL | safeURL -}}
 {{- $alt := .PlainText | safeHTML -}}
+{{ with .Params.imageAlt }}
+  {{- $alt := . -}}
+{{ end -}}
+
 {{- $Width := 0 -}}
 {{- $Height := 0 -}}
 {{- $Srcset := "" -}}
