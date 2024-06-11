@@ -1,8 +1,8 @@
 ---
 title: "Getting started with a ZSA keyboard"
-description: "Regular keyboards are what we are all used to. But some years ago, someone decided it didn’t make sense to use the imposed layouts. ZSA has taken the concept to enable us to fully configure a split keyboard."
-image: images/2024-06-12-a-laptop-the-voyager-keyboard.webp
-imageAlt: A laptop on a desk connected to a ZSA Voyager split keyboard..
+description: "Regular keyboards are what we are all used to. But some years ago, a company decided it didn’t make sense to use the imposed layouts. ZSA has taken the concept to enable us to fully configure a split keyboard."
+image: images/2024-06-12-the-voyager-keyboard.webp
+imageAlt: The ZSA Voyager split keyboard.
 date: 2024-06-12
 categories:
   - Product Reviews
@@ -14,7 +14,7 @@ tags:
 
 Since I started the job in Geneva, I had to learn the Swiss French layout on a regular Logitech keyboard. Though it was difficult the first couple of weeks, I can say that I have switched successfully on this layout. I find it more developer-friendly because of the position of the special characters.
 
-A colleague of mine has been using a ZSA Moonlander, a larger model with an extra row and I thought it would be interesting to try a split keyboard.
+A colleague of mine has been using a ZSA Moonlander for a while, a larger model compared to the Voyager with an extra row and I thought it would be interesting to try a split keyboard.
 
 Since ZSA keyboards are very popular, if I can’t get used to the layout, I could sell it back easily in Europe.
 
@@ -32,7 +32,7 @@ Once you enabled your internalization and made sure your system is using the mat
 
 ### The Keys Don’t Display The “SHIFT” or “ALT-GR” Character But There Are Present
 
-The key that comes with the Voyager are minimalist. ZSA has printed a single character on each, sometimes a big top dot.
+The key that comes with the Voyager are minimalist. ZSA has printed a single character on each, sometimes a big top dot for neutral keys.
 
 For example, the numeric row on a French Swiss keyboard has special characters available when pressing any shift key.
 
@@ -50,11 +50,13 @@ To do so, you need to assign “Y (fr-CH)” to the usual Z key and “Z (fr-CH)
 
 If you use the plain “Y” and “Z” key in the swap, you will get two Y when using the Swiss French system language…
 
+Why is this? Because the code for the “Y” key and “Y **(ft-CH)**” are different in the Windows system language “French (Swiss)”.
+
 This is true for all other keys that have a “fr-CH” equivalent.
 
 So be mindful about this when you configure your layouts.
 
-## Organizing the Layouts With Special Characters
+## Organizing the Layouts
 
 This was the most challenging part because with only 52 keys, you have to think a bit more about how to make it the most efficient for a day-to-day use.
 
@@ -135,12 +137,12 @@ The two right thumb keys therefore enable me to switch temporarily to the layout
 
 ## Coloring the layers
 
-The framework I used was to pick 5 colors that are very distinct to see visually the layer I’m in:
+The framework I used was to pick 4 colors that are very distinct to see visually the layer I’m in:
 
 - Yellow for the first,
 - Purple for the second,
 - Blue for the third,
-- Orange for the fourth,
+- Rouge for the fourth,
 
 Then I made sure the transparent keys on layers 2 to 4 were the color of the layer 1.
 
