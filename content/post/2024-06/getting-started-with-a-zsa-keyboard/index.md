@@ -175,4 +175,4 @@ In the meantime, thanks for reading thus far and if you’re interested in my la
 
 Thanks for reading.
 
-Credits: the header image is taken from the ZSA website on the _ZSA Voyager_ product page.
+Credits: the header image is taken from the ZSA website on the [_ZSA Voyager_ product page](https://www.zsa.io/voyager).
