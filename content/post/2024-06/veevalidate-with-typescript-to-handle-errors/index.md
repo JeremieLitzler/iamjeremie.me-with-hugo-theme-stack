@@ -11,7 +11,7 @@ tags:
   - Vue
 ---
 
-In the [old Masterclass of VueSchool.io](https://vueschool.io/courses/the-vuejs-3-options-api-master-class), I used the `@invalid-submit` in the template.
+In the [old masterclass of VueSchool.io](https://vueschool.io/courses/the-vuejs-3-options-api-master-class), I used the `@invalid-submit` in the template.
 
 In the custom function `handleErrors`, I needed to type the input argument.
 
@@ -35,6 +35,6 @@ const handleErrors = ({
 
 This way, I could use the `errors` and `results` variables in the method. Of course, check for `undefined` value before you access them.
 
-Using the exact type prevent the intellisense but you'll need to give up the destructuring if you absolutely want the type safety.
+Using the exact type prevent the intellisense but you’ll need to give up the destructuring if you absolutely want the type safety.
 
 Credit: Header photo is the homepage of VeeValidate website by [VeeValidate Team](https://vee-validate.logaretm.com/v4/).
