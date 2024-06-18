@@ -5,7 +5,7 @@ rssFullContent = true
 favicon = "/favicon.ico"
 
 [footer]
-since = 2021
+since = 2018
 customText = 'License GPLv3 | <a href="https://iamjeremie.me/page/terms/" title="Read terms and conditions of this website">Terms</a>'
 
 [dateFormat]

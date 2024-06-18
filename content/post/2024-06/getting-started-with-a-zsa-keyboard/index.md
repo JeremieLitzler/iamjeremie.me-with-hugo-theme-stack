@@ -174,3 +174,5 @@ I’ll spend the next weeks training and use it in real life scenarios to see if
 In the meantime, thanks for reading thus far and if you’re interested in my layout, here is [the public link](https://configure.zsa.io/voyager/layouts/GoJRR/latest).
 
 Thanks for reading.
+
+Credits: the header image is taken from the ZSA website on the [_ZSA Voyager_ product page](https://www.zsa.io/voyager).
