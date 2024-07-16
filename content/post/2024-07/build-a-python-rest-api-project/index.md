@@ -56,7 +56,7 @@ Once you created your Python profile, install:
 
 - `advanced-new-file`: to use `CTRL+ALT+N` to create a new file quickly without going to the _Explore View_.
 - `Python Extension Pack`: to install a bundle of recommended extension.
-  - Uninstall `IntelliCode`, `Dlango` and `Jinja` though as you don’t need it.
+  - Uninstall `IntelliCode`, `Django` and `Jinja` though as you don’t need it.
 - `Python Debugger`: to debug easily your Python apps.
 - `REST Client`: to test your endpoints using a very simple `.http` or `.rest` file.
 - `Todo Tree`: to keep track of the code sections that need work.
@@ -96,7 +96,7 @@ Let’s start with creating a new Git repository on GitHub or your preferred ver
 
 _Make sure to select `Python` for the `.gitignore` template._
 
-Open Visual and clone your repository.
+Open Visual and clone your repository from the built-in terminal.
 
 ## Create a Virtual Environment
 
