@@ -1,7 +1,7 @@
 ---
 title: "Reflection of class attributes in Python"
 description: "I’ll admit that, at the time of this writing, I was just starting to code with Python. Yet, I wanted to apply clean code as I’ve learned it."
-image: images/2024-07-11-3d-python-programming-book.jpg
+image: images/2024-07-22-3d-python-programming-book.jpg
 imageAlt: "Python programming book"
 date: 2024-07-22
 categories:
