@@ -24,7 +24,7 @@ I’ll skip ahead to the moment I wanted to save to a SQL Lite database a projec
 
 I used Gemini all the way to code the API skeleton.
 
-{{< blockcontainer jli-notice-note "About to learn coding...">}}
+{{< blockcontainer jli-notice-note "About AI to learn coding...">}}
 
 AI doesn’t do everything for you and I find that it won’t find nor code the solution for you 100% of the time.
 
