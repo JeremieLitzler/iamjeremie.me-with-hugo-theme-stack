@@ -249,7 +249,7 @@ Though the AI helped me scaffold the API, you still need to think and research y
 
 {{< blockcontainer jli-notice-note "About the solution I coded and shared here.">}}
 
-I’m still learning Python and since I wrote the above, a more experienced colleague told me that using `__len__` or `__name__` isn’t safe.
+I’m still learning Python and since I wrote the above, a more experienced colleague told me that using `_asdict()`, `__len__` or `__name__` isn’t safe.
 
 All, the DTO classes should be data classes (using the `@dataclasse` decorator).
 
