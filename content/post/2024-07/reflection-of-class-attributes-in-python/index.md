@@ -190,11 +190,11 @@ def get_tuple_from_type(cls):
     raise TypeError('The class has no attribute defined since "__annotations__" wasn´t found. Cannot use "get_tuple_from_type".')
 
   # The first element of cls_extract is an array itself where:
-  #   - index=0 equals to ""
-  #   - index=1 equlas to an object with the cls type's attributes
+  #   - index=0 equals to an array
+  #   - index=1 equals to an object with the cls type's attributes
   # So below, I retrieve the keys from the object
   raw_field_names = cls_extract[0][1].keys()
-  # and finally convert it to an array of strings.
+  # and then convert it to an array of strings.
   field_names = list(raw_field_names)
   # At last, we have the namedtuple!
   return namedtuple(cls.__name__, field_names)
