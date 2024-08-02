@@ -1,7 +1,7 @@
 ---
 title: "How to call an external API with valid CORS?"
 description: "Have you ever needed to call a third party API that resides on a different domain? You probably had CORS issues."
-image: /images/2024-08-02-matrix-like-background.jpg
+image: images/2024-08-02-matrix-like-background.jpg
 imageAlt: Matrix-like background
 date: 2024-08-02
 categories:
