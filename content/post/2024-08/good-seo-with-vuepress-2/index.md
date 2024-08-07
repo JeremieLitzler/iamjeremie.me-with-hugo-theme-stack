@@ -20,7 +20,7 @@ Today, I’ll share the experience I acquired using Vuepress to build a blog tha
 
 ### What is Vuepress
 
-Vuepress is the SSG engine based on Vue and Vite (for version 2).
+Vuepress is the SSG (Static Site Generator) engine based on Vue and Vite (for version 2).
 
 It’s maintained by [_Mr Hope_](https://github.com/Mister-Hope) and [_meteorlxy_](https://github.com/meteorlxy) mainly (website: https://v2.vuepress.vuejs.org/) and I’ve used it for several simple projects:
 
