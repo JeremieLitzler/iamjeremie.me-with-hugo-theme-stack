@@ -163,7 +163,7 @@ Under _Data Storage > File shares_ blade,
 
 I name my file shares the following way: `fileshare-[designation]- [project]-[env]` where `[designation]` is either `db` for database, `logs` or `json` for files I need to edit on the fly.
 
-You’ll link the _Container app environment_ to that file share in the _Contain App_ setup.
+You’ll link the _Container app environment_ and _Container App_ to all file shares.
 
 ## Container App setup
 
@@ -192,7 +192,7 @@ On the Container tab,
 - select the image source to be Azure Container Registry (ACR).
 - select the ACR you created previously.
 - select the image.
-- select the image tag.
+- select the image tag to `latest`.
 - adjust the CPU and Memory to your needs.
 - you could set up the environment variables now, but we’ll look at that in the Configure step. In fact, you may need to adjust then in the lifetime of your application.
 
