@@ -5,7 +5,7 @@ image: images/2024-08-10-proactivity-words.svg
 imageAlt: "Some of the proacitivy words from Habit #1"
 date: 2024-08-10
 categories:
-  - Tutorials
+  - Books
 tags:
   - 7 Habits
 ---
