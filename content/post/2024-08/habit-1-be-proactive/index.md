@@ -1,7 +1,7 @@
 ---
 title: "Habit #1: Be proactive"
 description: "You have the freedom to choose your responses to circumstances. Focus on what you can influence, not on what you can’t control."
-image: /images/2024-08-10-proactivity-words.svg
+image: images/2024-08-10-proactivity-words.svg
 imageAlt: "Some of the proacitivy words from Habit #1"
 date: 2024-08-10
 categories:
