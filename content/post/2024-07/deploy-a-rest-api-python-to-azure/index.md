@@ -163,7 +163,7 @@ Under _Data Storage > File shares_ blade,
 
 I name my file shares the following way: `fileshare-[designation]- [project]-[env]` where `[designation]` is either `db` for database, `logs` or `json` for files I need to edit on the fly.
 
-You’ll link the _Container app environment_ to that file share in the _Contain App_ setup.
+You’ll link the _Container app environment_ and _Container App_ to all file shares.
 
 ## Container App setup
 
@@ -192,7 +192,7 @@ On the Container tab,
 - select the image source to be Azure Container Registry (ACR).
 - select the ACR you created previously.
 - select the image.
-- select the image tag.
+- select the image tag to `latest`.
 - adjust the CPU and Memory to your needs.
 - you could set up the environment variables now, but we’ll look at that in the Configure step. In fact, you may need to adjust then in the lifetime of your application.
 
@@ -226,7 +226,7 @@ To do so, retrieve the name and access key under the _Storage Account:_
 Back on the Container Apps Environment:
 
 - go to _Settings_ and the _Azure Files_ blade.
-- set the name to `azure-files-[designation]` (`designation` would be `db`, `logs`, etc.)
+- decide of the name using this naming: `azure-files-[designation]` (`designation` would be `db`, `logs`, etc.)
 - add a new one and fill the field by pasting the values copied previously.
 - set the _Access mode_ to _Read/Write_ or _Read only_ (I do that for the files I need the application not to write).
 - repeat for all the file shares you need the _Container App_ to use.
@@ -241,7 +241,7 @@ You could write the files in the container image. But, as it restarts on a new d
 
 Next, to go the _Container App_ to configure the deploy settings.
 
-To do so, go to the _Revisions and replicas_ blade under _Application_ and click _Creation new revision._
+To do so, go to the _Revisions and replicas_ blade under _Application_ and click _Creation new revision_.
 
 We’ll set up the _Container_ tab last. You’ll understand why soon.
 
@@ -267,17 +267,20 @@ VOLUME /project-container/logs
 - set the mount options to `nobrl` if the volume contains a SQLLite database file. Why? The problem is that Docker mounts the volume as CIFS file system which can’t deal with SQLite3 lock. See [this answer](https://stackoverflow.com/a/54051016) and [that answer](https://stackoverflow.com/a/61077705) in Stackoverflow. The [Microsoft documentation](https://learn.microsoft.com/en-us/troubleshoot/azure/azure-kubernetes/storage/mountoptions-settings-azure-files#other-useful-settings) also confirm this.
 - make sure to click the _add_ button before continuing.
 
-Go back to the _Container_ tab, add the volumes based on the File shares you create. On our example so far, we need:
+Go back to the _Container_ tab to add the volumes based on the File shares you create. On our example so far, we need:
 
 - leave the _Revision details_ section as it is.
-- Under the _Container image_ section, click of the existing image. It’ll open a right pane:
-  - under the _Basics_ tab, you find the details you specified at the creation of the _Container App_ resource. This is where you can add your environment variables (scroll to the very bottom). We’ll come back to it when we will link the _Key Vault_ to pull the secret values from it.
-  - under the _Health probes_, leave as it is.
-  - under the _Volumes mounts_ tab, add all the volume mounts you need:
-    - the Volume name will equal to the name you defined above.
-    - the Mount path should be the same value as you defined in the _Dockerfile_ as explained above.
-    - leave the _Sub path_ empty.
-  - click _Save_
+- Under the _Container image_ section, click of the existing image.
+
+It’ll open a right pane:
+
+- under the _Basics_ tab, you find the details you specified at the creation of the _Container App_ resource. This is where you can add your environment variables (scroll to the very bottom). We’ll come back to it when we will link the _Key Vault_ to pull the secret values from it.
+- under the _Health probes_, leave as it is.
+- under the _Volumes mounts_ tab, add all the volume mounts you need:
+  - the Volume name will equal to the name you defined above.
+  - the Mount path should be the same value as you defined in the _Dockerfile_ as explained above.
+  - leave the _Sub path_ empty.
+- click _Save_
 - make sure to click _Create_
 
 Under the _Revisions and replicas_ blade, you should see within a couple of minutes if the deploy was successful when it displays the _Running status_ as _Running_ and a green check mark.
@@ -319,7 +322,7 @@ Back to the _Container App_, browse to the _Settings_ and _Secrets_ blade.
 
 From there, add your secret from the _Key Vault_ by clicking _Add_ button. Then:
 
-- set the _Key_ value to the secret name you’re adding.
+- set the _Key_ value to the secret name you’re adding with a prefix `kv_`.
 - set the _Type_ to _Key Vault reference_.
 - set the _Value_ to the corresponding URL you prepared.
 - click _Add_ and wait that the secret does appear.
