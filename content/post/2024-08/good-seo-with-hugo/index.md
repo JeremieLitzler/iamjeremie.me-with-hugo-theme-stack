@@ -103,7 +103,7 @@ relcanonical: https://www.linkedin.com/pulse/making-unused-method-argument-compl
 ---
 ```
 
-This tells the web crawlers that the original content of the canonical link.
+This tells the web crawlers that the original content is the canonical link.
 
 ### For head image in articles
 
