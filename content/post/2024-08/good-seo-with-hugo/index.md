@@ -8,42 +8,42 @@ categories:
   - Web Development
 tags:
   - SEO
-draft: true
+  - Go
+  - Hugo
+  - Static Site Generators
+  - JAMStack
 ---
 
-I wrote [an article last week](../good-seo-with-vuepress-2/index.md) about the SEO topic with the SSG Vuepress 2 when using Mr Hope's awesome theme.
+I wrote [an article last week](../good-seo-with-vuepress-2/index.md) about the SEO topic with the SSG Vuepress 2 when using Mr Hope’s awesome theme.
 
-Well, in the Hugo SSG side, Jimmy Cai has built a great theme as well.
+Well, on the Hugo SSG side, Jimmy Cai has built a great theme as well.
 
 When it comes to writing articles, I always needed something simple and easy to work with.
 
 I tried Hugo for performance reasons.
 
-Today, I’ll share the experience I acquired using Huo to build a blog that performs and provides naturally good SEO.
+Today, I’ll share the experience I acquired using Hugo to build a blog that performs well and provides naturally good SEO.
 
 ## Background
 
 ### What is Hugo
 
 Hugo is the SSG (Static Site Generator) engine based on Go.
-Hugo is the SSG framework based on Go.
 
-It is maintened by [bep](https://github.com/bep) and [jmooring](https://github.com/jmooring) mainly (website: https://gohugo.io/) and I use it for my blogs:
+[bep](https://github.com/bep) and [jmooring](https://github.com/jmooring) maintain Hugo with the help of other contributors (website: https://gohugo.io/) and I use it for my blogs:
 
 - [My French blog](https://jeremielitzler.fr/)
 - [My English blog](https://iamjeremie.me/), where you currently are.
 
-Formely, my blogs used Vuepress, but I switched to Hugo because it reached a point where it was taxing on my Netlify build minutes… I explain why in the VuePress article quoted above.
-
-Why? When you reach a certain number of pages and articles, the Node-based Vuepress show its limitations (more about it in [this discussion](https://github.com/orgs/vuepress-theme-hope/discussions/2887)).
+Formally, my blogs used Vuepress, but I switched to Hugo because it reached a point where it was taxing on my Netlify build minutes… I explain why in the VuePress article quoted above.
 
 ### What can Hugo do
 
-Similarly to Vuepress, it takes simply takes Markdown content and parse it to generate an HTML file.
+Similarly to Vuepress, it simply takes Markdown content and parse it to generate an HTML file.
 
 You use a theme to apply a template to the generate HTML content.
 
-It is extendable through shortcodes written in HTML and Go: Also, you can find fully-fledged themes like Jimmy Cai's that is just perfect for blogging. Feel free to [visit this page for more details](https://github.com/CaiJimmy/hugo-theme-stack) and [his starter project](https://github.com/CaiJimmy/hugo-theme-stack-starter).
+It’s extendable through shortcodes written in HTML and Go. Also, you can use fully fledged themes like Jimmy Cai’s that is just perfect for blogging. Feel free to [visit this page for more details](https://github.com/CaiJimmy/hugo-theme-stack) and [his starter project](https://github.com/CaiJimmy/hugo-theme-stack-starter).
 
 ## How to use frontmatter for SEO purposes
 
@@ -58,25 +58,27 @@ description: "I am developping a custom search API from VuePress static websites
 ---
 ```
 
-Then, it deverges for the rest.
+Then, it diverges for the rest.
 
 ### For semantic HTML
 
-In some places, I had to adjust the heading elements to comply with the rules of good semantic HTML, important for SEO as well as best practices.
+In some places, I had to adjust the theme’s heading elements to comply with the rules of good semantic HTML, important for natural SEO as well as best practices.
 
 For example, in the `layouts\_default\archives.html`, I had a `h2` instead of `h1` for the first heading of the page.
 
-It happened to be the same on `ayouts\page\search.html` page and many partial view like `layouts\partials\article\components\details.html` which renders the details of all articles.
+Same thing in `layouts\page\search.html` page and many partial views like `layouts\partials\article\components\details.html` which renders the details of all articles.
 
-I worked quite a bit on the left menu as well so that it wouldn't display the `h1` and `h2` for the site name and description when browsing a page or an article. The exception remains the homepage where the list of article use a `h2` while the site name is a `h1`.
+Why was that?
 
-This was a very tricky part to modify sincne the partial views used were the same between the home page and the categories, tags, search and archives pages.
+Well, in the left menu, the site name was the `h1`, which is fine on the homepage. However, in my opinion, it didn’t apply to the other pages, in particular the articles, other custom pages or generated page for categories and tags. I worked quite a bit on the left menu so that it wouldn’t display the `h1` and `h2` for the site name and description when browsing to any page that wasn’t the homepage.
 
-However, I felt I had a good opportunity to get started and mess up, in a good way, with Hugo and Go programming.
+This ended up as a very tricky part to modify since the partial views used were the same between the homepage and the categories, tags, search and archives pages.
+
+However, I feel like I took the opportunity to get started and mess up, in a good way, with Hugo and Go programming.
 
 ### For the canonical link
 
-I updated the theme itself in a local copy (I don't use Jimmy's theme as a live template because once, it broke my Netlify build).
+I updated the theme itself in a local copy. I don’t use Jimmy’s theme as a live template because, once, it broke my Netlify build on an automatic update. This is how it’s set up if you use his starter repository).
 
 So in the `head.html`, I added this:
 
@@ -89,11 +91,11 @@ So in the `head.html`, I added this:
 {{ end -}}
 ```
 
-What it means is that if the frontmatter contains the `relcanonical` property, then use it. Otherwise, the actual page or article link is used.
+What does it mean? If the frontmatter contains the `relcanonical` property, then use it. Otherwise, the actual page or article link generated by Hugo is used.
 
-I rarely use `relcanonical`, but it is handy to have available.
+I rarely use `relcanonical`, but it’s handy to have available.
 
-For example, I had a LinkedIn post that I published before the article here:
+For example, I had a LinkedIn post that I published before the article once:
 
 ```yaml
 ---
@@ -101,9 +103,11 @@ relcanonical: https://www.linkedin.com/pulse/making-unused-method-argument-compl
 ---
 ```
 
+This tells the web crawlers that the original content of the canonical link.
+
 ### For head image in articles
 
-By default, I couldn't set a custom image alt text to the head image in the article.
+By default, I couldn’t set a custom image alt text to the head image in the article. To me, it was a must-have.
 
 To use the following, I have to modify `layouts\partials\article\components\header.html`, which represents the top section of all articles.
 
@@ -136,11 +140,48 @@ to
 						            title="{{ .Params.imageAlt }}" />
 ```
 
-You might see another difference with the `loading="lazy"` attribute missing. Well, that's because you don't need it on the images in the viewport on page load.
+You might notice another difference with the `loading="lazy"` attribute missing. Well, that’s because you don’t need it on the images in the _viewport_ on page loads.
 
-### For OpenGraph metas
+I had to modify the article list view for example so that the first three article tiles didn’t use the `loading="lazy"` attribute, but the following did.
 
-It is taken care of by the `layouts\partials\head\opengraph\provider\base.html`. It reads the frontmatter `title` and `description` of the page or article. So, unlike Vuepress, you don't need to specify them and it lightens the Markdown a lot, doesn't it?
+For that, I need to pass on to the article list tile header the index of the article in the list.
+
+But how did I get the `pageIndex`?
+
+In the `index.html`, I modified the _for loop_ and set the variable which I passed through the `.Scratch.Set` method:
+
+```go
+    <section class="article-list">
+        {{ range $index, $element := $pag.Pages }}
+			      {{ .Scratch.Set "pageIndex" $index }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+    </section>
+```
+
+Then, I read the index in the article list tile header view using `.Scratch.Get` and calculated the `outOfVisibleViewPort` variable:
+
+```go
+ {{- $pageIndex := .Scratch.Get "pageIndex" }}
+ {{- $outOfVisibleViewPort := ge (int $pageIndex) 3 }}
+```
+
+Finally, in the `<img>` element, I told Hugo to render the `loading="lazy"` is the`$outOfVisibleViewPort` equaled to `true`:
+
+```go
+     <img src="{{ $Permalink }}"
+        {{ with $Srcset }}srcset="{{ . }}"{{ end }}
+        width="{{ $Width }}"
+        height="{{ $Height }}"
+				{{ with $outOfVisibleViewPort }}
+          loading="lazy"
+				{{ end }}
+        alt="{{ .Params.imageAlt }}" />
+```
+
+### For OpenGraph and Twitter meta tags
+
+The theme takes care of it out of the box, through the `layouts\partials\head\opengraph\provider\base.html` view. It reads the frontmatter `title` and `description` of the page or article. So, unlike Vuepress, you don’t need to specify them. It lightens the frontmatter a lot, doesn’t it? 😁
 
 Similarly, `hugo-theme-stack-master\layouts\partials\head\opengraph\provider\twitter.html` processes the addition of the Twitter meta tags.
 
@@ -148,7 +189,7 @@ Similarly, `hugo-theme-stack-master\layouts\partials\head\opengraph\provider\twi
 
 There, you have it. No fancy plugin, no dependency (except for Go and Hugo), no complex setup. You can use Hugo and Jimmy’s theme and build today your blog with good SEO out-of-the-box!
 
-I’ve yet to built a boilerplate. [Let me know if you need help](../../../page/contact-me/index.md).
+I have yet to build a boilerplate. [Let me know if you need help](../../../page/contact-me/index.md).
 
 Start blogging today and forget WordPress!
 
