@@ -8,6 +8,9 @@ categories:
   - Web Development
 tags:
   - SEO
+  - Vue
+  - Static Site Generators
+  - JAMStack
 ---
 
 When it comes to writing articles, I always needed something simple and easy to work with.
