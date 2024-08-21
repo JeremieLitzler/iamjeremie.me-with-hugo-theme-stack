@@ -130,7 +130,7 @@ So I read a lot on the subject (for ex. [a French photovoltaic forum](https://fo
 
 Also, the fact that the installation couldn’t be carried out on the roof of the house was blocking me. I wanted to avoid giving away the electricity not consumed (injected into the grid) to companies (Enedis, Engie, etc.) who sell it to us at increasingly high prices. In France, it’s mandatory to install on a roof to sell the production from PV modules.
 
-In May 2022, the grid buys the electricity at [6 to 10 cents](https://www.insunwetrust.solar/blog/le-solaire-et-vous/tarif-rachat-photovoltaique/#:~:text=%F0%9F%92%B0%20What%20is%20the%20amount,0%2C10%20%E2%82%AC%20per%20kWh.) whereas it sells it to me for between 17 and 22 centimes (my night-day tariff with Engie in May 2022).
+In May 2022, the grid buys the electricity at 6 to 10 cents whereas it sells it to me for between 17 and 22 centimes (my night-day tariff with Engie in May 2022).
 
 At the end of 2021, I receive an email on my “Leboncoin” alert entitled “photovoltaic panels” (“Leboncoin” is like “Craiglist”). It was from a craftsman promoting his services to use the photovoltaic solution for hot water production at more or less 1000 euros. I said to myself: “This is within my budget and the craftsman I was looking for!”
 

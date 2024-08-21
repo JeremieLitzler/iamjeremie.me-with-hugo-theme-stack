@@ -1,6 +1,6 @@
 ---
 title: My Propagation Setup for Annual Vegetables, Compost, Watering, Space etc, by Huw Richards
-The pescription: 'The propagation technique helps the gardener have the strong seedlings for the annual growing season.'
+The pescription: "The propagation technique helps the gardener have the strong seedlings for the annual growing season."
 date: 2022-12-18
 categories:
   - Gardening
@@ -20,7 +20,7 @@ You can watch it using [this YouTube link](https://www.youtube.com/watch?v=JqODy
 
 ## A potting bench
 
-![Multi-purpose compost on the working area](images/multi-purpose-compost-on-the-working-area.jpg 'With a few old planks, you can make your potting bench for little money. Credits: image taken from Huw Richard’s vlog')
+![Multi-purpose compost on the working area](images/multi-purpose-compost-on-the-working-area.jpg "With a few old planks, you can make your potting bench for little money. Credits: image taken from Huw Richard’s vlog")
 
 The potting bench includes:
 
@@ -58,7 +58,7 @@ If you have mice problem, do like Huw: set your most precious or less attractive
 
 It’s a good idea to have a small watering can for fragile seedlings like lettuce.
 
-Or if you’re like me, I use a GLORIA Hobby 100 Pressure Sprayer (available [in France](https://amzn.to/3HDhcaX), [in the UK](https://amzn.to/3PtT1xK); [in the US](https://amzn.to/3HGzSH5), this brand doesn’t seem to be available.).
+Or if you’re like me, I use a GLORIA Hobby 100 Pressure Sprayer ([Google search for the product](https://www.google.com/search?q=GLORIA+Hobby+100+Pressure+Sprayer)).
 
 It’s quite handy as you can adjust the spray finely. Also, it’s sturdier than a bigger version sprayer (not the same brand) of 5 liters capacity. It broke twice after a year :( So I recommend a 1 liter like this Gloria model.
 
@@ -72,7 +72,7 @@ You will need to check daily until you see the seedlings come out.
 
 Also, you will need an area where you can take out your seedlings out to water them. On the shelves, it’s often not practical.
 
-![A pallet structure for watering seedling](images/a-pallet-structure-for-watering-seedling.jpg 'Simple and handy: you can yours with 4 pallet posts and a few planks. Credits: image taken from Huw Richard’s vlog')
+![A pallet structure for watering seedling](images/a-pallet-structure-for-watering-seedling.jpg "Simple and handy: you can yours with 4 pallet posts and a few planks. Credits: image taken from Huw Richard’s vlog")
 
 The height is also ideal with standard 80 cm pallets.
 

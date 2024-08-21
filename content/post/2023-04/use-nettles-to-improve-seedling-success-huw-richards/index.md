@@ -1,6 +1,6 @@
 ---
 title: Amazing Way to Use NETTLES to Improve Seedling Success, by Huw Richards
-description: 'When you grow seedlings, good care of the plants is key. Using nettle, we can increase and reach success.'
+description: "When you grow seedlings, good care of the plants is key. Using nettle, we can increase and reach success."
 image: images/2023-04-11-a-bowl-of-nettle-with-brown-sugar.jpg
 imageAlt: A bowl of nettle with brown sugar
 date: 2023-04-11
@@ -37,7 +37,7 @@ See below [the detailed procedure](#step-by-step-tutorial-to-make-fpj).
 
 ### What are the benefits of FPJ
 
-![A young plant being spread](images/a-young-plant-being-spreaded.jpg 'Credits: image from the vlog of Huw Richards')
+![A young plant being spread](images/a-young-plant-being-spreaded.jpg "Credits: image from the vlog of Huw Richards")
 
 The sugar will work as a solvent, extracting all the good stuff from the plant.
 
@@ -65,7 +65,7 @@ Also, the making of FPJ takes very little time.
 
 ## Benefits of nettle in the context of sowing
 
-![A seedling barely coming out from a module](images/a-seedling-bearly-coming-out-from-a-module.jpg 'Credits: image from the vlog of Huw Richards')
+![A seedling barely coming out from a module](images/a-seedling-bearly-coming-out-from-a-module.jpg "Credits: image from the vlog of Huw Richards")
 
 Apart from the broad spectrum, the nettle will provide the boost of nutrients that the seeds need to get started.
 
@@ -90,7 +90,7 @@ You will need:
 - a pair of gloves, because nettles sting!
 - a sterilized rock that fits in the jar : it will hold the plant
 
-Optionally, read the book _The regenerative grower’s guide to Garder Amendments_ by Nigel Palmer (available [in France](https://amzn.to/43yjh0C), [in the UK](https://amzn.to/3mpFKMy) and [in the US](https://amzn.to/43k8PcS)).
+Optionally, read the book _The regenerative grower’s guide to Garder Amendments_ by Nigel Palmer ([Google search to find the book](https://www.google.com/search?q=The+Regenerative+Grower%27s+Guide+to+Garden+Amendments%3A+Using+Locally+Sourced+Materials+to+Make+Mineral+and+Biological+Extracts+and+Ferments)).
 
 ### The ingredients
 
@@ -117,27 +117,27 @@ The following quantities apply for a 1-liter jar.
 3. Put the nettles in the bowl and sizzle them.
 4. Add the brown sugar in a ratio of 3 parts of nettles to 2 parts of sugar. So that equals to about 80–85 gr of brown sugar.
 
-![A bowl filled with nettles and brown sugar sprinkled over them](images/a-bowl-filled-with-nettles-and-brown-sugar-sprinkled-over-them.jpg 'Credits: image from the vlog of Huw Richards')
+![A bowl filled with nettles and brown sugar sprinkled over them](images/a-bowl-filled-with-nettles-and-brown-sugar-sprinkled-over-them.jpg "Credits: image from the vlog of Huw Richards")
 
 5. Mix the two ingredients.
 6. Fill the jar to 80% capacity and top up with a small layer of brown sugar.
 
-![A jar filled with the nettle-sugar mix](images/a-jar-filled-with-the-nettle-sugar-mix.jpg 'Credits: image from the vlog of Huw Richards')
+![A jar filled with the nettle-sugar mix](images/a-jar-filled-with-the-nettle-sugar-mix.jpg "Credits: image from the vlog of Huw Richards")
 
 7. Add the stone to help the fermentation process to kick-start by pushing down the plant down.
 8. Cover the jar with a piece of the cotton clothe.
 
-![A cotton fabric to cover the jar](images/a-cotton-fabric-to-cover-the-jar.jpg 'Credits: image from the vlog of Huw Richards')
+![A cotton fabric to cover the jar](images/a-cotton-fabric-to-cover-the-jar.jpg "Credits: image from the vlog of Huw Richards")
 
 9. Label the jar so you know what is the recipe and when it was made.
 
-![Labelled jar](images/labelled-jar.jpg 'Credits: image from the vlog of Huw Richards')
+![Labelled jar](images/labelled-jar.jpg "Credits: image from the vlog of Huw Richards")
 
 10. Place the jar in a storage place at room temperature and not in direct sunlight.
 
 After a few hours, a brown juice will start to appear at the bottom:
 
-![A jar with advanced fermentation and some juice at the bottom of it](images/a-jar-with-advanced-fermentation-and-some-juice-at-the-bottom-of-it.jpg 'Credits: image from the vlog of Huw Richards')
+![A jar with advanced fermentation and some juice at the bottom of it](images/a-jar-with-advanced-fermentation-and-some-juice-at-the-bottom-of-it.jpg "Credits: image from the vlog of Huw Richards")
 
 Leaving it for a week before you strain the juice.
 
@@ -147,7 +147,7 @@ Simply:
 
 - Set the fennel and a clean cloth on top.
 
-![Straining the juice](images/straining-the-juice.jpg 'Credits: image from the vlog of Huw Richards')
+![Straining the juice](images/straining-the-juice.jpg "Credits: image from the vlog of Huw Richards")
 
 - Put the big jar upside-down on the fennel and let the juice strain naturally, even if you need to leave it overnight.
 
