@@ -9,7 +9,7 @@ categories:
 tags:
   - Tip Of The Day
   - Redis
-  - .NET Core
+  - DoNet Core
 ---
 
 ## The background of the issue

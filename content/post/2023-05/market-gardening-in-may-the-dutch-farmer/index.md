@@ -65,7 +65,7 @@ Yes, growing your own food requires:
   - [how much a little piece of land can produce](https://www.youtube.com/watch?v=D1q8PlgPOIs)
   - and what techniques exist to [optimize the small areas](https://www.youtube.com/watch?v=Y9ysNE5bLdk).
 - some resources (compost mainly, that can be found in your local quarry, which I discovered only a couple of months ago) and tools (your hands ;))
-- some _ressourfulness_ by starting to [read my articles on gardening](../../../tags/gardening) or watching the YouTube channels I document in those articles.
+- some _ressourfulness_ by starting to [read my articles on gardening](../../../categories/gardening) or watching the YouTube channels I document in those articles.
 - some seeds from organic sources.
   - It is key that they produce crops that yield you new fertile seeds for free.
 - the **will to start**

@@ -43,7 +43,7 @@ I had estimated 2900 kWh over 1 year. You can consult [this table](https://docs
 
 You can see, for example, that I had estimated the hot water production to take 30% of the total estimate.
 
-_NB:_ the table excludes the oven, dishwasher and air purifier ([Murprotec CTA5](https://www.murprotec.fr/filtre-cta.php)) installed in 2018.
+_NB:_ the table excludes the oven, dishwasher and air purifier ([Murprotec CTA3](https://www.murprotec.fr/boutique/boutique/4-lot-de-2-filtres-cta3.html)) installed in 2018.
 
 I also closely monitored our consumption with:
 

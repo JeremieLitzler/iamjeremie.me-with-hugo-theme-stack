@@ -76,4 +76,4 @@ I found the following interesting:
 
 ## More about composting
 
-Checkout the [_compost_ tag to read more about the topic](../../tags/compost/).
+Checkout the [_compost_ tag to read more about the topic](../../../tags/compost/).

@@ -76,4 +76,4 @@ The result will give you:
 
 Enjoy!
 
-Credit : Photo by [Alev Takil](https://unsplash.com/@alevisionco?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/assorted-color-sneakers-d-1FY75fh_s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
+Credit : Photo by Alev Takil on [Unsplash](https://unsplash.com/photos/assorted-color-sneakers-d-1FY75fh_s?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).

@@ -66,7 +66,7 @@ Wood ash is high in potassium and phosphorus, both good for plant growth. Howeve
 
 That is when the coffee grounds come into the game.
 
-The myth about coffee ground being too acid isn’t a reality, according to Huw (others like [Charles Dowding](../../tags/charles-dowding/)).
+The myth about coffee ground being too acid isn’t a reality, according to Huw (others like [Charles Dowding](../../../tags/charles-dowding/)).
 
 In fact, when you brew the coffee, a lot of the acidity goes away.
 

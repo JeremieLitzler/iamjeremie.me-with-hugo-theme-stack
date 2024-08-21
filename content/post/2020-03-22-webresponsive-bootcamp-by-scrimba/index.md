@@ -2,7 +2,7 @@
 title: The Responsive Web Design Bootcamp - Course review
 description: Learn build mobile-friendly websites in a complete course using an interactive classroom.
 date: 2020-03-16
-image: '/images/webresponsive-bootcamp-by-scrimba.png'
+image: "/images/webresponsive-bootcamp-by-scrimba.png"
 imageAlt: Screenshot of the course homepage
 categories:
   - Web Fundamentals
@@ -112,6 +112,6 @@ Now, before moving to JavaScript or ReactJS or Vue or UI courses, I’d like to 
 
 I am certain I can :)
 
-[My study website](https://jeremiel-with-scrimba-rd.netlify.com/) is hosted powered by the awesome Netlify.
+[My study website](https://jeremiel-with-scrimba-rd.netlify.app/) is hosted powered by the awesome Netlify.
 
 Thanks Kevin. Thanks Scrimba team for this opportunity to learn.

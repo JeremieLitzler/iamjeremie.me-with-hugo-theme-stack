@@ -76,7 +76,7 @@ I made two holes:
 - one to insert the thermometer to measure the live temperature while cooking.
 - one for the cable to hold the door closed.
 
-![Details of the holes in the door](images/details-of-the-holes-in-the-door.jpg)
+![Details of the holes in the door](images/details-des-trous-dans-la-porte.jpg)
 
 Finally, I installed the electrical cable to keep the door tightly closed, using the chipboard as the holder.
 

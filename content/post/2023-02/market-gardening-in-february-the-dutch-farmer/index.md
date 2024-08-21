@@ -49,7 +49,7 @@ And even if you live in a colder climate, using fleeces (white cover sheet) you 
 
 In fact, if your beds are positioned under trees, the falling branches can damage the fleece that is actually no thicker than toilet paper.
 
-In my experience, I think it also depends on the quality of the fleece. I personally use [this fleece for Winter Garden cover](https://amzn.to/3Cwfuoo) which I bought already 2 years ago and this year. It holds very well over time.
+In my experience, I think it also depends on the quality of the fleece. I personally use [this fleece for Winter Garden cover](https://www.amazon.fr/gp/product/B00F63IMCE) which I bought already 2 years ago and this year. It holds very well over time.
 
 {{< /blockcontainer >}}
 
@@ -151,7 +151,7 @@ Do you have a local farmer handling large number of seedlings for those crops? M
 
 The jang seeder is a great tool to sow large number of seeds when working on a market garden.
 
-![A jang seeder](images/jang-seeder.jpg 'Credit: woodwardcrossingscountrybasics.com')
+![A jang seeder](images/jang-seeder.jpg "Credit: woodwardcrossingscountrybasics.com")
 
 You need to follow a couple of important steps:
 

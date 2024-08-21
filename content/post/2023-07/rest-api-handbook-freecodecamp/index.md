@@ -1351,7 +1351,7 @@ Having an out-of-the-box UI simplifies the interaction with the documentation. A
 
 ## Wrapping Up
 
-As always, I hope you enjoyed the handbook and learned something new. If you want, you can also follow me on [LinkedIn](https://www.linkedin.com/in/germancocca/) or [Twitter](https://twitter.com/CoccaGerman).
+As always, I hope you enjoyed the handbook and learned something new. If you want, you can also follow me on LinkedIn (`https://www.linkedin.com/in/germancocca/`) or [Twitter](https://x.com/CoccaGerman).
 
 See you in the next one!
 

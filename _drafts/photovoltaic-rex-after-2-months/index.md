@@ -128,7 +128,7 @@ I read a lot on the topic since 2014 and I performed many quotes on the various 
 
 Also, the fact that the installation couldn't be peerformed on the rooftop of the house was blocking since I didn't want to sale the unused production to power companies who bought it less than half that they sold it to us...
 
-For example, in May 2022, the power company bought a kWh at [6 to 10 cts (french article)](https://www.insunwetrust.solar/blog/le-solaire-et-vous/tarif-rachat-photovoltaique/#:~:text=%F0%9F%92%B0%20Quel%20est%20le%20montant,0%2C10%20%E2%82%AC%20par%20kWh.) and sold each kWh between 17 and 22 cts (this was what I paid then).
+For example, in May 2022, the power company bought a kWh at 6 to 10 cts and sold each kWh between 17 and 22 cts (this was what I paid then).
 
 At the end of 2021, I receive an email on a french website, where people sale stuff but also their services, that told me that someone was offering his services to install small PV setup. It was a local person who promoting a setup that used old modules to power water heaters. It was just what I was looking for!
 

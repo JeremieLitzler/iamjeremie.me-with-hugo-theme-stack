@@ -53,7 +53,7 @@ I have built a [template repository with multilangual support](https://github.co
 Today I use this for:
 
 - this current website you are on, which is my personal blog
-- [this demo website for a quinoa producer](https://inflorescences-normandie.fr/) in Normandy (north west of France)
+- [this demo website for a quinoa producer](https://inflorescences-quinoa.fr/) in Normandy (north west of France)
 - [my business idea about teach people to learn how to save on their energy bills](https://www.passonslecap.fr/).
 - [my historical business website site](https://puzzlout.com/) which I recently migrated over from a custom build with Gulp and flat hmtl files.
 
