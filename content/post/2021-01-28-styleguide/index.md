@@ -99,6 +99,6 @@ export default uniquePropHOC(["time", "seconds"])(Expire);
 | ----- | --------------- | ---------------------------------------------------- |
 | Value | Very long value | So long that it will scroll horizontally? I hope so! |
 
-Check out [the source on GitHub](https://github.com/JeremieLitzler/iamjeremie.me-with-hugo-theme-stack/blob/main/docs/posts/2021-01-28-styleguide/index.md).
+Check out [the source on GitHub](https://github.com/JeremieLitzler/iamjeremie.me-with-hugo-theme-stack/blob/master/content/post/2021-01-28-styleguide/index.md).
 
 Hero photo by [Jan Losert](https://unsplash.com/@janlosert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash.
