@@ -40,7 +40,7 @@ However, you should go into detailed specifications, pixel-perfect designs, comp
 
 ### Completion Criteria
 
-Shaping is complete when the work is “shaped”—well-defined but flexible, with clear boundaries and identified risks, ready for the betting phase.
+Shaping is complete when the work is “shaped”—e.g. well-defined but flexible, with clear boundaries and identified risks, ready for the betting phase.
 
 ## 2. Betting
 
