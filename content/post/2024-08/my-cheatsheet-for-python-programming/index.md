@@ -24,7 +24,7 @@ times: list[Tuple[int, int]] = [
 	(18,0)
 ]
 
-for hour, minutes of times
+for hour, minutes of times:
 	print(f"It is {hour}:{minute}.")
 ```
 
@@ -58,7 +58,7 @@ Now the content of the XML response looks like the following:
 @twiml.route('/instructions/call/<string:caller>', methods=['POST', 'GET'])
 @need_xml_output()
 def get_call_instructions(caller: str):
-    assert isinstance(current_app, OnCallApp)
+    assert isinstance(current_app, MyApp)
 
     # Validate and sanitize the caller input
     caller = sanitize_phone_number(caller)
@@ -346,7 +346,7 @@ A few things to note:
 3. The `localize` method of the time zone object is used to attach the time zone information to the `datetime` object.
 4. If you want to convert this `datetime` to another time zone, you can use the `astimezone` method.
 
-## Get the Index In A _For Loop_
+## Get the Index In A _For ... In_ Loop
 
 To get the index in a _for loop_, you can use the `enumerate()` function in Python. Here’s a simple example:
 
