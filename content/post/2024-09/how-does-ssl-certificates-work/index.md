@@ -120,11 +120,7 @@ Imagine you’re passing secret notes in a classroom. Here’s how random number
 
 ### What Does Interrupt a Session
 
-Many factors can interrupt a session.
-
-For example:
-
-Excellent question. Sessions in SSL/TLS can be interrupted or terminated for various reasons. Let’s explore the main factors that can cause a session to end:
+Many factors can interrupt a session. For example:
 
 1. Natural session expiration: SSL/TLS sessions have a predetermined lifespan, typically set by the server. Once this time limit is reached, the session naturally expires.
 
