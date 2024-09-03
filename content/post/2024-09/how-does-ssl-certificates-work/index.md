@@ -183,9 +183,9 @@ When a session is interrupted, a new handshake process must occur to establish a
 ## Conclusion
 
 Do you understand better how SSL certificates work?
+After reading more on the topic and summarizing it here, I do.
 
 [Feel free to ask questions](../../../page/contact-me/index.md) if you need.
-After reading more on the topic and summarizing it here, I do.
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
