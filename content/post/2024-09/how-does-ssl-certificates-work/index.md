@@ -118,6 +118,44 @@ Imagine you’re passing secret notes in a classroom. Here’s how random number
 9. **Encrypted Data:** the client and server can now securely exchange data using symmetric encryption, with keys derived from the master secret.
 10. **Encrypted Data:** the server responds to the client’s encrypted data. This exchange continues for the duration of the session.
 
+### Creating the Pre-Master Key
+
+You can use two methods to generate the Pre-Master key.
+
+Let’s describe the steps for each method. The method of creating the Pre-Master Secret depends on the key exchange algorithm to be used. The two most common methods are:
+
+a) RSA Key Exchange:
+
+- The client generates the Pre-Master Secret.
+- It’s typically a 48-byte (384-bit) value.
+- The first 2 bytes are the TLS protocol version number.
+- The remaining 46 bytes are generated using a secure random number generator.
+
+b) Diffie-Hellman Key Exchange:
+
+- Both client and server contribute to generating the Pre-Master Secret.
+- It’s computed based on the shared secret derived from the Diffie-Hellman algorithm.
+
+As stated above, the Pre-Master Secret is created from:
+
+- For RSA, 2 bytes contains the TLS protocol version (as understood by the client) and 46 bytes contain the Random data
+
+- For Diffie-Hellman: the shared secret computed from the Diffie-Hellman parameters
+
+Let’s make a diagram of the two methods:
+
+![RSA vs Diffie-Hellman](images/mermaid-diagram-2024-09-03-071110.svg)
+
+You need to consider the security level of both methods and choose the most relevant one to your need:
+
+- In RSA key exchange, only the client knows the Pre-Master Secret initially. The server must decrypt it.
+- In Diffie-Hellman, both parties compute the same Pre-Master Secret independently.
+- The Pre-Master Secret is never sent in plain text over the network.
+- Its secrecy is crucial for the security of the entire SSL/TLS session.
+
+Though RSA is simpler, it doesn’t provide forward secrecy.
+On the other hand, Diffie-Hellman (especially ephemeral DH) provides forward secrecy, meaning past sessions remain secure even if the server’s long-term private key is compromised in the future.
+
 ### What Does Interrupt a Session
 
 Many factors can interrupt a session. For example:
