@@ -1,5 +1,5 @@
 ---
-title: "7 Habits from Stephen Covey - Inside Out"
+title: "7 Habits from Stephen R. Covey - Inside Out"
 description: "Consistency is key, at home, at work, everywhere. What I like about the Inside Out approach is that it makes you accountable. Let's dive into the topic."
 date: 2023-09-04
 image: images/2023-09-31-internalized-principles-and-patterns-of-behavior.jpg
@@ -18,7 +18,7 @@ tags:
 
 BODY ⇒ MIND ⇒ HEART ⇒ SPIRIT
 
-How do I perceive my attitude?
+Ask yourself: how do I perceive my attitude?
 
 There are no shortcuts in life. You take one, you’ll get short-term success, but probably you’ll reap long-term issues…
 
@@ -32,7 +32,7 @@ What are my maps about “ways things are” (realities) and “ways things shou
 
 How many young women do you see? And how many old women?
 
-At page 39, the paradigm shift is interesting to look at in the occasion that I feel that my children are loud:
+On page 39, the paradigm shift is interesting to look at in the occasion that I feel that my children are loud:
 
 > A man and his children came into the subway, the kids were very loud and annoying the other passengers. The father didn’t seem to care.
 >
@@ -113,9 +113,9 @@ A balanced P/PC occurs when the assets are preserved, but not only.
 
 Similarly, asset balance is key to success and effectiveness.
 
-What does it mean? If you have too much physical assets over human assets, what would happen for a married couple had too many _golden eggs_ but no relationship?
+What does it mean? If you have too much physical assets over relationship assets, what would happen for a married couple that had too many _golden eggs_ but no relationship?
 
-Another example: you could buy a tool made with wooden handles that helps you aerate the soil in the garden. You use it often because it does its job very well. But neglect to store it by leaving it outside. Weeks after weeks and the rain falls, the wood of the handle begins to rot and eventually, during a use, the handles break and you left with nothing to take care of the garden. You will need to buy a new handle while taking a few seconds at each use would have prevented this from happening.
+Another example: you could buy a tool made with wooden handles that helps you aerate the soil in the garden. You use it often because it does its job very well. But neglect to store it by leaving it outside and, weeks after weeks and many rain falls, the wood of the handle will begin to rot and eventually, during a use, the handles will break and you will be left with nothing to take care of the garden. You will need to buy a new handle while taking a few seconds at each use would have prevented this from happening.
 
 In this case, we focused too much on the soil being aerated (P) and not on the care of the tool (PC).
 
@@ -128,3 +128,9 @@ Let me quote two paragraphs:
 > Or you can indulge the. You can go for the golden eggs of popularity, of pleasing them, giving them their way all the time. Then they grow up without any internal sense of standards or expectations, without a personal commitment to being disciplined or responsible.
 
 In summary, care for the goose—the quality of the relationship—and it will be fed well and it will be healthy.
+
+{{< blockcontainer jli-notice-tip "Follow me">}}
+
+Thanks for reading this article. Make sure to [follow me on X](https://x.com/LitzlerJeremie), [subscribe to my Substack publication](https://iamjeremie.substack.com/) and bookmark my blog to read more in the future.
+
+{{< /blockcontainer >}}

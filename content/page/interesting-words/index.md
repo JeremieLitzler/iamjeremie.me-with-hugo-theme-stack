@@ -16,4 +16,8 @@ categories:
 
 > A system, organization, or society in which people are chosen and moved into positions of success, power, and influence on the basis of their demonstrated abilities and merit.
 
+## Jot down
+
+> to write briefly or hurriedly : set down in the form of a note
+
 <!-- more -->
