@@ -126,6 +126,8 @@ Let me quote two paragraphs:
 > And what about a parent’s relationship with a child? When children are little, they are very dependent, very vulnerable. It becomes so easy to neglect the PC work—the training, the communicating, the relating, the listening. It’s easy to take advantage, to manipulate, to get what you want the way you want it-right now! You’re bigger, you’re smarter and you’re _right_! So why not just tell them what to do? If necessary, yell at them, intimidate them, insist on your way.
 >
 > Or you can indulge the. You can go for the golden eggs of popularity, of pleasing them, giving them their way all the time. Then they grow up without any internal sense of standards or expectations, without a personal commitment to being disciplined or responsible.
+>
+> ~ Stephen R. Covey
 
 In summary, care for the goose—the quality of the relationship—and it will be fed well and it will be healthy.
 
