@@ -3,13 +3,11 @@ title: "Vue Fundamentals"
 description: "This article summarizes the notes from the Vue.js Fundamentals course at VueSchool"
 image: images/.jpg
 imageAlt: ""
-date: 2024-07-01
+date: 2024-09-09
 categories:
-  - Développement Web
-  - Tutorials
+  - Web Development
 tags:
   - Vue
-draft: true
 ---
 
 {{< blockcontainer jli-notice-tip "If you're interested...">}}
@@ -22,7 +20,7 @@ The course is **free** and available [here](https://vueschool.io/courses/vuejs-f
 
 You can find the diagram of the lifecycle [here](https://vuejs.org/guide/essentials/lifecycle.html#lifecycle-diagram).
 
-Also, yiu can find the lifecycle hook list in [the official docs](https://vuejs.org/api/composition-api-lifecycle.html) to visualize the existing hooks.
+Also, you can find the lifecycle hook list in [the official docs](https://vuejs.org/api/composition-api-lifecycle.html) to visualize the existing hooks.
 
 Note: this documentation explains the hooks in **Vue 3 and the `Composition API`**.
 
@@ -166,4 +164,4 @@ Generally speaking,
 
 So prefer `v-show` if you need to toggle something very often, and prefer `v-if` if the condition is unlikely to change at runtime.
 
-Stay tuned for more about Vue. I've a lot of notes to share.
+Stay tuned for more about Vue. I've a lot of more to share.

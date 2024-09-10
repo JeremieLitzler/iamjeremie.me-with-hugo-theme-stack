@@ -1,8 +1,8 @@
 ---
 title: "Using Wise Services to Save on Banking Fees"
 description: "Wise, formerly known as TransferWise, is a financial technology company founded in 2011 by Estonian entrepreneurs Kristo Käärmann and Taavet Hinrikus."
-image: images/2024-08-19-inside-look-of-wise-android-app.jpg
-imageAlt: "Inside look of Wise's Android application"
+image: images/2024-09-10-homepage-wise-website.png
+imageAlt: "Homepage of Wise's website"
 date: 2024-08-19
 categories:
   - Product Reviews
