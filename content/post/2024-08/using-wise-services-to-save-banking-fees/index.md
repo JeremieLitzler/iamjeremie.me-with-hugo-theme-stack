@@ -110,9 +110,21 @@ Some colleagues of mine use both Wise and Revolut to decrease the fees further. 
 
 The gain could be 50% of the fees I pay to Wise, which would be less than a hundred Swiss francs in 8 months.
 
+{{< blockcontainer jli-notice-tip "About Revolut">}}
+
+Since writing this article a few weeks ago, I have finally managed to create my account with Revolut.
+
+They don't charge any exchange fees and their exchange rates are very close to market rates.
+
+For 9.99 euros a month, which is 3 times less than the exchange fees on Wise for the same amount transfered, you benefit from interesting services if you're traveling and immediate money transfers from one country to another.
+
+I'll write a full review several months down the line.
+
+{{< /blockcontainer >}}
+
 ## Conclusion
 
-You can avoid paying bank fees in 2024 using service like Wise make a difference. Do you know how much you pay?
+You can avoid paying bank fees in 2024 using service like Wise make a difference. Do you know how much you pay with your bank?
 
 Wise’s clear fees is something that is appreciated today. If you want to try, here is [an affiliated link to sign up](https://wise.com/invite/dic/jeremiel25). If you make up to 500 euros as your first transfer to any currency today, you won’t pay any fees. Plus, if the transfer is greater than 250 euros, I’ll get a point to receive a bonus. I need three points to get the bonus. Thanks 😁
 
