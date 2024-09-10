@@ -30,7 +30,7 @@ Here are my reasons to use Wise:
 
 On currency conversion, they usually practice at the current price exchanged on the markets.
 
-For the bank transfer, it’ll depend: if you opt for the regular bank transfer, fees are lower than paying by credit card.
+For the bank transfer, it’ll depend: if you opt for the regular bank transfer, fees are lower than paying by credit card. However, when it comes to paying someone in Switzerland in your own currency (e.g. euros), you pay far considerably less fees on a bank transfer than with a traditional bank, even online banks like BoursoBank in France.
 
 Credit card payments often come down to how fast you want to pay. Otherwise, I use the regular bank transfer.
 
