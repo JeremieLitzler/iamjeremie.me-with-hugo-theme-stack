@@ -121,6 +121,14 @@ if env == "production":
 
 Once I completed the Project endpoints, I moved on to the Task endpoints and I wanted to split in individual files the models.
 
+```plaintext
+|__ dao/models
+    |__ base_model.py
+    |__ project_model.py
+    |__ task_model.py
+    |__ time_record_model.py
+```
+
 While it didn’t prevent from adding projects after updating the imports, it broke the database reset…
 
 When I ran the request to create a project right after restarting the server, I notice the error about the project’s name unique constraint.
@@ -129,7 +137,13 @@ Then I notice that after the last server restart, the terminal didn’t log the 
 
 ## Why
 
-In Python, a file is a module and with the code of `main.py` above, the only _model_ left is the base `Model` that does nothing to change the database.
+In Python, a file corresponds to a module. Thus, the import in the `main.py` code above became :
+
+```python
+from dao.models.base_model import Model
+```
+
+Except that only `Model` is loaded, and even when adding imports for the `Project`, `Task` and `Timerecord` entities, `Model.metadata.drop_all()` would do nothing...
 
 Therefore `Model.metadata.drop_all()` does nothing…
 
@@ -139,9 +153,13 @@ Simply don’t. I think this is a habit of developing n .NET for 15 years. But i
 
 Also, one other limitation to split files is that using the ORM feature that allows retrieving related items in a relationship between two models will cause you a bit of trouble.
 
-I like Python and how it works.
-
 For more on Python, [browse to the tag](../../../tags/python).
+
+{{< blockcontainer jli-notice-tip "Follow me">}}
+
+Thanks for reading this article. Make sure to [follow me on X](https://x.com/LitzlerJeremie), [subscribe to my Substack publication](https://iamjeremie.substack.com/) and bookmark my blog to read more in the future.
+
+{{< /blockcontainer >}}
 
 Credit: Photo by [Pixabay](https://www.pexels.com/photo/green-black-and-brown-insect-40875/).
 .
