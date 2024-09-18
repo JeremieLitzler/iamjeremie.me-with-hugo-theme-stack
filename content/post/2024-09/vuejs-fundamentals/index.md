@@ -165,3 +165,11 @@ Generally speaking,
 So prefer `v-show` if you need to toggle something very often, and prefer `v-if` if the condition is unlikely to change at runtime.
 
 Stay tuned for more about Vue. I've a lot of more to share.
+
+{{< blockcontainer jli-notice-tip "Follow me">}}
+
+Thanks for reading this article. Make sure to [follow me on X](https://x.com/LitzlerJeremie), [subscribe to my Substack publication](https://iamjeremie.substack.com/) and bookmark my blog to read more in the future.
+
+{{< /blockcontainer >}}
+
+Credit: Photo by [Emile Perron](https://unsplash.com/@emilep?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/macbook-pro-showing-programming-language-xrVDYZRGdw4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
