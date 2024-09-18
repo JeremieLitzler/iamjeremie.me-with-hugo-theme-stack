@@ -1,8 +1,8 @@
 ---
 title: "Vue.js Components Fundamentals"
 description: "This article summarizes the notes from the Vue.js Components Fundamentals at VueSchool"
-image: images/.jpg
-imageAlt: ""
+image: images/desk-with-computer-opened-and-a-couple-of-books.jpg
+imageAlt: "Desk with computer opened and a couple of books"
 date: 2024-07-01
 categories:
   - Développement Web

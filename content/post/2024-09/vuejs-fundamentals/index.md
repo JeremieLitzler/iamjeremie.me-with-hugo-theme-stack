@@ -1,9 +1,9 @@
 ---
 title: "Vue Fundamentals"
 description: "This article summarizes the notes from the Vue.js Fundamentals course at VueSchool"
-image: images/.jpg
-imageAlt: ""
-date: 2024-09-09
+image: images/desk-with-computer-opened-and-a-couple-of-books.jpg
+imageAlt: "Desk with computer opened and a couple of books"
+date: 2024-09-23
 categories:
   - Web Development
 tags:
