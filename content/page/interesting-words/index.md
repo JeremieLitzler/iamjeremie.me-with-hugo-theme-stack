@@ -20,4 +20,6 @@ categories:
 
 > to write briefly or hurriedly : set down in the form of a note
 
-<!-- more -->
+## To hinder
+
+> to make slow or difficult the progress of; to hold back; to delay, impede, or prevent action
