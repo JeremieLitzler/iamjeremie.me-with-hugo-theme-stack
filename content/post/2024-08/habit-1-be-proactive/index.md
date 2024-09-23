@@ -134,7 +134,7 @@ Consider and meditate the three influence areas:
 
 - Direct control: you can do something about it because it relates to your habits.
 - Indirect control: you can influence some situations through working with others to reach common goals.
-- No control: you can’t do anything there (the weather, the past, etc.) and you shouldn’t spend any energy there. Like Dr. Covey said, all you can do here _is to change the line on the bottom of your face_, e.g., smile. Those circumstances should control us.
+- No control: you can’t do anything there (the weather, the past, etc.) and you shouldn’t spend any energy there. Like Dr. Covey said, all you can do here _is to change the line on the bottom of your face_, e.g., smile. Those circumstances should not control us.
 
 A good life’s goal is to expand our circle of influence a bit more daily.
 
