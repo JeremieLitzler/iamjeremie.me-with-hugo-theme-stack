@@ -8,6 +8,7 @@ categories:
   - Web Development
 tags:
   - Python
+  - Microsoft Azure
 ---
 
 ## Introduction

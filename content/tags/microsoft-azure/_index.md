@@ -1,8 +1,8 @@
 ---
-title: Web Development
-description: This is a vast topic and I've worked on it since 2009 professionally. Here is all I have to share about it.
-image: framed-html-concepts.jpg
-imageAlt: Photo by Chen on Unsplash
+title: Microsoft Azure
+description: This is a vast topic and I've worked on it for since 2023. Here is all I have to share about it.
+image: logo-ms-azure.svg
+imageAlt: You can find the original Azure logo on https://worldvectorlogo.com/logo/azure-2
 
 # Badge style
 style:
