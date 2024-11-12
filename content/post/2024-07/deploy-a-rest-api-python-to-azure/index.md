@@ -23,7 +23,21 @@ Naming of blades and tabs could change too, so be patient and look around ;)
 
 For naming resources, you can use the [official guide](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations) on the matter.
 
-## Key vault setup
+## Resource Group Setup
+
+Before you create any Azure resource, I'd recommend to create a resource group.
+
+Why?
+
+First, it will allow to fine-grain the permissions in your organization. Indeed, you don't always want to give everyone access to all the resources.
+
+Second, it will allow organization of the resources into a scoped domain or business need so that it doesn't become a mess. In this article, we will end up creating quite a few resources.
+
+Third, the tags you can apply on the resource group can help you organize your resources so that you can monitor cost and billing more easily.
+
+To create a resource group, go to the Azure portal and search for _Resource Groups_ and give it a name, tag it, if needed (for example `awesome_python_application`), and create all the resources below using this resource group.
+
+## Key vault Setup
 
 ### Create The _Key Vault_
 
@@ -49,7 +63,7 @@ Once create, in the _Objects_ blade, create each secret manually.
 
 The key name should be **kebab-case.**
 
-## Container Registry setup
+## Container Registry Setup
 
 ### Create The _Container Registry_
 
@@ -144,7 +158,7 @@ project
 └──
 ```
 
-## Storage Account and File Share setup
+## Storage Account and File Share Setup
 
 ### Create The Storage Account
 
@@ -166,7 +180,7 @@ I name my file shares the following way: `fileshare-[designation]- [project]-[en
 
 You’ll link the _Container app environment_ and _Container App_ to all file shares.
 
-## Container App setup
+## Container App Setup
 
 ### Prerequisite
 
