@@ -25,17 +25,17 @@ For naming resources, you can use the [official guide](https://learn.microsoft.c
 
 ## Resource Group Setup
 
-Before you create any Azure resource, I'd recommend to create a resource group.
+Before you create any Azure resource, I’d recommend to create a resource group.
 
 Why?
 
-First, it will allow to fine-grain the permissions in your organization. Indeed, you don't always want to give everyone access to all the resources.
+First, it will allow you to fine grain the permission in your organization. Indeed, you don’t always want to give everyone access to all the resources.
 
-Second, it will allow organization of the resources into a scoped domain or business need so that it doesn't become a mess. In this article, we will end up creating quite a few resources.
+Second, it will allow the organization of the resources into a scoped domain or business need so that it doesn’t become a mess. In this article, we will end up creating quite a few resources.
 
-Third, the tags you can apply on the resource group can help you organize your resources so that you can monitor cost and billing more easily.
+Third, the tags you can apply on the resource group can help you organize your resources so that you can monitor cost and bills more easily.
 
-To create a resource group, go to the Azure portal and search for _Resource Groups_ and give it a name, tag it, if needed (for example `awesome_python_application`), and create all the resources below using this resource group.
+To create a resource group, go to the Azure portal and search for _Resource Groups_ and give it a name, tag it, if needed (for example`awesome_python_application` ), and create all the resources below using this resource group.
 
 ## Key vault Setup
 
