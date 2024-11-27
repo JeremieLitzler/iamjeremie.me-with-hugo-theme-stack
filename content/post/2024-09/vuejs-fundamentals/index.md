@@ -1,6 +1,6 @@
 ---
 title: "Vue Fundamentals"
-description: "This article summarizes the notes from the Vue.js Fundamentals course at VueSchool"
+description: "I love Vue.js. It is easy to learn and efficient to run. It is my favorite frontend framework by far."
 image: images/desk-with-computer-opened-and-a-couple-of-books.jpg
 imageAlt: "Desk with computer opened and a couple of books"
 date: 2024-11-27
@@ -9,6 +9,10 @@ categories:
 tags:
   - Vue
 ---
+
+I worked a little with React. But I didn’t like the JSX approach. For me, it breaks the concept of Seperating the Concerns.
+
+I’m working a little on Angular applications and, wow, it is a lot of files that you need to generate... I’d like to train on it professionally to see if the learning curve is as steep as it looks like to me right now.
 
 {{< blockcontainer jli-notice-tip "If you're interested...">}}
 
