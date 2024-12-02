@@ -10,9 +10,9 @@ tags:
   - Vue
 ---
 
-I worked a little with React. But I didn’t like the JSX approach. For me, it breaks the concept of Seperating the Concerns.
+I worked a little with React. But I didn’t like the JSX approach. For me, it breaks the concept of Separating the Concerns.
 
-I’m working a little on Angular applications and, wow, it is a lot of files that you need to generate... I’d like to train on it professionally to see if the learning curve is as steep as it looks like to me right now.
+I’m working a little on Angular applications and, wow, it is a lot of files that you need to generate… I’d like to train on it professionally to see if the learning curve is as steep as it looks like to me right now.
 
 {{< blockcontainer jli-notice-tip "If you're interested...">}}
 
