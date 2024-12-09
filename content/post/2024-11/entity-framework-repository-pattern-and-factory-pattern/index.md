@@ -66,7 +66,7 @@ However, EF is used in conjunction with the Repository Pattern, which can encaps
 
 Here’s an example demonstrating how Entity Framework might use similar principles to the Factory Pattern in a C# application.
 
-First we need an _Entity Class_:
+First we need an _Entity_ class:
 
 ```csharp
 public class Book
@@ -78,7 +78,7 @@ public class Book
 
 ```
 
-And a `DbContext Class`:
+And a `DbContext` class:
 
 ```csharp
 using Microsoft.EntityFrameworkCore;
@@ -95,7 +95,7 @@ public class BookContext : DbContext
 
 ```
 
-Next we define the `IRepository Interface` that all concrete repository class will use:
+Next we define the `IRepository` interface that all concrete repository class will use:
 
 ```csharp
 public interface IRepository<T> where T : class
@@ -171,7 +171,7 @@ class Program
             library.Add(book3);
             library.Save();
 
-            // Get all products
+            // Get all books
             var books = library.GetAll();
             foreach (var book in books)
             {
@@ -184,7 +184,7 @@ class Program
 
 In the example, there are some factory-like elements:
 
-### DbContext as a Factory
+### `DbContext` as a Factory
 
 The `BookContext` class serves a factory-like role by:
 
