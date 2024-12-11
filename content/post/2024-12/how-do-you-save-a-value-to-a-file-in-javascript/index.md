@@ -1,7 +1,7 @@
 ---
 title: "How Do You Save a File With JavaScript?"
 description: "Sometimes, it’s handy to save some content directly from JavaScript to a physical file. Here is the code!"
-image: images/do-something-great-sign.jpg
+image: do-something-great-sign.jpg
 imageAlt: 'A "Do Something Great" sign in the dark'
 date: 2024-12-11
 categories:
