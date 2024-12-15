@@ -12,21 +12,21 @@ tags:
 
 I’ve been working with Microsoft Azure for a little while now, and I have found that setting up the logs weren’t trivial.
 
-I had an experience with WordPress. In this article, I’ll demonstrate it with a .NET Core 8 web API.
+I had a similar experience with WordPress. In this article, I’ll demonstrate it’s actually easy with a .NET Core 8 web API.
 
 ## Prerequisites
 
 You’ll need:
 
 - An account on Microsoft Azure. Personally, I have only a work account through my current employer at the time of this writing. So I had a few issues to have the resources to work together or to gain permissions to perform some actions. I’ll detail them as we go.
-- Visual Studio 2022, at least, that’s what I used to make this guide. You’ll need to connect your account so you can deploy through the _Publish_ feature within Visual Studio. This article won’t show how to set up a CI pipeline through Azure and deploy a Docker image. Please read my other guide on the topic [where I deployed a Python web API to Microsoft Azure](../../2024-07/deploy-a-rest-api-python-to-azure/index.md).
+- Visual Studio 2022, at least, that’s what I used to make this guide. You’ll need to connect your account so you can deploy through the _Publish_ feature within Visual Studio. This article won’t show how to set up a CI pipeline through Azure DevOps and deploy a Docker image. Please read my other guide on the topic [where I deployed a Python web API to Microsoft Azure](../../2024-07/deploy-a-rest-api-python-to-azure/index.md).
 - An App Service Plan: if you don’t have any, there isn’t any challenge about this. You’ll create it along with the App Service later in the article.
 
 ## Creating the `web API`
 
 First, let’s create the application locally.
 
-In Visual Studio, create a new project of type “_APS.NET Core Web Api_” and provide the following details:
+In Visual Studio, create a new project of type “_ASP.NET Core Web Api_” and provide the following details:
 
 - Give it a name
 - Select the target framework. Though .NET 9.0 is just out as I write this, I’ll prefer the current LTS version which .NET 8.0.
@@ -45,7 +45,7 @@ Check that it works through the _right-click menu_ and _Debug > Start new instan
 
 Before we deploy, we need to create where the application will run.
 
-Go to the Azure portal (`https://portal.azure.com/`) and using the main search bar at the top, type “_App Services”_.
+Go to the Azure portal (`https://portal.azure.com/`) and using the main search bar at the top, type and select “_App Services”_.
 
 On the loaded page, you’ll see all the existing App Services on your subscription or Resource Group.
 
