@@ -61,7 +61,7 @@ Under the _Basics_ tab, you will need to input:
 - The _Region_ (Note: I selected the same as the other resources, because I had an existing _App Service Plan_ to avoid the creation (and costs) of a new one)
 - The _Linux plan_. If you have an existing plan, Azure will list it for you. Otherwise, click _Create new_.
 
-Under the _Deployment_ tab, check the _Basic authentication_ to _Enable_ for _Authentication settings._
+Under the _Deployment_ tab, check the _Basic authentication_ to _Enable_ for _Authentication settings_.
 
 Leave the tabs _Database_ and _Networking_ with the defaults. The database is created separately when we’ll prepare the _OpenIddict_ integration. [Subscribe to know more](https://iamjeremie.substack.com/) when I release the article.
 
