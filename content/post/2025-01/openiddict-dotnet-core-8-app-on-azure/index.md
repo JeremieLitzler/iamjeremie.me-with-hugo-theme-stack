@@ -52,7 +52,7 @@ Note: in case you don’t have an SQL Instance yet, the Azure Portal will reques
 - Set the database name to `openiddict`.
 - Set the server instance (or create one).
 - Leave _Want to use SQL elastic pool_ to _No_.
-- Leave the Workload environment to Development.
+- Leave the _Workload environment_ to _Development_.
 - Configure the _Compute + storage_ to the _Basic tier_ with 500 MB Storage.
 - Choose _Locally-redundant backup storage_.
 
@@ -203,7 +203,7 @@ We’ll add the policy to the certificate creator (you), so if you end up not be
 
 In the form,
 
-- Select _Select all_ as _Permissions._
+- Select _Select all_ as _Permissions_.
 - Then, select the _Principal_ or the user using your full email address.
 - Leave the _Application_ blank.
 - Finish by clicking _Create._
@@ -231,7 +231,7 @@ Now navigate to the _Certificates_ blade in your Key Vault and:
 - Leave the method to _Generate._
 - Provide a name like “_certificate-openiddict-encryption_”.
 - Leave the type of certificate to _Self-signed certificate_ unless you can provide an authority.
-- Set the _Subject_ to your App Service full domain name. So you could have for example `CN=your-appservice[-fcg3bqdgbme3dchd.westeurope-01.azurewebsites.net](http://demowebapinetcore8-fcg3bqdgbme3dchd.westeurope-01.azurewebsites.net/)`. Please adjust the URI to your App Service URI.
+- Set the _Subject_ to your App Service full domain name. So you could have for example `CN=your-appservice-fcg3bqdgbme3dchd.westeurope-01.azurewebsites.net`. Please adjust the URI to your App Service URI.
 - Choose the _Validity Period_.
 - Leave the _Lifetime Action Type_ as it is, e.g., _Automatically renew at a given percentage lifetime_.
 - Confirm with a click on _Create_.
