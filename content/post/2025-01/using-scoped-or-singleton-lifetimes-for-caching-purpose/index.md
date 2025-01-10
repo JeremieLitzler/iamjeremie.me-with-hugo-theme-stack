@@ -1,5 +1,5 @@
 ---
-title: "Using Scoped or Singleton lifetimes for Caching purpose"
+title: "Using Scoped or Singleton Lifetimes for Caching Purposes"
 description: "Caching is a common requirement in web applications: let’s look at why we would use a scoped or singleton lifetime depending on use cases."
 image: 2025-01-10-diagram-of-the-lifetimes.jpg
 imageAlt: Diagram of the lifetimes
@@ -8,7 +8,9 @@ categories:
   - Web Development
 ---
 
-It all depends on the scope and duration of the cache’s validity.
+Which to choose? It all depends on the scope and duration of the cache’s validity.
+
+Let’s me explain a little bit when to use Scoped lifetime and when to use the Singleton lifetime in this new article.
 
 ## Caching per Request (Scoped Lifetime)
 
