@@ -1,6 +1,6 @@
 ---
 title: "Using Scoped or Singleton Lifetimes for Caching Purposes"
-description: "Caching is a common requirement in web applications: let’s look at why we would use a scoped or singleton lifetime depending on use cases."
+description: "Caching is a common requirement in web applications: let’s look at why we would use a Scoped or Singleton lifetime depending on use cases."
 image: 2025-01-10-diagram-of-the-lifetimes.jpg
 imageAlt: Diagram of the lifetimes
 date: 2025-01-10
@@ -14,7 +14,7 @@ Let’s me explain a little bit when to use Scoped lifetime and when to use the 
 
 ## Caching per Request (Scoped Lifetime)
 
-What are the use cases for the scoped lifetime?
+What are the use cases for the Scoped lifetime?
 
 - **Request-Specific Data**: Caching data that is specific to a single request and should not persist beyond that request.
 - **Avoiding Repeated Computations**: If certain computations or data retrievals are expensive and the result is needed multiple times within the same request, caching within the request’s scope can save resources.
@@ -55,7 +55,7 @@ services.AddScoped<IRequestCache, RequestCache>();
 
 ## Caching per Application Lifetime
 
-What are the use cases for the singleton lifetime?
+What are the use cases for the Singleton lifetime?
 
 - **Global or Shared Data**: Caching data that is shared across multiple requests and does not change frequently.
 - **Expensive Operations**: Data that is expensive to fetch or compute, and should be reused across different requests to avoid repeated overhead.
