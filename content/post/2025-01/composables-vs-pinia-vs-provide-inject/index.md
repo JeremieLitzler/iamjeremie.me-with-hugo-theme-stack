@@ -139,34 +139,6 @@ Pinia becomes more valuable for API requests when:
 - You need built-in DevTools for debugging API calls.
 - The data represents global application state.
 
-### Best Practice Pattern
-
-A recommended approach is to use a layered architecture:
-
-```tsx
-// apiService.ts
-const apiService = {
-  users: {
-    get: () => axios.get("/users"),
-    create: (user) => axios.post("/users", user),
-  },
-};
-
-// useUsers.ts (composable)
-export function useUsers() {
-  const users = ref([]);
-  const isLoading = ref(false);
-
-  const fetchUsers = async () => {
-    isLoading.value = true;
-    users.value = await apiService.users.get();
-    isLoading.value = false;
-  };
-
-  return { users, isLoading, fetchUsers };
-}
-```
-
 ### Hybrid Approach
 
 For larger applications, consider:
