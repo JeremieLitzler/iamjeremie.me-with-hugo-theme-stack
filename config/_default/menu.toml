@@ -38,7 +38,7 @@ icon = "brand-x"
 identifier = "fr_website"
 name = "Site français"
 url = "https://jeremielitzler.fr"
-weight = 40
+weight = 400
 
 [social.params]
 icon = "language"
