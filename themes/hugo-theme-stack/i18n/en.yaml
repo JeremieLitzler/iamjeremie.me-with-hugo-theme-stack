@@ -49,13 +49,13 @@ widget:
       other: More
 
   tagCloud:
-    title: Tags
+    title: Top {{ .MaxInCloud }} Tags
     accessibleLabel: Click here to view the tags
     allTagsParagraph: Missing tag ? Only the first {{ .MaxInCloud }} most used are listed.
     allTagsLinkText: View all tags
 
   categoriesCloud:
-    title: Categories
+    title: Top {{ .MaxInCloud }} Categories
     accessibleLabel: Click here to view the categories
     allTagsParagraph: Missing category ? Only the first {{ .MaxInCloud }} most used are listed.
     allTagsLinkText: View all categories
