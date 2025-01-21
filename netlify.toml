@@ -10,7 +10,37 @@ package = "netlify-plugin-hugo-cache-resources"
 [plugins.inputs]
 # If it should show more verbose logs (optional, default = true)
 debug = true
- 
+
+[[redirects]]
+from = "https://iamjeremie.me/fr/2022/12/retour-d-experience-sur-une-installation-pv-9mois-partie-1/"
+to = "https://jeremielitzler.fr/post/2022-12/retour-d-experience-sur-une-installation-pv-9mois-partie-1/"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://iamjeremie.me/fr/2023/01/calculer-le-retour-sur-investissement-pv/"
+to = "https://jeremielitzler.fr/post/2023-01/calculer-le-retour-sur-investissement-pv/"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://iamjeremie.me/fr/2022/12/retour-d-experience-sur-une-installation-pv-9mois-partie-2/"
+to = "https://jeremielitzler.fr/post/2022-12/retour-d-experience-sur-une-installation-pv-9mois-partie-2/"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://iamjeremie.me/fr/2022/06/retour-d-exprerience-sur-une-installation-pv-1mois"
+to = "https://jeremielitzler.fr/post/2022-06/retour-d-experience-sur-une-installation-pv-1mois/"
+status = 301
+force = true
+
+[[redirects]]
+from = "https://iamjeremie.me/article"
+to = "https://iamjeremie.me/"
+status = 301
+force = true
+
 [[redirects]]
 from = "/2022/04/3-heap-types-how-they-work-and-what-they-give-charles-dowding/"
 to = "/post/2022-04/3-heap-types-how-they-work-and-what-they-give-charles-dowding"
