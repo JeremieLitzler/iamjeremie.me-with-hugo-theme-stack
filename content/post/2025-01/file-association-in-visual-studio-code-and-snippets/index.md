@@ -47,7 +47,7 @@ Yes, the “Plain Text” at the bottom. Since I scoped the snippet to work on `
 
 You simply need to install the “TOML Language Support” extension. Once you enabled the extension, you can use the snippet in `netlify.toml`!
 
-Once you installed it, you can see the file association works:
+You can see the file association works:
 
 ![Extension for toml file association](extension-for-toml-file-association.png)
 
