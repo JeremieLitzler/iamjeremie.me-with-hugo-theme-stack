@@ -10,7 +10,7 @@ tags:
   - Visual Studio Code
 ---
 
-I was having an issue after creating my first `TOML` snippet to use in Visual Studio Code. Here is why it is didn’t work!
+I was battling with an issue after creating my first `TOML` snippet to use in Visual Studio Code. Here is why it’s didn’t work!
 
 ## The Snippet
 
@@ -35,19 +35,19 @@ I built this snippet to add a redirect to my `netlify.toml` file:
 
 ## The Issue
 
-When I tried to use it my `netlify.toml` file, `add netlify redirect` wouldn't show up... 🤔
+When I tried to use it my `netlify.toml` file, `add netlify redirect` wouldn’t show up… 🤔
 
 Why? The reason is on this screen. Do you see it?
 
 ![Issue demonstrated](issue-demonstrated.png)
 
-Yes, the “Plain Text” at the bottom. Since I scoped the snippet to work on `toml` code, it makes sense that it doesn't show up... Plain text isn't specified in the snippet's scope.
+Yes, the “Plain Text” at the bottom. Since I scoped the snippet to work on `toml` code, it makes sense that it doesn’t show up… The snippet doesn’t specify “Plain text” in its scope.
 
 ## The Fix
 
-You simply need to install the "TOML Language Support" extension. Once you enabled the extension, you can use the snippet in `netlify.toml`!
+You simply need to install the “TOML Language Support” extension. Once you enabled the extension, you can use the snippet in `netlify.toml`!
 
-Once this is done, you can see the file association is correct:
+Once you installed it, you can see the file association works:
 
 ![Extension for toml file association](extension-for-toml-file-association.png)
 
@@ -57,9 +57,9 @@ And the snippet works:
 
 ## Conclusion
 
-Though Visual Studio Code comes with good file association, this was the first time I encountered the issue.
+Though Visual Studio Code comes with good file associations,I encountered the issue for the first time.
 
-So, if you're like me and you notice a snippet not working, think about looking at the bottom right... 😁
+So, if you’re like me and you notice a snippet not working, think about looking at the bottom right… 😁
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
