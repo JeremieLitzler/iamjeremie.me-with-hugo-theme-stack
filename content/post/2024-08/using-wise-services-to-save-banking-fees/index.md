@@ -126,7 +126,7 @@ I'll write a full review several months down the line.
 
 You can avoid paying bank fees in 2024 using service like Wise make a difference. Do you know how much you pay with your bank?
 
-Wise’s clear fees is something that is appreciated today. If you want to try, here is [an affiliated link to sign up](https://wise.com/invite/dic/jeremiel25). If you make up to 500 euros as your first transfer to any currency today, you won’t pay any fees. Plus, if the transfer is greater than 250 euros, I’ll get a point to receive a bonus. I need three points to get the bonus. Thanks 😁
+Wise’s clear fees is something that is appreciated today. If you want to try, here is an affiliated link to sign up (`https://wise.com/invite/dic/jeremiel25`). If you make up to 500 euros as your first transfer to any currency today, you won’t pay any fees. Plus, if the transfer is greater than 250 euros, I’ll get a point to receive a bonus. I need three points to get the bonus. Thanks 😁
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 

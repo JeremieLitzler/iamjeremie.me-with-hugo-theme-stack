@@ -32,8 +32,8 @@ Here’s how you can integrate it with your Flask API:
 
 Several Flask extensions simplify Swagger integration. Popular options include:
 
-- **Flask-RESTPlus:** This extension offers automatic Swagger UI generation alongside functionalities like request/response decorators and data marshaling (https://flask-restplus.readthedocs.io/en/stable/swagger.html).
-- **Flask-RESTful-Swagger:** This extension focuses specifically on Swagger integration, providing functionalities like endpoint documentation and interactive UI generation (https://flask-restx.readthedocs.io/en/latest/swagger.html).
+- **Flask-RESTPlus:** This extension offers automatic Swagger UI generation alongside functionalities like request/response decorators and data marshaling (see [the docs](https://flask-restplus.readthedocs.io/en/stable/swagger.html)).
+- **Flask-RESTful-Swagger:** This extension focuses specifically on Swagger integration, providing functionalities like endpoint documentation and interactive UI generation (see [the docs](https://flask-restx.readthedocs.io/en/latest/swagger.html)).
 
 {{< blockcontainer jli-notice-warning "">}}
 

@@ -90,15 +90,11 @@ See about their environmental [on their website](https://www.infomaniak.com/en/e
 
 ### WordPress and Divi on Cloudways
 
-I use WordPress and the Divi builder (which I purchased) and I host on a [Virtual Private Server (VPS) from Cloudways hosting](https://www.cloudways.com/en/?id=174912) all my demo WordPress websites:
+I use WordPress and the Divi builder (which I purchased) and I host on a [Virtual Private Server (VPS) from Cloudways hosting](https://www.cloudways.com/en/?id=174912) all my demo WordPress websites.
 
-- [A music orchestra demo](https://music-demo-wp.puzzlout.com/)
-- [A florist business](https://fleuriste-demo.puzzlout.com/)
-- [A school dance demo](https://ecole-de-danse-demo.puzzlout.com/)
-- [A blank template](https://blank-template-fr.madebyjeremie.fr/)
-- [A storefront demo for local farmer market (with Woocommerce but payment)](https://magasin-producteurs-demo.puzzlout.com/)
-- [A storefront demo for local farmer market (with Woocommerce and payment possible)](https://boutique-producteurs-demo.puzzlout.com/)
-- [A driving school demo](https://auto-moto-ecole.puzzlout.com/)
+{{< blockcontainer jli-notice-note "All my WordPress demonstration sites have been discountinued as I'm looking to build anything new with WordPress at the moment.">}}
+
+{{< /blockcontainer >}}
 
 Why Cloudways for those demo websites? Because Infomaniak is more expensive and less performant for half a dozen demo WordPress sites than a VPS.
 

@@ -11,4 +11,4 @@ tags:
   - ECMASCRIPT
 ---
 
-[Check the book out](https://exploringjs.com/es2018-es2019/toc.html).
+[Check the book out](https://www.google.com/search?q=Exploring+ES2018+and+ES2019+Dr.+Axel+Rauschmayer).

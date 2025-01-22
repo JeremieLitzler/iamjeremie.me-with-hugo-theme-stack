@@ -148,7 +148,7 @@ After some very interesting discussions with the SolaireEthic craftsman (see [hi
 I then:
 
 - Dug the trench (not easy with rocky soil, very cold temperatures, between December 2022 and January 2023, and a 25-meter difference in altitude between the terrace and the house).
-- Ordered the self-consumption optimization kit from [Robin Emley (now retired)](https://mk2pvrouter.co.uk/), assembled by [Le Profes’Solaire](https://sites.google.com/view/le-professolaire/) (unfortunately, he has stopped his assembly service, but he still seems to offer welding).
+- Ordered the self-consumption optimization kit from [Robin Emley (now retired)](https://openenergymonitor.org/mk2pvrouter/), assembled by [Le Profes’Solaire](https://sites.google.com/view/le-professolaire/) (unfortunately, he has stopped his assembly service, but he still seems to offer welding).
 
 Here is the result:
 
@@ -184,7 +184,7 @@ BTW, the reason why I chose not to make a deal with the grid provider is that yo
 
 ## What Are My Observations?
 
-### Solar Router From [Robin Emley](https://mk2pvrouter.co.uk/)
+### Solar Router From [Robin Emley](https://openenergymonitor.org/mk2pvrouter/)
 
 It’s very efficient.
 
