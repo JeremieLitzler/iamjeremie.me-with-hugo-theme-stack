@@ -16,26 +16,26 @@ I’m writing this small tip of the day to describe the behavior when you order 
 
 Let’s say we have a table with a `created_at` column and another named `in_progress_at`.
 
-The first column never equals to `null` while the second can, until the record is updated.
+The first column never equals to `null` while the second can until the record is updated.
 
 Now, the business logic want to order records in descending order with the updated records first and then the rest.
 
-If you order in descending order on the `in_progress_at` first and then on `created_at` also in descending order, what will happened if you have a record without a `in_progress_at` set and another with no value on `in_progress_at`?
+If you order in descending order on the `in_progress_at` first and then on `created_at` also in descending order, what will happen if you have a record without a `in_progress_at` set and another with no value on `in_progress_at`?
 
 Well, the record with the null value on `in_progress_at` will come before first.
 
-And what if you add new record and update an existing one? Well, the new record will stay on top...
+And what if you add a new record and update an existing one? Well, the new record will stay on top…
 
-What about ascending order? It is is the opposite: the record with a null value come second.
+What about ascending order? It’s the opposite: the record with a null value comes second.
 
 ## Testing With Supabase Dashboard
 
-It is easy:
+It’s easy:
 
-- create a [supabase account](https://supabase.com/) and a project.
-- create a table `entities` with the two date columns described above.
-- insert a few records
-- use the SQL editor to test it:
+- Create a [Supabase account](https://supabase.com/) and a project.
+- Create a table `entities` with the two date columns described above.
+- Insert a few records
+- Use the SQL editor to test it:
 
 ```sql
 select * from entities order by updated_at desc, created_at desc
@@ -98,7 +98,7 @@ How we solve that?
 
 The answer: Postgres functions!
 
-In our case, it'll look as follows:
+In our case, it’ll look as follows:
 
 ```sql
 CREATE OR REPLACE FUNCTION coalesce_updated_at_or_created_at_sort(
@@ -142,12 +142,12 @@ export const allEntitiesQuery = supabase.rpc(
 );
 ```
 
-It could be improved, but it solves my business logic.
+I could improve it, but it solves my business logic.
 
 You can read more in the official Supabase documentation about:
 
 - [Ordering records](https://supabase.com/docs/reference/javascript/order)
-- [Postgres fucntions](https://supabase.com/docs/guides/database/functions)
+- [Postgres functions](https://supabase.com/docs/guides/database/functions)
 
 ## Conclusion
 
