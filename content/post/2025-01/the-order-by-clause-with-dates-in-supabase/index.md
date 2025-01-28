@@ -1,6 +1,6 @@
 ---
 title: "The “Order By” Clause With Supabase"
-description: "With Supabase, performing ordering of recordsets is simple and intuitive."
+description: "With Supabase, performing ordering of recordsets is simple and intuitive. But there is a caveat."
 image: 2025-01-27-objects-ordered-by-size.jpg
 imageAlt: Objects ordered by size
 date: 2025-01-27
