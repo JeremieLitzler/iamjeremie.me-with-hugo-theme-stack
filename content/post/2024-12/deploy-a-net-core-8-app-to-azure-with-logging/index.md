@@ -73,6 +73,14 @@ Finish with _Review + create_ and confirm the resource creation.
 
 ## Deploy the Application to Microsoft Azure
 
+{{< blockcontainer jli-notice-note "Note">}}
+
+Yes, I could have deployed the application with a CI/CD on Azure DevOps.
+
+However, the aim here was to carry out a quick POC, e.g. “_Proof Of Concept_” to provide an estimate to the end
+
+{{< /blockcontainer >}}
+
 Now, let’s deploy the application to the newly created _App Service_.
 
 Right-click on the project and select _Publish._
