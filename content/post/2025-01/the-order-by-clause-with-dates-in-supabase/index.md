@@ -60,7 +60,7 @@ Neither achieve the result expected. The entity 12 should arrive second and the 
 The SQL solution is simple:
 
 ```sql
-select * from entities order by COALESCE( updated_at, created_at) desc nulls first;
+select * from entities order by COALESCE( updated_at, created_at) desc;
 ```
 
 We get the right result:
@@ -77,17 +77,15 @@ Not like that!
 export const allEntitiesQuery = supabase
   .from("entities")
   .select()
-  // TODO > about ordering with Supabase !
   .order("coalesce(updated_at, created_at)", {
     ascending: false,
-    nullsFirst: false,
   });
 ```
 
-You get an error:
+For the above code, you get an error :
 
 ```plaintext
-failed to parse order (coalesce(updated_at, created_at).desc.nullslast)" (line 1, column 9) ;
+failed to parse order (coalesce(updated_at, created_at).desc)" (line 1, column 9) ;
 
 Details: unexpected '(' expecting letter, digit, "-", "->>", "->", delimiter (.), "," or end of input" with the following code: PGRST100
 ```
@@ -105,23 +103,17 @@ CREATE OR REPLACE FUNCTION coalesce_updated_at_or_created_at_sort(
     target_table text,
     selected_columns text DEFAULT '*',
     sort_direction text DEFAULT 'DESC',
-    --
-    nulls_position text DEFAULT 'FIRST'
 ) RETURNS SETOF json AS $$
 BEGIN
     IF sort_direction NOT IN ('ASC', 'DESC') THEN
         RAISE EXCEPTION 'sort_direction must be either ASC or DESC';
     END IF;
-    IF nulls_position NOT IN ('FIRST', 'LAST') THEN
-        RAISE EXCEPTION 'nulls_position must be either FIRST or LAST';
-    END IF;
 
     RETURN QUERY EXECUTE format(
-        'SELECT row_to_json(t) FROM (SELECT %s FROM %I ORDER BY COALESCE(updated_at, created_at) %s NULLS %s) t',
+        'SELECT row_to_json(t) FROM (SELECT %s FROM %I ORDER BY COALESCE(updated_at, created_at) %s) t',
         selected_columns,
         target_table,
-        sort_direction,
-        nulls_position
+        sort_direction
     );
 END;
 $$
@@ -137,7 +129,6 @@ export const allEntitiesQuery = supabase.rpc(
     target_table: "entities",
     selected_columns: "*",
     sort_direction: "DESC",
-    nulls_position: "LAST",
   },
 );
 ```
@@ -148,10 +139,11 @@ You can read more in the official Supabase documentation about:
 
 - [Ordering records](https://supabase.com/docs/reference/javascript/order)
 - [Postgres functions](https://supabase.com/docs/guides/database/functions)
+- [`rpc` function](https://supabase.com/docs/reference/javascript/rpc)
 
 ## Conclusion
 
-That was a tricky one. I had written a draft of this article and while completing it, I realized that I was far from the goal!
+That was a tricky one, as I didn't know about Postgres functions. I had written a draft of this article and while completing it, I realized that I was far from the goal!
 
 Did you learn something today? I sure did!
 
