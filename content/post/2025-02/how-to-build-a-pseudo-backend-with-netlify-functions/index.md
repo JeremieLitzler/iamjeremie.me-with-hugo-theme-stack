@@ -159,7 +159,7 @@ First, we tell Netlify where the functions to run are. Note that, by default, Ne
 
 Then `publish = "public"` tell Netlify where is the root directory to serve the application.
 
-Finally, we define a redirect to tell Netlify, on any request to `/twiml/*`, to call the function with the wildcard placeholder (`:splat`) that captures and forwards any additional path segments after `/twiml/` to the destination URL.
+Finally, we define a redirect to tell Netlify, on any request to `/twiml/*`, to call the function with the wildcard placeholder (`:splat`) that captures and forwards any additional path segments after `/twiml/` to the function.
 
 ### Step 3: Deploy The Application
 
