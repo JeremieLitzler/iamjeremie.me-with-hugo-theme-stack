@@ -165,7 +165,7 @@ Finally, we define a redirect to tell Netlify, on any request to `/twiml/*`, to 
 
 This step is so simple.
 
-Just create an account at Netlify using your preferred versioning provider and deploy the application from your repository.
+Just create an account at Netlify with your preferred Git provider and deploy the application from your repository.
 
 The default settings work great.
 
@@ -177,7 +177,7 @@ Click the link that appears below to preview the XML generated.
 
 ## Conclusion
 
-There you have it! Now, you can use this hosted application locally and test Twilio API against a URL available on the Internet.
+There you have it! Now, you can use this hosted application on your local environment and test Twilio API against a URL available on the Internet.
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
