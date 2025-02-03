@@ -10,7 +10,7 @@ tags:
   - Netlify
 ---
 
-## My problem
+## My Need
 
 Last year, I worked on an application integrating Twilio API for an on-call application.
 
@@ -46,7 +46,7 @@ The goal was that the `Url` above would be `[http://domain.com/twiml/instruction
 </Response>
 ```
 
-### Step 1: Structure your project for Netlify
+### Step 1: Structure Your Project For Netlify
 
 ```plaintext
 twiml-response-app/
@@ -161,7 +161,7 @@ Then `publish = "public"` tell Netlify where is the root directory to serve the 
 
 Finally, we define a redirect to tell Netlify, on any request to `/twiml/*`, to call the function with the wildcard placeholder (`:splat`) that captures and forwards any additional path segments after `/twiml/` to the destination URL.
 
-### Step 3: Deploy the Application
+### Step 3: Deploy The Application
 
 This step is so simple.
 
@@ -169,7 +169,7 @@ Just create an account at Netlify using your preferred versioning provider and d
 
 The default settings work great.
 
-### Step 4: Test the Application
+### Step 4: Test The Application
 
 Browse to the URL provided by Netlify and enter a value in the input.
 
