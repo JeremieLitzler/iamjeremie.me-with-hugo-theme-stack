@@ -1,6 +1,6 @@
 ---
 title: "How to Build a Pseudo-backend With Netlify Functions"
-description: "And great it is to host simple MVPs"
+description: "And it is great to host simple MVPs"
 image: 2025-02-03-a-json-sticker-held-by-someone.jpg
 imageAlt: A JSON sticker held by someone
 date: 2025-02-03
