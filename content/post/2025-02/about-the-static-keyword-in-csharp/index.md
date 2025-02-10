@@ -63,7 +63,7 @@ public class Person
 }
 ```
 
-The above example demonstrates a common use case where a static property tracks the number of class instances created. The property is accessible through the class name (Person.Count) rather than through an instance.
+The above example demonstrates a use case where a static property tracks the number of class instances created. The property is accessible through the class name (Person.Count) rather than through an instance.
 
 ### Static Constructors
 
@@ -105,7 +105,7 @@ Using `static` in C# offer several key benefits for application development:
 
 However, you need to consider some limitations:
 
-- They aren’t thread safe by default and can allow data leakage.
+- They aren’t thread safe by default and can cause data leakage.
 - They can make code harder to maintain if overused as global variables.
 - They can’t access non-static members without an explicit instance reference.
 
