@@ -163,7 +163,7 @@ Defining values that don’t change is another common use case.
 ```csharp
 public class Constants
 {
-   public const string AppName = "MyApplication";
+   public static const string AppName = "MyApplication";
 }
 ```
 
