@@ -54,7 +54,7 @@ The `:splat` placeholder represents everything after `https://api.example.com/`.
 This option is the same as above, but you write it differently:
 
 ```txt
-/api-llm https://api.infomaniak.com/2/llm/701/chat/completions 200
+/api-llm https://api.example.com/:splat 200
 /\* /index.html 200
 ```
 
