@@ -60,4 +60,10 @@ This option is the same as above, but you write it differently:
 
 Also, be sure to name the file `_redirects` and place it in the `public` directory.
 
+{{< blockcontainer jli-notice-tip "Follow me">}}
+
+Thanks for reading this article. Make sure to [follow me on X](https://x.com/LitzlerJeremie), [subscribe to my Substack publication](https://iamjeremie.substack.com/) and bookmark my blog to read more in the future.
+
+{{< /blockcontainer >}}
+
 Credits: Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/matrix-movie-still-iar-afB0QQw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
