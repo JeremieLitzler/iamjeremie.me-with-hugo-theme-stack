@@ -26,7 +26,7 @@ If you use Netlify, you can use two methods:
 
 ### `netlify.toml` file
 
-As this Netlify thread states, you need to define a rewrite rule:
+As a Netlify forum thread states, you need to define a rewrite rule:
 
 ```toml
 # This is the rule to query the API without CORS
@@ -42,6 +42,12 @@ As this Netlify thread states, you need to define a rewrite rule:
   to = "/index.html"
   status = 200
 ```
+
+{{< blockcontainer jli-notice-tip "">}}
+
+The `:splat` placeholder represents everything after `https://api.example.com/`.
+
+{{< /blockcontainer >}}
 
 ### A `_redirects` File
 
