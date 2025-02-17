@@ -98,7 +98,7 @@ In my use case, I used the first method with a slight difference: I used `replac
 
 ## Conclusion
 
-Running an application inside a container often means that you have a reverse proxy. And between the reverse proxy, the communication doesn’t require `https`.
+Running an application inside a container often means that you have a reverse proxy. And between the reverse proxy and the application, the communication doesn’t require `https`.
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
