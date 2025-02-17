@@ -1,5 +1,5 @@
 ---
-title: "REST API Behavior on Azure Container Apps"
+title: "Common Behavior on Azure Container Apps"
 description: "When you deploy an container app on Azure or any cloud provider, you need to know this."
 image: 2025-02-17-tunnel-written-on-a-metal-structure.jpg
 imageAlt: “Tunnel” written on a metal structure
@@ -23,7 +23,7 @@ It implemented everything and I was ready to test. But then…
 
 ## The Issue
 
-When I made the call, Twilio’s lady told me: “Sorry, an application occurred.”
+When I made the call, Twilio’s lady told me: “Sorry, an application error occurred.”
 
 I had made sure I logged all the parts that make the signature before deploying:
 
