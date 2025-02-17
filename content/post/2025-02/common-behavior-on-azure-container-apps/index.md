@@ -9,6 +9,8 @@ categories:
 tags:
   - Python
   - Security
+  - Microsoft Azure
+  - Docker
 ---
 
 I worked on a REST API in Python and it integrated Twilio to handle incoming calls.
