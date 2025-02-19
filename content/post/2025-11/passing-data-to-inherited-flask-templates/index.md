@@ -1,9 +1,9 @@
 ---
 title: "Passing Data to Inherited Flask Templates"
 description: "In a webapp, you always have a layout that declares the base element (header, nav, main and footer). In this article, we’ll look at how to pass dynamic data to it."
-image: 2024-11-24-two-persons-exchanging-a-document.jpg
+image: 2025-11-24-two-persons-exchanging-a-document.jpg
 imageAlt: Two persons exchanging a document
-date: 2024-11-24
+date: 2025-11-24
 categories:
   - Web Development
 tags:
