@@ -134,8 +134,8 @@ if __name__ == '__main__':
 This code does the following:
 
 1. Defines a `UserDTO` class that inherits from Pydantic’s `BaseModel`.
-2. In the route handler, it gets the JSON data using `request.get_json()`.
-3. It then creates a `UserDTO` instance by unpacking the JSON data into the constructor.
+2. Gets the JSON data using `request.get_json()`.
+3. Then creates a `UserDTO` instance by unpacking the JSON data into the constructor.
 4. If the data is valid, it returns a success message along with the user data.
 5. If the data is invalid (e.g., missing required fields or wrong types), it catches the `ValidationError` and returns the validation errors.
 
@@ -153,7 +153,7 @@ class UserDTO(BaseModel):
 
 This adds length validation to the name, range validation to the age, and uses `EmailStr` for email validation.
 
-I can tell you this is attractive when you’ll see the next method…
+I can tell you that it’s attractive when you see the following method and think about the maintainability of your code...
 
 ### Without a Library
 
