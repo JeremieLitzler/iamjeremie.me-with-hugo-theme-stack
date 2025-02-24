@@ -8,6 +8,7 @@ categories:
   - Web Development
 tags:
   - Python
+  - Flask
 ---
 
 Back in July 2024, I started to learn Python programming through a concrete project.
