@@ -157,7 +157,7 @@ I can tell you this is attractive when you’ll see the next method…
 
 ### Without a Library
 
-You can parse JSON data into a DTO class using Python's built-in features. Here's how you can do it:
+You can parse JSON data into a DTO class using Python’s built-in features. Here’s how you can do it:
 
 1. First, define your DTO class:
 
@@ -231,13 +231,15 @@ Here are the explanation, step by step, of the code above:
 5. If the data is valid, it returns a success message along with the user data.
 6. If the data is invalid, it catches the `ValueError` and returns an error message.
 
-This method requires more manual work compared to using Pydantic, especially for validation. However, it gives you full control over the process and doesn't require additional libraries.
+This method requires more manual work compared to using Pydantic, especially for validation. However, it gives you full control over the process and doesn’t require additional libraries.
 
 ## Conclusion
 
-Keep in mind that this quick introduction doesn't handle all edge cases, but this is how I got started with Python and REST API last year. For a production environment, you might want to add more robust error handling and validation.
+Keep in mind that this quick introduction doesn’t handle all edge cases, but this is how I got started with Python and REST API last year. For a production environment, you might want to add more robust error handling and validation.
 
-More on Python using the tag at the bottom of the page ⬇️
+Is it maintenable on large applications? Maybe not… I’ll talk about it as I progress with Python programming.
+
+In the meantime, for more on Python, use the tag at the bottom of the page ⬇️
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
