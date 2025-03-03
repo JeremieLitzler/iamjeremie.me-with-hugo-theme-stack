@@ -8,7 +8,6 @@ categories:
   - Web Development
 tags:
   - Python
-  - Flask
 ---
 
 Decorators in Python are a way to modify or enhance functions or classes without directly changing their source code.
@@ -63,8 +62,6 @@ In this example, the `log_function_call` decorator adds logging before and after
 ## Decorator with input from the caller
 
 When you need to pass arguments to the decorator itself, you need to add another layer of functions.
-
-Example:
 
 ```python
 def repeat(times):
