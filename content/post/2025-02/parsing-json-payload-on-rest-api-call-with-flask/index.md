@@ -247,4 +247,4 @@ Thanks for reading this article. Make sure to [follow me on X](https://x.com/Lit
 
 {{< /blockcontainer >}}
 
-<!-- more -->
+Credit: Photo by [Hitesh Choudhary](https://unsplash.com/@hiteshchoudhary?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/person-holding-sticky-note-D9Zow2REm8U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).

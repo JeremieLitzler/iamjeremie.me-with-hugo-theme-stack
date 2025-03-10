@@ -232,4 +232,3 @@ I’ll continue the series soon with the implementation of a more complex REST A
 Stay tuned!
 
 Credit: Photo by [Hitesh Choudhary](https://unsplash.com/@hiteshchoudhary?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/person-holding-sticky-note-D9Zow2REm8U?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
-.
