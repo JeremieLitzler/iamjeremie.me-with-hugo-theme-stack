@@ -26,7 +26,7 @@ I saw the first issue in the datatable’s columns definition where TypeScript w
 
 ## The Cause
 
-Supabase’s RPC returns the correct type according to the function’s return type, as defined in your database schema ([source](https://www.restack.io/docs/supabase-knowledge-supabase-rpc-typescript-guide)).
+Supabase’s RPC returns the correct type according to the Postgres function’s return type, as defined in your database schema ([source](https://www.restack.io/docs/supabase-knowledge-supabase-rpc-typescript-guide)).
 
 In my case, I set `RETURNS SETOF json AS $$` and so it did:
 
