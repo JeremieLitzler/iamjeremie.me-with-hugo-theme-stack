@@ -26,14 +26,14 @@ Furthermore, Azure DevOps provides **high availability** with a 99.9% uptime SLA
 
 ## Prerequisites
 
-- Create an account on Microsoft. You can use any existing email address and it doesn't have to be a Microsoft one.
+- Create an account on Microsoft. You can use any existing email address and it doesn’t have to be a Microsoft one.
 - Then browse to:
 
   ```plaintext
   https://portal.azure.com
   ```
 
-- optin for the free tier
+- opt-in for the free tier
 - browse the homepage to create your organization that will enable you to start with DevOps:
 
   ```plaintext
@@ -42,7 +42,7 @@ Furthermore, Azure DevOps provides **high availability** with a 99.9% uptime SLA
 
 ## Creation of the DevOps
 
-Once you’re the `aex.dev.azure.com` page, click _Create an organization_.
+Once you’re on the `aex.dev.azure.com` page, click _Create an organization_.
 
 Choose a name and choose the region where to host the code you’ll create.
 
@@ -70,11 +70,11 @@ There you are: your free DevOps workspace is ready to use!
 
 ### From the _Overview_ blade
 
-You can configure some widgets from the screens Summary or Dashboards to view quickly your team's progress.
+You can configure some widgets from the screens Summary or Dashboards to quickly view your team’s progress.
 
-Also, you access the Wiki, a Markdown-friendly area where you can share processes, how-to and other quick documentation.
+Also, you access the wiki, a Markdown-friendly area where you can share processes, how-to and other quick documentation.
 
-I don't find flexibly enough, but having used various versions of Azure DevOps, I see that it has improved over time. For me, the search and the link sharing isn't friendly enough compare to a Hugo website.
+I don’t find flexibly enough, but having used various versions of Azure DevOps, I see that it has improved over time. For me, the search and the link sharing isn’t friendly enough compared to a Hugo website.
 
 ### From the _Board_ blade
 
@@ -85,7 +85,7 @@ You can create your stories, tasks and so on to organize your work. As part of t
 - 1 Microsoft-hosted CI/CD parallel job (up to 1800 minutes per month)
 - Basic Azure Boards features
 
-You can configure your workflow and define how the workitems should organized according your need (with or without Agility).
+You can configure your workflow and define how the work items should be organized according to your need (with or without agility).
 
 ### From the _Repos_ blade
 
@@ -105,13 +105,13 @@ Or use the button on the DevOps screen:
 
 ### From the _Pipelines_ blade
 
-You can configure the logic to generate the application from your reposity’s code and make it ready to deploy.
+You can configure the logic to generate the application from your repository’s code and make it ready to deploy.
 
 See this link below what a step-by-step example.
 
 ### About _Test Plans_ and _Artifacts_ blades
 
-I’ve not used them so far, it is off-topic in this article for now.
+I’ve not used them so far, it’s off-topic in this article for now.
 
 ## Conclusion
 
