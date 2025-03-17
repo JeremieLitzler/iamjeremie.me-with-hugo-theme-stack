@@ -113,7 +113,7 @@ Or use the button on the DevOps screen:
 
 ### From the _Pipelines_ blade
 
-You can configure the logic to generate the application from your repository’s code and make it ready to deploy.
+You can configure the logic to generate the application from your repository’s code and deploy it (however, you'll have to pay for Azure resources to automate deployment and host your application).
 
 See this link below what a step-by-step example.
 
