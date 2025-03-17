@@ -74,7 +74,15 @@ You can configure some widgets from the screens Summary or Dashboards to quickly
 
 Also, you access the wiki, a Markdown-friendly area where you can share processes, how-to and other quick documentation.
 
-I don’t find flexibly enough, but having used various versions of Azure DevOps, I see that it has improved over time. For me, the search and the link sharing isn’t friendly enough compared to a Hugo website.
+I don’t find flexibly enough, but having used various versions of Azure DevOps, I see that it has improved over time.
+
+For me, the search and the link sharing isn’t friendly enough compared to a Hugo website.
+
+{{< blockcontainer jli-notice-tip "Back to using spaces...">}}
+
+If you've created an organization and a first project with spaces, sharing wiki links won't be very user-friendly since spaces will be encoded in all URLs.
+
+{{< /blockcontainer >}}
 
 ### From the _Board_ blade
 
