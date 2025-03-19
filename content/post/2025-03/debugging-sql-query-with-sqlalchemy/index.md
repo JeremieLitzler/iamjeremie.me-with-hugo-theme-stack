@@ -29,7 +29,7 @@ query = session.query(Entity).filter(
     Entity.created_at)
 )
 
-# This prints out the SQL
+# This prints out the SQL code generated and executed by SQLAlchemy
 print(query.statement.compile(dialect=sqlite.dialect()))
 ```
 
