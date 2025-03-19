@@ -1,6 +1,6 @@
 ---
 title: "Debugging SQL Query With SQLAlchemy"
-description: "SQLAlchemy provides ORM-like querying to any database. But checking whhat is the final SQL executed can help us."
+description: "SQLAlchemy provides ORM-like querying to any database. But knowing what is the final SQL executed can help us."
 image: 2025-03-19-a-green-weevil-bug.jpg
 imageAlt: A Green Weevil bug
 date: 2025-03-19
