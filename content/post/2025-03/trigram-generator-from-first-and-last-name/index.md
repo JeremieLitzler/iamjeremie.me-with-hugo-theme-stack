@@ -34,13 +34,15 @@ It provided me with this (I edited the comments):
 ```python
 def generate_trigram(full_name):
     # Split the full name into parts
+    # `[0]` means take the first element in the `name_parts` array
+    # `[0]` means take the first characters of the string
     name_parts = full_name.split()
 
     # Get the first letter of the first name
     firstname_letter = name_parts[0][0]
 
     # Get the first two letters of the last name
-    # `[-1]` means take the last part of the `nae_parts` array
+    # `[-1]` means take the last part of the `name_parts` array
     # `[:2]` means take the first two characters of the string
     lastname_letters = name_parts[-1][:2]
 
@@ -99,9 +101,11 @@ Next, why take the last element of the array as the actual last name?
 
 Of course, I could have written clearer specifications, but that’s what you call iterative programming!
 
-## Let’s Fix The Code
+## Let’s Fix The Specification and The Code
 
-How do you fix the split issue?
+Firstly, our new requirement is to take the first 2 characters of the lastname, which may contain spaces. So we need to split the full name at the first space, instead of “at each space”.
+
+But how do you fix the split issue?
 
 Split in Python can take two arguments: the first one is the delimiter and the second tells after how many occurrences to stop.
 
@@ -121,19 +125,19 @@ name_parts = full_name.split(' ', 1)
 first_name, last_name = name_parts
 ```
 
-Let’s run the test. And it’s failing again…
+Let’s run the test. And again, it fails…
 
 ## What Is The Next Issue
 
 The code doesn’t evaluate “Maxime Fèvre” to “MFE” but “MFV”. Why?
 
-The accent, of course! Why? The accent was skipped.
+The accent, of course! Why? The accent was skipped, because it’s a special character and Python acted as if it wasn’t present.
 
 Luckily, there is a solution for that: we call it “Unicode normalization” and we have 4 forms out there. For details, you can [read this detailed article](https://towardsdatascience.com/difference-between-nfd-nfc-nfkd-and-nfkc-explained-with-python-code-e2631f96ae6c).
 
 In our _Maxime Fèvre_, we find an accent in the last name.
 
-To remove it, we’ll use _NFKD_ normalization form in the following code:
+To remove it and keep the unaccented “e”, we’ll use _NFKD_ normalization form in the following code:
 
 ```python
 import unicodedata
