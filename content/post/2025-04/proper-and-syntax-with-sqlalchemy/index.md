@@ -42,7 +42,7 @@ WHERE
 
 The `0 != 1` is SQLAlchemy’s way of creating a condition that always returns false.
 
-Instead, use SQLAlchemy like this, wrapping your conditions with the `_and` operator :
+Instead, use SQLAlchemy like this, wrapping your conditions with the `and_` operator :
 
 ```python
             from sqlalchemy import and_
