@@ -12,6 +12,8 @@ tags:
   - SQL Alchemy
 ---
 
+## The Goal
+
 To build this SQL Statement:
 
 ```sql
@@ -21,6 +23,8 @@ status IN ('NEW', 'TODO') AND
 confirmed_at IS NULL AND
 created_at <= p_cutoff_datetime
 ```
+
+## How Not To Write the SQLAlchemy Query
 
 You shouldn’t declare your SQLAlchemy query as follows:
 
@@ -41,6 +45,8 @@ WHERE
 ```
 
 The `0 != 1` is SQLAlchemy’s way of creating a condition that always returns false.
+
+## Proper Syntax
 
 Instead, use SQLAlchemy like this, wrapping your conditions with the `and_` operator :
 
