@@ -19,9 +19,17 @@
     {{- end }}>
     <p>
       <label>{{ T "search.title" }}</label>
-      <input name="keyword" placeholder="{{ T `search.placeholder` }}" />
+      <input
+        type="text"
+        name="keyword"
+        placeholder="{{ T `search.placeholder` }}" />
     </p>
-
+    <p>
+      <label class="flex-checkbox">
+        <input type="checkbox" id="exact-match-checkbox" />
+        <span> Execute search to <em>"match terms exactly"</em>. </span>
+      </label>
+    </p>
     <button title="{{ T `search.title` }}">
       {{ partial "helper/icon" "search" }}
     </button>
