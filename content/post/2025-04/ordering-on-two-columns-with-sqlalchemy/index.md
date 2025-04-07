@@ -7,6 +7,7 @@ date: 2025-04-07
 categories:
   - Web Development
 tags:
+  - Tip Of The Day
   - Python
   - SQL Alchemy
 ---
