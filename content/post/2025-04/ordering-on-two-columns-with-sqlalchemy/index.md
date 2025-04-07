@@ -14,6 +14,8 @@ tags:
 
 When we sort data, we need to take into account the NULL values. I’d like to share something I’ve learned through a practical example while building a Python application.
 
+## The SQL
+
 For example, to build this SQL Statement:
 
 ```sql
@@ -25,6 +27,8 @@ created_at <= p_cutoff_datetime
 ORDER BY
 coalesce(in_progress_at, created_at) DESC NULLS LAST
 ```
+
+## The Python Equivalent
 
 Write the SQLAlchemy statement in the following way:
 
