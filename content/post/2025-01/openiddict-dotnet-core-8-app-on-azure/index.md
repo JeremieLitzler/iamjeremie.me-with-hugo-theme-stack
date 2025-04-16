@@ -7,6 +7,8 @@ date: 2025-01-06
 categories:
   - Web Development
 tags:
+  - OAuth 2.0
+  - Authorization
   - Authentication
   - Microsoft Azure
   - Dot Net Core
