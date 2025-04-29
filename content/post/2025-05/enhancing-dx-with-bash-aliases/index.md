@@ -1,9 +1,9 @@
 ---
 title: "Enhancing DX with Bash Aliases"
 description: "You have many CLI in your project? Let’s enable autocomplete the commands."
-image: 2025-05-02-example-of-autocomplete.jpg
+image: 2025-04-30-example-of-autocomplete.jpg
 imageAlt: Example of autocomplete
-date: 2025-05-02
+date: 2025-04-30
 categories:
   - Software Development
 tags:
