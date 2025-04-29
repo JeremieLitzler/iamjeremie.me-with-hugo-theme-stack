@@ -32,6 +32,8 @@ In my case, I set `RETURNS SETOF json AS $$` and so it did:
 
 Since you can call the function with the table name as an input parameter, the returned type makes sense to me.
 
+But this type is too vague for TypeScript to infer object properties.
+
 ## The Fix
 
 To fix this, you need to use Supabase generated types and create a new custom type:
