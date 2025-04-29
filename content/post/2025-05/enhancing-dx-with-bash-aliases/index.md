@@ -37,6 +37,9 @@ Run `source .bashrc` from within the terminal in the repository’s root.
 Then, run any alias with it name and use `TAB` to list them if you cannot remember one exactly.
 
 To check the aliases are loaded, run `alias` in the terminal.
+
+PS: you'll also have many other predefined aliases in your environment.
+
 To reload the aliases after a change, run `source .bashrc` each time.
 
 I've tested that in Git bash for Windows.
