@@ -42,7 +42,7 @@ PS: you'll also have many other predefined aliases in your environment.
 
 To reload the aliases after a change, run `source .bashrc` each time.
 
-I've tested that in Git bash for Windows.
+I've tested that in Git bash for Windows. On MacOS or Linux, it works just as well.
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
