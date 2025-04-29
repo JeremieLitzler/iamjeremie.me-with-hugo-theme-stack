@@ -45,9 +45,9 @@ export type EntityRecordWithRpc =
   Database["public"]["Tables"]["entities"]["Row"];
 ```
 
-Then, you update the returned type to `*as* unknown *as* PostgrestSingleResponse<EntityRecordWithRpc[]>` on the `allEntitiesQuery`.
+Then, you update the returned type to `as unknown as PostgrestSingleResponse<EntityRecordWithRpc[]>` on the `allEntitiesQuery`.
 
-The TypeScript requires the `as unknown` cast first before the `*as* PostgrestSingleResponse<EntityRecordWithRpc[]>` because neither type sufficiently overlaps with the other (rule _ts(2352)_).
+The TypeScript requires the `as unknown` cast first before the `as PostgrestSingleResponse<EntityRecordWithRpc[]>` because neither type sufficiently overlaps with the other (rule _ts(2352)_).
 
 Next, replace all references of `AllEntitiesTypes` to `EntityRecordWithRpc`.
 
