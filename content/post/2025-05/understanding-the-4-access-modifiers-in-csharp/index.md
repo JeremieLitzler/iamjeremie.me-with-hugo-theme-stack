@@ -22,19 +22,21 @@ You can use `private`to encapsulate data and restrict its access from outside th
 
 In the example below, the `name`field is private and can only be accessed or modified through the `SetName`and `GetName`methods.
 
+The convention is also to prefix the field with `_`.
+
 ```csharp
 class Person
 {
-    private string name;
+    private string _name;
 
     public void SetName(string name)
     {
-        this.name = name;
+        this._name = name;
     }
 
     public string GetName()
     {
-        return name;
+        return this._name;
     }
 }
 
