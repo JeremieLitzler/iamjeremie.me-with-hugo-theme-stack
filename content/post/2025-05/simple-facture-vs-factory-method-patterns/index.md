@@ -1,5 +1,5 @@
 ---
-title: "Factory Pattern vs. Factory Method Pattern"
+title: "Simple Factory vs. Factory Method Patterns"
 description: "The Factory Method Pattern and the Factory Pattern (often referred to as the Simple Factory) are both creational design patterns used to create objects, but they do so in different ways."
 image: 2025-05-13-simple-factory-pattern-vs-factory-method-pattern-image.jpg
 imageAlt: “Factory Pattern vs. Factory Method Pattern” over a gradient background
