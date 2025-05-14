@@ -1,6 +1,6 @@
 ---
 title: "How to format a duration in a formula on Google Sheets"
-description: "Yes, you can use the formatting menu, but it is not enough. What if I told you can format a decimal value representing a time using a formula. Let's review the steps."
+description: "Yes, you can use the formatting menu, but it is not enough. What if I told you can format a decimal value representing a time using a formula? Let’s review the steps."
 image: 2025-05-16-an-alarm-clock-displaying-23h53.jpg
 imageAlt: An alarm clock displaying 23h53
 date: 2025-05-14
