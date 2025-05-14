@@ -5,7 +5,7 @@ image: 2025-05-16-an-alarm-clock-displaying-23h53.jpg
 imageAlt: An alarm clock displaying 23h53
 date: 2025-05-14
 categories:
-  - Astuce Du Jour
+  - Tutorials
 tags:
   - Google Sheets
 ---
