@@ -46,10 +46,12 @@ services.AddTransient<ITransientService, TransientService>();
 
 Generally, the common use cases are the following:
 
-- **Utility Services**, which don’t need to maintain any state between calls but required an instantiation.
+- **Utility Services**, which don’t need to maintain any state between calls.
 - **Formatting Services**, such as converting data into a specific string format.
 - **Calculation Services**, when you need to perform computations or data transformations without needing to maintain any state.
 - **Operation Services**, which perform a specific operation independently each time they’re called, like sending an email or logging an event.
+
+Of course, all these use cases becomes relevant if you require class instantiation for the service.
 
 ### Read more about Transient
 
