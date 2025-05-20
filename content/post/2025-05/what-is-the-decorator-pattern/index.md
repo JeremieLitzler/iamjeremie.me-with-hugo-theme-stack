@@ -25,7 +25,7 @@ public interface INotifier
 }
 ```
 
-## Step 2: Create Concrete Components
+## Step 2: Create a Concrete Component
 
 ```csharp
 public class EmailNotifier : INotifier
