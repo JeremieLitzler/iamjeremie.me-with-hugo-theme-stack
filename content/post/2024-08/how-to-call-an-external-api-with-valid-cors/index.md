@@ -26,7 +26,7 @@ If you use Netlify, you can use two methods:
 
 ### `netlify.toml` file
 
-As this Netlify thread states, you need to define a rewrite rule:
+As a Netlify forum thread states, you need to define a rewrite rule:
 
 ```toml
 # This is the rule to query the API without CORS
@@ -43,15 +43,27 @@ As this Netlify thread states, you need to define a rewrite rule:
   status = 200
 ```
 
+{{< blockcontainer jli-notice-tip "">}}
+
+The `:splat` placeholder represents everything after `https://api.example.com/`.
+
+{{< /blockcontainer >}}
+
 ### A `_redirects` File
 
 This option is the same as above, but you write it differently:
 
 ```txt
-/api-llm https://api.infomaniak.com/2/llm/701/chat/completions 200
+/api-llm https://api.example.com/:splat 200
 /\* /index.html 200
 ```
 
 Also, be sure to name the file `_redirects` and place it in the `public` directory.
+
+{{< blockcontainer jli-notice-tip "Follow me">}}
+
+Thanks for reading this article. Make sure to [follow me on X](https://x.com/LitzlerJeremie), [subscribe to my Substack publication](https://iamjeremie.substack.com/) and bookmark my blog to read more in the future.
+
+{{< /blockcontainer >}}
 
 Credits: Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/matrix-movie-still-iar-afB0QQw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
