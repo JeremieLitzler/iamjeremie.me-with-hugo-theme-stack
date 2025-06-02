@@ -75,14 +75,6 @@ If you perform a simple `git push`, your push will fail with an error because th
 
 To successfully update the remote branch with your rewritten history, you must use **`git push --force`** or **`git push --force-with-lease`**. These commands overwrite the remote history with your local changes. If you skip this step, the remote branch remains unchanged, and no new commits are created.
 
-If you ran **`git pull`** after rewriting your commit history (e.g., via an interactive rebase), Git attempted to merge the remote branch’s history with your rewritten local history. This process likely created **merge commits** to reconcile the differences between the two histories, as the local and remote branches had diverged due to the rebase.
-
-After this merge, you were able to push because your local branch was now aligned with the remote branch, but it included additional merge commits that preserved both histories (the original remote history and your rewritten local history).
-
-You then say: “That’s no good, I want a clean and correct history”.
-
-## Using `--force` versus `--force-with-lease`
-
 Here is a summary of both options:
 
 | **Feature**              | `git push --force`                             | `git push --force-with-lease`                                                                                                                      |
@@ -92,6 +84,12 @@ Here is a summary of both options:
 | **Overwrite Prevention** | No                                             | Yes: Rejects push if remote has new commits                                                                                                        |
 | **Lease Reference**      | Not supported                                  | Optional: Specify expected remote commit[](https://safjan.com/understanding-the-differences-between-git-push-force-and-git-push-force-with-lease/) |
 | **Dry Run**              | No                                             | Supported via **`--dry-run`**                                                                                                                      |
+
+If you ran **`git pull`** after rewriting your commit history (e.g., via an interactive rebase), Git attempted to merge the remote branch’s history with your rewritten local history. This process likely created **merge commits** to reconcile the differences between the two histories, as the local and remote branches had diverged due to the rebase.
+
+After this merge, you were able to push because your local branch was now aligned with the remote branch, but it included additional merge commits that preserved both histories (the original remote history and your rewritten local history).
+
+You then say: “That’s no good, I want a clean and correct history”.
 
 ## But Many Repositories Enforce Protected Branch Rules
 
