@@ -30,3 +30,7 @@ removePathAccents = true
 
 [params]
 custom_css = ["css/custom-style.css"]
+
+[[author]]
+name = "Jérémie Litzler"
+email = "jeremie.litzler@gmail.com"
