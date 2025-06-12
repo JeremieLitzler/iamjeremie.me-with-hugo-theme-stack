@@ -45,15 +45,15 @@ ENV TZ=Europe/Zurich
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 ```
 
-After releasing the new version, the CRON could be updated to the actual time I needed the application to run the task.
+After releasing the new version, the task could be updated to the actual time I needed it to run.
 
-More importantly, I didn’t need to worry about the hour change in this past March.
+More importantly, I didn’t need to worry about the hour change in the following March.
 
 ## Conclusion
 
 Did you know about this caveat?
 
-I didn’t and I’m glad I ran into this situation.
+I didn’t and I’m glad I ran into this situation. However, it was through experience that the situation presented itself, having never, until this project, worked with time zones.
 
 Also, it forced me to write unit tests to make the scheduler work as expected.
 
