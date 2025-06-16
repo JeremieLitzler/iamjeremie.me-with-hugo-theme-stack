@@ -82,7 +82,7 @@ We get the following.
     "directoryAlias": null,
     "displayName": "John Doe",
     "id": "user-id",
-    "imageUrl": "https://dev.azure.com/CBTW-CH/_apis/GraphProfile/MemberAvatars/aad.{description-id}",
+    "imageUrl": "https://dev.azure.com/{devops-organisation-name}/_apis/GraphProfile/MemberAvatars/aad.{description-id}",
     "inactive": null,
     "isAadIdentity": null,
     "isContainer": null,
