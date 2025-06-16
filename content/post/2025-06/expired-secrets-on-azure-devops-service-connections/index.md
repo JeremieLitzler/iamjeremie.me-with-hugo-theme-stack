@@ -1,6 +1,6 @@
 ---
 title: "Expired Secrets on Azure DevOps Service Connections"
-description: "I’ve spent half a day to resolve an expired secret in application registered automatically by Azure DevOps. Here is how and my takeaways."
+description: "I’ve spent half a day to resolve an expired secret in application registered automatically by Azure DevOps. Here is how to solve the issue and my takeaways."
 image: 2025-06-16-expired-secrets-on-azure-devops.jpg
 imageAlt: Expired secrets on Azure DevOps
 date: 2025-06-16
@@ -11,7 +11,7 @@ tags:
   - Microsoft Azure
 ---
 
-In the article where I describe the deployment of a Python application to Microsoft Azure, I briefly explain how to set up the Docker image push to an azure container registry (ACR in the following paragraphs).
+In the article where I describe the [deployment of a Python application to Microsoft Azure](../../2024-07/deploy-a-rest-api-python-to-azure/index.md), I briefly explain how to set up the Docker image push to an azure container registry (ACR in the following paragraphs).
 
 ## The Problem
 
