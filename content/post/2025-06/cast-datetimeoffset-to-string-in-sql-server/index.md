@@ -1,6 +1,6 @@
 ---
 title: "How to Cast a datetimeoffset to String in SQL Server"
-description: "Time zones in dates hold important information. Let’s lose it!"
+description: "Time zones in dates hold important information. Let’s not lose it!"
 image: 2025-06-23-a-clock-in-a-big-building.jpg
 imageAlt: A clock in a big building
 date: 2025-06-23
