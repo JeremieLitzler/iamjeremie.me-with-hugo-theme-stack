@@ -32,7 +32,7 @@ To replace all occurrences of `[n]` with `[^n]` in Visual Studio Code, where `n`
   \[(\d+)\]
   ```
 
-  - `$$` and `$$` match the literal square brackets.
+  - `\[` and `\]` match the literal square brackets.
   - `(\d+)` captures one or more digits.
 
 ## Step 4. Enter the Replace Pattern
@@ -53,11 +53,7 @@ To replace all occurrences of `[n]` with `[^n]` in Visual Studio Code, where `n`
 
 | Original Text | Find Pattern | Replace Pattern | Result              |
 | ------------- | ------------ | --------------- | ------------------- |
-| [1],,[456]    | $$(\d+)$$    | [^$1]           | [^1], [^23], [^456] |
-
-This will convert every `[number]` into `[^number]` throughout your document using Visual Studio Code's regex-powered find and replace.
-
-**Note:** Make sure regex mode is enabled, or the patterns won't work as intended.
+| [1],,[456]    | \[(\d+)\]    | [^$1]           | [^1], [^23], [^456] |
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
