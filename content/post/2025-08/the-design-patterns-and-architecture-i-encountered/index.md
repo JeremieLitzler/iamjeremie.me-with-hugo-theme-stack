@@ -10,35 +10,35 @@ tags:
   - Design Patterns
 ---
 
-Before I start, let's define software architectures and design patterns.
+Before I start, let’s define software architectures and design patterns.
 
 Software architectures represent high-level structure, components, and their relationships that guide the design of software systems.
 
 Design patterns represent reusable solutions to common problems encountered when designing and developing large-scale software systems for businesses. Patterns help architects and developers create robust, scalable, and maintainable applications.
 
-Let's review what I've encountered so far.
+Let’s review what I’ve encountered so far.
 
 ## The Architectures
 
-Here's a concise overview of some key architectures I came across, often not knowing their name until much later:
+Here’s a concise overview of some key architectures I came across, often not knowing their name until much later:
 
 ### Layered Architecture
 
 This is the most common architecture. It divides the application into distinct layers (e.g., presentation, business logic, data access) to improve modularity and separation of concerns.
 
-However, layered applications don't mean decoupled layers. You can have a data layer coupled with the business layer and the web layer coupled with the business layer. Though it is not what we should go for.
+However, layered applications don’t mean decoupled layers. You can have a data layer coupled with the business layer and the web layer coupled with the business layer. Though it isn’t what we should go for.
 
-And tight coupling means difficulty to test, especially on many legacy solutions I've worked on.
+And tight coupling means difficulty to test, especially on many legacy solutions I’ve worked on.
 
 ### Model-View-Controller (MVC)
 
-Surely, you know that one. It's a very popular pattern that separates an application into three interconnected layers for better code organization and reusability.
+Surely, you know that one. It’s a very popular pattern that separates an application into three interconnected layers for better code organization and reusability.
 
 The Model layer represents your entity definitions. For example, if your application models a car, the models would be a car, an engine, a wheel, a suspension, etc.
 
 The View layer is the representation of the car, how it looks.
 
-Finally, the Controller layer connects the Model to the View with the business logic to make your car run and become "drivable".
+Finally, the Controller layer connects the Model to the View with the business logic to make your car run and become “drivable”.
 
 ### Microservices
 
@@ -52,7 +52,7 @@ I can say that is similar to event-driven architecture because microservices tal
 
 I came across this architecture last April as I was preparing my interviews for a new job.
 
-I went ahead and followed a small course on the topic that encourages using [Ardalis's template](https://github.com/ardalis/CleanArchitecture) which I liked straight away.
+I went ahead and followed a small course on the topic that encourages using [Ardalis’s template](https://github.com/ardalis/CleanArchitecture) which I liked straight away.
 
 As a succinct summary, the clean architecture in an onion-layered architecture where all layers are decoupled from each other, allowing easier testing of each layer.
 
@@ -63,9 +63,9 @@ The layers come as follows:
 - the next outer layer contains the _Infrastructure_ to access the data layer with EF Core or any external API like emailing, logging and so on.
 - the top layer contains the _Web_ part, which in the case of an API would be the Web API, controllers, etc.
 
-It uses the [Mediator](#mediator) pattern heavily and though it is built to be future proof, it requires to understand the abstractions in place to understand the communication between layers.
+It uses the [Mediator](#mediator) pattern heavily and though it’s built to be future proof, it requires to understand the abstractions in place to understand the communication between layers.
 
-It is the architecture that I'm very likely to use going forward.
+It’s the architecture that I’m very likely to use going forward.
 
 Please [check out all the decisions made by Ardalis](https://github.com/ardalis/CleanArchitecture/tree/main/docs/architecture-decisions) to craft the above template as he did
 
@@ -77,7 +77,7 @@ It abstracts the data access layer, providing a more object-oriented view of the
 
 Through DTO classes, you create a communication layer between the business and the data layers.
 
-The goal is that the business doesn't know about the data layer details and therefore is loosely coupled to it.
+The goal is that the business doesn’t know about the data layer details and therefore is loosely coupled to it.
 
 This makes testing the business logic easier.
 
@@ -101,11 +101,11 @@ We often use it for logging and caching functionalities that needs to exist as l
 
 ### Prototype
 
-It is also a creational pattern but through cloning objects instead of creating them from constructors.
+It’s also a creational pattern but through cloning objects instead of creating them from constructors.
 
 ### Factory Method
 
-I wrote about this pattern. Again, we are dealing with creational pattern that, through inheritance, but more often an interface, allow us to create objects.
+I wrote about this pattern. Again, we’re dealing with creational pattern that, through inheritance, but more often an interface, allow us to create objects.
 
 ### Strategy
 
