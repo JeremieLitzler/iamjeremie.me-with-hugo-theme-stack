@@ -36,6 +36,8 @@ To begin, let’s define the need:
 - on a Merge Request or Individual CI on `develop`, we want to push an image tagged `ready-for-qa`.
 - on a Merge Request or Individual CI on `main`, we want to push an image tagged `latest`.
 
+### The Trigger
+
 First, you need to define the trigger in the `azure-pipelines.yml` file:
 
 ```yaml
@@ -45,6 +47,8 @@ trigger:
       - main
       - develop
 ```
+
+### Evaluate the Image Tag
 
 Next, let’s evaluate the image tag. You’ll use it in the bash script.
 
@@ -67,7 +71,9 @@ Under a `Build and  push` stage, add a `Build` job and a `bash` step where you e
   name: setImageTagsStep
 ```
 
-Let’s then modify the next steps to build and push an image to the container registry with the computed image tags:
+### Build and Push To the Container Registry
+
+Let’s then modify the next steps to build and push an image to the container registry with the computed image tag:
 
 ```yaml
 - task: Docker@2
