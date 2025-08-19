@@ -105,7 +105,7 @@ I’ll demonstrate this in a future article.
 
 This approach is an opinionated approach, but it worked well for me. You could possibly perform a similar outcome in a different way.
 
-If you like my approach…
+If you liked my article…
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
