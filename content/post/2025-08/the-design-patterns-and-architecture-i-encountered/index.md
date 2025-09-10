@@ -1,6 +1,6 @@
 ---
 title: "The Design Patterns And Software Architectures I’ve encountered"
-description: "While it is a vast topic that authors have described in many books and articles, I’d like to review what design patterns I’ve encountered in my career so far."
+description: "While it is a vast topic that authors have described in many books and articles, I’d like to review what design patterns and architectures I’ve encountered in my career so far."
 image: 2025-08-04-architecte-building-with-triangle-shapes.jpg
 imageAlt: Architecte building with triangles shapes
 date: 2025-08-04
@@ -67,7 +67,7 @@ It uses the [Mediator](#mediator) pattern heavily and though it’s built to be 
 
 It’s the architecture that I’m very likely to use going forward.
 
-Please [check out all the decisions made by Ardalis](https://github.com/ardalis/CleanArchitecture/tree/main/docs/architecture-decisions) to craft the above template as he did
+Please [check out all the decisions made by Ardalis](https://github.com/ardalis/CleanArchitecture/tree/main/docs/architecture-decisions) to craft the above template as he did.
 
 ## The Design Patterns
 
@@ -130,6 +130,31 @@ For example, transferring data from a C or C++ library with a C# wrapper to the 
 ### Mediator
 
 In the CQRS pattern, Mediator handles the request to retrieve the result based on a query or command by dispatching the event to the target handler.
+
+The latter executes the business logic and then returns a result.
+
+In .NET, it looks like this:
+
+```csharp
+// I am deliberately omitting the using statements, as they are not important in this code snippet.
+
+public MyAwesomeQuery : IRequest<MyAwesomeResult> {
+  // You define your input data here and the constructor
+  // that the controller calls.
+}
+
+public MyAwesomeResult {
+  // You define your output data.
+}
+
+public MyAwesomeQueryHandler : IRequestHandler<MyAwesomeQuery, MyAwesomeResult> {
+  public Task<MyAwesomeResult> Handle(MyAwesomeQuery request, CancellationToken cancellationToken) {
+    // business logic goes here
+
+    return Task.FromResult(new MyAwesomeResult());
+  }
+}
+```
 
 ### Builder
 
