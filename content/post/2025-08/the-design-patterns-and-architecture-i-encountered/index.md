@@ -175,3 +175,5 @@ I recommend reading this series of articles from [Maxim Gorin](https://maxim-gor
 Thanks for reading this article. Make sure to [follow me on X](https://x.com/LitzlerJeremie), [subscribe to my Substack publication](https://iamjeremie.substack.com/) and bookmark my blog to read more in the future.
 
 {{< /blockcontainer >}}
+
+Photo by [Mathias Reding](https://www.pexels.com/photo/golden-tiles-on-modern-building-12884312/).
