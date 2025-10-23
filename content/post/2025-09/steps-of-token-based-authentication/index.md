@@ -1,6 +1,6 @@
 ---
-title: "The The Steps Of Token-based Authentication"
-description: "Token-based authentication is a method of verifying users' identity through a token. Here’s a simple explanation."
+title: "The Steps Of Token-based Authentication"
+description: "Token-based authentication is a method of verifying users’ identity through a token. Here’s a simple explanation."
 image: 2025-06-25-a-person-signing-a-document.jpg
 imageAlt: A person signing a document.
 date: 2025-09-17
