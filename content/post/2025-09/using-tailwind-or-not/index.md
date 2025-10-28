@@ -53,7 +53,7 @@ Plus, you might use those CSS classes in multiple places and changing their styl
 
 With Tailwind CSS, you don’t have that problem.
 
-![Screenshot from “**Tailwind CSS is the worst…**” by Fireship.](https://prod-files-secure.s3.us-west-2.amazonaws.com/56cdf79b-bb9b-43db-829f-e971e65ed439/8636ad6e-4cb5-4196-8580-a39ce4e63b51/44086F81-7F47-43D0-A818-1D17D83D027C.png)
+![Screenshot from “**Tailwind CSS is the worst…**” by Fireship.](2025-09-19-example-of-tailwind-css.png)
 
 Credit: Screenshot from “**Tailwind CSS is the worst…**” by Fireship.
 
