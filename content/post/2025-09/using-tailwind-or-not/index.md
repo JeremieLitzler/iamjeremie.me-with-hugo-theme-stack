@@ -24,7 +24,7 @@ However, [here are the problems](https://www.youtube.com/watch?v=lHZwlzOUOZ4) it
   - With vanilla CSS, we decided to apply a separation of concerns between markup (HTML) and styles (CSS). This requires naming classes and we, humans, aren’t good at it. And also, the class name wouldn’t tell you the styles behind it.
   - With Tailwind, we use utility classes that explicit the styles in the markup. This is what creates the gross HTML that displays a class attribute with tons of classes…
 - Verbosity
-  - With vanilla CSS, verbosity is a reality. For example, to position an element, you would need to set the properties “top”, “right”, “bottom” and “left”.
+  - With vanilla CSS, verbosity is a reality. For example, to position an element, you would need to set the properties `position`, `top`, `right`, `bottom` and `left`.
   - With Tailwind, we can simply use “inset-0”, you don’t need to write all those properties.
 - Too much power
   - With vanilla CSS, you can give you too much control over the UI, and if you don’t understand it well, you can suffer.
