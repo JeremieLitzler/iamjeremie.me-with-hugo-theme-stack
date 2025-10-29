@@ -61,11 +61,11 @@ True, this can result in the bolded HTML we’ve all seen and say: “BURK!”
 
 With Visual Studio Code, you can use the extension “Inline fold” to minimize those inline Tailwind CSS classes.
 
-Alternatively, you can use the `@apply` grouping in your component’s CSS, but that won’t solve the problem of blotted HTML when you look at the HTML in your browser DevTools.
+Alternatively, you can use the `@apply` grouping in your component’s CSS, but that won’t solve the problem of blotted HTML when you look at the HTML in your browser DevTools. In fact, the generated HTML will contain the long list of CSS classes.
 
 ### Verbosity
 
-CSS is verbose. With Tailwind CSS classes, you type a lot more characters.
+CSS is verbose. With Tailwind CSS classes, you type, in reality, a lot less characters.
 
 Yes, it’s always better to use the platform directly. With Tailwind CSS, you have to learn an abstraction on top of the CSS. It’s additional work if you’re getting started.
 
@@ -73,7 +73,7 @@ I’d say that you need a good understanding of CSS before you decide to use Tai
 
 ### Too Much Power
 
-While CSS gives you too much control over the UI. And you probably know BootStrap, right? Well, it’s difficult to customize and doesn’t give enough power.
+CSS gives you too much control over the UI. And you probably know BootStrap, right? Well, it’s difficult to customize and doesn’t give enough power.
 
 Tailwind CSS falls right in the middle of these.
 
