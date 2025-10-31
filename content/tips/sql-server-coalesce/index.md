@@ -1,6 +1,8 @@
 ---
 title: "SQL Server - Coalesce"
 description: "Usage of Coalesce with an example"
+image: /tips/desktop-productivity-layout.png
+imageAlt: Desktop productivity layout
 date: 2025-10-28
 categories:
   - Web Development

@@ -1,6 +1,8 @@
 ---
 title: "SQL Server - Cast and Convert"
 description: "Usage of Cast and Convert with an example"
+image: /tips/desktop-productivity-layout.png
+imageAlt: Desktop productivity layout
 date: 2025-10-31
 categories:
   - Web Development
