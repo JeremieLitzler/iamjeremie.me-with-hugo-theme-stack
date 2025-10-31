@@ -27,3 +27,7 @@ SELECT CONVERT(VARCHAR(10), 123) AS ConvertedValue;
 Always specify the length for VARCHAR (e.g., VARCHAR(10)), otherwise SQL Server uses a default length of 30.
 
 If you omit the length, it might cause truncation or unexpected results in some contexts.
+
+## Documentation
+
+Reference: [Microsoft Learn](https://learn.microsoft.com/en-us/sql/t-sql/functions/cast-and-convert-transact-sql?view=sql-server-ver17).
