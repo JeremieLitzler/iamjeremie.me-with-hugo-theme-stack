@@ -21,9 +21,9 @@ tags:
 
 **The server checks** the access token (5) with each request. If the token is valid, the server processes the request (6). If not, the request is denied (HTTP 403) (7).
 
-### Sequence Diagram:
+### Sequence Diagram
 
-```
+```plaintext
 User App                                Server
    |                                      |
    |--(1)--- Send credentials  ---------->|
@@ -156,7 +156,7 @@ Optionally, implement sliding expiration where the token’s lifetime is extende
 
 Finally, educate users on best practices for handling tokens, such as not sharing them and understanding the importance of logging out, especially on shared or public devices.
 
-### Fianl Note About the Refresh Token
+### Final Note About the Refresh Token
 
 A refresh token is a long-lived token that is used to obtain a new short-lived access token when the current one expires.
 
