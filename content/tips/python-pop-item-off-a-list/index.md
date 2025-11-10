@@ -1,8 +1,8 @@
 ---
 title: "Python - Remove the first item in a list"
 description: "You can remove the first item in 3 ways."
-imageAlt: /tips/a-real-python.jpg
-image: A real python
+image: /tips/a-real-python.jpg
+imageAlt: A real python
 date: 2025-11-10
 categories:
   - Web Development
