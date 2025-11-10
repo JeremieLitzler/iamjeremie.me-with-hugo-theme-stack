@@ -30,3 +30,9 @@ JOIN
 ## Documentation
 
 Reference: [Microsoft Learn](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/coalesce-transact-sql).
+
+{{< blockcontainer jli-notice-tip "Follow me">}}
+
+Thanks for reading this article. Make sure to [follow me on X](https://x.com/LitzlerJeremie), [subscribe to my Substack publication](https://iamjeremie.substack.com/) and bookmark my blog to read more in the future.
+
+{{< /blockcontainer >}}

@@ -76,3 +76,12 @@ footer:
 
   designedBy:
     other: Theme {{ .Theme }} designed by {{ .DesignedBy }}
+
+taxoMisc:
+  searchForm:
+    title:
+      other: Filter
+    executeBtnTitle:
+      other: Execute search
+    placeholder:
+      other: Type your search...
