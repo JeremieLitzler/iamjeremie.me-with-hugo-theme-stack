@@ -6,7 +6,7 @@ imageAlt: Desktop productivity layout
 
 # Badge style
 style:
-  background: "#9d2a2a"
+  background: "#4dc5d4ff"
   color: "#fff"
 ---
 

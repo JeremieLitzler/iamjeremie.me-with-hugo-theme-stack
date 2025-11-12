@@ -31,7 +31,7 @@ To change the drive letter of your CD-ROM drive (if it is currently E:) in Windo
 4. **Select the CD-ROM volume**:
 
    ```powershell
-   select volume
+   select volume <number>
    ```
 
    Replace `<number>` with the actual volume number of the CD-ROM.
@@ -39,7 +39,7 @@ To change the drive letter of your CD-ROM drive (if it is currently E:) in Windo
 5. **Assign a new drive letter**:
 
    ```powershell
-   select volume
+   assign letter=Z
    ```
 
    You can choose any unused letter (e.g., `Z`, `R`, etc.).

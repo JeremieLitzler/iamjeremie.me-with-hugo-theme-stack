@@ -37,4 +37,4 @@ Thanks for reading this article. Make sure to [follow me on X](https://x.com/Lit
 
 {{< /blockcontainer >}}
 
-Credits: Image de [Microsoft Server](https://www.microsoft.com/en-us/sql-server)
+Credits: Image from [Microsoft Server](https://www.microsoft.com/en-us/sql-server)

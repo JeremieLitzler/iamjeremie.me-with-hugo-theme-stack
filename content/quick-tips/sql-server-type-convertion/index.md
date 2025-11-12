@@ -10,7 +10,9 @@ tags:
   - SQL Server
 ---
 
-In SQL Server, you can convert an INT to VARCHAR using either the CAST or CONVERT function. Here are both options:
+With SQL Server, you can convert one type to another, for example an `INT` to `VARCHAR` using either the `CAST` or `CONVERT` function.
+
+Here are both options in action:
 
 ## Using `CAST`
 
@@ -39,3 +41,5 @@ Reference: [Microsoft Learn](https://learn.microsoft.com/en-us/sql/t-sql/functio
 Thanks for reading this article. Make sure to [follow me on X](https://x.com/LitzlerJeremie), [subscribe to my Substack publication](https://iamjeremie.substack.com/) and bookmark my blog to read more in the future.
 
 {{< /blockcontainer >}}
+
+Credits: Image from [Microsoft Server](https://www.microsoft.com/en-us/sql-server)
