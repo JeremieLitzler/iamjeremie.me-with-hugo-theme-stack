@@ -10,7 +10,11 @@ tags:
   - Windows
 ---
 
+## Scenario
+
 To change the drive letter of your CD-ROM drive (if it is currently E:) in Windows, you can achieve it in several manner. However, follow these steps to perform the task quickly:
+
+## Solution
 
 1. **Open Command Prompt as Administrator**:
    - Press `Windows + X` → select **Command Prompt (Admin)** or **Windows PowerShell (Admin)**.
