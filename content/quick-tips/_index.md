@@ -1,7 +1,7 @@
 ---
 title: Quick Tips
 description: Short articles about a topic with the scenario, the example and its documentation.
-image: desktop-productivity-layout.png
+image: images/desktop-productivity-layout.png
 imageAlt: Desktop productivity layout
 
 # Badge style

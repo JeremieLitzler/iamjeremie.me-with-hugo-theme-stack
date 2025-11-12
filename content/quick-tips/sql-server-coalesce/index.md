@@ -1,8 +1,8 @@
 ---
 title: "SQL Server - Coalesce"
 description: "Usage of Coalesce with an example"
-image: /tips/desktop-productivity-layout.png
-imageAlt: Desktop productivity layout
+image: /quick-tips/images/sql-server.webp
+imageAlt: Logo of Microsoft SQL Server
 date: 2025-10-28
 categories:
   - Web Development
@@ -36,3 +36,5 @@ Reference: [Microsoft Learn](https://learn.microsoft.com/en-us/sql/t-sql/languag
 Thanks for reading this article. Make sure to [follow me on X](https://x.com/LitzlerJeremie), [subscribe to my Substack publication](https://iamjeremie.substack.com/) and bookmark my blog to read more in the future.
 
 {{< /blockcontainer >}}
+
+Credits: Image de [Microsoft Server](https://www.microsoft.com/en-us/sql-server)

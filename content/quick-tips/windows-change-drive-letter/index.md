@@ -1,8 +1,8 @@
 ---
 title: "Windows - Change Drive Letter"
 description: "Using a CLI natively available on Windows"
-image: /tips/desktop-productivity-layout.png
-imageAlt: Desktop productivity layout
+image: /quick-tips/images/Microsoft_Windows-Logo.png
+imageAlt: Logo of Microsoft Windows
 date: 2025-11-04
 categories:
   - Command Line
@@ -59,3 +59,5 @@ Reference: [Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/ad
 Thanks for reading this article. Make sure to [follow me on X](https://x.com/LitzlerJeremie), [subscribe to my Substack publication](https://iamjeremie.substack.com/) and bookmark my blog to read more in the future.
 
 {{< /blockcontainer >}}
+
+Credits: Photo by [www.logo.wine](https://www.logo.wine/logo/Microsoft_Windows)
