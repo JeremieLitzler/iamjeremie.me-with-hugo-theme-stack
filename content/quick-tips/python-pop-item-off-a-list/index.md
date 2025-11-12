@@ -26,12 +26,18 @@ my_list = [1, 2, 3, 4, 5]
 my_list = my_list[1:]
 ```
 
-## Using the `del` statement
+## Using the `del` keyword
 
 ```python
 my_list = [1, 2, 3, 4, 5]
 del my_list[0]
 ```
+
+## Documentation
+
+- [function pop](https://python-reference.readthedocs.io/en/latest/docs/list/pop.html)
+- [slicing](https://python-reference.readthedocs.io/en/latest/docs/brackets/slicing.html)
+- [del keyword](https://www.w3schools.com/python/ref_keyword_del.asp)
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
