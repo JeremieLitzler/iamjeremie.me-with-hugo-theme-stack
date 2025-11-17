@@ -16,7 +16,7 @@ While they share some similarities, they’re designed to solve different proble
 
 ## The Command Pattern: Your Personal Remote Control
 
-Imagine you have a universal remote control for your home. When you press the “movie night” button, it doesn’t just turn on your TV—it dims the lights, closes the blinds, adjusts the thermostat, and starts your streaming device. The remote doesn’t need to know _how_ each device works internally; it just knows which buttons to press.
+Imagine you have a universal remote control for your home. When you press the “movie night” button, it doesn’t just turn on your TV—it dims the lights, closes the blinds, adjusts the thermostat, and starts your streaming device. The remote doesn’t need to know _how_ each device works internally; it just knows what sub-processes to run.
 
 That’s essentially what the Command Pattern does in software. It wraps up a request—like “turn on the TV”—into a neat package (an object) that contains everything needed to execute that request later. This package is portable, reusable, and can be passed around your code like a note with instructions written on it.
 
@@ -44,9 +44,9 @@ First, we find the **message producers**, in the above example, each department 
 
 Then, we have the **message bus** that we described as the bulletin board itself (the infrastructure that routes messages).
 
-Finally, the **message consumers** represent the components that subscribe to messages. In the above example, the departments reading the memos correspond to those consumers.
+Finally, the **message consumers** represent the components that subscribe to messages. In the above example, the departments reading the memos correspond to those consumers. It is important to note that each consumer _knows_ which messages it should read or not.
 
-Message buses excel at coordinating multiple systems that need to stay loosely connected. When a new department joins the company, it just starts reading relevant memos **to itself** from the board—no need to rewire everyone’s phones. Similarly, if a department leaves, the others keep operating normally.
+Message buses excel at coordinating multiple systems that need to stay loosely connected. When a new department joins the company, it just starts reading relevant memos **to itself** from the board—no need to rewire everyone’s phones. Similarly, if a department leaves, the others keep operating normally, even if, in reality, an adjustment would need to be made to the overall company.
 
 ## Where They Meet and Where They Diverge
 
