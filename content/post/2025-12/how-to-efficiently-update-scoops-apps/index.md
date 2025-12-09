@@ -60,7 +60,7 @@ The first lines are:
     $statusOutput = scoop status
 ```
 
-What does `$statusOutput’ contain?
+What does `$statusOutput` contain?
 
 ```plaintext
 @{Name=find-java; Installed Version=17; Latest Version=19; Missing Dependencies=; Info=} @{Name=nodejs; Installed Version=23.6.0; Latest Version=23.7.0; Missing Dependencies=; Info=} @{Name=picpick; Installed Version=7.2.9; Latest Version=7.3.1; Missing Dependencies=; Info=} @{Name=pycharm; Installed Version=2024.3.1.1-243.22562.220; Latest Version=2024.3.2-243.23654.177; Missing Dependencies=; Info=} @{Name=python312; Installed Version=3.12.7; Latest Version=3.12.8; Missing Dependencies=; Info=} @{Name=signal; Installed Version=7.37.0; Latest Version=7.40.1; Missing Dependencies=; Info=} @{Name=supabase; Installed Version=2.6.8; Latest Version=2.9.6; Missing Dependencies=; Info=} @{Name=terraform; Installed Version=1.10.4; Latest Version=1.10.5; Missing Dependencies=; Info=} @{Name=vscode; Installed Version=1.96.3; Latest Version=1.96.4; Missing Dependencies=; Info=}
@@ -68,7 +68,7 @@ What does `$statusOutput’ contain?
 
 It corresponds to a list of objects of the applications to update. Let’s see one example:
 
-```
+```plaintext
 @{Name=find-java; Installed Version=17; Latest Version=19; Missing Dependencies=; Info=}
 ```
 
@@ -94,7 +94,7 @@ Then, the `$matches` is an automatic variable in PowerShell that gets populated 
 When using the pattern `Name=([^;]+)`:
 
 - `$matches` contains the entire matched string (e.g., `Name=find-java`)
-- `$matches` contains what was captured in the first group `()` (e.g., `find-java`)
+- `$matches` contains what was captured in the first group between `()` (e.g., `find-java`)
 
 Here’s an example to illustrate:
 
@@ -111,7 +111,7 @@ We use `$matches` because we want just the app name without the `Name=` prefix.
 
 ## Checking That We Have No Application To Update
 
-Next, let’s just check the `scoop status` output parsing results in a list of applications.
+Next, let’s just check the `scoop status` output a list of applications.
 
 If not, let’s end the execution:
 
