@@ -46,7 +46,7 @@ with open(self.file_path, 'r', encoding='utf-8') as file:
 
 With the `encoding` parameter, Python reads the content with the proper encoding.
 
-**Note**: If the JSON file has a Byte Order Mark (BOM), you might need to use **`encoding='utf-8-sig’’** to handle it correctly. However, if you really need to edit the file, then you should use an editor that can produce valid ’utf-8’ content.
+**Note**: If the JSON file has a Byte Order Mark (BOM), you might need to use **`encoding='utf-8-sig'`** to handle it correctly. However, if you really need to edit the file, then you should use an editor that can produce valid ’utf-8’ content.
 
 ## About Jinja Template
 
