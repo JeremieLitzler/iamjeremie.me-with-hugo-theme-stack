@@ -2,7 +2,7 @@
 title: "DevOps Best Practices: An Optimization Example With Azure DevOps"
 description: "A step-by-step guide to the best practices of DevOps of automating pipeline triggers and workflows with an example."
 image: 2025-12-22-devops-best-practices-a-example-with-azure-devops.jpg
-imageAlt: DevOps Best Practices: A Example With Azure DevOps
+imageAlt: "DevOps Best Practices: A Example With Azure DevOps"
 date: 2025-12-22
 categories:
   - Software Development
