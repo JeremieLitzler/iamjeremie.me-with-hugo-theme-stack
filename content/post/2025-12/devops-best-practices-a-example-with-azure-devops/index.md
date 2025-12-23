@@ -50,7 +50,7 @@ That brings me to the better DevOps best practices.
 
 ## Which Best Practices
 
-To guarantee consitent behavior on the development environments (your PC, mine, a VDI, production, etc.), the validation environments (e.g. the VM where Azure DevOps runs its agent to execute the unit tests, which is the present use case of this article) or in the deployment environments (e.g. QA, Production), we need a consistent baseline.
+To guarantee consistent behavior on the development environments (your PC, mine, a VDI, etc.), the validation environments (e.g. the VM where Azure DevOps runs its agent to execute the unit tests, which is the present use case of this article) or in the deployment environments (e.g. QA, Production), we need a consistent baseline.
 
 So first, in the problematic steps above, the *PR Validation* pipeline and the *Build Image For Deployment* pipeline used a different python version and would generate headaches, especially in tests.
 
@@ -91,7 +91,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 ```
 
-If you read [my initial article on deploying a Python application](../2024-07/deploy-a-rest-api-python-to-azure/), you’ll notice I simply removed all the code specific to the application we deploy.
+If you read [my initial article on deploying a Python application](../../2024-07/deploy-a-rest-api-python-to-azure/index.md), you’ll notice I simply removed all the code specific to the application we deploy.
 
 ### Build The New Pipeline
 
@@ -101,7 +101,7 @@ The goal was to build an image not only for QA or production, but also when we h
 
 Here are the details.
 
-First, we trigger the pipeline only if the `requirements.txt`, or `/docker/Dockerfile.ci` or `’/.azure-pipelines/ap-build-ci-container.yml'’ file changes. In fact, the image only changes when I add a dependency or modify the pipeline or the `Dockerfile`.
+First, we trigger the pipeline only if the `requirements.txt`, or `/docker/Dockerfile.ci` or `/.azure-pipelines/ap-build-ci-container.yml` file changes. In fact, the image only changes when I add a dependency or modify the pipeline or the `Dockerfile`.
 
 ```yaml
 name: Build_Image_For_CI_Purposes
@@ -115,7 +115,7 @@ trigger:
       - '/.azure-pipelines/ap-build-ci-container.yml'
 ```
 
-Next, let’s update the `imageRepository` variable to a distinct name. This is where we’ll store the images used for CI purposes.
+Next, let’s update the `imageRepository` variable to a distinct name from the one where we store images for deployment. This is where we’ll store the images used for CI purposes **only**.
 
 ```yaml
 variables
@@ -190,6 +190,12 @@ First, you may need to merge into `develop` and `main` to add the pipeline to Az
 - Select the file from `develop` branch
 - Save to finish.
 
+{{< blockcontainer jli-notice-note "">}}
+
+I am writing this article a year after the events, and even though I took a lot of notes, I have doubts about the above point.
+
+{{< /blockcontainer >}}
+
 Then, to test it, you need to push a new branch to the repository with a change to `requirements.txt` (an extra space or comment will suffice). This should trigger the new pipeline.
 
 Once the build ran successfully, you should see a new repository `myapp-ci` in the *Azure Container Registry (ACR)* with an image tagged `branch-[your branch name]`.
@@ -224,7 +230,7 @@ This is required in the first stage of the update *PR Validation* pipeline. This
 
 We need a new stage containing a step of type “`AzureCLI` script” that will help us save the image tag to use.
 
-The script is just a bash script parsing the output of querying the Azure CLI.
+The script is just a bash script parsing the output of querying the Azure CLI and storing the image name matching to a variable.
 
 ```yaml
 stages:
@@ -272,7 +278,7 @@ Then, we use the `imageTag` variable in the next stage:
         displayName: Execute Unit Tests
         pool:
           vmImage: 'ubuntu-latest'
-        # Initialize the container to use in the job from previous stage.
+        # Initialize the container to use in the job from the previous stage.
         container:
           image: "$(containerRegistry)/$(imageRepository):$(imageTag)"
           endpoint: mycontainerregistry.azurecr.io
@@ -293,7 +299,7 @@ Now, your pull request workflow handles both developments that change the depend
 
 With that, you don’t need to worry about ever having to run unit tests against an outdated Docker image nor think about having the image ready before that.
 
-As a bonus, you only create new up-to-date Docker images when *it’s needed*. A logical next step would be to [update the automation account](../../2024-10/build-your-own-acr-retention-policy/index.md) that cleans up the repository of obsolete images. Can you do it?
+As a bonus, you only create new up-to-date Docker images when *it’s needed*. A logical next step would be to [update the automation account](../../2024-10/build-your-own-acr-retention-policy/index.md) that cleans up the repository of obsolete images. Can you do it? I believe you can.
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
