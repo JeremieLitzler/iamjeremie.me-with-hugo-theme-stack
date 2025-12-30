@@ -35,7 +35,7 @@ on:
     types: [opened, synchronize, reopened]
 ```
 
-It targets the `develop` branch in the context of a pull request. It triggers only on opened or reopened pull requests. It also triggers when some new code is pushed to the feature branch we want to merge to `develop` only while a pull request exists between the two. This latter use case often occurs when developers review each other's code.
+It targets the `develop` branch in the context of a pull request. It triggers only on opened or reopened pull requests. It also triggers when some new code is pushed to the feature branch we want to merge to `develop` only while a pull request exists between the two. This latter use case often occurs when developers review each other's code and suggest code updates.
 
 ### The Steps
 
@@ -77,6 +77,7 @@ Then push the feature branch and create a pull request. It should trigger the Gi
 ## Create a Semantic Release
 
 This workflow requires a more complex setup, but I'll guide you through it, step by step as usual.
+
 {{< blockcontainer jli-notice-tip "Stay tuned!">}}
 
 I’ve planned an article about Semantic Realase topic in February 2026. It’ll complement well to this GitHub Action.
