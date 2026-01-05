@@ -17,7 +17,7 @@ For that, you’ll need to create a `dependabot.yml` file in your repository, in
 
 ## Create the File
 
-To get started with Dependabot version updates, you’ll need to specify which package ecosystems to update and where the package manifests are located.
+To get started with Dependabot version updates, you’ll need to specify which package ecosystem to update and where the package manifest is located.
 
 Create a file at `.github/dependabot.yml` and set the minimal configuration:
 
@@ -33,10 +33,10 @@ updates:
 This configuration:
 
 - Uses version 2 of the Dependabot syntax
-- Monitors npm packages in the root directory
+- Monitors npm packages specified in the `package.json` found at the root directory
 - Checks for updates daily and create a PR on your repository if a package needs an update
 
-But that’s not what you’d use. I personally use a custom configuration so let’s look at my example for advanced configurations, which works well if you followed the [steps of this previous article](../../2025-12/configure-ci-steps-with-github/index.md).
+But that’s not what you’d use. I use a custom configuration so let’s look at my example for advanced configurations, which works well if you followed the [steps of this previous article](../../2025-12/configure-ci-steps-with-github/index.md).
 
 ## Advanced Configuration
 
