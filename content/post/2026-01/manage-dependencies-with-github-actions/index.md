@@ -1,7 +1,7 @@
 ---
 title: "How To Manage JavaScript Dependencies With GitHub Actions"
 description: "It can be difficult and time consuming to update dependencies. GitHub Actions can help automate it."
-image: 2026-01-06-steel-cogs.jpg
+image: 2026-01-05-steel-cogs.jpg
 imageAlt: Steel cogs
 date: 2026-01-05
 categories:
