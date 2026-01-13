@@ -18,13 +18,13 @@ The choice between rebasing and creating merge commits depends on your specific 
 
 ## Rebase Benefits
 
-The first thing you read about `rebase` is that it creates a cleaner, linear commit history. It also makes it easier to track feature implementation.
+The first thing you read about `rebase` is that it creates a cleaner, linear commit history. In fact, `rebase` allows you to rewrite the history.
 
 Finally, it eliminates unnecessary merge commits, you know the “Merged from PR xxxxxx” messages after you’ve merged a feature branch into `develop`.
 
 ## Merge Benefits
 
-First, `merge` method will preserve the complete repository’s history.
+First, `merge` method will preserve the complete repository’s history. Hence, it makes it easier to track feature implementation.
 
 It also makes conflict resolution easier, though I came to learn how to perform a `rebase` with little conflict resolution difficulty.
 
@@ -36,7 +36,7 @@ Finally, it maintains accurate timestamps of commits.
 
 The main reason I’ve seen so far using `rebase` is to maintain a clean, linear project history.
 
-Also, when you deal with smaller, focused changes that need to be integrated cleanly, you can use `rebase`. I’ve looked at the commit history of several open source projects and in none of them did I see a “Merged PR xxxx” commit message,
+Also, when you deal with smaller, focused changes that need to be integrated cleanly, you can use `rebase`. I’ve looked at the commit history of several open source projects and in none of them did I see a “Merged PR xxxx” commit message.
 
 ## When to Use Merge
 
@@ -84,6 +84,7 @@ echo "Feature A content" >> file.txt
 git commit -am "Add feature A"
 
 # Meanwhile, main branch gets updated (simulating team work)
+# Of course, you should NEVER push directly to develop...
 git checkout main
 echo "Hotfix content" >> file.txt
 git commit -am "Add hotfix"
@@ -113,17 +114,17 @@ echo "Feature B content" >> file.txt
 git commit -am "Add feature B"
 
 git checkout main
-git checkout -b feature/c
+git checkout -b feature/parallel-2
 echo "Feature C content" >> file.txt
 git commit -am "Add feature C"
 
-# Merge feature-b first (simulating PR merge)
+# Merge feature/parallel-1 first (simulating PR merge)
 git checkout main
-git merge --no-ff feature/parallel-2
+git merge --no-ff feature/parallel-1
 
-# Now feature-c needs updating
+# Now feature/parallel-2 needs updating
 git checkout feature/parallel-2
-git rebase main  # Clean up before PR
+git rebase main
 ```
 
 ### Scenario 3: Interactive Rebase for Cleanup
@@ -143,8 +144,8 @@ git commit -am "Oops forgot this part"
 # Clean up with interactive rebase
 # This combines all commits into one clean commit
 git rebase -i HEAD~4
-# In the editor, mark commits as 'squash' or 'fixup' except the first
-# Or reword commit messages
+# In the editor, mark commits as 'squash' except the first
+# then reword commit messages to keep one
 
 # After cleanup, merge to main
 git checkout main
@@ -249,7 +250,7 @@ git commit -am "Bad commit 1"
 echo "Bad feature continue" >> file.txt
 git commit -am "Bad commit 2"
 
-BAD_END=$(git rev-parse HEAD)
+BAD_END=$(git rev-parse HEAD) # Bad commit 2
 
 echo "Good commit after" >> file.txt
 git commit -am "Good commit after bad feature"
