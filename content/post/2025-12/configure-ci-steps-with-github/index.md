@@ -5,9 +5,10 @@ image: 2025-12-29-steel-cogs.jpg
 imageAlt: Steel cogs
 date: 2025-12-29
 categories:
-  - DevOps
+  - Software Development
 tags:
   - GitHub
+  - DevOps
   - Continuous Integration
 ---
 
