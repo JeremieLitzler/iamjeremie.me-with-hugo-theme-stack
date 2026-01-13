@@ -292,9 +292,8 @@ git rebase main
 ### Important Rules
 
 1. Never rebase branches that others are working on
-2. Always use `-no-ff` for significant feature merges
-3. Create meaningful commit messages
-4. **Always** test after rebasing or merging
+2. Create meaningful commit messages
+3. **Always** test after rebasing or merging
 
 ## Sources
 
