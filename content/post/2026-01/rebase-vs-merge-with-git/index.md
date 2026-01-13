@@ -120,7 +120,7 @@ git commit -am "Add feature C"
 
 # Merge feature/parallel-1 first (simulating PR merge)
 git checkout main
-git merge --no-ff feature/parallel-1
+git merge feature/parallel-1
 
 # Now feature/parallel-2 needs updating
 git checkout feature/parallel-2
@@ -161,7 +161,7 @@ git checkout -b feature/bad
 echo "Bad feature content" >> file.txt
 git commit -am "Add bad feature"
 git checkout main
-git merge --no-ff feature/bad
+git merge feature/bad
 
 # Revert the merge
 git revert -m 1 HEAD
