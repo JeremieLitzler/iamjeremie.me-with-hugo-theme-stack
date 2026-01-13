@@ -163,11 +163,12 @@ git commit -am "Add bad feature"
 git checkout main
 git merge feature/bad
 
+# Create new feature from reverted main
+git checkout -b feature/fixed-feature
+
 # Revert the merge
 git revert -m 1 HEAD
 
-# Create new feature from reverted main
-git checkout -b feature/fixed-feature
 echo "Fixed feature content" >> file.txt
 git commit -am "Add fixed feature"
 ```
