@@ -63,8 +63,7 @@ sequenceDiagram
     Bob-->Alice: Checking with John...
     Alice->John: Yes... John, how are you?
 ```
-
-````’
+````
 
 becomes:
 
@@ -78,7 +77,7 @@ sequenceDiagram
 
     Bob-->Alice: Checking with John...
     Alice->John: Yes... John, how are you?
-````
+```
 
 Thanks to [delize](https://github.com/delize) for his contributions in [issue #1213](https://github.com/CaiJimmy/hugo-theme-stack/issues/1213) to fix the initial implementation delivered in version 3.33.0 of the theme.
 
@@ -91,4 +90,7 @@ Thanks for reading this article. Make sure to [follow me on X](https://x.com/Lit
 {{< /blockcontainer >}}
 
 Credit: Image from [the official Mermaid Diagrams website](https://mermaid.js.org).
-````
+
+```
+
+```
