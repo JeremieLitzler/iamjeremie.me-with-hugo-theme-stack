@@ -26,7 +26,7 @@ Well, the core problem Mermaid solves is that traditional diagraming tools requi
 This creates several issues:
 
 - diagrams become outdated when code changes,
-- they’re hard to version control (I love this part),
+- they’re hard to version control,
 - updating them requires switching contexts between tools.
 
 Mermaid’s solution is elegant: you write diagrams using simple text syntax directly in your markdown files and they render as visual diagrams.
