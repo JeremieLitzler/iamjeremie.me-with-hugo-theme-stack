@@ -35,7 +35,7 @@ For example, you can describe a flowchart or sequence diagram in plain text, and
 
 ### Key Benefits
 
-For me, the most interesting benefit is that Mermaid diagrams are **version control friendly**. Since diagrams are just text, they work perfectly with Git and other version control systems.
+For me, the most interesting benefit is that Mermaid diagrams are **version control friendly**. Since diagrams are just text, they work perfectly with Git and other version control systems. No more conflicts to resolve on binary files...
 
 This makes a **living documentation**. Diagrams can be updated as easily as editing text, making it more likely they’ll stay current.
 
