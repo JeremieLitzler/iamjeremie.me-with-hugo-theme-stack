@@ -127,5 +127,11 @@ For me, it helps pinpoint the issue: the SMTP server was configured with a folde
 
 The feature behind it wasn’t critical and the client used it very sparingly, so we downgraded the priority, though I’ll be writing about the reason as soon as the issue becomes a priority again.
 
+{{< blockcontainer jli-notice-tip "Follow me">}}
+
+Thanks for reading this article. Make sure to [follow me on X](https://x.com/LitzlerJeremie), [subscribe to my Substack publication](https://iamjeremie.substack.com/) and bookmark my blog to read more in the future.
+
+{{< /blockcontainer >}}
+
 Photo by [William Warby](https://www.pexels.com/photo/close-up-of-a-heuer-mechanical-stopwatch-19730401/).
 ````
