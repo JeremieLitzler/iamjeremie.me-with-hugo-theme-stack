@@ -31,7 +31,7 @@ using (new TimeCostLogger("MailService.Send"))
 }
 ```
 
-When the logs roll in, you’ll see exactly which pieces are eating up those precious milliseconds or even seconds sometimes.
+When the logs roll in, you’ll see exactly which pieces are eating up those precious seconds.
 
 ## How to Implement it
 
