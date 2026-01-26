@@ -12,7 +12,11 @@ tags:
 
 Your application runs fine in development, passes all tests, and then, suddenly, users start complaining about slowness in production.
 
-You check the logs and scan through metrics you have available, but can’t pinpoint where the bottleneck actually lives. Is it the database query, non-optimized for the data volume in production ? The file processing? A third-party API call you added last month for a new feature?
+You check the logs and scan through metrics you have available, but can’t pinpoint where the bottleneck actually lives.
+
+Is it the database query, non-optimized for the data volume in production ? The file processing? A third-party API call you added last month for a new feature?
+
+Here is one way to identify the code responsible for slow code execution.
 
 ## Measuring Time Spent Executing Code
 
