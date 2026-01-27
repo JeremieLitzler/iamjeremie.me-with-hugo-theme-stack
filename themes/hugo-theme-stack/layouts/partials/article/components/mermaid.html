@@ -1,4 +1,5 @@
 <!-- See for fixed implementation: https://github.com/CaiJimmy/hugo-theme-stack/issues/1213 -->
+<!-- customized JLI -->
 {{ if .Store.Get "hasMermaid" }}
   {{ $cfg := site.Params.article.mermaid | default dict }}
   {{ $version := $cfg.version | default "11" }}
