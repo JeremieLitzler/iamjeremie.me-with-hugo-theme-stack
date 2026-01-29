@@ -6,8 +6,6 @@ relcanonical: https://iamjeremie.me/page/terms/
 article: false
 ---
 
-## **Welcome to A shared journal by Jeremie Litzler!**
-
 These terms and conditions outline the rules and regulations for the use of A shared journal by Jeremie Litzler's Website, located at [https://iamjeremie.me/](https://iamjeremie.me/).
 
 By accessing this website I assume you accept these terms and conditions. Do not continue to use A shared journal by Jeremie Litzler if you do not agree to take all of the terms and conditions stated on this page.
@@ -16,7 +14,7 @@ The following terminology applies to these Terms and Conditions, Privacy Stateme
 
 The content I publish may contain affiliate links to support my work. I only and always promote products or services that I have bought or tested myself.
 
-### **Cookies**
+## **Cookies**
 
 I employ no cookies on this website. You can use "EditThisCookie" available on Google Chrome Store for Google Chrome or any similar extension of your favorite browser.
 
@@ -24,7 +22,7 @@ I employ no cookies on this website. You can use "EditThisCookie" available on G
 
 Most interactive websites use cookies to let me retrieve the user’s details for each visit. Cookies are used by my website to enable the functionality of certain areas to make it easier for people visiting my website. Some of my affiliate/advertising partners may also use cookies.
 
-### **License**
+## **License**
 
 Unless otherwise stated, A shared journal by Jeremie Litzler and/or its licensors own the intellectual property rights for all material on A shared journal by Jeremie Litzler. All intellectual property rights are reserved. You may access this from A shared journal by Jeremie Litzler for your own personal use subjected to restrictions set in these terms and conditions.
 
@@ -50,7 +48,7 @@ You warrant and represent that:
 
 You hereby grant A shared journal by Jeremie Litzler a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.
 
-### **Hyperlinking to my Content**
+## **Hyperlinking to my Content**
 
 The following organizations may link to my Website without prior written approval:
 
@@ -86,29 +84,29 @@ Approved organizations may hyperlink to my Website as follows:
 
 No use of A shared journal by Jeremie Litzler's logo or other artwork will be allowed for linking absent a trademark license agreement.
 
-### **iFrames**
+## **iFrames**
 
 Without prior approval and written permission, you may not create frames around my Webpages that alter in any way the visual presentation or appearance of my Website.
 
-### **Content Liability**
+## **Content Liability**
 
 I shall not be hold responsible for any content that appears on your Website. You agree to protect and defend me against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.
 
-### **Your Privacy**
+## **Your Privacy**
 
 this website uses no cookie nor is it a website storing any information about you, the visitor
 
-### **Reservation of Rights**
+## **Reservation of Rights**
 
 I reserve the right to request that you remove all links or any particular link to my Website. You approve to immediately remove all links to my Website upon request. I also reserve the right to amen these terms and conditions and it’s linking policy at any time. By continuously linking to my Website, you agree to be bound to and follow these linking terms and conditions.
 
-### **Removal of links from my website**
+## **Removal of links from my website**
 
 If you find any link on my Website that is offensive for any reason, you are free to contact and inform me any moment. I will consider requests to remove links but I are not obligated to or so or to respond to you directly.
 
 I do not ensure that the information on this website is correct, I do not warrant its completeness or accuracy; nor do I promise to ensure that the website remains available or that the material on the website is kept up to date.
 
-### **Disclaimer**
+## **Disclaimer**
 
 To the maximum extent permitted by applicable law, I exclude all representations, warranties and conditions relating to my website and the use of this website. Nothing in this disclaimer will:
 
