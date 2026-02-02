@@ -108,54 +108,6 @@ I can tell you we need two steps between the original ones:
 
 Why? Because you want to the version value to be the same.
 
-## Updating the Dockerfile
-
-### Beyond the Basics
-
-Now, Semantic versionning says:
-
-> - Patch version Z (x.y.Z | x > 0) MUST be incremented if only backward compatible bug fixes are introduced. A bug fix is defined as an internal change that fixes incorrect behavior.
-> - Minor version Y (x.Y.z | x > 0) MUST be incremented if new, backward compatible functionality is introduced to the public API. It MUST be incremented if any public API functionality is marked as deprecated. It MAY be incremented if substantial new functionality or improvements are introduced within the private code. It MAY include patch level changes. Patch version MUST be reset to 0 when minor version is incremented.
-> - Major version X (X.y.z | X > 0) MUST be incremented if any backward incompatible changes are introduced to the public API. It MAY also include minor and patch level changes. Patch and minor versions MUST be reset to 0 when major version is incremented.
-
-So we can go further and say that:
-
-- if my branch is named `bug/docker-image-not-building`, hence containing the prefix `bug`, then, I bump the `patch` version.
-- if my branch is named `feature/add-awesome-ai-chatbot`, hence containing the prefix `feature`, then, I bump the `minor` version.
-- if my branch is named `next/generation-api-v2`, hence containing the prefix `next`, then, I bump the `major` version.
-
-I’m sure that’s possible but it would mean to perform this on the Pull Request build because you have access to the source branch.
-
-Another option a colleague of mine shared is to look at the commit messages since the last release:
-
-- if at least one commit contains `fix`, `refactor`, `chore`, `style`, then, I bump the `patch` version.
-- if at least one commit contains `feat`, then, I bump the `minor` version.
-- if at least one commit contains `BREAKING CHANGE`, then, I bump the `major` version.
-- otherwise the build is bumped (for new documentation, CI changes)
-
-I won’t dive into this in this article because I haven’t done it (yet) on the base project I worked on for this article. In a later article, I’ll showcase how I did it with a Vue project, some handy package and GitHub Actions.
-
-### What Did Change In My Dockerfile
-
-I added the following:
-
-```dockerfile
-# After setting timezone...
-# Accept VERSION as a build argument
-ARG VERSION
-
-# ...
-
-# After getting all sources into the project container...
-# Update the version file
-RUN echo "Version is <$VERSION>"
-RUN echo $VERSION > /project-container/app/modules/version/version.txt
-```
-
-where `$VERSION` is an argument passed to the `docker build` command.
-
-### Updating the pipeline
-
 In the YAML file, we need to make the build step and publish step are separate. I learned the hard way that the built-in step "_Build and Publish_" couldn’t care less for the arguments passed on and therefore, it ignores any value silently.
 
 So the steps look like that:
@@ -205,6 +157,52 @@ So the steps look like that:
 ```
 
 Of course, you can name the argument whatever you want, but make sure the name in `arguments: --build-arg VERSION=$(setVersionStep.fullVersion)` matches the variable name in the `Dockerfile`.
+
+## Updating the Dockerfile
+
+### Beyond the Basics
+
+Now, Semantic versionning says:
+
+> - Patch version Z (x.y.Z | x > 0) MUST be incremented if only backward compatible bug fixes are introduced. A bug fix is defined as an internal change that fixes incorrect behavior.
+> - Minor version Y (x.Y.z | x > 0) MUST be incremented if new, backward compatible functionality is introduced to the public API. It MUST be incremented if any public API functionality is marked as deprecated. It MAY be incremented if substantial new functionality or improvements are introduced within the private code. It MAY include patch level changes. Patch version MUST be reset to 0 when minor version is incremented.
+> - Major version X (X.y.z | X > 0) MUST be incremented if any backward incompatible changes are introduced to the public API. It MAY also include minor and patch level changes. Patch and minor versions MUST be reset to 0 when major version is incremented.
+
+So we can go further and say that:
+
+- if my branch is named `bug/docker-image-not-building`, hence containing the prefix `bug`, then, I bump the `patch` version.
+- if my branch is named `feature/add-awesome-ai-chatbot`, hence containing the prefix `feature`, then, I bump the `minor` version.
+- if my branch is named `next/generation-api-v2`, hence containing the prefix `next`, then, I bump the `major` version.
+
+I’m sure that’s possible but it would mean to perform this on the Pull Request build because you have access to the source branch.
+
+Another option a colleague of mine shared is to look at the commit messages since the last release:
+
+- if at least one commit contains `fix`, `refactor`, `chore`, `style`, then, I bump the `patch` version.
+- if at least one commit contains `feat`, then, I bump the `minor` version.
+- if at least one commit contains `BREAKING CHANGE`, then, I bump the `major` version.
+- otherwise the build is bumped (for new documentation, CI changes)
+
+I won’t dive into this in this article because I haven’t done it (yet) on the base project I worked on for this article. In a later article, I’ll showcase how I did it with a Vue project, some handy package and GitHub Actions.
+
+### What Did Change In My Dockerfile
+
+I added the following:
+
+```dockerfile
+# After setting timezone...
+# Accept VERSION as a build argument
+ARG VERSION
+
+# ...
+
+# After getting all sources into the project container...
+# Update the version file
+RUN echo "Version is <$VERSION>"
+RUN echo $VERSION > /project-container/app/modules/version/version.txt
+```
+
+where `$VERSION` is an argument passed to the `docker build` command.
 
 ## Conclusion
 
