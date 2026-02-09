@@ -1,8 +1,8 @@
 ---
 title: "Using Semantic Release With GitHub"
 description: "Semantic release tells us how to version our applications or packages. Let’s look how to use it with GitHub."
-image: 2026-02-09-an-orange-wall-with-shelve-at-various-level.jpg
-imageAlt: An orange wall with shelve at various level
+image: 2026-02-09-an-orange-wall-with-shelves-at-various-level.jpg
+imageAlt: An orange wall with shelves at various level
 date: 2026-02-09
 categories:
   - Software Development
