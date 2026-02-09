@@ -7,7 +7,7 @@ date: 2026-02-09
 categories:
   - Software Development
 tags:
-  - GitHub Action
+  - GitHub Actions
 ---
 
 I made a _Vue and Supabase_ boilerplate last year for personal projects. At the same time, I had a client interview where semantic release was, and still is, a big thing.
@@ -93,7 +93,7 @@ Here is my full setup:
 - I created a GitHub App, as Gonzalo described.
 - I installed it on my account so every repository can use it.
 - I created the environment `CI` in my target repositories (URL should be `https://github.com/{your-github-username}/{your-repo-name}/settings`) with the `GH_APP_ID` and `GH_APP_KEY` environment secrets. You get the GitHub application id and the private key under [your GitHub application settings](https://github.com/settings/apps). Like I said, you can have multiple private keys for a same GitHub application use a different key per repository.
-- I added a [release workflow](https://github.com/JeremieLitzler/VueSupabaseBoilerplate/blob/main/.github/workflows/release.yml) file. It defines the steps of your GitHub Action.
+- I added a [release workflow](https://github.com/JeremieLitzler/VueSupabaseBoilerplate/blob/main/.github/workflows/release.yml) file. It defines the steps of your GitHub Action and uses the `GH_APP_ID` and `GH_APP_KEY` environment secrets to generate the token.
 - I added the `.releaserc` file that the semantic release packages will use to create the versions as you need it. For example, I’ve customized the way I included certain commit types in the release notes. That’s what I’ll explain [below](#customization-of-release-trigger).
 - I added a `CHANGELOG.md` file. This is where `semantic-release` stores the changes made to the code.
 - I added a branch rule to protect `main` and `develop` as it’s recommended.
