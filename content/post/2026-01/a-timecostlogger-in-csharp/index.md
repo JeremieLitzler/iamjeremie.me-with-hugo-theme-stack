@@ -117,7 +117,7 @@ The following `TimeCostLogger` below gives you that focused visibility right w
             }
       }
 
-```’
+````
 
 ## Conclusion
 
@@ -134,4 +134,7 @@ Thanks for reading this article. Make sure to [follow me on X](https://x.com/Lit
 {{< /blockcontainer >}}
 
 Photo by [William Warby](https://www.pexels.com/photo/close-up-of-a-heuer-mechanical-stopwatch-19730401/).
-````
+
+```
+
+```
