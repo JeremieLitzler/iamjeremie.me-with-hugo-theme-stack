@@ -160,7 +160,7 @@ export class AppComponent {
 }
 ```
 
-{{< blockcontainer jli-notice-note "Anout `!`">}}
+{{< blockcontainer jli-notice-note "About `!`">}}
 The `!` is the definite assignment assertion operator.
 
 It tells TypeScript’s compiler: “_I know this property looks like not initialized, but trust me—it will be assigned a value before it’s used._”
@@ -188,7 +188,7 @@ Another feature using the `@Input` decorator is its configuration: you could mak
 
 And TypeScript would tell you the following:
 
-![image.png](attachment:692e5eba-f3ea-4771-a428-38b0bfb3cb67:image.png)
+![Example of TypeScript error](example-of-typescript-error.png)
 
 You can customize the attribute name with `alias` or transform your input object into `transform`, but I don’t see a good use case to give an example for it.
 
@@ -315,7 +315,7 @@ With that, you can remove the `updateSearch` method.
 
 ## Detecting changes
 
-Angular has several lifecycle hooks on components that help you to initialze a component and execute logic on changes.
+Angular has several lifecycle hooks on components that help you to initialize a component and execute logic on changes.
 
 You can find the [full list in the documentation](https://angular.dev/guide/components/lifecycle).
 
@@ -325,7 +325,7 @@ By default, when a event is triggered on a component, Angular checks all the com
 
 This could causes performance issue on a large application.
 
-That when you can use the `OnPush` strategy. This limits Angular to check the components not marked `OnPush`, the component where the event occurs and any component marked `OnPush` that is concerned by the event (parent to child for example).
+That when you can use the `OnPush` strategy. This limits Angular to only check OnPush components when their inputs change, an event occurs within them, or a bound observable emits — skipping unnecessary checks otherwise.
 
 Sergio, author of the course I followed, explains it very well [in his course](https://youtu.be/U71TQN68QGU?si=lBZl7qu4OXhGMMWa&t=5610). If you don’t speak french, enable the auto-translate subtitles on YouTube.
 
@@ -472,7 +472,7 @@ With conditions, we can use different approaches:
   </p>
   ```
 
-- a single `*ngIf` with a `<ng-template>’ element. It makes me think named slots, but it isn’t the same.
+- a single `*ngIf` with a `<ng-template>` element. It makes me think named slots, but it isn’t the same.
 
   ```html
   <p
@@ -1320,7 +1320,7 @@ However, you might have noticed the `logout` endpoint doesn’t take any paramet
 
 ### Interceptors
 
-Interceptors allow to modify a HTTPS request to add, for example, an HTTP header.
+Interceptors allow to modify a HTTP request to add, for example, an HTTP header.
 
 This is what we need to do if we want to call the REST API because it expects the token received on login.
 
@@ -1710,7 +1710,7 @@ And we update the `ngOnDestroy` body to this:
 this.subscriptions.unsubscribe();
 ```
 
-For more on the topic, I recommend Sergio’s vlog on the topic.
+For more on the topic, I recommend Sergio’s vlogs on the topic.
 
 - [Intro à RxJS - Observables, Observers, Subscriptions](https://www.youtube.com/watch?v=fQeZSSK2SOM)
 - [RxJS / Angular : Opérateurs et exemples concrets](https://www.youtube.com/watch?v=hh3Xdukr42g)
