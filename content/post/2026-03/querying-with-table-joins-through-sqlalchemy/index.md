@@ -11,18 +11,22 @@ tags:
   - SQL Alchemy
 ---
 
-When building a Python application, I needed to fetch data spread across two related tables in a single query. Here is what I learned about doing joins with SQLAlchemy.
+When building a Python application, I needed to fetch data spread across two related tables in a single query. This is called performing a join in SQL.
+
+Here is what I learned about doing joins with SQLAlchemy.
 
 ## The SQL
 
-To express something like:
+I knew the SQL I needed to execute.
 
 ```sql
 SELECT * FROM event
 JOIN event_journal ON event.event_id = event_journal.event_id
 ```
 
-## The Python Equivalent
+But how does it work with SQLAlchemy?
+
+## The query using Python
 
 Write the SQLAlchemy statement in the following way:
 
@@ -45,6 +49,8 @@ I’d like to add a few comments:
 - `session.query(EventEntity, EventJournalEntity)` tells SQLAlchemy you want columns from both tables—the result will be a list of tuples rather than a flat list of one entity.
 - `.join(EventJournalEntity, EventEntity.event_id == EventJournalEntity.event_id)` specifies the target table and the `ON` condition explicitly, which avoids ambiguity when the relationship isn’t preconfigured on the model.
 - You can chain `.filter()`, `.order_by()`, and other clauses after `.join()` as you normally would on a single-entity query.
+
+I'll probably go into other more complex scenarii when I run into them.
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
