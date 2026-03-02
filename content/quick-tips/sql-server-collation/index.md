@@ -128,4 +128,4 @@ Thanks for reading this article. Make sure to [follow me on X](https://x.com/Lit
 
 {{< /blockcontainer >}}
 
-Credits: Image from [Microsoft Server](https://www.microsoft.com/en-us/sql-server)
+Photo by [Microsoft Server](https://www.microsoft.com/en-us/sql-server)
