@@ -86,7 +86,7 @@ The setup explained in the article is sufficient. However, as we’ll see furthe
 
 ## Install Claude Code
 
-[Claude.ai](http://Claude.ai) wasn’t good at it. So I used the [official documentation](https://code.claude.com/docs/en/quickstart) instead. Using the **Windows PowerShell** option, I installed Claude Code application.
+I used the [official documentation](https://code.claude.com/docs/en/quickstart). Using the **Windows PowerShell** option, I installed Claude Code application.
 
 I also needed to add the `C:\Users\[your_username]\.local\bin` path to my `PATH` environment variable, as prompted at the end of the install.
 
@@ -94,7 +94,7 @@ I finished with a restart.
 
 ## First Login in Visual Studio Code
 
-I wanted to use the Claude Code official extension, but for some reason, I couldn’t stay logged in. It seemed to log me in successfully, since I got redirected to `https://platform.claudecom`, but as soon as I would type “Claude, are you ready”, the extension would tell me to login again…
+I wanted to use the Claude Code official extension, but for some reason, I couldn’t stay logged in. It seemed to log me in successfully, since I got redirected to `https://platform.claude.com`, but as soon as I would type “Claude, are you ready”, the extension would tell me to login again…
 
 So I decided to use the built-in terminal of VSCode and run `claude` command.
 
@@ -182,7 +182,9 @@ As I progress with the implementation,
 
 - I reviewed the code and the logic was implemented.
 - I suggested adding tests to the project before Claude would code anything, creating a new ADR with the framework I preferred.
-- I suggested improvements to the system prompt along the way, making sure Claude would really follow Git Flow (which it didn’t at first) when creating branches and making commits. I left to myself the branch push and PR review. Once, after adding tests for the Vue Components, I noticed an issue that Claude didn’t see. You definitely need to review the output of tests, even if they pass. In that case, the component testing was failing on `fetch` calls, which didn’t impact the actual test results, but polluted the output in the GitHub action.
+- I suggested improvements to the system prompt along the way, making sure Claude would really follow Git Flow (which it didn’t at first) when creating branches and making commits. You have to be specific and not assume that the AI knows everything.
+- I left to myself the branch push and PR review.
+- Once, after adding tests for the Vue Components, I noticed an issue that Claude didn’t see. You definitely need to review the output of tests, even if they pass. In that case, the component testing was failing on `fetch` calls, which didn’t impact the actual test results, but polluted the output in the GitHub action.
 
 ## Claude Isn’t Always Correct
 
@@ -204,7 +206,7 @@ Second, while searching for a setting to cut it off as soon as credits ran out, 
 
 ![Fast Mode on `https://platform.claude.com`](fast-mode-claude-platform.png)
 
-I wonder if my credits ran out more quickly because of this and how much more credits does _fast mode_ really uses… Of course, we’ll never know, but [a Google Search](https://www.google.com/search?q=claude+code+fast+mode+vs+no+fast+mode) can help us get started with finding out the answer.
+I wonder if my credits ran out more quickly because of this and how much more credits does _fast mode_ really uses… Perhaps that's where the 30% difference comes from? In the meantime, [a Google Search](https://www.google.com/search?q=claude+code+fast+mode+vs+no+fast+mode) could help us get started with finding out the answer.
 
 From that point on, I switched to Claude Pro subscription.
 
@@ -220,9 +222,9 @@ That’s when good management of context is key.
 
 Anytime you use Claude Code, what you provide, whether it’s a text prompt, code files and others, Anthropic counts that as your input tokens. Anything that LLM will reply with or any action it’ll take on your code base goes into the output tokens counter.
 
-And no matter your method of billing, subscription or API credits, we spend tokens. API credits give a clear view of the spent tokens, but [subscription limits aren’t so clear](https://support.claude.com/en/articles/11647753-understanding-usage-and-length-limits), especially when [“Extra usage” is active](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans).
+And no matter your method of billing, subscription or API credits, we spend tokens. API credits give a clear view of the spent tokens, but [subscription limits aren’t so clear](https://support.claude.com/en/articles/11647753-understanding-usage-and-length-limits).
 
-Even though LLMs are stateless, the entire conversation is kept “in memory” and each time you prompt Claude Code in your IDE, the entire conversation counts towards your limit…
+Even though LLMs are stateless, the entire current conversation is kept “in memory” and each time you prompt Claude Code in your IDE, the entire conversation counts towards your limit…
 
 ### Tip #1: Clear Command
 
