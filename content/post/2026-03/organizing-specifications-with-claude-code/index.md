@@ -5,7 +5,7 @@ image: 2026-03-09-white-robot-looking-at-the-camera.jpg
 imageAlt: White robot looking at the camera
 date: 2026-03-09
 categories:
-  - Artifical Intelligence
+  - Artificial Intelligence
 tags:
   - Claude Code
 ---
