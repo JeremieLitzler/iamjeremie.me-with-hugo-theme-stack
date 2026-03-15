@@ -10,7 +10,7 @@ tags:
   - SQL Server
 ---
 
-Let’s say we save some information in a ’NVARCHAR’column and we don’t want to worry about accents or character casings to handle unicity.
+Let’s say we save some information in a `NVARCHAR` column and we don’t want to worry about accents or character casings to handle unicity.
 
 What should you do?
 
@@ -37,13 +37,14 @@ Let’s say the collation is `Latin1_General_100_CI_AI`. What does it mean?
 - Latin1_General_100: Modern collation with version 100 sorting rules
 - CI = Case Insensitive
 - AI = Accent Insensitive
-- AS = Accent Sensitive
 
 ## The Solution
 
-So, if I want to avoid both input `Jeremie Litzler` and `Jérémie Litzler` to be inserted, then change the collation to `Latin1_General_100_CI_AS`.
+So, if I want to avoid both input `Jeremie Litzler` and `Jérémie Litzler` to be inserted, then change the collation to `Latin1_General_100_CI_AS`:
 
-That way, running ’SELECT _ FROM Person WHERE NAME = 'Jeremie Litzler'’ would return the same entry as ’SELECT _ FROM Person WHERE NAME = 'Jérémie Litzler'’.
+- AS = Accent Sensitive
+
+That way, running `SELECT * FROM Person WHERE NAME = 'Jeremie Litzler'` would return the same entry as `SELECT * FROM Person WHERE NAME = 'Jérémie Litzler'`.
 
 ## Going Further
 
