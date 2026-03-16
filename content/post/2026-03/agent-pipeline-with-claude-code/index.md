@@ -36,6 +36,8 @@ So let’s me show how I went about it.
 
 Originally, [Claude.ai](http://Claude.ai) suggested a shell script, but I didn’t like that. I wanted the sub-agents to communicate through Markdown files. In that way, when a sub-agent completed its task, it'd report back to the orchestrator who handed off the job to the next agent in line.
 
+In addition, this allows for versioning of the development process.
+
 [Claude.ai](http://Claude.ai) suggested this starting file structure:
 
 ```plaintext
@@ -43,8 +45,7 @@ project/
 ├── .agents/
 │   ├── specs.md          # specs-agent output
 │   ├── code-ready.md     # coder-agent output
-│   ├── test-results.md   # test-agent output
-│   └── status.md         # current pipeline stage
+│   └── test-results.md   # test-agent output
 ├── orchestrator.sh       # glues agents together
 └── prompts/
     ├── specs.txt
@@ -60,8 +61,7 @@ project/
 ├── .agents-output/
 │   ├── specs.md          # specs-agent output
 │   ├── code-ready.md     # coder-agent output
-│   ├── test-results.md   # test-agent output
-│   └── status.md         # current pipeline stage
+│   └── test-results.md   # test-agent output
 └── .agents-brain/
     ├── agent-0-orchestrator.md
     ├── agent-1-specs.md
@@ -130,12 +130,12 @@ project/
 
 ## Adding New Agents
 
-From the original agent pool I defined, I ended up adding a few more:
+From the original agent pool I defined, I ended up adding a few new ones :
 
 - an agent reviewing security concerns of the application right after the specifications.
 - an agent defining test use cases before coding and writing the tests after coding. Yes, TDD isn’t something I’ve yet figured out in my agent pipeline.
 - a code reviewer after I tried the Claude Code reviewer workflow, but somehow, I wasn’t able to make it work. For now, this agent does the job and actually found useful adjustments post-coding.
-- a pipeline maintainer agent that I could ask the main Claude code instance to invoke when I saw issues while running the agent pipeline. It occurred a few times when I made changes to agent organization, in particular when integrating the Git worktree feature in the pipeline to run parallel pipelines.
+- a maintenance agent in the agent pipeline whom I could ask for updates whenever I encountered issues while running an agent or the process. It occurred a few times when I made changes to agent organization, in particular when integrating the Git worktree feature in the pipeline to run parallel pipelines.
 
 However, I’ll need to take a step back at one point and clarify the definition of agent, skill and tool. I’m pretty sure some of my “agents” are skills in reality.
 
@@ -145,18 +145,18 @@ That’s a topic for yet another coming article.
 
 I’d like to let the AI do more unassisted work, but this requires defining the features or bugs very clearly in advance. Otherwise it can go sideways and waste your available tokens and time. Also, there are a lot of shell commands that require approval, and for good reasons. That could limit the possibility of running an unassisted Claude Code without major security trade-offs.
 
-The second thing I’d love to experiment is to run teams of agents while I sleep to optimize the $20 per month. Indeed, when I use Claude Code, the 5 h-session limit is reached fast, but if I give the teams work and build a system to monitor the 5 h-session limit so it can pause and resume the agents, I might get more out of the price paid for the service. I’m sure that’s something possible.
+Indeed, when I use Claude Code, the 5 h-session limit is reached fast, but if I give the teams work and build a system to monitor the 5 h-session limit so it can pause and resume the agents, I might get more out of the price paid for the service. I’m sure that’s something possible.
 
-Plus, it requires a lot of well planned and defined work to do that! And human interactions are still **really needed** because the human gives ideas. He enriches the ideas as he sees the product gets built and he catches the AI hallucinations (still numerous). At least, that’s how I felt building the DeadLinkChecker application.
+However, I think human interactions are still **really needed** because the human gives ideas. He enriches the ideas as he sees the product gets built and he catches the AI hallucinations (still numerous). At least, that’s how I felt building the DeadLinkChecker application.
 
 In the meantime, I shared this with a few colleagues and it stirred up a lot of interest. One shared the following tools:
 
-- the [system prompts (this is my fork)](https://github.com/JeremieLitzler/claude-code-system-prompts) that Anthropic use to make their agents. It links back to my point 2 above.
+- the [system prompts (this is my fork)](https://github.com/JeremieLitzler/claude-code-system-prompts) that Anthropic use to make their agents.
 - the [Serena MCP](https://github.com/oraios/serena?tab=readme-ov-file) to optimize token consumption. [Rust Token Killer](https://github.com/rtk-ai/rtk/) is another little software to save on input tokens that I’ll talk about soon because I already integrated it contrary to the first.
-- the [Open Code project](https://opencode.ai/docs), an alternative to Claude Code, which you can use with free LLMs and many other premium but sometimes less expensive LLMs like DeepSeek, Gemini, Mistral, GPT, etc.
+- the [Open Code project](https://opencode.ai/docs), an alternative to Claude Code, which you can use with free LLMs and many other premium but sometimes less expensive LLMs like DeepSeek, Gemini, Mistral, etc.
 - the [AgentOS package](https://buildermethods.com/agent-os) that can shape better specifications and keeps agents aligned in a lightweight system that fits how you already build.
 
-Many things to share and experiment in the near future. So subscribe ⬇️⬇️⬇️
+Clearly, I have got many things to experiment and share in the near future. So subscribe ⬇️⬇️⬇️
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
