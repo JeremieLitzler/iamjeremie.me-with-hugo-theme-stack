@@ -82,7 +82,7 @@ If you don’t need all the results at once, you can iterate over the map object
 
 Let’s look at an example.
 
-### Memory Efficiency with `map()` Iterators
+### Demonstration With an Example
 
 When you use `map()` in Python, it **returns an iterator object**, not a list. This is a key difference from JavaScript’s `map()` which returns a new array immediately.
 
