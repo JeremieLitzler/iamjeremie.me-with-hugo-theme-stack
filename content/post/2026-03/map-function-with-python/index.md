@@ -99,7 +99,7 @@ for squared in squared_map:
 
 In this example, only one squared value exists in memory at any given time, rather than all one million values.
 
-This following would end up being memory-taxing:
+This following would end up being memory-taxing because we would have to load a million values into memory:
 
 ```python
 numbers = range(1, 1000000)
