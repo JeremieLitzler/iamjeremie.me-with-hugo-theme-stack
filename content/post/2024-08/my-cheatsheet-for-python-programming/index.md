@@ -1,7 +1,7 @@
 ---
 title: "My cheatsheet for Python Programming After 4 Months "
 description: "So far... I've a lot more to come as I compile all the awesome snippets and techniques I've learned recently."
-image: images/2024-08-23-a-real-python.jpg
+image: /images/2024-08-23-a-real-python.jpg
 imageAlt: A real python
 date: 2024-08-23
 categories:
