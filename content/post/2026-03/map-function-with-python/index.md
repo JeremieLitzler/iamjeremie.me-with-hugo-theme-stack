@@ -3,7 +3,7 @@ title: "Map() Function With Python"
 description: "Python isn’t JavaScript. I’ll show you with example of the map function in Python."
 image: /images/2024-08-23-a-real-python.jpg
 imageAlt: A real python
-date: 2026-03-23
+date: 2026-03-30
 categories:
   - Web Development
 tags:
@@ -106,13 +106,6 @@ numbers = range(1, 1000000)
 
 # Consumes a lot of memory
 squared_list = list(map(lambda x: x**2, numbers))
-```
-
-Instead, the following is a memory-efficient approach—processes one item at a time:
-
-```python
-# Creates only the iterator
-squared_map = map(lambda x: x**2, numbers)
 ```
 
 ### A Practical Use Cases
