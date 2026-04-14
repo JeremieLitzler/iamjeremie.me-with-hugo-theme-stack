@@ -114,11 +114,11 @@ a_students = dict(filter(has_a_grade, grades.items()))
 print(a_students)  # Output: {'stu1': 'A', 'stu3': 'A'}
 ```
 
-`grades.items()` returns key-value pairs as tuples: `[(’stu1', 'A'), (’stu2', 'B'), ...]`
+`grades.items()` returns key-value pairs as tuples: `[('stu1', 'A'), ('stu2', 'B'), ...]`
 
 `filter()` passes each tuple to `has_a_grade`, which:
 
-1. Destructures the tuple into `key, value` — e.g. `('stu1', 'A')` into `key='stu1'’ and `value='A’’
+1. Destructures the tuple into `key, value` — e.g. `('stu1', 'A')` into `key='stu1'` and `value='A’’
 2. Returns `True` only if `value == 'A'`
 
 The key part to understand is `grades.items()` — without it you'd just be iterating over keys. `.items()` is what gives you the pairs to filter on values.
@@ -171,7 +171,7 @@ For search string `’1'’, it would match:
 
 - `sammy` of tank `11`
 - `jo` of tank `18` because `'1'` is in `'18'`)
-- `jackie` of tank ’21` because (`'1'`is in`’21'’)
+- `jackie` of tank `21` because (`'1'` is in `21'`)
 - `charlie` of tank `12` because (`'1'` is in `'12'`)
 
 `str(value)` is the important detail — it converts ints (like tank numbers) to strings so `in` comparison works uniformly on everything.
@@ -186,8 +186,8 @@ There are several performance considerations when using Python’s `filter()` fu
 
 The `filter()` function offers some performance advantages:
 
-- It’s implemented in C and highly optimized, making its internal loop potentially more efficient than regular Python loops in terms of execution time ([^2]).
-- It returns an iterator (a `filter` object) that yields values on demand, promoting lazy evaluation, which is more memory efficient than creating entire new collections at once. It’s particularly beneficial when working with larger datasets, as it doesn’t create a new list in memory but instead holds a reference to the original iterable, the function, and an index (see [^1]).
+- It’s implemented in C and highly optimized, making its internal loop potentially more efficient than regular Python loops in terms of execution time [^2].
+- It returns an iterator that yields values on demand, promoting lazy evaluation, which is more memory efficient than creating entire new collections at once. It’s particularly beneficial when working with larger datasets, as it doesn’t create a new list in memory but instead holds a reference to the original iterable, the function, and an index [^1].
 
 ### Performance Comparison with Generators
 
