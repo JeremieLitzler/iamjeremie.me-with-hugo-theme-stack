@@ -10,7 +10,7 @@ tags:
   - Python
 ---
 
-Here is a Python cheat sheet for handling lists, specifically focusing on methods equivalent to JavaScript’s `find` and `findIndex`.
+Today, we’ ll focus on methods equivalent to JavaScript’s `find` and `findIndex`.
 
 The examples I provide handle both primitive values and objects.
 
@@ -93,11 +93,10 @@ result = next(
         i for i,
         x in enumerate(numbers) if x % 2 != 0
     ), -1)
-print(result)  # Output: 3
-
+print(result)  # Output: 3 (index of value "7")
 ```
 
-### **Object Example**
+### Object Example for `findIndex()` Equivalent
 
 ```python
 # Find the index of the first object with a specific attribute value
@@ -114,7 +113,7 @@ Generator expressions (for example `(x for x in numbers if x % 2 != 0)`) are mem
 
 This is particularly beneficial when working with large datasets
 
-For example, using `next((x for x in numbers if x % 2 != 0), None)` avoids creating a temporary list, saving both time and memory.
+For small to medium-sized datasets, the performance difference between generator expressions and other methods (e.g., list comprehensions) may be negligible.
 
 ### Early Exit Behavior
 
@@ -126,17 +125,9 @@ This makes them efficient for finding the first matching element, as they don’
 
 The time complexity is `O(n)` in the worst case, where `n` is the length of the list. This occurs when no match is found, requiring iteration through the entire list.
 
-### Impact of Data Volume
-
-For small to medium-sized datasets, the performance difference between generator expressions and other methods (e.g., list comprehensions) may be negligible.
-
-However, as data size increases, generators perform better due to reduced memory usage and better cache utilization.
-
 ### Profiling for Bottlenecks
 
 If performance is critical, use profiling tools like `cProfile` or `perf` to identify bottlenecks.
-
-Optimizing these functions may not yield significant gains unless they’re part of a performance-critical loop or process.
 
 ### **When to Optimize**
 
@@ -179,7 +170,7 @@ for target in lookup_targets:
     _ = target in data
 print(f"list: {time.perf_counter() - start:.4f}s")
 
-# Fast: O(1) one-time conversion cost, then O(1) per lookup
+# Fast: O(n) one-time conversion cost, then O(1) per lookup
 data_set = set(data)
 
 start = time.perf_counter()
