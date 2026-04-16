@@ -20,7 +20,7 @@ Python’s equivalents are `list.sort()` (in-place) and `sorted()` (returns new 
 
 ## Numeric Primitive Sorting
 
-Unlike JS (which sorts as strings by default — `[1, 2, 10].sort()` → `[1, 10, 2]`), Python sorts numerically out of the box.
+Unlike JS (which sorts as strings by default — `[1, 2, 10].sort()` > `[1, 10, 2]`), Python sorts numerically out of the box.
 
 ```python
 nums = [3, 1, 4, 1, 5, 10, 2, 6]
@@ -94,7 +94,7 @@ A more explicit yet less flexible approach would be the following:
 
 ```python
 sorted(words, key=lambda s: (s.lower(), not s.islower()))
-# ('apple', False) < ('apple', True)  → lowercase wins
+# ('apple', False) < ('apple', True)  > lowercase wins
 ```
 
 Cleaner intent, but only distinguishes “fully lowercase” vs. “not”. The swap case version handles arbitrary mixed case (e.g., “aPpLe” vs. “ApPlE”) consistently.
@@ -149,7 +149,7 @@ For proper Unicode Collation Algorithm (UCA) support, use the `pyuca` library (`
 - **Locale availability varies**: `fr_FR.UTF-8` may not exist on minimal Docker images. Generate it (`locale-gen`) or install `locales` package.
 - **Normalization matters**: "café" can be encoded two ways — `café` (single `é`, NFC) or `cafe` + combining accent (NFD). They compare as unequal. Make sure to normalize first: `unicodedata.normalize("NFC", s)`.
 - **German ß, Turkish I, Greek final sigma** have locale-specific rules that simple `.lower()` gets wrong. `casefold()` handles most; full correctness needs ICU (`pip install PyICU`).
-- **Numbers in strings don't sort "naturally"**: `["file2", "file10"]` → `[’file10', ’file2']`. Use the `natsort` library for natural ordering.
+- **Numbers in strings don't sort "naturally"**: `["file2", "file10"]` > `[’file10', ’file2']`. Use the `natsort` library for natural ordering.
 - **Chinese/Japanese/Korean** sort by code point won't match pinyin/stroke/radical order users expect — needs ICU or language-specific libraries.
 
 ### Quick decision guide
@@ -237,7 +237,7 @@ sorted(words, key=cmp_to_key(length_cmp))
 print(call_count)  # 7  — called once per comparison (varies by input)
 ```
 
-5 elements → 5 key calls vs. ~7 comparator calls. With 1,000 elements: 1,000 vs. ~10,000. With 1,000,000: 1M vs. ~20M.
+5 elements produce 5 key calls vs. ~7 comparator calls. With 1,000 elements: 1,000 vs. ~10,000. With 1,000,000: 1M vs. ~20M.
 
 So when do you _actually_ need a comparator?
 
@@ -260,7 +260,7 @@ from functools import cmp_to_key
 nums = [3, 30, 34, 5, 9]
 
 def compare(a, b):
-    # If "ab" > "ba", a should come first → return negative
+    # If "ab" > "ba", a should come first so it returns negative
     if str(a) + str(b) > str(b) + str(a):
         return -1
     elif str(a) + str(b) < str(b) + str(a):
