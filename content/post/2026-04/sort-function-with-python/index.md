@@ -1,6 +1,6 @@
 ---
 title: "Sort() Equivalent With Python"
-description: "Python isn’t JavaScript. I’ll show you with example of the equivalent in Python of Sort JavaScript's function."
+description: "Python isn’t JavaScript. I’ll show you an example of the equivalent in Python of Sort JavaScript's function."
 image: /images/2024-08-23-a-real-python.jpg
 imageAlt: A real python
 date: 2026-04-15

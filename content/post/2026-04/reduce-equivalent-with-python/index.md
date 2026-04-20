@@ -1,6 +1,6 @@
 ---
 title: "Reduce() Equivalent With Python"
-description: "Python isn’t JavaScript.  This time, I’ll show you with example of the equivalent in Python of Reduce JavaScript's function."
+description: "Python isn’t JavaScript.  This time, I’ll show you an example of the equivalent in Python of Reduce JavaScript's function."
 image: /images/2024-08-23-a-real-python.jpg
 imageAlt: A real python
 date: 2026-04-10

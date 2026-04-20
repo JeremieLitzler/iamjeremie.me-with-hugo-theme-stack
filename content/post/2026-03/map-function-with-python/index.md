@@ -1,6 +1,6 @@
 ---
 title: "Map() Function With Python"
-description: "Python isn’t JavaScript. I’ll show you with example of the map function in Python."
+description: "Python isn’t JavaScript. I’ll show you with examples of the map function in Python."
 image: /images/2024-08-23-a-real-python.jpg
 imageAlt: A real python
 date: 2026-03-30

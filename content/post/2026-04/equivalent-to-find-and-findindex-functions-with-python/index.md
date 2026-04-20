@@ -1,6 +1,6 @@
 ---
 title: "Equivalent of Find() and FindIndex() Functions With Python"
-description: "Python isn’t JavaScript.  This time, I’ll show you with example of the equivalents Find and FindIndex function in Python."
+description: "Python isn’t JavaScript.  This time, I’ll show you an example of the equivalents Find and FindIndex function in Python."
 image: /images/2024-08-23-a-real-python.jpg
 imageAlt: A real python
 date: 2026-04-03
