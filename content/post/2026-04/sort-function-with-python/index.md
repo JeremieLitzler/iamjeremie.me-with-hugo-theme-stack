@@ -47,7 +47,7 @@ sorted(words)
 # ['Apple', 'apple', 'banana', 'cherry']
 ```
 
-All uppercase letters come before all lowercase in the Unicode table (A-Z = 65-90, a-z = 97-122).
+All uppercase letters come before all lowercase in the Unicode table (A-Z = 65-90, a-z = 97-122). So the order is logic.
 
 With strings containing accents with default sorting (e.g., no second argument), we obtain the following:
 
@@ -57,11 +57,11 @@ sorted(fruits)
 # ['apple', 'banana', 'zebra', 'éclair']
 ```
 
-The “é” (which is ’U+00E9 = 233` in Unicode table) sorts **AFTER** “z” (which is 122 in Unicode table) leading to accented chars being dumped at the end.
+The “é” (which is `U+00E9 = 233` in Unicode table) sorts **AFTER** “z” (which is 122 in Unicode table) leading to accented chars being dumped at the end.
 
 ### Case-insensitive
 
-To resolve the previous examples, we need to provide a second parameter to `sorted`.
+To solve the previous examples in order to obtain a result that is more consistent with what one would expect, we need to provide a second parameter to `sorted`.
 
 With upper letters:
 
@@ -144,13 +144,15 @@ For proper Unicode Collation Algorithm (UCA) support, use the `pyuca` library (`
 
 ### Summary for String Lists
 
-- **Code-point sort isn’t alphabetical**: “Z” < “a” < “é”. Almost never what users want for display.
-- **`locale.setlocale` is process-global and not thread-safe** — setting it affects the entire program. You need to avoid it on web servers with concurrent requests; use `pyuca` instead.
-- **Locale availability varies**: `fr_FR.UTF-8` may not exist on minimal Docker images. Generate it (`locale-gen`) or install `locales` package.
-- **Normalization matters**: "café" can be encoded two ways — `café` (single `é`, NFC) or `cafe` + combining accent (NFD). They compare as unequal. Make sure to normalize first: `unicodedata.normalize("NFC", s)`.
-- **German ß, Turkish I, Greek final sigma** have locale-specific rules that simple `.lower()` gets wrong. `casefold()` handles most; full correctness needs ICU (`pip install PyICU`).
-- **Numbers in strings don't sort "naturally"**: `["file2", "file10"]` > `[’file10', ’file2']`. Use the `natsort` library for natural ordering.
-- **Chinese/Japanese/Korean** sort by code point won't match pinyin/stroke/radical order users expect — needs ICU or language-specific libraries.
+If we summarize:
+
+- Code-point sort isn’t alphabetical. For ex: “Z” < “a” < “é”. Almost never what users want for display.
+- `locale.setlocale` is process-global and not thread-safe — setting it affects the entire program. You need to avoid it on web servers with concurrent requests; use `pyuca` instead.
+- Locale availability varies: `fr_FR.UTF-8` may not exist on minimal Docker images. Generate it (`locale-gen`) or install `locales` package.
+- Normalization matters: "café" can be encoded two ways — `café` (single `é`, NFC) or `cafe` + combining accent (NFD). They compare as unequal. Make sure to normalize first: `unicodedata.normalize("NFC", s)`.
+- German ß, Turkish I, Greek final sigma have locale-specific rules that simple `.lower()` gets wrong. `casefold()` handles most; full correctness needs ICU (`pip install PyICU`).
+- Numbers in strings don't sort "naturally". For ex, `["file2", "file10"]` > `[’file10', ’file2']`. Use the `natsort` library for natural ordering.
+- Chinese/Japanese/Korean charracters sort by code point won't match pinyin/stroke/radical order users expect — needs ICU or language-specific libraries.
 
 ### Quick decision guide
 
@@ -247,7 +249,7 @@ Let’s look at a common example where we need to arrange a list of numbers to g
 
 So given this list `[3, 30, 34, 5, 9]`, the sort result would be `[9, 5, 34, 3, 30]` to get this biggest number: `"9534330"`.
 
-You can’t assign a single sort key to compare ’3` vs. ’30` in isolation — it depends on which you’re comparing against:
+You can’t assign a single sort key to compare `3` vs. `30` in isolation — it depends on which you’re comparing against:
 
 - `3` vs `30` would provide this pair comparaison `"330" > "303"`. We can say that `3` comes first.
 - `3` vs `34` would provide this pair comparaison `"334" < "343"`. This time `34` comes first.
@@ -285,7 +287,7 @@ So to make the decision between `key` or a comparator, follow this rule of thumb
 
 Remember that equal elements (see the apple example above) preserve their original order (same as modern JS).
 
-If you use **mixed types**, Python will raise `TypeError`\*\*: `sorted([1, "a"])` fails. JavaScript would silently coerce to strings.
+If you use **mixed types**, Python will raise `TypeError` and `sorted([1, "a"])` fails. JavaScript would silently coerce to strings.
 
 `None` values can't be compared to numbers — supply a `key` that handles them: `key=lambda x: (x is None, x)`.
 
