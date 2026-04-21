@@ -42,31 +42,31 @@ ng version
 
 I personally use the following:
 
-- [https://marketplace.visualstudio.com/items?itemName=1tontech.angular-material](https://marketplace.visualstudio.com/items?itemName=1tontech.angular-material)
-- [https://marketplace.visualstudio.com/items?itemName=alexiv.vscode-angular2-files](https://marketplace.visualstudio.com/items?itemName=alexiv.vscode-angular2-files)
-- [https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-- [https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-- [https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)
-- [https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig)
-- [https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-- [https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-- [https://marketplace.visualstudio.com/items?itemName=gruntfuggly.todo-tree](https://marketplace.visualstudio.com/items?itemName=gruntfuggly.todo-tree)
-- [https://marketplace.visualstudio.com/items?itemName=humao.rest-client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
-- [https://marketplace.visualstudio.com/items?itemName=infinity1207.angular2-switcher](https://marketplace.visualstudio.com/items?itemName=infinity1207.angular2-switcher)
-- [https://marketplace.visualstudio.com/items?itemName=john-crowson.angular-file-changer](https://marketplace.visualstudio.com/items?itemName=john-crowson.angular-file-changer)
-- [https://marketplace.visualstudio.com/items?itemName=loiane.angular-extension-pack](https://marketplace.visualstudio.com/items?itemName=loiane.angular-extension-pack)
-- [https://marketplace.visualstudio.com/items?itemName=obenjiro.arrr](https://marketplace.visualstudio.com/items?itemName=obenjiro.arrr)
-- [https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)
-- [https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation](https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation)
-- [https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
-- [https://marketplace.visualstudio.com/items?itemName=rctay.karma-problem-matcher](https://marketplace.visualstudio.com/items?itemName=rctay.karma-problem-matcher)
-- [https://marketplace.visualstudio.com/items?itemName=segerdekort.angular-cli](https://marketplace.visualstudio.com/items?itemName=segerdekort.angular-cli)
-- [https://marketplace.visualstudio.com/items?itemName=simontest.simontest](https://marketplace.visualstudio.com/items?itemName=simontest.simontest)
-- [https://marketplace.visualstudio.com/items?itemName=steoates.autoimport](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
-- [https://marketplace.visualstudio.com/items?itemName=stringham.move-ts](https://marketplace.visualstudio.com/items?itemName=stringham.move-ts)
-- [https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
-- [https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+- `1tontech.angular-material`
+- `alexiv.vscode-angular2-files`
+- `bradlc.vscode-tailwindcss`
+- `christian-kohler.path-intellisense`
+- `cyrilletuzi.angular-schematics`
+- `dbaeumer.vscode-eslint`
+- `editorconfig.editorconfig`
+- `formulahendry.auto-close-tag`
+- `formulahendry.auto-rename-tag`
+- `gruntfuggly.todo-tree`
+- `humao.rest-client`
+- `infinity1207.angular2-switcher`
+- `john-crowson.angular-file-changer`
+- `loiane.angular-extension-pack`
+- `obenjiro.arrr`
+- `patbenatar.advanced-new-file`
+- `pucelle.vscode-css-navigation`
+- `quicktype.quicktype`
+- `rctay.karma-problem-matcher`
+- `segerdekort.angular-cli`
+- `simontest.simontest`
+- `steoates.autoimport`
+- `stringham.move-ts`
+- `techer.open-in-browser`
+- `wix.vscode-import-cost`
 
 ### Create a project
 
