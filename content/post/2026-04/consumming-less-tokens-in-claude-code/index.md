@@ -1,5 +1,5 @@
 ---
-title: "Consumming Less Tokens In Claude Code"
+title: "Consuming Fewer Tokens in Claude Code"
 description: "A colleague of mine shared this with me recently. Imagine you could decrease token usage by 80% on shell commands. Hello Rust Token Killer!"
 image: /images/2026-03-09-white-robot-looking-at-the-camera.jpg
 imageAlt: White robot looking at the camera
