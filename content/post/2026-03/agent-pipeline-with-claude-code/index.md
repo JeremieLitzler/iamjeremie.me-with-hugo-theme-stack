@@ -1,7 +1,7 @@
 ---
 title: "Agent Pipeline With Claude Code"
 description: "Just like us, AI is better when it is specialized. One responsibility, one agent and the output provide a much better result."
-image: 2026-03-09-white-robot-looking-at-the-camera.jpg
+image: /images/2026-03-09-white-robot-looking-at-the-camera.jpg
 imageAlt: White robot looking at the camera
 date: 2026-03-16
 categories:

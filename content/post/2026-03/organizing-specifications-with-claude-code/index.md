@@ -1,7 +1,7 @@
 ---
 title: "Organizing Specifications with Claude Code"
 description: "Agentic coding has grown big in 2025 and to make sure I could stay up to speed, I tried Claude Code last month. "
-image: 2026-03-09-white-robot-looking-at-the-camera.jpg
+image: /images/2026-03-09-white-robot-looking-at-the-camera.jpg
 imageAlt: White robot looking at the camera
 date: 2026-03-09
 categories:
