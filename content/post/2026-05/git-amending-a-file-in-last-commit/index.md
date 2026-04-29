@@ -3,7 +3,7 @@ title: "Amending A File in Last Commit"
 description: "Example: to remove an accidently pushed secret to a configuration file"
 image: /images/2026-04-29-logo-of-git-scm.svg
 imageAlt: Logo of Git Versioning Software
-date: 2026-04-29
+date: 2026-05-01
 categories:
   - Software Development
 tags:
@@ -29,7 +29,7 @@ This replaces the file with its version from one commit before, staging it autom
 
 ## But All Traces of the File’s Commit Aren’t Gone
 
-As described in [the previous article](../git-remove-file-from-last-pushed-commit/index.md#but-all-traces-of-the-files-commit-arent-gone), any history rewrite (amend, rebase, etc.) leaves the old commit object and its associated tree/blob objects as dangling. It doesn’t matter whether you removed a file or just reverted a change—the previous version of that blob stays in `.git/objects` until garbage collected.
+As described in [the previous article](../../2026-04/git-remove-file-from-last-pushed-commit/index.md#but-all-traces-of-the-files-commit-arent-gone), any history rewrite (amend, rebase, etc.) leaves the old commit object and its associated tree/blob objects as dangling. It doesn’t matter whether you removed a file or just reverted a change—the previous version of that blob stays in `.git/objects` until garbage collected.
 
 The same cleanup applies:
 
