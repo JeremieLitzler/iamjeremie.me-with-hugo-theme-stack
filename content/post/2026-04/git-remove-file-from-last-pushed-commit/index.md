@@ -1,6 +1,6 @@
 ---
 title: "Remove File From Last Pushed Commit"
-description: "Example : to remove an accidently pushed .env file"
+description: "Example: to remove an accidently pushed .env file"
 image: /images/2026-04-29-logo-of-git-scm.svg
 imageAlt: Logo of Git Versioning Software
 date: 2026-04-24
