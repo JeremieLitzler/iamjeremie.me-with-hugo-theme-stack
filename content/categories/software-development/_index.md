@@ -1,5 +1,5 @@
 ---
-title: Sofware Development
+title: Software Development
 description: It's not all about the Web. You can also built cool things with software in general, even if the target isn't the Web platform. In the articles below, the topic is software in general, not applying to the Web.
 image: framed-html-concepts.jpg
 imageAlt: Photo by Chen on Unsplash
