@@ -84,7 +84,7 @@ builder.Host.UseDefaultServiceProviderFactory(new ServiceProviderOptions
 With the following constructor-based registration,
 
 ```csharp
-services.AddSingleton<MyOtherService>(); // depends on Service1 via constructor
+services.AddScoped<MyOtherService>(); // depends on Service1 via constructor
 // Service1 is never registered
 ```
 
@@ -101,7 +101,7 @@ You find the bug before any request hits the server.
 If you use factory-based registration,
 
 ```csharp
-services.AddSingleton(sp =>
+services.AddScoped(sp =>
 {
     var dep = sp.GetRequiredService<Service1>(); // Service1 never registered
     return new MyOtherService(dep);
@@ -223,8 +223,8 @@ builder.Services
     .ValidateOnStart();
 
 // 3. Plain constructor injection — no factory needed
-builder.Services.AddSingleton<Service1>();
-builder.Services.AddSingleton<MyOtherService>();
+builder.Services.AddScoped<Service1>();
+builder.Services.AddScoped<MyOtherService>();
 
 var app = builder.Build();
 ```
