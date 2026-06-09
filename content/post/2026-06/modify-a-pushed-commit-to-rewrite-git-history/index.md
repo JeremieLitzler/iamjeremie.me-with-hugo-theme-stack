@@ -13,11 +13,11 @@ tags:
 
 If the commit is the **first one on your feature branch** and you need to **exclude two file changes from it**, you can still fix it using an **interactive rebase**
 
-![Example of commit to modify](example-commit-modify.png)
+![Example of commit to modify](example-commit-modify.webp)
 
-Here’s how to do it:
+Here’s how to do it.
 
-## Rebase With the Hash For the Commit Before the One to Modify\*\*
+## Interactive Rebase
 
 You can rebase starting from **the commit before the one to modify** using:
 
@@ -31,7 +31,7 @@ This will open an editor showing all the commits after the one provided in the r
 
 1. Mark the commit you need to edit as `edit`.
 
-   ![Interactive rebase window](interactive-rebase-window.png)
+   ![Interactive rebase window](interactive-rebase-window.webp)
 
 2. Save and exit
 3. When Git pauses at that commit, run:
@@ -42,7 +42,7 @@ This will open an editor showing all the commits after the one provided in the r
 
    This unstages all files from the commit.
 
-   ![Unstaged modifications](unstaged-modifications.png)
+   ![Unstaged modifications](unstaged-modifications.webp)
 
 4. Then re-add only the files you want to keep (or undo the files which changes you don’t need):
 
@@ -68,7 +68,7 @@ This will open an editor showing all the commits after the one provided in the r
   git push --force-with-lease
   ```
 
-![Commits before vs. after](commits-before-vs-after.png)
+![Commits before vs. after](commits-before-vs-after.webp)
 
 Both rewrite remote history. The difference is the safety check.
 
@@ -91,6 +91,8 @@ That’s because you ran the rebase command on the feature branch and rewrote th
 To be able to merge the feature branch into master through a pull request, you need to make sure your local master is up-to-date with `git pull origin master`.
 
 Then, checkout the feature branch and execute `git rebase master`. The histories are now synchronized and GitHub will propose to you to create the pull request.
+
+## Wanna Learn More?
 
 For more about learning Git and related operation, I recommend you take a look at [https://learngitbranching.js.org/](https://learngitbranching.js.org/). It explains the fundamentals of Git commits, branchings and navigating in the history of a repository Git.
 
