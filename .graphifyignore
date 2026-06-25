@@ -1,4 +1,10 @@
+# --- Build graph scope ("how the website is built") ---
+# This .graphifyignore governs the ROOT graph in graphify-out/, which is scoped to
+# the site machinery: layouts, theme, assets, config, deploy. The prose in content/
+# is a SEPARATE graph in content-graph/graphify-out/ (built/updated on its own).
+# Keep both excluded here so a root rebuild never ingests content or the content graph.
 content/
+content-graph/
 static/js/
 *.png
 *.jpg

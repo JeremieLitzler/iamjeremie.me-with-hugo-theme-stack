@@ -15,3 +15,12 @@ node_modules
 graphify-out/*
 !graphify-out/graph.json
 !graphify-out/GRAPH_REPORT.md
+
+# Content knowledge graph (content-graph/) — same policy: commit the durable
+# outputs, ignore cache/intermediates/machine-local files. The driver script
+# and labels-override.json live outside graphify-out/ and are tracked normally.
+content-graph/graphify-out/*
+!content-graph/graphify-out/graph.json
+!content-graph/graphify-out/GRAPH_REPORT.md
+# Defensive: graphify's cache is keyed to the scan root; never commit a stray copy.
+content/graphify-out/
