@@ -1,12 +1,12 @@
 ---
-
 title: Supermarket Garlic For Seed, by Charles Dowding
 description: A full harvest of a wide range of a different quality garlic gives the gardener a sense of accomplishment. Plus, you will enjoy deliciously-spiced meals.
 date: 2022-09-22
-image: '/images/2022-09-22-supermarket-garlic-for-seed-charles-dowding-hero.webp'
+image: "/images/2022-09-22-supermarket-garlic-for-seed-charles-dowding-hero.webp"
 imageAlt: A full harvest of a wide range of quality of the various heads
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig
@@ -49,13 +49,13 @@ Why?
 1. the outer skin can decay and the garlic turns bad or the garlic may rot
 2. the cloves can start sprouting and you will see a lot of new garlic shoots
 
-![Example of a garlic left too long in the soil after being ready (the one of the right) compared to one garlic just right (the one of the left).](images/overdue-garlic.webp 'Credits: from Charles Dowding’s vlog.')
+![Example of a garlic left too long in the soil after being ready (the one of the right) compared to one garlic just right (the one of the left).](images/overdue-garlic.webp "Credits: from Charles Dowding’s vlog.")
 
 ## Diseases of garlic
 
 ### Rust
 
-![Overdue garlic](images/garlic-rust.webp 'Credits: from Charles Dowding’s vlog.')
+![Overdue garlic](images/garlic-rust.webp "Credits: from Charles Dowding’s vlog.")
 
 It is a rampant fungal disease that infects the entire Allium family, including garlic and onions. If left unchecked, the disease can result in smaller-than-usual bulbs and limited growth of a plant. Garlic infected by rust is still edible and unless the infection was severe, you should get a decently sized bulb at harvest time. There’s no need to prematurely pick your garlic crop unless the entire plant is brown and dead. (Like “dead dead”, not “ready and ripe” dead.)
 

@@ -1,12 +1,12 @@
 ---
-
 title: Easy earthing up on potatoes with compost, with Charles Dowding
 description: "Using compost, Charles shares a trick that makes it easy and quick earth potatoes. Try it!"
 date: 2022-10-19
-image: '/images/2022-10-19-easy-earthing-up-on-potatoes-with-compost-charles-dowding-hero.webp'
+image: "/images/2022-10-19-easy-earthing-up-on-potatoes-with-compost-charles-dowding-hero.webp"
 imageAlt: A shovel earthing up a plant of potatoes
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

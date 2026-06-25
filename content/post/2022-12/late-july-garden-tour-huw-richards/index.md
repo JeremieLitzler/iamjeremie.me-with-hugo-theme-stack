@@ -4,6 +4,7 @@ description: "The garden is very productive around mid-summer. Let's look at wha
 date: 2022-12-16
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - In July
@@ -25,7 +26,7 @@ Huw transplanted the seedlings early April, two weeks after sowing.
 
 ## Brassicaceae
 
-![Beds of Brassicaceae](images/cabbage-beds.jpg 'In the frond, we have the Brussels sprouts and in the back kale and other long-term varieties. Credits: image taken from Huw Richard’s vlog')
+![Beds of Brassicaceae](images/cabbage-beds.jpg "In the frond, we have the Brussels sprouts and in the back kale and other long-term varieties. Credits: image taken from Huw Richard’s vlog")
 
 You should mix long-term and short-term varieties so you can free up space in your beds when you can remove the short-term ones.
 
@@ -45,33 +46,33 @@ Huw checks every 2 to 3 days the plants for cabbage white caterpillars.
 
 ## Squash
 
-![A bed of squash](images/squash.jpg 'Credits: image taken from Huw Richard’s vlog')
+![A bed of squash](images/squash.jpg "Credits: image taken from Huw Richard’s vlog")
 
 They need warm weather and a long period of temperatures around 15 °C won’t help them.
 
 ## Beans
 
-![Runner beans flowering](images/runner-beans.jpg 'These are emperor runner beans. Credits: image taken from Huw Richard’s vlog')
+![Runner beans flowering](images/runner-beans.jpg "These are emperor runner beans. Credits: image taken from Huw Richard’s vlog")
 
 If you’re in a climate like the UK, you can have rust on the leaves and for small plants, it can become a problem for their growth.
 
-![Leaves with rust](images/rust-runner-beans.jpg 'Rust is a disease that you will find on the leaves when the weather is damped. Credits: image taken from Huw Richard’s vlog')
+![Leaves with rust](images/rust-runner-beans.jpg "Rust is a disease that you will find on the leaves when the weather is damped. Credits: image taken from Huw Richard’s vlog")
 
 ## Broad beans
 
-![Broad beans](images/broad-beans.jpg 'Those broad beans look tired. One last harvest and they go on the compost bin. Credits: image taken from Huw Richard’s vlog')
+![Broad beans](images/broad-beans.jpg "Those broad beans look tired. One last harvest and they go on the compost bin. Credits: image taken from Huw Richard’s vlog")
 
 They don’t like the damp and cool weather. Rust will infect the plants in such weather.
 
 ## Saving seeds
 
-![Leaks flowering](images/leaks-bolting.jpg 'Credits: image taken from Huw Richard’s vlog')
+![Leaks flowering](images/leaks-bolting.jpg "Credits: image taken from Huw Richard’s vlog")
 
 It’s a important job to become self-sufficient to grow your own crops.
 
 In July, you can get leak and spinach seeds.
 
-![Perpetual spinach](images/perpetual-spinach-bolting.jpg 'Huw doesn’t worry about cross-pollination. Credits: image taken from Huw Richard’s vlog')
+![Perpetual spinach](images/perpetual-spinach-bolting.jpg "Huw doesn’t worry about cross-pollination. Credits: image taken from Huw Richard’s vlog")
 
 ## Beetroot
 
@@ -79,7 +80,7 @@ Huw transplants them around that time of the summer.
 
 ## Leaks
 
-![A bed of young leaks](images/bed-of-leaks.jpg 'Credits: image taken from Huw Richard’s vlog')
+![A bed of young leaks](images/bed-of-leaks.jpg "Credits: image taken from Huw Richard’s vlog")
 
 Huw transplants them around that time of the summer.
 
@@ -95,7 +96,7 @@ A bumble bee’s nest is usually found in the ground. So watch out before you tr
 
 ## Swiss chard
 
-![Swiss chard](images/swiss-chard.jpg 'Credits: image taken from Huw Richard’s vlog')
+![Swiss chard](images/swiss-chard.jpg "Credits: image taken from Huw Richard’s vlog")
 
 They need watering otherwise they will bolt after 3 to 4 weeks of dry weather.
 
@@ -111,7 +112,7 @@ You can still use the leaves.
 
 ## Salads
 
-![A bed of various salads](images/lettuce-bed.jpg 'Flowers of lettuce last only a few hours before they close. Credits: image taken from Huw Richard’s vlog')
+![A bed of various salads](images/lettuce-bed.jpg "Flowers of lettuce last only a few hours before they close. Credits: image taken from Huw Richard’s vlog")
 
 Lettuce will bolt easily.
 
@@ -119,7 +120,7 @@ However, Huw talked about a variety well known in Asia that doesn’t bolt as ea
 
 ## Sweet peas
 
-![Several varieties of flowering sweet peas](images/sweet-peas-of-different-colors.jpg 'If you need ornamentals and want to eat them, grow various varieties of sweet peas for a colorful garden. Credits: image taken from Huw Richard’s vlog')
+![Several varieties of flowering sweet peas](images/sweet-peas-of-different-colors.jpg "If you need ornamentals and want to eat them, grow various varieties of sweet peas for a colorful garden. Credits: image taken from Huw Richard’s vlog")
 
 Huw loves the fragrance of the sweet pea flowers in the early evening.
 
@@ -129,7 +130,7 @@ And pollinators will love the bed where they’re planted.
 
 At this time of the year, you will find that the jungle is on!
 
-![Green tomatoes](images/tomatoes.jpg 'To protect the tomatoes, growing them under cover is a good idea. Credits: image taken from Huw Richard’s vlog')
+![Green tomatoes](images/tomatoes.jpg "To protect the tomatoes, growing them under cover is a good idea. Credits: image taken from Huw Richard’s vlog")
 
 You can plant tomatoes under the polytunnel.
 

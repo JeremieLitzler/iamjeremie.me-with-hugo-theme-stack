@@ -13,6 +13,7 @@ next:
 relcanonical: https://iamjeremie.substack.com/p/three-types-of-heap-charles-dowding
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

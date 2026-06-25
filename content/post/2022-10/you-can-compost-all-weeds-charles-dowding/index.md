@@ -1,12 +1,12 @@
 ---
-
 title: You can compost all weeds, by Charles Dowding
 description: "I wrote the following notes watching the video published on Charles Dowding's channel"
 date: 2022-10-20
-image: '/images/2022-10-20-you-can-compost-all-weeds-charles-dowding-hero.jpg'
+image: "/images/2022-10-20-you-can-compost-all-weeds-charles-dowding-hero.jpg"
 imageAlt: Two persons sorting a pallet compost heap
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

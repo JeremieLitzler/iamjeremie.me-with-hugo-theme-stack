@@ -4,6 +4,7 @@ description: "It is easy to make your own. Start hunting for the pallets and you
 date: 2022-12-14
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Compost
@@ -67,7 +68,6 @@ I found the following interesting:
 - With Huw’s build or mine, you don’t need to dig the corners in the ground. The bin simply rests on it.
 
 - Just like Huw, I prefer screws rather than nails.
-
   - If you do use screws, maybe, I will go a bit further, use stainless steel screws, so that, if you take the bin apart, they won’t break on you from rusting.
 
 - Setup a _tool share_ with your neighborhood

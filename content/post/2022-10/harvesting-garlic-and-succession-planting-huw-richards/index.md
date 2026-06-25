@@ -1,11 +1,12 @@
 ---
 title: Harvesting Garlic and Succession Planting, by Huw Richards
-description: 'Succession planting the act to sow and plant another crops following the harvesting of a previous one.'
+description: "Succession planting the act to sow and plant another crops following the harvesting of a previous one."
 date: 2022-10-04
-image: '/images/2022-10-04-harvesting-garlic-and-succession-planting-salads-huw-richards-hero.jpg'
+image: "/images/2022-10-04-harvesting-garlic-and-succession-planting-salads-huw-richards-hero.jpg"
 imageAlt: Garlic and salads growing together
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Garlic

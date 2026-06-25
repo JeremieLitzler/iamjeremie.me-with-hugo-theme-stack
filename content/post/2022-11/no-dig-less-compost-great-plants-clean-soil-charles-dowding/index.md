@@ -2,10 +2,11 @@
 title: "No dig: less compost to grow great plants, by Charles Dowding"
 description: 'Starting "No Dig" doesn’t necessarily mean requiring loads of compost.'
 date: 2022-11-08
-image: '/images/2022-11-08-no-dig--using-less-compost-to-grow-great-plants-and-have-clean-soil-charles-dowding-hero.jpg'
+image: "/images/2022-11-08-no-dig--using-less-compost-to-grow-great-plants-and-have-clean-soil-charles-dowding-hero.jpg"
 imageAlt: A bed of flowers at the bottom of a tree orchard
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig
@@ -28,7 +29,7 @@ Before, it will look like the picture below, with a narrower.
 
 After, the No Dig strip, covered with compost, allows to plant flowers and even vegetables.
 
-![After using no dig around trees](images/2022-11-08-no-dig--using-less-compost-to-grow-great-plants-and-have-clean-soil-charles-dowding-hero.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![After using no dig around trees](images/2022-11-08-no-dig--using-less-compost-to-grow-great-plants-and-have-clean-soil-charles-dowding-hero.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 As Charles tells us often, you don’t need to wait much before planting.
 

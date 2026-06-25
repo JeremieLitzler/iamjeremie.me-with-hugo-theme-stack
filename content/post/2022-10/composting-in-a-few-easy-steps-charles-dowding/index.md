@@ -1,12 +1,12 @@
 ---
-
 title: Composting in a few easy steps, by Charles Dowding
 description: "Charles presents quick ways to make and use compost in a no dig garden."
 date: 2022-10-27
-image: '/images/2022-10-27-homeacres-property-viewed-from-above.jpg'
+image: "/images/2022-10-27-homeacres-property-viewed-from-above.jpg"
 imageAlt: Homeacres property viewed from above
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig
@@ -21,7 +21,7 @@ You need to try things out when it comes to composts.
 
 In this article, we will look at that with Charles.
 
-![Compost thermometer in fresh vegetable waste](images/compost-thermometer-in-fresh-vegetable-waste.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Compost thermometer in fresh vegetable waste](images/compost-thermometer-in-fresh-vegetable-waste.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 {{< blockcontainer jli-notice-tip "Personal note" >}}
 
@@ -54,7 +54,7 @@ The steps are:
 - Attach the sides together with a wire on top and bottom (and even in the middle if necessary)
 - Put cardboard around the inside edges to keep the light out and the moisture as you will fill in the heap.
 
-![Wood pallets attached one to the other with a wire](images/pallets-attached-with-a-wire.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Wood pallets attached one to the other with a wire](images/pallets-attached-with-a-wire.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 That is it!
 
@@ -64,7 +64,7 @@ No need of cardboard at the bottom.
 
 ## How to use the 3-heap system
 
-![3-heap system](images/3-heaps.svg 'A view of the heaps numbered by the creation sequence')
+![3-heap system](images/3-heaps.svg "A view of the heaps numbered by the creation sequence")
 
 - You will fill heap 1 first.
 - Then you will fill heap 2.
@@ -75,7 +75,7 @@ When you need to turn heap 1 into heap 3 again, your compost in heap 3 from t
 
 ## What do you put in the heap
 
-![Inside a pallet heap, a lot of green vegetable waste](images/inside-a-pallet-heap.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Inside a pallet heap, a lot of green vegetable waste](images/inside-a-pallet-heap.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 You can put:
 

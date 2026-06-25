@@ -2,10 +2,11 @@
 title: Production of compost from clippings and other waste, the principles and some results, by Charles Dowding
 description: "The joy of compost is that you can turn any waste, even other people waste into soil food."
 date: 2022-11-16
-image: '/images/2022-11-16-homeacres-greenhouse-on-a-dark-winter-day.jpg'
+image: "/images/2022-11-16-homeacres-greenhouse-on-a-dark-winter-day.jpg"
 imageAlt: A greenhouse on a cloudy day
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig
@@ -44,7 +45,7 @@ For example:
   - The heat will speed the process to kill them.
 - Straw, if you have an organic
 
-![A patch of couch grass](images/a-patch-of-couchgrass.jpg 'Charles holds a patch of couch grass still very well alive that will go on the heap. Credits: image taken from Charles Dowding’s vlog')
+![A patch of couch grass](images/a-patch-of-couchgrass.jpg "Charles holds a patch of couch grass still very well alive that will go on the heap. Credits: image taken from Charles Dowding’s vlog")
 
 Charles simply says to balance material with half green and half brown.
 
@@ -54,7 +55,7 @@ The summer brings more green material.
 
 In the winter, the brown material dominates more.
 
-![A compost heap](images/a-compost-heap.jpg 'A winter compost heap during shooting the vlog in February 2017. Credits: image taken from Charles Dowding’s vlog')
+![A compost heap](images/a-compost-heap.jpg "A winter compost heap during shooting the vlog in February 2017. Credits: image taken from Charles Dowding’s vlog")
 
 Charles layers the material on the heap and you find air thanks to the brown material to help the green material to degrade.
 
@@ -87,7 +88,7 @@ When you can’t build a structure as big as Charles or if you don’t need so a
 
 You just need to cover the sides with cardboard to keep the moisture.
 
-![A simple pallet-made composting container](images/simple-composting-container.jpg 'A pallet-made compost heap. Simple and free. Credits: image taken from Charles Dowding’s vlog')
+![A simple pallet-made composting container](images/simple-composting-container.jpg "A pallet-made compost heap. Simple and free. Credits: image taken from Charles Dowding’s vlog")
 
 ## Consistency of the compost
 
@@ -124,7 +125,7 @@ Well-rotted cow manure can make nice compost and it’s less dark than the green
 
 Finally, the homemade compost with a very good balance of green and brown gives a lighter shade of brown compared to the cow manure compost.
 
-![Compost in a tray on some other compost](images/dark-brown-vs-jet-black-compost.jpg 'A dark brown is better than a jet black concerning the compost’s color. Credits: image taken from Charles Dowding’s vlog')
+![Compost in a tray on some other compost](images/dark-brown-vs-jet-black-compost.jpg "A dark brown is better than a jet black concerning the compost’s color. Credits: image taken from Charles Dowding’s vlog")
 
 ## Turning compost
 

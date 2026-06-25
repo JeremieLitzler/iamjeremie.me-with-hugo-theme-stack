@@ -2,10 +2,11 @@
 title: 7 FREE Tricks to Grow Food With Limited Compost, by Huw Richards
 description: "Having enough compost can challenge any gardener. Let’s what Huw what it suggests to do."
 date: 2022-11-23
-image: '/images/2022-11-23-7-free-tricks-to-grow-food-with-limited-compost-huw-richards.jpg'
+image: "/images/2022-11-23-7-free-tricks-to-grow-food-with-limited-compost-huw-richards.jpg"
 imageAlt: Comfrey growing near a compost heap
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Compost
@@ -33,11 +34,11 @@ But simply said, compost is old plants decomposed.
 
 This is what Huw calls _Chop, Move and Drop_.
 
-![Comfrey at the foot of a tomato plant](images/trick-3-chop-take-drop.jpg 'Easy and simple. Credits: image taken from Huw Richard’s vlog') For example, if you grow comfrey (which is a great and easy green material you need in your garden), chop it down, take it and apply it over the beds.
+![Comfrey at the foot of a tomato plant](images/trick-3-chop-take-drop.jpg "Easy and simple. Credits: image taken from Huw Richard’s vlog") For example, if you grow comfrey (which is a great and easy green material you need in your garden), chop it down, take it and apply it over the beds.
 
 ## Trick 4: Use grass clippings before it turns to compost
 
-![A garden bed with grass clippings applied](images/trick-4-use-grass-clipping-fresh.jpg 'Here, Huw applied fresh grass clippings to a bed of tomato plants. Credits: image taken from Huw Richard’s vlog')
+![A garden bed with grass clippings applied](images/trick-4-use-grass-clipping-fresh.jpg "Here, Huw applied fresh grass clippings to a bed of tomato plants. Credits: image taken from Huw Richard’s vlog")
 
 It’s like [trick 3](#trick-3-compost-directly-on-the-beds), but, in this case, you need to apply it in a thin layer (2 cm to 3 cm) to avoid rotting.
 
@@ -110,7 +111,7 @@ As the plant grows, the kitchen waste will be already decomposing and it will pr
 
 ## Trick 7: Plant fermentation
 
-![Someone fills a plastic bottle with liquid from a barrel filled with herbs](images/trick-7-plant-based-framentation.jpg 'Fermented liquid solutions bring loads of benefits. Credits: image taken from Huw Richard’s vlog')
+![Someone fills a plastic bottle with liquid from a barrel filled with herbs](images/trick-7-plant-based-framentation.jpg "Fermented liquid solutions bring loads of benefits. Credits: image taken from Huw Richard’s vlog")
 
 You can make some from:
 
@@ -124,4 +125,4 @@ To make it, check his details vlogs on the topic:
 - [EASY Low-Cost Plant Feed to Boost Crop Yields & Health](../easy-low-cost-plant-feed-to-boost-vegetables-huw-richards/index.md)
 - [GRASS - The Most Valuable FREE Resource for Growing Food](https://www.youtube.com/watch?v=FcmR8KbJzH8)
 
-![Leaf mold on top of some green leaves soaked in water](images/trick-7-starting-point.jpg 'Leaf mold gathered locally will contain microbes that suits best in your garden. Credits: image taken from Huw Richard’s vlog')
+![Leaf mold on top of some green leaves soaked in water](images/trick-7-starting-point.jpg "Leaf mold gathered locally will contain microbes that suits best in your garden. Credits: image taken from Huw Richard’s vlog")

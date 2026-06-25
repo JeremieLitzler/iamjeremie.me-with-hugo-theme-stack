@@ -5,6 +5,7 @@ date: 2022-12-26
 
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Compost

@@ -6,6 +6,7 @@ imageAlt: Aerial view of Huw's garden
 date: 2023-07-24
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - In July

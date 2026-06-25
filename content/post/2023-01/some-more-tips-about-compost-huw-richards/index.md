@@ -4,6 +4,7 @@ description: "Composting is an art that has simple rules. Follow them and you wi
 date: 2023-01-03
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Compost

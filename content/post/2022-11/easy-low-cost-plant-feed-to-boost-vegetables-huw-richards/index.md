@@ -1,11 +1,12 @@
 ---
 title: EASY Low-Cost Plant Feed to Boost Crop Yields & Health, by Huw Richards
-description: 'Instead of buying expensive and dangerous plant feed, learn to make your own now.'
+description: "Instead of buying expensive and dangerous plant feed, learn to make your own now."
 date: 2022-11-24
-image: '/images/2022-11-24-a-cut-plastic-bottle-filled-with-some-brown-liquid.jpg'
+image: "/images/2022-11-24-a-cut-plastic-bottle-filled-with-some-brown-liquid.jpg"
 imageAlt: A cut plastic bottle filled with some brown liquid
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Plant Feed
@@ -28,7 +29,7 @@ Huw believes we can grow food in a way that saves money.
 
 And when finance challenges us, we learn to focus on the things that do matter.
 
-![A moldy solution in a blue barrel](images/fermented-solution.jpg 'It doesn’t look attractive? Don’t give up yet. Continue reading! Credits: image taken from Huw Richard’s vlog')
+![A moldy solution in a blue barrel](images/fermented-solution.jpg "It doesn’t look attractive? Don’t give up yet. Continue reading! Credits: image taken from Huw Richard’s vlog")
 
 What really matters in the garden is:
 
@@ -45,7 +46,7 @@ The recipe requires one expense: the container where you will put it in.
 
 ### Water
 
-![Rain water in a barrel](images/rain-water.jpg 'Credits: image taken from Huw Richard’s vlog')
+![Rain water in a barrel](images/rain-water.jpg "Credits: image taken from Huw Richard’s vlog")
 
 Any kind of soft water will do. The free source is the rain water.
 
@@ -53,7 +54,7 @@ The network water usually contains chlorine and we don’t want to have any micr
 
 ### Leaf mold
 
-![A handful of leaf mold](images/leaf-mold.jpg 'It’s easy to find under a tree. Credits: image taken from Huw Richard’s vlog')
+![A handful of leaf mold](images/leaf-mold.jpg "It’s easy to find under a tree. Credits: image taken from Huw Richard’s vlog")
 
 You need more than a handful.
 

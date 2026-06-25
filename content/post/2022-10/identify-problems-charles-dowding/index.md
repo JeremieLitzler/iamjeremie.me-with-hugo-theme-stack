@@ -2,10 +2,11 @@
 title: Identify problems, with Charles Dowding
 description: "Gardening is full of conflicting advice. So who should you believe. You might see a problem in a garden, is it really? Let’s dive into it with Charles."
 date: 2022-10-31
-image: '/images/2022-10-31-a-garden-bed-with-mostly-squashes.jpg'
+image: "/images/2022-10-31-a-garden-bed-with-mostly-squashes.jpg"
 imageAlt: A view from the air of a large squash patch in a garden
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig
@@ -22,13 +23,13 @@ Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the foll
 
 ## Mildew
 
-![Courgettes with lower leaves covered with mildew](images/courgettes-with-lower-leaves-covered-with-mildew.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Courgettes with lower leaves covered with mildew](images/courgettes-with-lower-leaves-covered-with-mildew.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 Charles shares that in his experience, it isn’t the end of the world.
 
 It’s more a sequence of events where the plants are losing their older leaves.
 
-![Close up on courgettes leaves covered with mildew](images/close-up-on-courgettes-leaves-covered-with-mildew.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Close up on courgettes leaves covered with mildew](images/close-up-on-courgettes-leaves-covered-with-mildew.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 Leaves can turn yellow all summer and it’s possible it isn’t a problem.
 
@@ -56,7 +57,7 @@ A hot compost means the early decomposition process is still going on and the pl
 
 It has been said so often that big root vegetables go woody.
 
-![2 beetroots in the ground](images/2-beetroots-in-the-ground.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![2 beetroots in the ground](images/2-beetroots-in-the-ground.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 It’s absolutely not true.
 
@@ -78,7 +79,7 @@ Also, regarding seedlings, don’t hold them for too long because their quality 
 
 It’s indicating a low nitrogen level.
 
-![Chicory in modules, with small and yellowish plants beside strong green plants](images/chicory-in-modules.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Chicory in modules, with small and yellowish plants beside strong green plants](images/chicory-in-modules.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 ## Don’t blame yourself, learn from experience
 

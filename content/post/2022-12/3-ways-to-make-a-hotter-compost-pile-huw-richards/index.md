@@ -4,6 +4,7 @@ description: "A hot compost means compost ready quicker."
 date: 2022-12-28
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Compost
