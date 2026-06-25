@@ -15,11 +15,8 @@
       "  - $6",
       "---",
       "",
-      "$7",
       "",
-      "<!-- more -->",
-      ""
     ],
-    "description": "Set fronmatter to the new post"
-  }
+    "description": "Set fronmatter to the new post",
+  },
 }
