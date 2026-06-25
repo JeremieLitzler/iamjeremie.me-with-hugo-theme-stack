@@ -6,6 +6,7 @@ imageAlt: Bumblebees on Echinacea flowers
 date: 2023-07-03
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - The Dutch Farmer
   - In July
@@ -21,7 +22,7 @@ You can watch it using [this YouTube link](https://www.youtube.com/watch?v=Saujr
 
 ## Harvest of garlic
 
-![Harvested garlic from in between strawberries](images/harvested-garlic-from-in-between-strawberries.jpg 'Credits: image from the vlog of The Dutch Farmer')
+![Harvested garlic from in between strawberries](images/harvested-garlic-from-in-between-strawberries.jpg "Credits: image from the vlog of The Dutch Farmer")
 
 It usually happens early on the month of July.
 
@@ -41,7 +42,7 @@ It is important to remember that to dry them, you shouldn’t set them in direct
 
 ## Fruit trees
 
-![Ridiculously loaded pear tree](images/ridiculously-loaded-pear-tree.jpg 'Credits: image from the vlog of The Dutch Farmer')
+![Ridiculously loaded pear tree](images/ridiculously-loaded-pear-tree.jpg "Credits: image from the vlog of The Dutch Farmer")
 
 Trees provide many benefits:
 
@@ -55,7 +56,7 @@ So plant your vegetable beds well to make it easier.
 
 ## Tomatoes
 
-![Tomatoes under a polytunnel](images/tomatoes-under-a-polytunnel.jpg 'Credits: image from the vlog of The Dutch Farmer')
+![Tomatoes under a polytunnel](images/tomatoes-under-a-polytunnel.jpg "Credits: image from the vlog of The Dutch Farmer")
 
 You can see above that Moreno uses as much as possible the available space, planting lettuces or flowers at the bottom of tomatoes or cucumbers.
 

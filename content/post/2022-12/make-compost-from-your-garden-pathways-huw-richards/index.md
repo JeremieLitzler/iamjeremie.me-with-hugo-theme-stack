@@ -1,11 +1,12 @@
 ---
 title: Make Compost from Your Garden Pathways with no Compost Bins Needed, by Huw Richards
-description: 'Sometimes it is difficult to build a compost bin. Huw shares a trick to do without.'
+description: "Sometimes it is difficult to build a compost bin. Huw shares a trick to do without."
 date: 2022-12-01
-image: '/images/2022-12-01-huw-watering-his-compost-pathway.jpg'
+image: "/images/2022-12-01-huw-watering-his-compost-pathway.jpg"
 imageAlt: Someone watering a path between 2 garden beds
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Compost
@@ -39,7 +40,7 @@ If you go for this technique, you will need to protect the wooden beds with an e
 
 ### Apply a cardboard base
 
-![Huw applying cardboard in a path](images/step2-apply-a-layer-of-cardboard.jpg 'Cardboard will help keep the weeds away. Credits: image taken from Huw Richard’s vlog')
+![Huw applying cardboard in a path](images/step2-apply-a-layer-of-cardboard.jpg "Cardboard will help keep the weeds away. Credits: image taken from Huw Richard’s vlog")
 
 Especially if you have grass paths, it’s ideal to apply a layer of cardboard.
 
@@ -63,7 +64,7 @@ If you have beds like Huw that measure 3 m by 1.2 m and you apply 3 cm of com
 4. add your vegetable waste or comfrey leaves.
 5. add kitchen scraps (but add something else on top like leaves or more cardboard) .6. finish with a good soaking if you lack rain.
 
-![A pathway with various materials applied](images/finished-pathway.jpg 'The process is easy. Can you take up the challenge of trying it yourself? Credits: image taken from Huw Richard’s vlog')
+![A pathway with various materials applied](images/finished-pathway.jpg "The process is easy. Can you take up the challenge of trying it yourself? Credits: image taken from Huw Richard’s vlog")
 
 You can also add a few sprinkles of leaf mold.
 

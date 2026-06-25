@@ -2,10 +2,11 @@
 title: Multisowing modules to save time, compost and greenhouse space, by Charles Dowding
 description: Charles explains how to sow more seeds in a smaller area and which vegetables work best with multisowing."
 date: 2022-11-18
-image: '/images/2022-11-18-seedling-tray-charles-ready-to-sow.jpg'
+image: "/images/2022-11-18-seedling-tray-charles-ready-to-sow.jpg"
 imageAlt: A seedling tray with Charles ready to sow some seeds
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

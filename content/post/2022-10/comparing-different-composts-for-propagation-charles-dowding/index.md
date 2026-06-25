@@ -7,6 +7,7 @@ imageAlt: Final harvest results
 relcanonical: https://iamjeremie.substack.com/p/comparing-composts-propagation-charles-dowding
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

@@ -14,6 +14,7 @@
       "tags:",
       "  - The Dutch Farmer",
       "  - $5",
+      "seoNoIndex: true",
       "---",
       "",
       "Thanks to Moreno for sharing his wisdom and knowledge!",
@@ -21,8 +22,8 @@
       "",
       "<!-- more -->",
       "",
-      "You can watch it using [this YouTube link]($6)."
+      "You can watch it using [this YouTube link]($6).",
     ],
-    "description": "Set fronmatter to the new post"
-  }
+    "description": "Set fronmatter to the new post",
+  },
 }

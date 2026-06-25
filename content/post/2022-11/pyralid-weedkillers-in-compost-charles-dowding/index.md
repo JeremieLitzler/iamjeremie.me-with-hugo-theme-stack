@@ -1,11 +1,12 @@
 ---
-title: 'Pyralid weedkillers in compost, explained by Charles Dowding'
+title: "Pyralid weedkillers in compost, explained by Charles Dowding"
 description: "Charles talks about aminopyralid weedkiller in his compost because residues were present in the hay and horse manure used to make the compost."
 date: 2022-11-09
-image: '/images/2022-11-09-pyralid-weedkillers-in-compost-amino-and-clopyralid-effects-and-healing-charles-dowding.jpg'
+image: "/images/2022-11-09-pyralid-weedkillers-in-compost-amino-and-clopyralid-effects-and-healing-charles-dowding.jpg"
 imageAlt: Homeacre garden in July 2019
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig
@@ -26,7 +27,7 @@ It doesn’t affect the Brassicaceae family (broccoli, cauliflower, cabbages…)
 
 However, the peas and broad beans are really diseased. But also, tomatoes, strawberries and lettuces will go yellow…
 
-![Two trays of seedlings with the left tray show small plants and the right tray showing large plants](images/aminopyralid-effect-on-french-beans-chard-and-lettuce.jpg 'It’s clear in the image above the effect from the aminopyralid weedkiller on the growth. Credits: image taken from Charles Dowding’s vlog')
+![Two trays of seedlings with the left tray show small plants and the right tray showing large plants](images/aminopyralid-effect-on-french-beans-chard-and-lettuce.jpg "It’s clear in the image above the effect from the aminopyralid weedkiller on the growth. Credits: image taken from Charles Dowding’s vlog")
 
 ## How can we remove aminopyralid weedkiller from the soil
 
@@ -38,24 +39,24 @@ See [below for more details](#how-to-heal-the-contaminated-soil).
 
 ## Don't trust blindly the “_wording_” on compost bags
 
-![A bag of compost labeled Magnolia Brand](images/so-called-organic-compost-vs-certified-moorland-gold-compost.jpg 'Does organic mean anything? Credits: image taken from Charles Dowding’s vlog')
+![A bag of compost labeled Magnolia Brand](images/so-called-organic-compost-vs-certified-moorland-gold-compost.jpg "Does organic mean anything? Credits: image taken from Charles Dowding’s vlog")
 
 Without any label or supporting certifications, saying something is organic has zeo value whatsoever.
 
-![A bag of compost labeled Moorland Gold](images/certified-soil-association-moorland-gold-compost.jpg 'The Moorland Gold compost is certified “Soil Association”. Credits: image taken from Charles Dowding’s vlog') When you pick your compost, be really carefully.
+![A bag of compost labeled Moorland Gold](images/certified-soil-association-moorland-gold-compost.jpg "The Moorland Gold compost is certified “Soil Association”. Credits: image taken from Charles Dowding’s vlog") When you pick your compost, be really carefully.
 
 And run through the following checklist before you use it in your garden.
 
 ## How do you check aminopyralid weedkiller impacts your plants
 
-![A tray of bean seedlings in a 40-module tray](images/so-called-organic-compost-vs-certified-moorland-gold-compost.jpg 'On the right, the so-called organic compost, versus, on the left, the certified Moorland Gold compost to grow the same peas. Credits: image taken from Charles Dowding’s vlog')
+![A tray of bean seedlings in a 40-module tray](images/so-called-organic-compost-vs-certified-moorland-gold-compost.jpg "On the right, the so-called organic compost, versus, on the left, the certified Moorland Gold compost to grow the same peas. Credits: image taken from Charles Dowding’s vlog")
 
 1. Are the leaves yellow?
 2. Are the tips of the leaves of the plants distorted?
 
-![Close up of the leaves of a plant](images/leaves-are-contracted-by-aminopyralid-weedkiller.jpg 'On the image above, we see the effects on the leaves, with this distortion on themselves. Credits: image taken from Charles Dowding’s vlog')
+![Close up of the leaves of a plant](images/leaves-are-contracted-by-aminopyralid-weedkiller.jpg "On the image above, we see the effects on the leaves, with this distortion on themselves. Credits: image taken from Charles Dowding’s vlog")
 
-![Close up of the Leaves of a pepper plant](images/diseased-peppers.jpg 'On the image above, the curled leaves show the aminopyralid effects. Credits: image taken from Charles Dowding’s vlog')
+![Close up of the Leaves of a pepper plant](images/diseased-peppers.jpg "On the image above, the curled leaves show the aminopyralid effects. Credits: image taken from Charles Dowding’s vlog")
 
 It’s generally accepted that the trial to understand the effects of weedkillers on plants isn’t conducted well.
 
@@ -79,7 +80,7 @@ You will need about 10 days of warm days and enough watering to break down the c
 
 It’s the soil life that will break down the poisons.
 
-![Potato plants compared](images/healthy-potatoes-vs-diseased-potatoes.jpg 'On top, the health potato plants versus on the bottom potato plants affected by aminopyralid at the sight of the curled leaves. Credits: image taken from Charles Dowding’s vlog')
+![Potato plants compared](images/healthy-potatoes-vs-diseased-potatoes.jpg "On top, the health potato plants versus on the bottom potato plants affected by aminopyralid at the sight of the curled leaves. Credits: image taken from Charles Dowding’s vlog")
 
 How does Charles know that? A consultant of the company came down to explain it.
 

@@ -1,12 +1,12 @@
 ---
-
 title: July tour of new no dig garden, by Charles Dowding
 description: "Charles Dowding walks through his new no dig garden, talking about harvests, pest covers, compost, watering."
 date: 2022-10-15
-image: '/images/2022-10-15-a-pea-pod-with-large-seeds-in-the-hands-of-charles.jpg'
+image: "/images/2022-10-15-a-pea-pod-with-large-seeds-in-the-hands-of-charles.jpg"
 imageAlt: A pea pod with large seeds in the hands of Charles
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

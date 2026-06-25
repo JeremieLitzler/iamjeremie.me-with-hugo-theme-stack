@@ -6,6 +6,7 @@ imageAlt: A comfrey plant
 date: 2023-04-18
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Comfrey
@@ -69,7 +70,7 @@ I transplanted them in another location in my garden and they’re successfully 
 
 The other method is to dig out some mature plant and use the roots propagate.
 
-![Large roots of comfrey, also called a “crown”](images/large-roots-of-comfrey.jpg 'Credits: image from the vlog of Huw Richards')
+![Large roots of comfrey, also called a “crown”](images/large-roots-of-comfrey.jpg "Credits: image from the vlog of Huw Richards")
 
 You simply take the roots and cut them into 5 cm long pieces. Then Huw suggests to put them into medium modules to so that they can get started, and then you transplant them.
 

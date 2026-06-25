@@ -4,6 +4,7 @@ description: "No dig gardening, you can save a lot of time!"
 date: 2022-11-15
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

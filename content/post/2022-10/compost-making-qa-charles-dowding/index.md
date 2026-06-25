@@ -14,6 +14,7 @@ head:
     ]
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

@@ -6,6 +6,7 @@ imageAlt: "Huw's garden in June"
 date: 2023-06-22
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - In June
@@ -79,7 +80,7 @@ When you water lettuce, wait it from the top like shown below.
 
 The water will then sink through the middle and it will give the full benefits to the lettuce.
 
-![Watering a lettuce from the top](images/watering-a-lettuce-from-the-top.jpg 'Credits: image from the vlog of Huw Richards')
+![Watering a lettuce from the top](images/watering-a-lettuce-from-the-top.jpg "Credits: image from the vlog of Huw Richards")
 
 {{< /blockcontainer >}}
 

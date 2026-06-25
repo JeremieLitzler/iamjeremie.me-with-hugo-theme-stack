@@ -6,6 +6,7 @@ image: "/images/2022-10-18-making-compost-in-a-dalek--and-how-to-access-it-charl
 imageAlt: A dalek, from Blackwall manufacturer
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

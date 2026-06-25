@@ -4,6 +4,7 @@ description: "Building your own compost bay is actually simple. Let's see how Hu
 date: 2022-12-27
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Compost
@@ -19,7 +20,7 @@ You can watch the vlog using [this YouTube link](https://www.youtube.com/watch?v
 
 ## It’s as easy as tying them together
 
-![Tied pallets at the top and the bottom](images/tied-pallets.jpg 'Here, Huw used a blue string. For longevity, you can use a sturdy wire. Credits: image taken from Huw Richard’s vlog')
+![Tied pallets at the top and the bottom](images/tied-pallets.jpg "Here, Huw used a blue string. For longevity, you can use a sturdy wire. Credits: image taken from Huw Richard’s vlog")
 
 You can find pallets for free at the back of supermarkets, or you could ask your neighbors: maybe one works where they have pallets to throw.
 
@@ -41,7 +42,7 @@ Huw covers the full bins with a fabric piece when it’s filled.
 
 ## The rotation technique
 
-![A view of the bins from above them](images/compost-bins-rotation-usage.jpg 'Credits: image taken from Huw Richard’s vlog')
+![A view of the bins from above them](images/compost-bins-rotation-usage.jpg "Credits: image taken from Huw Richard’s vlog")
 
 Huw explains that, given you have enough materials to fill in the bins, you fill in each bin to the top sequentially, as shown above.
 

@@ -2,10 +2,11 @@
 title: Discover the problems when you plant in fresh manure rather than compost, by Charles Dowding
 description: "The best way to discover something is to try them out! Charles shares an example in this vlog."
 date: 2022-11-10
-image: '/images/2022-11-10-discover-the-problems-when-you-plant-in-fresh-manure-rather-than-compost-charles-dowding.jpg'
+image: "/images/2022-11-10-discover-the-problems-when-you-plant-in-fresh-manure-rather-than-compost-charles-dowding.jpg"
 imageAlt: Potato plants in hay
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig
@@ -29,7 +30,7 @@ However, the great news, it’s easy to remove those weeds from the hay.
 
 This tells us how efficient a proper composting process, e.g., getting the temperatures up, is to kill weed seeds.
 
-![A compost thermometer at more than 60 °C](images/compost-thermometer-at-more-than-60c.jpg 'Heat represents the key to make good compost weed seeds free compost. Credits: image taken from Charles Dowding’s vlog')
+![A compost thermometer at more than 60 °C](images/compost-thermometer-at-more-than-60c.jpg "Heat represents the key to make good compost weed seeds free compost. Credits: image taken from Charles Dowding’s vlog")
 
 You need to add regularly material onto the heap and in the proper proportion of green and brown, e.g., in a 50/50 ratio.
 

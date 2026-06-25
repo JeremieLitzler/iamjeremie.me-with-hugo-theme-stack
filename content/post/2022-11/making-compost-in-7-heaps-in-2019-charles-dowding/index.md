@@ -2,10 +2,11 @@
 title: Making compost in 7 heaps in 2019, by Charles Dowding
 description: "No dig, is great for growing wonderful healthy plants, giving lots of growth and a high efficiency of output per time invested."
 date: 2022-11-06
-image: '/images/2022-11-06-making-compost-charles-explains-his-7-heaps-2019-charles-dowding-hero.jpg'
+image: "/images/2022-11-06-making-compost-charles-explains-his-7-heaps-2019-charles-dowding-hero.jpg"
 imageAlt: View of the main heaps of Homeacre
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

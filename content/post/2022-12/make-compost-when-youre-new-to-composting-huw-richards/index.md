@@ -4,6 +4,7 @@ description: "Making your own compost is the key to a successful garden. Let's s
 date: 2022-12-22
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Compost

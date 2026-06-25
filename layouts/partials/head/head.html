@@ -20,6 +20,12 @@
   <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
 {{ end -}}
 
+<!-- customized JLI -->
+<!-- Skip indexing this page on search engines when seoNoIndex is set -->
+{{ if .Params.seoNoIndex }}
+  <meta name="robots" content="noindex, follow" />
+{{ end -}}
+
 {{- partial "head/style.html" . -}}
 {{- partial "head/script.html" . -}}
 {{- partial "head/opengraph/include.html" . -}}

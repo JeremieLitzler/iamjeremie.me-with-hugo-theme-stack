@@ -6,6 +6,7 @@ imageAlt: Gooseberry bush with fruits
 date: 2023-05-01
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - The Dutch Farmer
   - In May

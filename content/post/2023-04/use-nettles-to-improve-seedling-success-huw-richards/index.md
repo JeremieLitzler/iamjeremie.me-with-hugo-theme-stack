@@ -6,6 +6,7 @@ imageAlt: A bowl of nettle with brown sugar
 date: 2023-04-11
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Nettle

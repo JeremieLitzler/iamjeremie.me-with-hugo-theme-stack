@@ -2,10 +2,11 @@
 title: Start Out No Dig, a method with cardboard and compost, by Charles Dowding
 description: "I wrote the following notes watching the video published on Charles Dowding's channel"
 date: 2022-11-07
-image: '/images/2022-11-07-a-basket-of-vegetables.jpg'
+image: "/images/2022-11-07-a-basket-of-vegetables.jpg"
 imageAlt: A basket of vegetables
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig
@@ -54,7 +55,7 @@ You can find it easily for free. But:
 
 ## How to build a No Dig bed
 
-![The difference between three months covering of grass and non-covered grass](images/difference-between-3-months-covering-of-grass-and-non-covered-grass.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![The difference between three months covering of grass and non-covered grass](images/difference-between-3-months-covering-of-grass-and-non-covered-grass.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 ### The first application
 
@@ -102,7 +103,7 @@ It will help to keep the grass to jump the rich soil of your bed.
 
 You can use small wood beams and cardboard as shown below.
 
-![A nice and clean edge with a wood beam on top of cardboard](images/a-nice-and-clean-edge.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![A nice and clean edge with a wood beam on top of cardboard](images/a-nice-and-clean-edge.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 ### You need up to three or four cardboard applications
 
@@ -138,7 +139,7 @@ Charles has severable vlogs on the topics, check out the _propagation_ tag. [The
 
 Planting is simple since the compost is easy to dig into using two fingers.
 
-![Charles showing how to plant a spinach](images/charles-showing-how-to-plant-a-spinach.gif 'Credits: image taken from Charles Dowding’s vlog')
+![Charles showing how to plant a spinach](images/charles-showing-how-to-plant-a-spinach.gif "Credits: image taken from Charles Dowding’s vlog")
 
 The demonstration ([available at minute 20:50 in the vlog](https://youtu.be/0LH6-w57Slw?t=1250)) above showcases how simple it is, requiring no tools.
 

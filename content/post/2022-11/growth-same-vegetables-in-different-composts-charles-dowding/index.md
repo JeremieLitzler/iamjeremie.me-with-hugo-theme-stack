@@ -2,10 +2,11 @@
 title: Comparing growth of the same vegetables, with mulches of different composts, by Charles Dowding
 description: "How do different compost compared to each other when growing the exact same vegetables."
 date: 2022-11-11
-image: '/images/2022-11-11-comparing-growth-of-the-same-vegetables--with-mulches-of-different-composts-charles-dowding.jpg'
+image: "/images/2022-11-11-comparing-growth-of-the-same-vegetables--with-mulches-of-different-composts-charles-dowding.jpg"
 imageAlt: A garden filled with vegetables
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

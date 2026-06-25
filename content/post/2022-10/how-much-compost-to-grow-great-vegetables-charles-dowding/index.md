@@ -1,11 +1,12 @@
 ---
 title: How much and how little compost do you need to grow great vegetables, by Charles Dowding
-description: 'Compost is a key element to grow great vegetables. But how much or how little is a question that Charles Dowding will answer for us. The following article represents my notes from his vlog.'
+description: "Compost is a key element to grow great vegetables. But how much or how little is a question that Charles Dowding will answer for us. The following article represents my notes from his vlog."
 date: 2022-10-13
-image: '/images/2022-10-13-how-much--how-little-compost-do-you-need-to-grow-great-vegetables-charles-dowding-hero.jpg'
+image: "/images/2022-10-13-how-much--how-little-compost-do-you-need-to-grow-great-vegetables-charles-dowding-hero.jpg"
 imageAlt: A garden with a lot of vegetables, like cabbages
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig
@@ -43,11 +44,9 @@ Charles explains his 3-strip trial:
 ![Three strips trial detailed](images/three-strip-trial-area-detailed.jpg "Credits: image taken from Charles Dowding's vlog")
 
 - Strip 1
-
   - It was the strip where the soil was dug and he used no compost.
 
 - Strip 2
-
   - It was the strip where the soil was not dug and no compost was used.
 
 - Strip 3

@@ -1,9 +1,10 @@
 ---
 title: Winter vegetables in January in years 1 and 10, by Charles Dowding
-description: 'In Janury, Charles explains what he does and what grows in his garden.'
+description: "In Janury, Charles explains what he does and what grows in his garden."
 date: 2023-01-10
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

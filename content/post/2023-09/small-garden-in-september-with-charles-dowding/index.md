@@ -6,6 +6,7 @@ imageAlt: A small garden full of flowers
 date: 2023-09-10
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - In September
@@ -95,13 +96,13 @@ Leaving some crops bolt or go to seed, like French beans, will provide free seed
 
 Planting flowers will benefit the garden because good insects will flock to them, especially the cosmos.
 
-![Snapdragon flower](images/snapdragon-flower.jpg 'Credits: image from the vlog of Charles Dowding')
+![Snapdragon flower](images/snapdragon-flower.jpg "Credits: image from the vlog of Charles Dowding")
 
-![Zinia flower](images/zinia-flower.jpg 'Credits: image from the vlog of Charles Dowding')
+![Zinia flower](images/zinia-flower.jpg "Credits: image from the vlog of Charles Dowding")
 
-![Cosmos flower](images/cosmos-flower.jpg 'Credits: image from the vlog of Charles Dowding')
+![Cosmos flower](images/cosmos-flower.jpg "Credits: image from the vlog of Charles Dowding")
 
-![Callaloo flower, also known as aramanth](images/callaloo-flower-also-known-as-aramanth.jpg 'Credits: image from the vlog of Charles Dowding')
+![Callaloo flower, also known as aramanth](images/callaloo-flower-also-known-as-aramanth.jpg "Credits: image from the vlog of Charles Dowding")
 
 ## How crop can you harvest in 25 m²
 

@@ -6,6 +6,7 @@ imageAlt: A tool that helps making holes in the soil to transplat the seedlings
 date: 2023-04-03
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - The Dutch Farmer
   - In April

@@ -1,11 +1,12 @@
 ---
 title: The Art of Lazy Composting or how to Make High-Quality Compost the Simple Way, by Huw Richards
-description: 'Sometimes, we think of making compost as a complex process, but, in reality, it is easy to produce high-quality compost simply.'
+description: "Sometimes, we think of making compost as a complex process, but, in reality, it is easy to produce high-quality compost simply."
 date: 2022-12-06
-image: '/images/2022-12-06-the-art-of-lazy-title-overlaying-someone-handling-fennel.jpg'
+image: "/images/2022-12-06-the-art-of-lazy-title-overlaying-someone-handling-fennel.jpg"
 imageAlt: Someone cutting vegetables in a garden
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - No Dig
@@ -30,7 +31,7 @@ That warmth and heat help to break down the material.
 
 ### The ingredients
 
-![A detailed list of green and brown material](images/green-versus-brown-material.jpg 'Credits: image taken from Huw Richard’s vlog')
+![A detailed list of green and brown material](images/green-versus-brown-material.jpg "Credits: image taken from Huw Richard’s vlog")
 
 You will typically add:
 
