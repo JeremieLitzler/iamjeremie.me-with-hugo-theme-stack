@@ -1,8 +1,8 @@
 ---
 title: Way to Break Down and Use Wood Chips, by Charles Dowding
-description: 'Woodchips can be useful for the garden but breaking them down take ages. With a few tips, Charles explains us how to speed up the process to obtain a rich compost material.'
+description: "Woodchips can be useful for the garden but breaking them down take ages. With a few tips, Charles explains us how to speed up the process to obtain a rich compost material."
 date: 2023-01-18
-image: '/images/2023-01-18-woodchips.jpg'
+image: "/images/2023-01-18-woodchips.jpg"
 imageAlt:
 categories:
   - Gardening
@@ -10,6 +10,7 @@ tags:
   - No Dig
   - Woodchips
   - Compost
+seoNoIndex: true
 ---
 
 Woodchips can be useful for the garden but breaking them down take ages. With a few tips, Charles explains us how to speed up the process to obtain a rich compost material.
@@ -20,7 +21,7 @@ Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the foll
 
 ### Johnson-Su bioreactor
 
-![Aerial view of bioreactor](images/aerial-view-bioreactor-landstewardshipproject.jpg 'Credits: _[Land Stewardship Project](https://landstewardshipproject.org/getting-a-bio-reaction-from-soil/)_')
+![Aerial view of bioreactor](images/aerial-view-bioreactor-landstewardshipproject.jpg "Credits: _[Land Stewardship Project](https://landstewardshipproject.org/getting-a-bio-reaction-from-soil/)_")
 
 It’s used to decompose the woodchips by using this system and making sure the woodchips are properly watered.
 
@@ -46,7 +47,7 @@ On the surface, it’s fine because the plants and vegetables will set their roo
 
 After breaking down a pile of woodchip compost from a bioreactor, you get the following.
 
-![Difference between the inner and the outer woodchips](images/difference-between-inner-and-outer-woodchips.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Difference between the inner and the outer woodchips](images/difference-between-inner-and-outer-woodchips.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 Later in the vlog, Charles explains more about the pipes in the bioreactor.
 
@@ -58,7 +59,7 @@ In that other bioreactor, Charles added chicken manure and the temperature is co
 
 ### Uncovered pile of fresh fragmented woodchips
 
-![A thermometer in woodchip pile](images/thermometer-in-wood-chip-pile.jpg 'It isn’t as hot as a compost heap, but you get some activity. Credits: image taken from Charles Dowding’s vlog')
+![A thermometer in woodchip pile](images/thermometer-in-wood-chip-pile.jpg "It isn’t as hot as a compost heap, but you get some activity. Credits: image taken from Charles Dowding’s vlog")
 
 With fresh fragmented fresh wood (which is what Charles presented, not the dry woodchips), you will get some activity.
 
@@ -70,7 +71,7 @@ The more green the material you get in the woodchip, the faster they will decomp
 
 Charles used a lawnmower to the breakdown of the woodchips after 4–6 months of winter decomposing.
 
-![5-month-old fragmented woodchip after a further breaking with a lawnmower](images/5-months-woodchip-shredded-with-a-lawnmower.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![5-month-old fragmented woodchip after a further breaking with a lawnmower](images/5-months-woodchip-shredded-with-a-lawnmower.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 Green material will decompose faster than the wood pieces, and after 9 months, Charles found out that there are a lot of woodchips left.
 
@@ -82,7 +83,7 @@ It decomposes slower, but it will provide some useful materials with time.
 
 Here a microscope comparison of the Johnson-Su bioreactor and the regular woodchips.
 
-![Microscope view of woodchips decomposed with 2 different methods](images/microscope-view-woodchips-decomposed-with-2-different-methods.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Microscope view of woodchips decomposed with 2 different methods](images/microscope-view-woodchips-decomposed-with-2-different-methods.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 ### Patience is key
 
@@ -129,7 +130,7 @@ Be careful of the large wood piece that can shelter slugs…
 
 What Charles experienced was a very poor start, with a lot of yellow leaves for 6 weeks.
 
-![Vegetable growth compared with sifted 2-year-old woodchip compost versus homemade compost](images/vegetable-growth-compared-with-woodchip-compost-and-homemade-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Vegetable growth compared with sifted 2-year-old woodchip compost versus homemade compost](images/vegetable-growth-compared-with-woodchip-compost-and-homemade-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 After 6 weeks, Charles thinks that the roots got through the layer of woodchips and it ended to be successful, even if less productive.
 

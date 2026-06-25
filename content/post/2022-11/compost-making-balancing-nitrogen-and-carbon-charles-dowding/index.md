@@ -2,7 +2,7 @@
 title: Compost is balancing green & brown, with Charles Dowding
 description: "Successful compost can be summarized by a good a good balance of green or brown. Let's review the must-know with Charles."
 date: 2022-11-04
-image: '/images/2022-11-04-aerial-view-of-charles-garden-as-he-walks-to-the-compost-heap.jpg'
+image: "/images/2022-11-04-aerial-view-of-charles-garden-as-he-walks-to-the-compost-heap.jpg"
 imageAlt: Aerial view of Charles garden as he walks to the compost heap
 categories:
   - Permaculture
@@ -10,6 +10,7 @@ categories:
 tags:
   - No Dig
   - Compost
+seoNoIndex: true
 ---
 
 Successful compost can be summarized by a good a good balance of green or brown. Let's review the must-know with Charles.
@@ -68,17 +69,17 @@ It’s OK to put on vegetable leaves with mildew, for example. For Charles, it d
 
 ## Filling the heap
 
-![Keeping the layers in the heap even is important](images/keep-the-heap-in-even-layers.jpg 'Credits: image taken from Charles Dowding’s vlog') You can put seed on the heap, but put it in the middle where you get the most heat, warranting to kill the seeds. You can put on thistle in as well. A lot of myths, generally accepted, exist about what can't and what can be put in the heap.
+![Keeping the layers in the heap even is important](images/keep-the-heap-in-even-layers.jpg "Credits: image taken from Charles Dowding’s vlog") You can put seed on the heap, but put it in the middle where you get the most heat, warranting to kill the seeds. You can put on thistle in as well. A lot of myths, generally accepted, exist about what can't and what can be put in the heap.
 
 > Once they’ve been repeated enough, then they start to enter the general belief.
 
 ## Building in layers
 
-Why should you fill your heap in layers? To get an even spread. ![A heap with its layers of green and brown](images/heap-layers.jpg 'Credits: image taken from Charles Dowding’s vlog') We don’t see very clearly the brown layers, but it’s there in the ratio stated above. We can see a lot of vegetable stems that contain more _brown_ than green leaves. Also depending on seasons, you will have available a various amounts of green and brown. Spring is the height of the green season. Summer is a bit more balanced green and brown And then autumn is more brown material and finally winter is very brown. ![A winter heap looks more brown](images/a-winter-heap.jpg 'Credits: image taken from Charles Dowding’s vlog') So you’ve got different seasons, you have different materials.
+Why should you fill your heap in layers? To get an even spread. ![A heap with its layers of green and brown](images/heap-layers.jpg "Credits: image taken from Charles Dowding’s vlog") We don’t see very clearly the brown layers, but it’s there in the ratio stated above. We can see a lot of vegetable stems that contain more _brown_ than green leaves. Also depending on seasons, you will have available a various amounts of green and brown. Spring is the height of the green season. Summer is a bit more balanced green and brown And then autumn is more brown material and finally winter is very brown. ![A winter heap looks more brown](images/a-winter-heap.jpg "Credits: image taken from Charles Dowding’s vlog") So you’ve got different seasons, you have different materials.
 
 ## Why build a heap at all
 
-A heap will hold the materials, it will hold the heat and it will make it tidier. Also, Charles has a lot of solids and it’s often said that a compost heat should have slated sides to allow some passenger in (insects, small animals, etc.). Air is a vital ingredient in compost making because that is what bacteria breathe on to live and multiply. And they do a lot of the breakdown: they’re what brings the heat in the heap. The brown material, especially larger pieces, will allow to have more air in the heap, helping the battery to do their job. ![Why use solid sides to build a heap](images/why-use-solid-sides.jpg 'Credits: image taken from Charles Dowding’s vlog') You would ask: why use solid sides to build a heap? Charles explains that it helps:
+A heap will hold the materials, it will hold the heat and it will make it tidier. Also, Charles has a lot of solids and it’s often said that a compost heat should have slated sides to allow some passenger in (insects, small animals, etc.). Air is a vital ingredient in compost making because that is what bacteria breathe on to live and multiply. And they do a lot of the breakdown: they’re what brings the heat in the heap. The brown material, especially larger pieces, will allow to have more air in the heap, helping the battery to do their job. ![Why use solid sides to build a heap](images/why-use-solid-sides.jpg "Credits: image taken from Charles Dowding’s vlog") You would ask: why use solid sides to build a heap? Charles explains that it helps:
 
 - retain the heat and moisture better
 - slatted sides don’t allow a worthwhile amount of air in. They are lined inside with cardboard, so no air enters, moisture and warmth are retained as explained [in this vlog](https://youtu.be/3gAwfzy0qLw).
