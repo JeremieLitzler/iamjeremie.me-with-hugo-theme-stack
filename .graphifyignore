@@ -1,0 +1,12 @@
+content/
+static/js/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+*.ico
+*.avif
+*.bmp
+*.tiff

@@ -9,3 +9,9 @@ node_modules
 
 #Draw.io
 .$*drawio.bkp
+
+# graphify: keep only the durable outputs, ignore intermediates,
+# the build cache, and the machine-local interpreter/root paths
+graphify-out/*
+!graphify-out/graph.json
+!graphify-out/GRAPH_REPORT.md
