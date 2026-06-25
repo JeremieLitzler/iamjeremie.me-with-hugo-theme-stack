@@ -1,9 +1,10 @@
 ---
 title: 7 Most Productive Edible Crops to Sow in February, by Huw Richards
-description: 'Even if you know it might be a little to early, it is hard to resist starting sowing seeds. Huw shares with us what we can sow in February.'
+description: "Even if you know it might be a little to early, it is hard to resist starting sowing seeds. Huw shares with us what we can sow in February."
 date: 2023-02-06
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - In February

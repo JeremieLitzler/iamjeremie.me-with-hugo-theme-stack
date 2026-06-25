@@ -2,9 +2,10 @@
 title: These 8 Free Ingredients Will Bulk Out Your Compost Bins, by Huw Richards
 description: "A gardener can't have too much compost and in fact you may not be able to create enough. Huw will give tips how to improve that."
 date: 2022-12-02
-image: '/images/2022-12-02-sheep-wool-as-a-compostable-material.jpg'
+image: "/images/2022-12-02-sheep-wool-as-a-compostable-material.jpg"
 imageAlt: Some old sheep wool
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Compost
@@ -18,7 +19,7 @@ Thanks to Huw Richards for sharing his wisdom and knowledge! I wrote the followi
 
 ## Base layer
 
-![Huw applying the fibrous base layer in his compost bin](images/base-layer.jpg 'This layer needs to be thick. Credits: image taken from Huw Richard’s vlog')
+![Huw applying the fibrous base layer in his compost bin](images/base-layer.jpg "This layer needs to be thick. Credits: image taken from Huw Richard’s vlog")
 
 Use a very fibrous material like straw or small branches.
 
@@ -28,23 +29,23 @@ It will provide enough oxygen at the base and it’s key to help the microbes th
 
 ## Spent compost
 
-![A wheelbarrow full of spent compost](images/reuse-spent-compost.jpg 'Old compost or used compost can definitely find its place back into the heap. Recycle it! Credits: image taken from Huw Richard’s vlog')
+![A wheelbarrow full of spent compost](images/reuse-spent-compost.jpg "Old compost or used compost can definitely find its place back into the heap. Recycle it! Credits: image taken from Huw Richard’s vlog")
 
 It can come from buckets, module trays, hanging baskets.
 
 ## Wool
 
-![Some wool](images/wool.jpg 'Slugs really don’t like wool as a mulch. Credits: image taken from Huw Richard’s vlog')
+![Some wool](images/wool.jpg "Slugs really don’t like wool as a mulch. Credits: image taken from Huw Richard’s vlog")
 
 It’s a natural ingredient.
 
 You need to tear it up before throwing it to the compost bin.
 
-![Torn wool on a compost heap](images/torn-wool-in-a-compost-heap.jpg 'Tearing the wool in small chunks help the degradation process. Credits: image taken from Huw Richard’s vlog')
+![Torn wool on a compost heap](images/torn-wool-in-a-compost-heap.jpg "Tearing the wool in small chunks help the degradation process. Credits: image taken from Huw Richard’s vlog")
 
 ## Seaweed
 
-![Seaweed on some wool in a wood compost bin](images/seaweed.jpg 'Seaweed brings minerals and organic matter beneficial for compost making. Credits: image taken from Huw Richard’s vlog')
+![Seaweed on some wool in a wood compost bin](images/seaweed.jpg "Seaweed brings minerals and organic matter beneficial for compost making. Credits: image taken from Huw Richard’s vlog")
 
 If you live near a sea, you can take advantage of the seaweed you can collect on the beaches.
 
@@ -58,7 +59,7 @@ Regarding the salt impact on the compost created, you can lay out the seaweed on
 
 ## Grass clippings
 
-![Yellow grass](images/grass-clippings.jpg 'This is a well know ingredient that can bring a lot of heat to your compost heap. Credits: image taken from Huw Richard’s vlog')
+![Yellow grass](images/grass-clippings.jpg "This is a well know ingredient that can bring a lot of heat to your compost heap. Credits: image taken from Huw Richard’s vlog")
 
 I took notes about another vlog from Huw on the topic. [Check it out using this link.](../../2022-11/grass-the-most-valuable-free-resource-huw-richards/index.md)
 
@@ -66,11 +67,11 @@ In the compost bin, you need to make sure you collect pesticide-free grass.
 
 ## Decomposed woodchips
 
-![Decomposed woodchips](images/decomposed-woodchips.jpg 'It takes a while to decompose: about two years! Credits: image taken from Huw Richard’s vlog')
+![Decomposed woodchips](images/decomposed-woodchips.jpg "It takes a while to decompose: about two years! Credits: image taken from Huw Richard’s vlog")
 
 ## Cardboard
 
-![Torn cardboard](images/cardboard.jpg 'It’s easy to collect from small businesses. Credits: image taken from Huw Richard’s vlog')
+![Torn cardboard](images/cardboard.jpg "It’s easy to collect from small businesses. Credits: image taken from Huw Richard’s vlog")
 
 Huw suggests to tear it up before putting it in the compost bin.
 
@@ -90,7 +91,7 @@ Still, it’s high in nitrogen and it boosts the microbial activity.
 
 ## Dead leaves
 
-![Dead leaves](images/dead-leaves.jpg 'When they’re available, gather as much as you can. Credits: image taken from Huw Richard’s vlog')
+![Dead leaves](images/dead-leaves.jpg "When they’re available, gather as much as you can. Credits: image taken from Huw Richard’s vlog")
 
 Collect as much as you can and bag them to use later during the year.
 

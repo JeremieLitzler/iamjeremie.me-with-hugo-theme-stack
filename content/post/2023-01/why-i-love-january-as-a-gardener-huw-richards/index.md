@@ -4,12 +4,13 @@ description: "In january, we don't like going outside because it is cosy inside.
 date: 2023-01-12
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - In January
 ---
 
-![Huw’s garden in January 2022](/images/2023-01-12-huw-garden-in-january-2022.jpg 'Credits: image taken from Huw Richards’ vlog')
+![Huw’s garden in January 2022](/images/2023-01-12-huw-garden-in-january-2022.jpg "Credits: image taken from Huw Richards’ vlog")
 
 In January, we don’t like going outside because it’s cozy inside. But, maybe, you’re like Huw and, in reality, you need to do some work in the garden. Let’s what
 

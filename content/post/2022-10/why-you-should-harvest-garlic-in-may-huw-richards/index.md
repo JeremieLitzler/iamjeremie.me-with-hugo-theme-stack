@@ -1,12 +1,12 @@
 ---
-
 title: Why You Should Harvest Garlic in May, by Huw Richards
 description: "I wrote the following notes watching the video published on Huw Richards's channel"
 date: 2022-10-03
-image: '/images/2022-10-03-why-you-should-harvest-garlic-in-may-huw-richards-hero.jpg'
+image: "/images/2022-10-03-why-you-should-harvest-garlic-in-may-huw-richards-hero.jpg"
 imageAlt: Garlic harvest in May
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Garlic

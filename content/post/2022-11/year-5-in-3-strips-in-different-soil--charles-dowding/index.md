@@ -2,10 +2,11 @@
 title: Growth differences in three strips of different soil treatment, year five, with Charles Dowding
 description: "I wrote the following notes watching the video published on Charles Dowding's channel"
 date: 2022-11-03
-image: '/images/2022-11-03-aerial-view-of-homeacre-garden-with-the-title-of-the-vlog-hero.jpg'
+image: "/images/2022-11-03-aerial-view-of-homeacre-garden-with-the-title-of-the-vlog-hero.jpg"
 imageAlt: Aerial view of Homeacre garden with the title of the vlog
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig
@@ -74,7 +75,7 @@ Charles wanted to compare what effect does that forking, if any, have on growth 
 
 ## Observations after five years between strip One and strip Two
 
-![The 3-strip trial on April 21st of 2019](images/21-april-2019-3-strips-trial.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![The 3-strip trial on April 21st of 2019](images/21-april-2019-3-strips-trial.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 They observed a 5% production different consistently over the five years, especially in the summer.
 

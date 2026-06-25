@@ -1,11 +1,12 @@
 ---
 title: The Nettle, An Incredibly Useful Permaculture Plant, by Huw Richards
-description: 'Yes, nettle is a weed. But do you know a lot of weeds that are 10 times more useful than dreadful?'
+description: "Yes, nettle is a weed. But do you know a lot of weeds that are 10 times more useful than dreadful?"
 image: images/2023-04-10-close-up-on-a-female-nettle.jpg
 imageAlt: Close up on a female nettle
 date: 2023-04-10
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Nettle
@@ -41,13 +42,13 @@ Use a salad spinner to finish off the aphids that might hang on tight :)
 
 ## Reason #2: A wild patch of nettle
 
-![An adult ladybug on a nettle](images/an-adult-ladybug-on-a-nettle.jpg 'Credits: image from the vlog of Huw Richards')
+![An adult ladybug on a nettle](images/an-adult-ladybug-on-a-nettle.jpg "Credits: image from the vlog of Huw Richards")
 
 Why? To help feed the wildlife. Whom am I thinking about? Ladybugs, of course!
 
 Ladybugs love aphids and aphids love nettle so ladybugs love nettles :)
 
-![A ladybug larva ready for lunch](images/a-ladybug-larva-ready-for-lunch.jpg 'Credits: image from the vlog of Huw Richards')
+![A ladybug larva ready for lunch](images/a-ladybug-larva-ready-for-lunch.jpg "Credits: image from the vlog of Huw Richards")
 
 Also, many butterflies love nettles as it’s their main source of food.
 
@@ -57,7 +58,7 @@ The male and female flowers occur on separate plants. Both flower sexes are gree
 
 Here is an example of female nettle:
 
-![Female nettles green ripe seeds](images/female-nettles-green-ripe-seeds.jpg 'Credits: image from [wallpaperflare.com](https://www.wallpaperflare.com/nettles-ripe-seeds-plants-green-leaf-branch-foliage-wallpaper-wvxom)')
+![Female nettles green ripe seeds](images/female-nettles-green-ripe-seeds.jpg "Credits: image from [wallpaperflare.com](https://www.wallpaperflare.com/nettles-ripe-seeds-plants-green-leaf-branch-foliage-wallpaper-wvxom)")
 
 And now an example of male nettle:
 
@@ -67,7 +68,7 @@ Dig a shallow trench and set the roots just like that.
 
 Within a few months, nettles will come out. Within a year, they will spread :)
 
-![Tiny nettle just coming out in the spring](images/tiny-nettle-just-coming-out-in-the-spring.jpg 'Credits: image from the vlog of Huw Richards')
+![Tiny nettle just coming out in the spring](images/tiny-nettle-just-coming-out-in-the-spring.jpg "Credits: image from the vlog of Huw Richards")
 
 ## Reason #3: It’s a superfood
 
@@ -107,7 +108,7 @@ So wherever you see neetle, you’re very likely to be successful with your gard
 
 ## Reason #5: It serves as a good green mulching
 
-![Cutting nettles in pieces prior to mulching perennials](images/cutting-nettles-in-pieces-prior-to-mulching-perennials.jpg 'Credits: image from the vlog of Huw Richards')
+![Cutting nettles in pieces prior to mulching perennials](images/cutting-nettles-in-pieces-prior-to-mulching-perennials.jpg "Credits: image from the vlog of Huw Richards")
 
 Nettle is loaded with nitrogen and potassium. So cutting nettle in bulk, you can then take it and spread it over a bed to boost the soil with the nutrients it contains.
 
@@ -115,7 +116,7 @@ Apply it as a green mulch around the perennials’ base.
 
 ## Reason #6: It works wonderfully as an ingredient for liquid feed
 
-![Making liquid feed from fresh nettles](images/making-liquid-feed-from-fresh-nettles.jpg 'Credits: image from the vlog of Huw Richards')
+![Making liquid feed from fresh nettles](images/making-liquid-feed-from-fresh-nettles.jpg "Credits: image from the vlog of Huw Richards")
 
 The steps are simple:
 

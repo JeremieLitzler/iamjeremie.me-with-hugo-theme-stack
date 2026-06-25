@@ -6,6 +6,7 @@ imageAlt: A man weeding alleys between garden beds
 date: 2023-06-05
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - The Dutch Farmer
   - In June

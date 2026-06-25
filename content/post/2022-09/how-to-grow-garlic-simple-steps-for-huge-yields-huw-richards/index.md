@@ -13,6 +13,7 @@ next:
 relcanonical: https://iamjeremie.me/2022/09/how-to-grow-garlic-simple-steps-for-huge-yields-huw-richards/
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

@@ -2,10 +2,11 @@
 title: Grqss, the most valuable FREE resource for growing food, by Huw Richards
 description: "Let's discover how to use and debunk the myths about it with Huw."
 date: 2022-11-25
-image: '/images/2022-11-25-grass-clippings-in-a-lawn-mower-bag.jpg'
+image: "/images/2022-11-25-grass-clippings-in-a-lawn-mower-bag.jpg"
 imageAlt: Grass clippings in a lawn mower bag
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Grass clippings
@@ -31,11 +32,11 @@ Why? Because if you apply a too thick layer, it creates a sludge and an anaerobi
 
 In practice, you don’t want to apply a layer of more than 2 cm to 3 cm thick.
 
-![Grass on top of a compost heap](images/grass-on-compost-heap.jpg 'Grass is a great addition to a compost heap. Credits: image taken from Huw Richard’s vlog')
+![Grass on top of a compost heap](images/grass-on-compost-heap.jpg "Grass is a great addition to a compost heap. Credits: image taken from Huw Richard’s vlog")
 
 Also, the other trick is to mix it with another material, like cardboard.
 
-![Mix of cardboard with grass](images/mix-of-cardboard-with-grass.jpg 'If you turn it regularly, you should get some decent compost. Credits: image taken from Huw Richard’s vlog')
+![Mix of cardboard with grass](images/mix-of-cardboard-with-grass.jpg "If you turn it regularly, you should get some decent compost. Credits: image taken from Huw Richard’s vlog")
 
 It will become ready within 2 months.
 
@@ -45,7 +46,7 @@ Grass is considered a nitrogen-rich material.
 
 However, drying out grass transforms into brown material or carbon-rich material.
 
-![Yellow grass](images/dryed-yellow-grass.jpg 'When it has dried, grass has lost its nitrogen and only the fibers remain. Credits: image taken from Huw Richard’s vlog')
+![Yellow grass](images/dryed-yellow-grass.jpg "When it has dried, grass has lost its nitrogen and only the fibers remain. Credits: image taken from Huw Richard’s vlog")
 
 ## Multiple mulch options
 
@@ -82,7 +83,7 @@ With grass clippings, it simply won’t. The grass captures the water and slows 
 
 Read all about JADAM in [these notes I took from another vlog from Huw](../easy-low-cost-plant-feed-to-boost-vegetables-huw-richards/index.md).
 
-![JADAM book](images/jadam-book.jpg 'The book of Youngsan Cho details the method of JADAM organic farming. Credits: image taken from Huw Richard’s vlog')
+![JADAM book](images/jadam-book.jpg "The book of Youngsan Cho details the method of JADAM organic farming. Credits: image taken from Huw Richard’s vlog")
 
 Checkout [Youngsan’s website](https://en.jadam.kr/) for more details.
 
@@ -103,7 +104,7 @@ The procedure is simple:
 - Press down the grass if necessary
 - Sprinkle the leaf mold
 
-  ![Dirt and grass in a bag](images/inside-a-jadam-solution.jpg 'Huw is using a transparent plastic beer container so he used a compost bag to make sure no light gets in. Credits: image taken from Huw Richard’s vlog')
+  ![Dirt and grass in a bag](images/inside-a-jadam-solution.jpg "Huw is using a transparent plastic beer container so he used a compost bag to make sure no light gets in. Credits: image taken from Huw Richard’s vlog")
 
 {{< blockcontainer jli-notice-warning "About light" >}}
 

@@ -12,6 +12,7 @@ next:
   link: ../grow-garlic-easy-with-no-dig-tips-for-harvest-charles-dowding/
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - The Dutch Farmer
   - No Dig

@@ -4,6 +4,7 @@ description: "Growing vegetables and eating them in January and even all year lo
 date: 2023-01-11
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Nature of Gardening

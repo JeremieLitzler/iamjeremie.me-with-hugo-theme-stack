@@ -6,6 +6,7 @@ image: "/images/2022-11-17-compost-heaps-made-with-pallet.jpg"
 imageAlt: 3 bays for your compost heap using wood pallets
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

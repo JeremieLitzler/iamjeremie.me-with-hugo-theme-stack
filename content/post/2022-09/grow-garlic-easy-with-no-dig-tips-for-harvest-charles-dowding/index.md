@@ -7,6 +7,7 @@ imageAlt: "Harvest of elephant garlic from Charles Dowding's garden"
 relcanonical: https://iamjeremie.me/post/2022-09/grow-garlic-easy-with-no-dig-tips-for-harvest-charles-dowding
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

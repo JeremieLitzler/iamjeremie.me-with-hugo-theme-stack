@@ -2,10 +2,11 @@
 title: Early summer at Homeacres harvests and speedy replant, intersow, weed, water and make compost, by Charles Dowding
 description: "I wrote the following notes watching the video published on Charles Dowding's channel"
 date: 2022-11-14
-image: '/images/2022-11-14-homeacres-in-july-2018.jpg'
+image: "/images/2022-11-14-homeacres-in-july-2018.jpg"
 imageAlt: Homeacres garden is full with vegetables
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig
@@ -33,7 +34,7 @@ The sure thing is that you won’t get as much, so it’s reducing the work perf
 
 Interestingly, Charles tells us that the slugs like the old leaves of vegetables the most, kind of like they tidy up the place by eating what we won’t.
 
-![A slug attack on cabbage leaf](images/slug-attack-on-cabbage-leaf.jpg 'On this cabbage leaf, we see a few holes, resulting from a slug attack. But, we also see that the leaf is turning yellow. Credits: image taken from Charles Dowding’s vlog')
+![A slug attack on cabbage leaf](images/slug-attack-on-cabbage-leaf.jpg "On this cabbage leaf, we see a few holes, resulting from a slug attack. But, we also see that the leaf is turning yellow. Credits: image taken from Charles Dowding’s vlog")
 
 They have a role, they aren’t just there to annoy the gardener.
 
@@ -100,7 +101,7 @@ If you want to eat them, you need to watch out the seed head, unless you want to
 
 A spring onion will turn a bit woody if left too long in the ground with the seed head growing.
 
-![Spring onions](images/spring-onions-planted-last-august.jpg 'Charles planted these spring onions in August 2017 and he has waited until now to harvest them. Credits: image taken from Charles Dowding’s vlog')
+![Spring onions](images/spring-onions-planted-last-august.jpg "Charles planted these spring onions in August 2017 and he has waited until now to harvest them. Credits: image taken from Charles Dowding’s vlog")
 
 ## Planting leaks while clearing space
 
@@ -148,7 +149,7 @@ But it’s possible if you intersow.
 
 For example, Charles is sowing carrots between lettuce.
 
-![A wooden stick on the ground in a vegetable bed](images/drawing-a-line-in-between-lettuces.jpg 'Charles is drawing a small trench between two strips of lettuces. Credits: image taken from Charles Dowding’s vlog')
+![A wooden stick on the ground in a vegetable bed](images/drawing-a-line-in-between-lettuces.jpg "Charles is drawing a small trench between two strips of lettuces. Credits: image taken from Charles Dowding’s vlog")
 
 You will need to water well on the inside of the trench only so it’s efficient in water usage.
 
@@ -174,19 +175,19 @@ Curry squash and climbing bean need warmth so planting in late may to early June
 
 In contrast, broad beans (_fève_ in French) are planted in November to December.
 
-![Big board beans](images/broad-beans-in-early-summer.jpg 'You plan broad beans in winter, so not all beans grow the same way. Credits: image taken from Charles Dowding’s vlog')
+![Big board beans](images/broad-beans-in-early-summer.jpg "You plan broad beans in winter, so not all beans grow the same way. Credits: image taken from Charles Dowding’s vlog")
 
 The same goes for celery, an early winter crop, that needs warmth.
 
-![A patch of celery](images/celery.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![A patch of celery](images/celery.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 Next, Swiss chard also like the warm sun. Charles sows them in mid-April for a planting 2 to 3 weeks later.
 
-![Swiss-chards.jpg](images/swiss-chards.jpg 'You use big leaves for cooking while you can eat small leaves in salad. Credits: image taken from Charles Dowding’s vlog')
+![Swiss-chards.jpg](images/swiss-chards.jpg "You use big leaves for cooking while you can eat small leaves in salad. Credits: image taken from Charles Dowding’s vlog")
 
 ## Growing climbing beans with a tippee structure
 
-![Sticks positioned in tippee forms](images/tippees-to-support-beans.jpg 'You can build tippees easily to make and are self maintaining. Credits: image taken from Charles Dowding’s vlog')
+![Sticks positioned in tippee forms](images/tippees-to-support-beans.jpg "You can build tippees easily to make and are self maintaining. Credits: image taken from Charles Dowding’s vlog")
 
 You have probably seen the structure of growing beans on a wall-like structure.
 
@@ -224,4 +225,4 @@ You can put weeds in the compost, but you will need heat. A big heap allows you 
 
 Keep your compost covered, the worms will thank you for that as they like dark and moist.
 
-![A basket of vegetables](images/harvest-of-early-summer.jpg 'This basket contains the different vegetables we saw in this vlog. Credits: image taken from Charles Dowding’s vlog')
+![A basket of vegetables](images/harvest-of-early-summer.jpg "This basket contains the different vegetables we saw in this vlog. Credits: image taken from Charles Dowding’s vlog")

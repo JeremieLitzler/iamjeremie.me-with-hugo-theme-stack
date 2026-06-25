@@ -1,12 +1,12 @@
 ---
-
 title: How to Start a No Dig Bed and Compost Differences, by Charles Dowding
 description: "The steps are simple and I have validated the process and the efficacy of the technique to creating a living soil."
 date: 2022-10-26
-image: '/images/2022-10-26-a-man-cleaning-a-lettuce.jpg'
+image: "/images/2022-10-26-a-man-cleaning-a-lettuce.jpg"
 imageAlt: A man cleaning a lettuce
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig
@@ -42,7 +42,7 @@ Before you start with the bed, it is a good idea to cover the chosen area with b
 
 It will serve to weaken the weeds.
 
-![Black polythene cover on a field to convert to no dig garden](images/preparing-the-area-with-black-polythene-cover.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Black polythene cover on a field to convert to no dig garden](images/preparing-the-area-with-black-polythene-cover.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 Do it a month before the actual bed making.
 
@@ -76,15 +76,15 @@ Why soil rather than compost? It is because of the density of soil which will ho
 
 {{< blockcontainer jli-notice-tip "What about weed roots in the soil?" >}}
 
-![Bindweed roots (Convolvulus arvensis)](images/bindweed-roots.jpg 'Credits: image taken from Charles Dowding’s vlog') You can find weed roots like, bindweeds, dandelions, buttercup and more.
+![Bindweed roots (Convolvulus arvensis)](images/bindweed-roots.jpg "Credits: image taken from Charles Dowding’s vlog") You can find weed roots like, bindweeds, dandelions, buttercup and more.
 
 Bindweeds might not die in the soil, dandelions and creeping buttercup will.
 
 So fish out the bindweed roots!
 
-![Dandelion root (Taraxacum officinale)](images/dandelion-root.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Dandelion root (Taraxacum officinale)](images/dandelion-root.jpg "Credits: image taken from Charles Dowding’s vlog")
 
-![Creeping buttercup root (Ranunculus repens)](images/creeping-buttercup-root.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Creeping buttercup root (Ranunculus repens)](images/creeping-buttercup-root.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 {{< /blockcontainer >}}
 
@@ -92,7 +92,7 @@ So fish out the bindweed roots!
 
 ### Homemade compost
 
-![7-month-old homemade compost](images/7-months-old-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![7-month-old homemade compost](images/7-months-old-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 Charles’s homemade compost is rough and not the perfect compost, but it is quite woody and that helps to keep a good fungal activity, good for plants.
 
@@ -102,13 +102,13 @@ It is good for almost any crop.
 
 ### Horse manure
 
-![9-month-old horse manure](images/9-months-old-horse-manure.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![9-month-old horse manure](images/9-months-old-horse-manure.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 If it contains worms, decomposition is still ongoing. And it is fine to use compost for horse manure in such a state for the no dig beds.
 
 ### Cow manure
 
-![Cow manure](images/cow-manure.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Cow manure](images/cow-manure.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 It can be dry after a while.
 
@@ -124,7 +124,7 @@ Why? Because large pieces of wood not yet decomposed can take the nitrogen out o
 
 However, it is a fantastic mulch for pathways. Just put cardboard first. It will feed the soil and that is beneficial.
 
-![Large chunks of woods left in 3-year-old woodchip compost](images/woodchip-compost.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Large chunks of woods left in 3-year-old woodchip compost](images/woodchip-compost.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 {{< /blockcontainer >}}
 
@@ -154,7 +154,7 @@ If cardboard has printing on, it is usually fine if it is vegetable-based inks. 
 
 Try to overlap the cardboard piece like shown below.
 
-![Cardboard overlaying](images/cardboard-overlaying.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Cardboard overlaying](images/cardboard-overlaying.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 Otherwise, to have a clean edge, you can add cardboard under to keep the light from feeding the weeds.
 
@@ -164,7 +164,7 @@ It is not required, but it can help to set wood pieces around the bed to hold or
 
 Once the bed is settled, you can remove it.
 
-![clean-edges-with-wood-farming](images/clean-edges-with-wood-farming.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![clean-edges-with-wood-farming](images/clean-edges-with-wood-farming.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 {{< blockcontainer jli-notice-tip "Do you need to wet the cardboard" >}}
 

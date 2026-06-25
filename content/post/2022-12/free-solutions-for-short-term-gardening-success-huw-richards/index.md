@@ -6,6 +6,7 @@ image: "/images/2022-12-07-a-man-planting-spinach.jpg"
 imageAlt: A man planting spinach
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Compost

@@ -7,6 +7,7 @@ imageAlt: Sprouting garlic
 relcanonical: https://iamjeremie.me/2022/09/how-to-judge-the-readiness-of-garlic-charles-dowding
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

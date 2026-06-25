@@ -2,10 +2,11 @@
 title: How to STOP Buying Compost (Tips For Compost Self-Sufficiency), by Huw Richards
 description: "Making your own compost is key to self-sufficiency and Huw will provide us with a few tips."
 date: 2022-11-21
-image: '/images/2022-11-21-how-to-stop-buying-compost-tips-for-compost-self-sufficiency-huw-richards.jpg'
+image: "/images/2022-11-21-how-to-stop-buying-compost-tips-for-compost-self-sufficiency-huw-richards.jpg"
 imageAlt: A hand full of compost
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - Self-sufficiency
@@ -49,7 +50,7 @@ Jesse describes the four types of composts in depth.
 
 Huw’s favorite bed size is a 3 m by 1.2 m with a depth of 20 cm (rough estimate from the vlog).
 
-![Garden beds](images/huw-beds.jpg 'This picture shows you the favorite bed size of Huw. Credits: image taken from Huw Richard’s vlog')
+![Garden beds](images/huw-beds.jpg "This picture shows you the favorite bed size of Huw. Credits: image taken from Huw Richard’s vlog")
 
 For a mulch layer of 2 cm, it will require 100 liters of compost.
 
@@ -109,7 +110,7 @@ And at the end, you have harvested the crops that grew in those hot beds and you
 
 ### Grass clippings
 
-![A bag of freshly cut grass clippings](images/grass-clippings.jpg 'Grass clippings are a green material that provides a great result after decomposition. Credits: image taken from Huw Richard’s vlog')
+![A bag of freshly cut grass clippings](images/grass-clippings.jpg "Grass clippings are a green material that provides a great result after decomposition. Credits: image taken from Huw Richard’s vlog")
 
 Huw thinks it could work well on the previously mentioned deep mulch chicken compost.
 
@@ -171,7 +172,7 @@ I think it has helped to create a smoother soil, from which I can more easily pu
 
 ### Coffee grounds
 
-![Coffee in the hand of someone](images/coffee-ground.jpg 'Coffee ground is also a good ingredient for your compost heap. Credits: image taken from Huw Richard’s vlog')
+![Coffee in the hand of someone](images/coffee-ground.jpg "Coffee ground is also a good ingredient for your compost heap. Credits: image taken from Huw Richard’s vlog")
 
 It’s high in nitrogen, so you can assimilate it to a green material.
 
@@ -187,7 +188,7 @@ I put in 5 liters of kitchen waste daily, mainly vegetables waste.
 
 The local highly available weeds can become a great source of material. Huw has a lot of bracken (_Pteridium_) around his garden.
 
-![A lot of bracken leaves](images/braken-leaves.jpg 'When you have such wild material available, use it to create more compost. Credits: image taken from Huw Richard’s vlog')
+![A lot of bracken leaves](images/braken-leaves.jpg "When you have such wild material available, use it to create more compost. Credits: image taken from Huw Richard’s vlog")
 
 Cardboard suits a lot of applications in the garden: from covering in the No Dig method to brown material additions to the heap.
 

@@ -6,6 +6,7 @@ imageAlt: Harvested onions
 date: 2023-08-31
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Huw Richards
   - In August
@@ -88,6 +89,6 @@ Also, Huw gives the example of planting broad beans in August just to try and se
 
 For example, did you know you can eat the top of the plant as shoots? I didn’t!
 
-![Harvesting broad bean shoots](images/harvesting-broad-bean-shoots.jpg 'Credits: image from the vlog of Huw Richards')
+![Harvesting broad bean shoots](images/harvesting-broad-bean-shoots.jpg "Credits: image from the vlog of Huw Richards")
 
 Nature can surprise you. It can bounce back sometimes.

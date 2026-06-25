@@ -6,6 +6,7 @@ image: "/images/2022-10-25-compost-thermometer-measuring-temperature-in-a-heap.j
 imageAlt: Compost thermometer indicating 66 °C
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

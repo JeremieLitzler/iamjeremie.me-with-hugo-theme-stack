@@ -2,10 +2,11 @@
 title: Create a no dig raised bed, compost on weeds, with tips on planting and see the growth, by Charles Dowding
 description: "I wrote the following notes watching the video published on Charles Dowding's channel"
 date: 2022-11-13
-image: '/images/2022-11-13-a-raised-bed-with-a-pile-of-compost-with-a-wheel-barrow-in-the-background.jpg'
+image: "/images/2022-11-13-a-raised-bed-with-a-pile-of-compost-with-a-wheel-barrow-in-the-background.jpg"
 imageAlt: A raised bed with a pile of compost with a wheel barrow in the background
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig

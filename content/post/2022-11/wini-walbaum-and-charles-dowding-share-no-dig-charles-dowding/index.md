@@ -2,10 +2,11 @@
 title: Wini Walbaum & Charles Dowding  no dig, straw-hay for dry climate, compost for damp one, by Charles Dowding
 description: "I wrote the following notes watching the video published on Charles Dowding's channel"
 date: 2022-11-01
-image: '/images/2022-11-01-wini-walbaum-charles-dowding--no-dig--straw-hay-for-dry-climate--compost.jpg'
+image: "/images/2022-11-01-wini-walbaum-charles-dowding--no-dig--straw-hay-for-dry-climate--compost.jpg"
 imageAlt: A garden in Chile with a lot of sunflowers
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig
@@ -23,7 +24,7 @@ Thanks to Charles Dowding for sharing his wisdom and knowledge! I wrote the foll
 
 ### Wini Walbaum
 
-![Wini Walbaum teaching on video in her garden](images/wini-walbaum.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Wini Walbaum teaching on video in her garden](images/wini-walbaum.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 She’s from Santiago, Chile, living with her family of four.
 
@@ -33,13 +34,13 @@ And she teaches about growing food sustainably and with no dig on Instagram, You
 
 ### Charles Dowding
 
-![Charles’s Homeacres garden from aerial view](images/homeacres-garden-from-aerial-view.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Charles’s Homeacres garden from aerial view](images/homeacres-garden-from-aerial-view.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 Charles runs a market garden on 1000 m² that supplies the local town.
 
 At the time of the vlog, he’s talking about expanding the area cultivated.
 
-![An aerial view of Homeacres property with an area covered with pallets and plastic sheets](images/homeacres-is-expanding.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![An aerial view of Homeacres property with an area covered with pallets and plastic sheets](images/homeacres-is-expanding.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 He has been practicing no dig for 40 years.
 
@@ -61,7 +62,7 @@ On the contrary, Charles is trying to make sure the rain is draining. He receive
 
 Yet, because of No Dig, he needs not to worry about muddy bouts. The compost (for the garden) and woodchips (for the alleys) allow to have a clean soil.
 
-![Pouring 5 liters on dig and no dig beds](images/pouring-5-liters-on-dig-and-no-dig-beds.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![Pouring 5 liters on dig and no dig beds](images/pouring-5-liters-on-dig-and-no-dig-beds.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 {{< blockcontainer jli-notice-tip "Interesting fact" >}}
 
@@ -173,7 +174,7 @@ I do have the same observation in my garden.
 
 ## Homeacre new area
 
-![The new field in July 2020](images/new-field-in-july-2020.jpg 'Credits: image taken from Charles Dowding’s vlog')
+![The new field in July 2020](images/new-field-in-july-2020.jpg "Credits: image taken from Charles Dowding’s vlog")
 
 It will be a lot about teaching and learning, more than producing crops to resale on the market.
 

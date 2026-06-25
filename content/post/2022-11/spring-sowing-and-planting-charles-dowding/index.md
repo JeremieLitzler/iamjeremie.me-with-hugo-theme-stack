@@ -1,9 +1,10 @@
 ---
-title: 'Spring: sowing and planting into surface compost outside, by Charles Dowding'
+title: "Spring: sowing and planting into surface compost outside, by Charles Dowding"
 description: "When spring comes, it’s time to sow and plant your new crops."
 date: 2022-11-20
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - Charles Dowding
   - No Dig
