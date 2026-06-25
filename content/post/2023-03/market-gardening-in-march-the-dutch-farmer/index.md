@@ -6,6 +6,7 @@ imageAlt: A man in a garden sowing seed on a garden bed
 date: 2023-03-06
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - The Dutch Farmer
   - In March

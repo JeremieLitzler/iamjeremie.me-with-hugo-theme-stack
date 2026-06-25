@@ -1,9 +1,10 @@
 ---
 title: A Day in The Life of a Farmer in January, by The Dutch Farmer
-description: 'What does a day in January look like? The Dutch Farmer will detail it to us.'
+description: "What does a day in January look like? The Dutch Farmer will detail it to us."
 date: 2023-01-13
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - The Dutch Farmer
   - In January
@@ -60,11 +61,9 @@ What does it include?
 
 - producing various types of crops to sell on markets
 - dedicate an area to perennials and create a plant nursery:
-
   - including berries like currants, black berries
 
   ![Black berry fruits](images/black-berries.jpg "Credits: image taken from The Dutch Farmer's vlog")
-
   - and medicinal plants like rosemary, thyme, lavender and sage
 
   ![Lavender](images/lavender.jpg "Credits: image taken from The Dutch Farmer's vlog")

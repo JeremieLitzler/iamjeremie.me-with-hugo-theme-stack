@@ -4,6 +4,7 @@ description: "What was true in January is still applicable in February. However,
 date: 2023-02-07
 categories:
   - Gardening
+seoNoIndex: true
 tags:
   - The Dutch Farmer
   - In February
