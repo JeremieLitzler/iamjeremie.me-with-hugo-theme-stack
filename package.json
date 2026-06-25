@@ -1,6 +1,9 @@
 {
   "scripts": {
-    "netlify": "netlify"
+    "netlify": "netlify",
+    "build": "hugo --gc --minify",
+    "test:xml": "node scripts/validate-xml-output.mjs",
+    "build:ci": "npm run build && npm run test:xml"
   },
   "dependencies": {
     "@netlify/functions": "^2.6.0"
