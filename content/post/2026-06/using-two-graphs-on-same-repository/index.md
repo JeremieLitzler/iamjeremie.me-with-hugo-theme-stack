@@ -1,5 +1,5 @@
 ---
-title: "How To Persist Two Distinctly Scoped Graphs With Graphify"
+title: "Persist Two Distinctly Scoped Graphs With Graphify On A Single Repository"
 description: "I already had a graphify map of how my site is built. Here is how I added a second one for what I actually write, kept the two from stepping on each other, and taught Claude which one to use."
 image: 2026-06-30-content-knowledge-graph.png
 imageAlt: "Two separate clusters of connected nodes, one for code and one for articles"
