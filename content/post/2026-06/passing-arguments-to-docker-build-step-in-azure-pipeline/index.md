@@ -5,9 +5,12 @@ image: 2026-06-22-two-persons-exchanging-a-pieace-of-paper.jpg
 imageAlt: Two persons exchanging a pieace of paper
 date: 2026-06-22
 categories:
-  -
+  - Software Development
 tags:
-  -
+  - Docker
+  - Microsoft Azure DevOps
+  - Microsoft Azure
+  - Python
 ---
 
 Last year, [in this article](../../2025-08/configure-docker-image-in-azure-devops/index.md), I talked about splitting the build and push steps of a Docker image.
