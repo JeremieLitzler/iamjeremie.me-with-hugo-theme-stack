@@ -10,7 +10,7 @@ tags:
   - Git
 ---
 
-I needed to understand the two methods because I’ve always used the merge method, thinking that the `rebase` wasn’t efficient or dangerous based. I’ve read.
+I needed to understand the two methods because I’ve always used the merge method, thinking that the `rebase` wasn’t efficient or dangerous based on what I’ve read or heard.
 
 But the truth was more nuanced.
 
