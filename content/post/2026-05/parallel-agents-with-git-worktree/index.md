@@ -122,3 +122,5 @@ To be honest, I am not using parallel Claude Code a lot. I don’t spend enough 
 Thanks for reading this article. Make sure to [follow me on X](https://x.com/LitzlerJeremie), [subscribe to my Substack publication](https://iamjeremie.substack.com/) and bookmark my blog to read more in the future.
 
 {{< /blockcontainer >}}
+
+_Photo by Alex Knight on Pexels._

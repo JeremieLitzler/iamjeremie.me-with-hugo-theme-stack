@@ -9,6 +9,7 @@ categories:
 tags:
   - Git
   - Claude Code
+hasMermaid: true
 ---
 
 Three weeks ago, every feature and bug fix in [my SocialMediaPublisherApp repo](https://github.com/JeremieLitzler/SocialMediaPublisherApp) ran through one orchestrator. Called `agent-0-orchestrator`, it spawned seven specialist agents, one after another, through the Task tool, and threaded all of their state through a single long-running context.
@@ -189,4 +190,4 @@ Thanks for reading this article. Make sure to [follow me on X](https://x.com/Lit
 
 {{< /blockcontainer >}}
 
-Credit: Photo by TODO on Pexels.
+_Photo by Alex Knight on Pexels._
