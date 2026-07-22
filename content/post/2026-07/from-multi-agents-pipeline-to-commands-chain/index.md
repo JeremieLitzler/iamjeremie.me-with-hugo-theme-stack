@@ -118,6 +118,14 @@ I also made a Mermaid diagram, showing the split of setup/clean up vs. execution
 
 The full workflow, including the two-editor or GitBash split and the loop-backs, looks like this:
 
+{{< blockcontainer jli-notice-warning "">}}
+
+Please don't use dark mode, as I need to fix the styling of mermaid diagrams rendered.
+
+Use the toogle at the bottom left.
+
+{{< /blockcontainer >}}
+
 ```mermaid
 flowchart TD
     subgraph INST1["GitBash instance 1 — develop worktree"]
