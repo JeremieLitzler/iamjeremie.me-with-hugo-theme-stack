@@ -120,9 +120,9 @@ The full workflow, including the two-editor or GitBash split and the loop-backs,
 
 {{< blockcontainer jli-notice-warning "">}}
 
-Please don't use dark mode, as I need to fix the styling of mermaid diagrams rendered.
+Please don't use dark mode to view the diagram below, as I need to fix the styling of mermaid diagrams rendered.
 
-Use the toogle at the bottom left.
+Use the toogle at the bottom left to switch light mode.
 
 {{< /blockcontainer >}}
 
