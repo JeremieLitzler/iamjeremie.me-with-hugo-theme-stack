@@ -24,17 +24,17 @@ FROM Person
 WHERE SUBSTRING(LastName, LEN(LastName) - 2, 1) IN ('Y', 'Z');
 ```
 
-It reads cleanly. It even runs and returns rows. But the more I looked at it, the more I found someone hiding under those two function `SUBSTRING` and `LEN` calls. This is T-SQL on SQL Server, so everything below is in that dialect, and there is enough here to be worth walking through carefully.
+It reads cleanly. It even runs and returns rows. But the more I looked at it, the more I found someone hiding under those two functions: `SUBSTRING` and `LEN` calls. This is T-SQL on SQL Server, so everything below is in that dialect, and there is enough here to be worth walking through carefully.
 
 ## The Trailing-Space Trap
 
-The single biggest correctness risk is the interaction between `LEN` and `SUBSTRING`, and it is easy to miss because both functions are doing exactly what they were designed to do.
+The biggest single correctness risk is the interaction between `LEN` and `SUBSTRING`, and it is easy to miss because both functions are doing exactly what they were designed to do.
 
-`LEN` excludes trailing spaces. That is not a quirk of one server's configuration. It is documented behavior. Microsoft's own reference for the function states plainly that it "returns the number of characters of the specified string expression, excluding trailing spaces."
+`LEN` excludes trailing spaces. That is not a quirk of one server’s configuration. It is documented behavior. Microsoft’s own reference for the function states plainly that it “returns the number of characters of the specified string expression, excluding trailing spaces.”
 
 `SUBSTRING`, on the other hand, indexes the full, untrimmed string, counting every real character from position 1.
 
-So the two functions disagree about how long the string is. When `LastName` carries trailing whitespace — common in `CHAR(n)` columns or in data imported from a messy source — the start position is computed against the shorter logical length while `SUBSTRING` counts against the longer physical one. The result is that you read the wrong character.
+So the two functions disagree about how long the string is. When `LastName` carries trailing whitespace — common in `CHAR(n)` columns or in data imported from a messy source — the start position is computed against the shorter logical length, while `SUBSTRING` counts against the longer physical one. The result is that you read the wrong character.
 
 ```sql
 -- LastName = 'Lopez   ' (3 trailing spaces)
@@ -88,7 +88,7 @@ WHERE YEAR(OrderDate) = 2026
 WHERE LastName LIKE '%ith'       -- a leading wildcard kills the seek
 ```
 
-The reason is structural. An index is sorted by the column's actual value, so the engine can binary-search straight to `'Smith'`. But the moment you wrap the column in `SUBSTRING`, the index is still sorted by `LastName`, not by the substring result. The engine has no way to jump to the answer, so it computes the expression for every single row.
+The reason is structural. An index is sorted by the column's actual value, so the engine can binary-search straight to `’Smith'’. But the moment you wrap the column in `SUBSTRING`, the index is still sorted by `LastName`, not by the substring result. The engine has no way to jump to the answer, so it computes the expression for every single row.
 
 That is a full scan, and no index on `LastName` will rescue the query as written.
 
@@ -102,11 +102,11 @@ WHERE LEFT(RIGHT(RTRIM(LastName), 3), 1) IN ('Y','Z')
 
 ## When the Query Runs Often
 
-The usual way to make a non-SARGable predicate SARGable is to move the work off the column — like to rewrite `WHERE YEAR(OrderDate) = 2026` as a range like `WHERE OrderDate >= '2026-01-01' AND OrderDate < '2027-01-01'`, and suddenly the index can seek.
+The usual way to make a non-SARGable predicate SARGable is to move the work off the column — like to rewrite ’WHERE YEAR(OrderDate) = 2026` as a range like ’WHERE OrderDate >= ’2026-01-01’ AND OrderDate < ’2027-01-01’’, and suddenly the index can seek.
 
-Back to our `LastName` example, "the third character from the end" cannot be expressed as a range on the bare column. There is no rewrite that keeps `LastName` untouched.
+Back to our `LastName` example, “the third character from the end” cannot be expressed as a range on the bare column. There is no rewrite that keeps `LastName` untouched.
 
-When the logic genuinely resists that solution, the answer is to precompute it. You add a persisted computed column and index it, turning the write-time work into a read-time seek. A computed column is a virtual column that, as Microsoft's documentation puts it, "isn't physically stored in the table, unless the column is marked `PERSISTED`" — and a deterministic, persisted computed column of an indexable type can serve as a key column in an index.
+When the logic genuinely resists that solution, the answer is to precompute it. You add a persisted computed column and index it, turning the write-time work into a read-time seek. A computed column is a virtual column that, as Microsoft’s documentation puts it, “isn’t physically stored in the table unless the column is marked `PERSISTED`“ — and a deterministic, persisted computed column of an indexable type can serve as a key column in an index.
 
 ```sql
 ALTER TABLE Person
@@ -122,9 +122,9 @@ Now the expression is evaluated once, at write time, and stored as a real indexe
 
 ## Conclusion
 
-The query works for clean data of three characters or more. That sentence is doing a lot of load-bearing work. And it is fragile against trailing spaces, it inherits whatever case behavior the collation happens to impose, and it forces a full scan every time it runs.
+The query works for clean data of three characters or more. That sentence does a lot of load-bearing work. And it is fragile against trailing spaces, it inherits whatever case behavior the collation happens to impose, and it forces a full scan every time it runs.
 
-None of those are visible in a quick test against tidy sample data, which is exactly why they are worth naming out loud. Trim the input, be explicit about case, replace the `SELECT *` with something more refined, and if this is a path that runs often, persist and index the computed value.
+None of those are visible in a quick test against tidy sample data, which is exactly why they are worth naming out loud. Trim the input, be explicit about the character cases, replace the `SELECT *` with something more refined, and if this is a path that often runs, persist and index the computed value.
 
 Yes, a one-line filter deserves a second look precisely because it looks so harmless.
 
