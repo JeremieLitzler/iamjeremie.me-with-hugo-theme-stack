@@ -1,7 +1,7 @@
 ---
 title: "Building a Self-Excluding Index Note with Obsidian Dataview"
 description: "A Dataview query that lists every note in a folder except the index note itself, and the FROM-clause parsing error that got in the way."
-image: 2026-08-21-building-a-stack-of-books-sitting-on-top-of-a-wooden-table.jpg
+image: 2026-08-21-a-stack-of-books-sitting-on-top-of-a-wooden-table.jpg
 imageAlt: a stack of books sitting on top of a wooden table
 date: 2026-08-21
 categories:
