@@ -3,7 +3,7 @@ title: "I Replaced Claude.ai"
 description: "Why I stopped chatting with Claude.ai and built a git-versioned archive of every Claude Code session instead."
 image: 2026-08-24-from-claudeai-to-a-git-repository.jpg
 imageAlt: From Claude.ai to A Git Repository
-date: 2026-08-20
+date: 2026-08-24
 categories:
   - Artificial Intelligence
 tags:
