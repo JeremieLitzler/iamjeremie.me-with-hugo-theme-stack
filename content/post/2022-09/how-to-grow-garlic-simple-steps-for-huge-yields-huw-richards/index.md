@@ -10,7 +10,7 @@ prev:
 next:
   text: "The Simple Way to Becoming Self-Sufficient in Food"
   link: ../../10/the-simple-way-to-food-self-sufficiency-huw-richards/
-relcanonical: https://iamjeremie.me/2022/09/how-to-grow-garlic-simple-steps-for-huge-yields-huw-richards/
+canonicalUrl: https://iamjeremie.me/2022/09/how-to-grow-garlic-simple-steps-for-huge-yields-huw-richards/
 categories:
   - Gardening
 seoNoIndex: true

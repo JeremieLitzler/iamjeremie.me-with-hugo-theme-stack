@@ -2,7 +2,7 @@
 title: Terms and Conditions
 description: This is the terms and conditions page
 date: 2021-08-10
-relcanonical: https://iamjeremie.me/page/terms/
+canonicalUrl: https://iamjeremie.me/page/terms/
 article: false
 ---
 

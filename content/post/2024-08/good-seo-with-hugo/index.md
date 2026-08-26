@@ -95,11 +95,17 @@ What does it mean? If the frontmatter contains the `relcanonical` property, then
 
 I rarely use `relcanonical`, but it’s handy to have available.
 
+{{< blockcontainer jli-notice-note "Update following the hugo-theme-stack v4 upgrade">}}
+
+The custom `relcanonical` frontmatter field described above was used until the site upgraded to hugo-theme-stack v4. That version added native support for a canonical URL override, so the field was renamed to `canonicalUrl` across the site's articles to use it directly.
+
+{{< /blockcontainer >}}
+
 For example, I had a LinkedIn post that I published before the article once:
 
 ```yaml
 ---
-relcanonical: https://www.linkedin.com/pulse/making-unused-method-argument-compliant-typescript-eslint-litzler-uiktf/
+canonicalUrl: https://www.linkedin.com/pulse/making-unused-method-argument-compliant-typescript-eslint-litzler-uiktf/
 ---
 ```
 
