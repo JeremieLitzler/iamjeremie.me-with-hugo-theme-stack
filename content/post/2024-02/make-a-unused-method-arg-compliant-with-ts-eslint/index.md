@@ -9,7 +9,7 @@ categories:
 tags:
   - TypeScript
   - Tip Of The Day
-relcanonical: https://www.linkedin.com/pulse/making-unused-method-argument-compliant-typescript-eslint-litzler-uiktf/
+canonicalUrl: https://www.linkedin.com/pulse/making-unused-method-argument-compliant-typescript-eslint-litzler-uiktf/
 ---
 
 I am pretty new to TypeScript, as I am going through the [VueSchool curiculum](https://vueschool.io/courses).

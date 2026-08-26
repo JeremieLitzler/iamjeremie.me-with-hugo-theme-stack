@@ -10,7 +10,7 @@ prev:
 next:
   text: "July 2022 tour of new no dig, harvests, pest covers, compost, watering, by Charles Dowding"
   link: ../../../posts/2022-10-15-july-2022-tour-of-homeacres-garden-charles-dowding/
-relcanonical: https://iamjeremie.substack.com/p/three-types-of-heap-charles-dowding
+canonicalUrl: https://iamjeremie.substack.com/p/three-types-of-heap-charles-dowding
 categories:
   - Gardening
 seoNoIndex: true

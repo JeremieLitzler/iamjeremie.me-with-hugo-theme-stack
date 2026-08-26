@@ -4,7 +4,7 @@ description: I wrote the following notes watching the video published on Charles
 date: 2022-09-22
 image: "/images/2022-09-22-how-to-judge-the-readiness-of-garlic-charles-dowding-hero.jpg"
 imageAlt: Sprouting garlic
-relcanonical: https://iamjeremie.me/2022/09/how-to-judge-the-readiness-of-garlic-charles-dowding
+canonicalUrl: https://iamjeremie.me/2022/09/how-to-judge-the-readiness-of-garlic-charles-dowding
 categories:
   - Gardening
 seoNoIndex: true

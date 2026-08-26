@@ -57,7 +57,7 @@ It gives you the following:
 
 ```yaml
 ---
-relcanonical: https://iamjeremie.me
+canonicalUrl: https://iamjeremie.me
 ---
 ```
 
@@ -77,6 +77,12 @@ In the above code,
 - Use its value, which is the `.` in `{{ . }}`.
 
 {{< blockcontainer jli-notice-note "The moustache syntax is used for Go programming within the HTML template">}}
+
+{{< /blockcontainer >}}
+
+{{< blockcontainer jli-notice-note "Update following the hugo-theme-stack v4 upgrade">}}
+
+The custom `relcanonical` frontmatter field described above was used until the site upgraded to hugo-theme-stack v4. That version added native support for a canonical URL override, so the field was renamed to `canonicalUrl` across the site's articles to use it directly.
 
 {{< /blockcontainer >}}
 

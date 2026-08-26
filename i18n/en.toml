@@ -1,0 +1,24 @@
+# Project-level overrides/additions on top of the theme's own i18n/en.toml.
+# v4.0.3 simplified widget.tagCloud/widget.categoriesCloud to a bare `title` and dropped
+# accessibleLabel/allDivParagraph/allDivLinkText entirely; it also dropped the taxoMisc
+# block used by layouts/miscellaneous/taxonomy-cloud-page.html. Restoring the wording used
+# by layouts/_partials/widget/{tag-cloud,categories}.html and the taxonomy cloud page.
+
+[widget]
+    [widget.tagCloud]
+        title = "Top {{ .MaxInCloud }} Tags"
+        accessibleLabel = "Click here to view the tags"
+        allDivParagraph = "Missing tag? Only the first {{ .MaxInCloud }} most used are listed."
+        allDivLinkText = "View all tags"
+
+    [widget.categoriesCloud]
+        title = "Top {{ .MaxInCloud }} Categories"
+        accessibleLabel = "Click here to view the categories"
+        allDivParagraph = "Missing category? Only the first {{ .MaxInCloud }} most used are listed."
+        allDivLinkText = "View all categories"
+
+[taxoMisc]
+    [taxoMisc.searchForm]
+        title = "Filter"
+        placeholder = "Filter..."
+        executeBtnTitle = "Execute search"

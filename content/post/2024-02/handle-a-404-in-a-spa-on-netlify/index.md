@@ -9,7 +9,7 @@ categories:
 tags:
   - Netlify
   - Tip Of The Day
-relcanonical: https://www.linkedin.com/pulse/how-handle-404-single-page-application-deployed-netlify-litzler-5amnc
+canonicalUrl: https://www.linkedin.com/pulse/how-handle-404-single-page-application-deployed-netlify-litzler-5amnc
 ---
 
 Out of the box, Single Page Application (SPA) handle what we call _soft 404_. When you deploy to Netlify, we will see a page like this one:
