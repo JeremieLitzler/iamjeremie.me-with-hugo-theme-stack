@@ -41,10 +41,12 @@ It compares two objects by applying your projection function to each, then compa
 Finally, we implement the `GetHashCode` method:
 
 ```csharp
-public int GetHashCode(T obj) => _projection(obj).GetHashCode();
+public int GetHashCode(T obj) => _projection(obj)?.GetHashCode() ?? 0;
 ```
 
-It returns the hash code of the projected value. This is required for hash-based collections to work correctly.
+It returns the hash code of the projected value. Hash-based collections first use the hash code to find a bucket, then call `Equals` only on items in that bucket. If two objects are equal according to `Equals`, they must therefore produce the same hash code, otherwise they would land in different buckets and never be compared.
+
+The `?.` and `?? 0` handle the case where the projection returns `null` (for example, a `Person` without a `LastName`): `object.Equals` already handles `null` safely, but calling `GetHashCode()` on `null` would throw a `NullReferenceException`.
 
 ## Let's See a Full Example
 
@@ -71,6 +73,19 @@ var people = new List<Person>
 var distinctByLastName = people.Distinct(comparer).ToList();
 // Result: John Smith and Bob Jones (Jane removed as duplicate last name)
 ```
+
+### Why `GetHashCode` Matters Here
+
+Suppose the comparer kept the projection-based `Equals` but used the default `obj.GetHashCode()`, which is reference-based for classes (the hash values below are illustrative, not real computed values):
+
+- John Smith gets hash `48291`, so it goes into bucket A.
+- Jane Smith gets hash `91734`, so it goes into bucket B.
+- `Distinct()` never compares them with `Equals`, because they are in different buckets.
+- Result: both are kept, even though the comparer says they are equal.
+
+With the comparer's `GetHashCode`, both hash `"Smith"`. They land in the same bucket, `Equals` runs and returns `true`, and Jane is dropped.
+
+The rule only goes one way. Equal objects must have equal hashes, but equal hashes don't mean the objects are equal (that's a collision, and `Equals` sorts it out). That's why hashing the same projected value that `Equals` compares meets the contract.
 
 This pattern is useful when you need flexible comparison logic without creating multiple comparer classes for different scenarios.
 
@@ -102,7 +117,7 @@ So, in the `Equals` method:
 In the `GetHashCode` method:
 
 ```csharp
-public int GetHashCode(T obj) => _projection(obj).GetHashCode();
+public int GetHashCode(T obj) => _projection(obj)?.GetHashCode() ?? 0;
 
 ```
 
@@ -114,6 +129,16 @@ So: **projected value** is actual data value (like a string, number, etc.)
 **hash code** is an integer representation of that value for fast lookup
 
 The hash code is derived _from_ the projected value, but they're different things.
+
+## Sources for This Article
+
+- **Microsoft Documentation**:
+  - [`IEqualityComparer<T>` Interface](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer-1): defines the `Equals(T, T)` and `GetHashCode(T)` pair that a custom comparer implements.
+  - [`IEqualityComparer<T>.GetHashCode(T)` Method](https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.iequalitycomparer-1.gethashcode): states that if `Equals` returns `true` for two objects, `GetHashCode` must return the same value for both.
+  - [`Object.GetHashCode` Method](https://learn.microsoft.com/en-us/dotnet/api/system.object.gethashcode): explains that equal hash codes don't imply equality, that the default implementation for reference types is based on the object's reference, and that `GetHashCode()` should not throw exceptions.
+  - [`Enumerable.Distinct` Method](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.distinct): documents the overload that accepts an `IEqualityComparer<T>`.
+- **.NET Runtime Source Code**:
+  - [`Distinct.cs`](https://github.com/dotnet/runtime/blob/main/src/libraries/System.Linq/src/System/Linq/Distinct.cs): shows that `Distinct()` builds a `HashSet<TSource>` with the comparer you pass in, which is why `GetHashCode` decides which items get compared.
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
