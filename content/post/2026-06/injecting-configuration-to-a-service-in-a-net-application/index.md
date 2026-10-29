@@ -8,7 +8,7 @@ categories:
   - Software Development
 tags:
   - DotNet
-  - CSharp
+  - Csharp
 ---
 
 In the following example, `MyOtherService` is registered in the IOC of a .NET application.
