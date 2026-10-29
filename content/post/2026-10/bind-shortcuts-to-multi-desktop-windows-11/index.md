@@ -5,7 +5,7 @@ image: 2026-10-28-keys-A-L-T-aligned-on-salmon-color-background.jpg
 imageAlt: Keys A-L-T aligned on salmon-color background
 date: 2026-10-28
 categories:
-  - Tutorial
+  - Tutorials
 tags:
   - Windows 11
   - AutoHotkey
