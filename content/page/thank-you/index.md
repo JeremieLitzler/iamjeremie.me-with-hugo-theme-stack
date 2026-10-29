@@ -12,4 +12,4 @@ You chose to help today. Thanks!
 
 💖💖💖
 
-[Continue reading!](../article)
+[Continue reading!](/)
