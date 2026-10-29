@@ -4,7 +4,7 @@ description: Where do you start, what needs to be in the mind of the developer, 
 date: 2022-09-08
 image: "/images/2022-09-08-what-can-you-teach-about-problem-solving.jpg"
 imageAlt: "Keep things simple scrabble letters"
-canonicalUrl: https://iamjeremie.me/2022/09/what-can-you-teach-about-problem-solving
+canonicalUrl: https://iamjeremie.me/post/2022-09/what-can-you-teach-about-problem-solving/
 categories:
   - Web Development
 tags:
