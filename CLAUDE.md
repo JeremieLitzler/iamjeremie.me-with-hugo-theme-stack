@@ -37,3 +37,17 @@ math?"), query both and say which graph each fact came from. If genuinely ambigu
   makes updates incremental — only new/changed articles get re-extracted. Curated community
   names live in `content-graph/labels-override.json` (keyed by each community's central node id
   so they survive renumbering).
+
+## Agent skills
+
+### Issue tracker
+
+Issues and specs live in this repo's GitHub Issues, managed with the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+The five canonical labels, each named after its role: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: one root `GLOSSARY.md` plus `docs/adr/`, both created lazily by `/domain-modeling`. See `docs/agents/domain.md`.
