@@ -8,7 +8,7 @@ categories:
   - Software Development
 tags:
   - DotNet
-  - CSharp
+  - Csharp
 ---
 
 This is a custom **equality comparer** for C# that allows you to compare objects based on a specific property or calculation you define.

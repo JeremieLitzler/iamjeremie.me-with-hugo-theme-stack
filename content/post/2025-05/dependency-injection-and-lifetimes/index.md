@@ -7,7 +7,7 @@ date: 2025-05-19
 categories:
   - Software Development
 tags:
-  - CSharp
+  - Csharp
 ---
 
 There are 3 lifetimes possible when using dependency injection: `Transient`, `Scoped` and `Singleton`.
