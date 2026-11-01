@@ -132,13 +132,13 @@ To start it at sign-in, press Win+R, type `shell:startup` and press Enter, then 
 
 Hotkeys also match the character on your layout. On an AZERTY keyboard, Q, W and E sit in different physical positions than on QWERTY. To bind physical positions instead, use scan codes in the hotkey definitions.
 
-According to the `README`, the names set by `SetDesktopName` work on Windows 11 only, and every function returns -1 on error. My script does not check return values. I have confirmed that names survive a restart of Explorer or Windows. However, I have yet to see if the DLL survives after the next Windows update: I have not tested it yet.
+According to the `README`, the names set by `SetDesktopName` work on Windows 11 only, and every function returns -1 on error. My script does not check return values. I have confirmed that names survive a restart of Explorer or Windows. The DLL also survived the Windows update from 25H2 to 26H2.
 
 Finally, remember that the COM interfaces behind all this are undocumented. A Windows update can break the DLL until the project ships a fix.
 
 ## Conclusion
 
-Windows 11 will not let you jump to a desktop by number, and every tool that adds the feature leans on interfaces Microsoft has never documented. That is why I judged candidates on one question: does the `README` explicitly cover my build, and is the project alive? Only `VirtualDesktopAccessor` passed both tests. Fifty lines of AutoHotkey later, `Alt+Q`, `Alt+W` and `Alt+E` take me where I want to go in a snap. After the next Windows update, I will run the script again and see whether it still holds.
+Windows 11 will not let you jump to a desktop by number, and every tool that adds the feature leans on interfaces Microsoft has never documented. That is why I judged candidates on one question: does the `README` explicitly cover my build, and is the project alive? Only `VirtualDesktopAccessor` passed both tests. Fifty lines of AutoHotkey later, `Alt+Q`, `Alt+W` and `Alt+E` take me where I want to go in a snap. After a few days of use, I know the script always runs at startup, but you need to wait a few minutes for all startup items to actually start.
 
 If you liked this article…
 
