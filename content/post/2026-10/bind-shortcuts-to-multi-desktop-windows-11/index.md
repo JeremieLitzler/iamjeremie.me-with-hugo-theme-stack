@@ -124,7 +124,7 @@ SetDesktopName(2, "SQL")
 
 The script creates missing desktops on startup, so you do not even need to press `Win+Ctrl+D` beforehand. Double-click the file and a green H icon appears in the notification area. Press `Alt+W` and you should land on Dev. Open Task view with `Win+Tab` to see the desktop names.
 
-To start it at sign-in, press Win+R, type `shell:startup` and press Enter, then create a shortcut to `desktops.ahk` in that folder. It seems that it doesn't work all the time, though. So in my case, I run the `Windows+R`and type `C:\Tools\vda\C:\Tools\vda\desktops.ahk` which shows up in my history as I type the disk letter.
+To start it at sign-in, press Win+R, type `shell:startup` and press Enter, then create a shortcut to `desktops.ahk` in that folder. If it seems that it doesn't work all the time, then use the `Windows+R` trick: press `Windows+R` and type `C:\Tools\vda\desktops.ahk`, which shows up in my history as I type the disk letter.
 
 ## Things to Watch
 
