@@ -70,7 +70,7 @@ You need three things:
 
 Once you've gathered all those, install AutoHotkey v2 with the defaults. Then create a folder such as `C:\Tools\vda` and drop the DLL in it. The script expects the DLL next to itself.
 
-The release DLL dates from December 2024, while the `README`'s 25H2 test comes from the current source. I confirmed the setup works on build 26200. If `LoadLibrary` fails or every call returns -1 on your machine, you should build the DLL from the repository source instead (which I haven't tried). The `README` gives no build instructions, but the repository contains a Rust crate. With AI, cloning the repo and asking an agent to look at it may be enough to rebuild the DLL if the need appears someday.
+The release DLL dates from December 2024, while the `README`'s 25H2 test comes from the current source. I confirmed the setup works on build 26200 (25H2) and on build 26300.9818 (26H2). If `LoadLibrary` fails or every call returns -1 on your machine, you should build the DLL from the repository source instead (which I haven't tried). The `README` gives no build instructions, but the repository contains a Rust crate. With AI, cloning the repo and asking an agent to look at it may be enough to rebuild the DLL if the need appears someday.
 
 Then, save the following as `C:\Tools\vda\desktops.ahk`. Desktop numbers are zero-based in the project's example, so Bureautique is 0, Dev is 1 and SQL is 2.
 
