@@ -1,6 +1,6 @@
 ---
-title: "Caveat Filtering On Numeric Formats"
-description: "There are many numeric formats, variable from a country to another. When it comes to searching on those values, you need careful attention to detail."
+title: "A Caveat When Filtering On Numeric Formats"
+description: "Numeric formats vary from one country to another. When it comes to searching on those values, you need to pay careful attention to detail."
 image: 2026-11-02-calculator-display-showing-large-number.jpg
 imageAlt: Close-up of a calculator display showing a large number
 date: 2026-11-02
@@ -10,21 +10,21 @@ tags:
   - Csharp
 ---
 
-Earlier this year, I worked on a bug with where a query (as in _CQS pattern_) didn't return the expected results when performing a specific search to find a record from a money amount.
+Earlier this year, I worked on a bug where a query (as in _CQS pattern_) didn't return the expected results when performing a specific search to find a record from a monetary amount.
 
 Let me explain with an example what was going on and how I solved it.
 
 ## The Starting Point
 
-The search term was `5'`. Why? Because the client application displayed money amount with a pseudo-german-swiss numeric format. The value `10000` would be displayed `10'000` instead of `10’000` as it should.
+The search term was `5'`. Why? Because the client application displayed money amounts in a pseudo-Swiss-German numeric format. The value `10000` would be displayed as `10'000` instead of `10’000` as it should.
 
-Therefore, users in Switzerland, or any country to that matter, don't really type the typographic apostrophe (`’`, you have to type `ALT+0146` to get it...) but they will use the regular apostrophe (aka. dactolygraphic apostrophe or `'`).
+Therefore, users in Switzerland, or in any other country for that matter, don't really type the typographic apostrophe (`’`, you have to type `ALT+0146` to get it...) but they will use the regular apostrophe (aka. dactylographic apostrophe or `'`).
 
-The query pulled a list of items and we used EF6, Gridify (for pagination), LINQ to write the query.
+The query pulled a list of items and we used EF6, Gridify (for pagination) and LINQ to write the query.
 
-Before that, nothing is available in memory.
+At that stage, nothing is in memory yet: the query still has to run on SQL Server.
 
-The search above supposed the existance of a column `Amount` of type `money`, in the SQL Server database, where the value of record was `65000`.
+The search above assumed the existence of a column `Amount` of type `money`, in the SQL Server database, where the record's value was `65000`.
 
 The code looked like this (it isn't the original code but something close to it):
 
@@ -36,7 +36,7 @@ private IQueryable<TransactionResult> PerformSearch(IQueryable<TransactionResult
     .Trim()
     .Split(' ')
     // Add "and" clauses to the query for each term
-    .Aggregate(transactions, (transaction, term) => transaction.Where(SearchExpression(term)));
+    .Aggregate(transactions, (query, term) => query.Where(SearchExpression(term)));
 
 private readonly string _dateSeparator = "-";
 
@@ -44,10 +44,10 @@ private Expression<Func<TransactionResult, bool>> SearchExpression(string term)
 {
     return transaction =>
     (transaction.CreatedOn.Year.ToString() + _dateSeparator +
-        (transaction.CreatedOn.Month > 10
+        (transaction.CreatedOn.Month >= 10
         ? transaction.CreatedOn.Month.ToString()
         : "0" + transaction.CreatedOn.Month.ToString()) + _dateSeparator +
-        (transaction.CreatedOn.Day > 10
+        (transaction.CreatedOn.Day >= 10
         ? transaction.CreatedOn.Day.ToString()
         : "0" + transaction.CreatedOn.Day.ToString()) + _dateSeparator
     +
@@ -66,9 +66,9 @@ Where is the issue?
 
 ## The Cause
 
-In short, the regular expression wasn’t specific enough and only took care of the apostrophes with numbers around.
+In short, the stored amount contains no apostrophe, so a search term containing one can never match: `65000` doesn't contain `5'`. The search term has to be normalized before it reaches the query.
 
-Let’s fix that!
+Let's fix that!
 
 ## The Solution
 
@@ -81,7 +81,7 @@ Let’s fix that!
     // The new line
     .Select(term => term.StripNumericApostrophes())
     // Add "and" clauses to the query for each term
-    .Aggregate(transactions, (transaction, term) => transaction.Where(SearchExpression(term)));
+    .Aggregate(transactions, (query, term) => query.Where(SearchExpression(term)));
 
 // The class to normalize the search terms
 public static class StringExtensions
@@ -91,7 +91,6 @@ public static class StringExtensions
     /// </summary>
     /// <param name="source">The string containing the characters to remove</param>
     /// <returns>The normalized string</returns>
-    /// <see cref="DecimalExtensions.Search(decimal, string)"/>
     public static string StripNumericApostrophes(this string source)
     {
       // Remove apostrophes that are commonly used as thousands separators in numbers
@@ -99,7 +98,7 @@ public static class StringExtensions
       // We only remove them if they appear between digits
       var normalized = System.Text.RegularExpressions.Regex.Replace(
         source,
-        @"(?<=\\d)''’'",
+        @"(?<=\d)['’](?=\d)",
         ""
       );
 
@@ -111,8 +110,8 @@ public static class StringExtensions
 
 I wrote the following tests:
 
-```json
-// lang, test description, searchText, except record count
+```csharp
+// lang, test description, searchText, expected record count
 { "en", "Search '5000' should find item on amount", "5000", 1 },
 { "en", "Search '5'000' should find item on amount", "5'000", 1 },
 { "en", "Search '65’0' should find item on amount", "65’0", 1 },
@@ -122,7 +121,7 @@ I wrote the following tests:
 
 These were fine. But, I missed a few use cases:
 
-```json
+```csharp
 { "en", "Search '’000' should find item on amount", "’000", 2 },
 { "en", "Search ''000' should find item on amount", "'000", 2 },
 { "en", "Search '65’' should find item on amount", "65’", 2 },
@@ -132,34 +131,35 @@ These were fine. But, I missed a few use cases:
 
 These failed. Why?
 
-The regular expression was incorrect. To match the extra 4 tests, it had to become the following:
+The regular expression only handled apostrophes with digits on both sides. To match the extra 4 tests, it had to become the following:
 
 ```csharp
-@"(?<!\\w)''’|(?<=\\d)[''’]",
+@"(?<!\w)['’](?=\d)|(?<=\d)['’]",
 
 ```
 
-This only removes leading apostrophes in word boundaries and only if it comes before or after a digit.
-In details,
+This removes an apostrophe that follows a digit, or one that precedes a digit and doesn't follow a word character.
 
-- First part: `(?<!\\w)''''`
+In detail:
+
+- First part: `(?<!\w)['’](?=\d)`
   - This matches apostrophes before digits:
-    - `(?<!\\w)` - It is a negative lookbehind that asserts that what comes immediately before the current position is NOT a word character.
+    - `(?<!\w)` - It is a negative lookbehind that asserts that what comes immediately before the current position is NOT a word character.
     - `?<!` represents the negative lookbehind.
-    - `\\w` matches letters, digits, and underscore `[a-zA-Z0-9_]`.
+    - `\w` matches word characters: letters, digits and underscores, including non-ASCII ones by default in .NET.
     - This prevents matching apostrophes in the middle of words like `don't50`.
-  - `[''’]`
+  - `['’]`
     - Matches any ONE of these apostrophe characters:
-      - `'` - Regular apostrophe (U+0027) (doubled to escape it)
+      - `'` - Regular apostrophe (U+0027)
       - `’` - Typographic/right single quotation mark (U+2019)
-  - `(?=\\d)` - Positive lookahead
+  - `(?=\d)` - Positive lookahead
     - `?=` asserts that what comes immediately after the apostrophe is a digit
-    - `\\d` matches any digit [0-9]
+    - `\d` matches any digit, including non-ASCII digits by default in .NET
 - `|`: the pipe character means `OR`. The regex will match if EITHER the first part OR the second part matches to something
-- Second part: `(?<=\\d)[''’]`
+- Second part: `(?<=\d)['’]`
   - This matches apostrophes after digits:
-    - `(?<=\\d)` is a positive lookbehind that asserts that what comes immediately before the current position IS a digit. This ensures we only match apostrophes that follow numbers
-    - `[''’]` works like the first part of the expression.
+    - `(?<=\d)` is a positive lookbehind that asserts that what comes immediately before the current position IS a digit. This ensures we only match apostrophes that follow numbers
+    - `['’]` works like the first part of the expression.
 
 ## Testing `StripNumericApostrophes`
 
@@ -194,29 +194,28 @@ namespace MyProject.Application.Queries.IntegrationTests.Extensions
 
 ```
 
-In my business need, I didn't need to handle the `@'10` or `10'!` because it wasn't going to happen. It would have been useless tests.
+For my use case, I didn't need to handle inputs like `@'10` or `10'!` because it wasn't going to happen. It would have been useless tests.
 
 ## Security Risks Evaluation
 
-From my research, I came across a **ReDoS (Regular Expression Denial of Service)** risk, though it's relatively low with this specific pattern tested so far. However, I'd like to share the possible concerns that you need to be aware of.
+From my research, I came across a **ReDoS (Regular Expression Denial of Service)** risk, though the risk is relatively low with this pattern. However, I'd like to share the possible concerns that you need to be aware of.
 
 ### _ReDoS_ Risk Assessment
 
-The regex `(?<!\\w)''’|(?<=\\d)[''’]` is relatively safe because:
+The regex `(?<!\w)['’](?=\d)|(?<=\d)['’]` is relatively safe because:
 
-- it uses no nested quantifiers (`+`, , `{n,m}`)
+- it uses no nested quantifiers (`+`, `*`, `{n,m}`)
 - it has no overlapping alternations that cause excessive backtracking
-  - For example, `(.|\\s)*` pattern with a source string that is many spaces could ended up with 2^N permutations.
-- it has lookbehinds and lookaheads are fixed-width
-  - `?<` checks exactly 1 character behind so it is fixed-width
+  - For example, a `(.|\s)*` pattern with a source string that is many spaces could end up with 2^N permutations.
+- its lookbehinds and lookaheads are fixed-width
+  - `?<!` and `?<=` check exactly 1 character behind so it is fixed-width
   - `?=` checks exactly 1 character ahead so it is fixed-width
 
 **However**, malicious input could still cause issues with very long strings (MB+ of text) that would take time to process. Indeed, `Regex.Replace` must scan the entire string character by character.
 
 ### Recommended Mitigations
 
-In the frontend application, the `<input>` element could use `maxlength` attribute to limit this issue.
-In the backend application, we could also mitigate the issue with string length check:
+In the frontend application, the `<input>` element could use the `maxlength` attribute to limit this issue. In the backend application, we could also mitigate the issue with a string length check:
 
 ```csharp
 public static string StripNumericApostrophes(this string source)
@@ -234,12 +233,13 @@ public static string StripNumericApostrophes(this string source)
     {
         var normalized = System.Text.RegularExpressions.Regex.Replace(
             source,
-            @"(?<!\\w)''’|(?<=\\d)[''’]",
+            @"(?<!\w)['’](?=\d)|(?<=\d)['’]",
             "",
             // Only specified to use the timeout
             System.Text.RegularExpressions.RegexOptions.None,
             // Timeout after 100ms in case of catastrophic backtracking. See above example.
-            // Plus, the timeout would not apply on the whole expression, but each part.
+            // The timeout limits how long the method tries to find a match.
+            // 100ms is plenty for a short search term; Microsoft suggests about two seconds as a general value.
             TimeSpan.FromMilliseconds(100)
         );
         return normalized;
@@ -247,6 +247,7 @@ public static string StripNumericApostrophes(this string source)
     catch (RegexMatchTimeoutException)
     {
         // Log the attempt
+        throw;
     }
 }
 
@@ -258,7 +259,7 @@ You could consider caching the compiled regex for better performance:
 
 ```csharp
 private static readonly Regex NumericApostropheRegex = new Regex(
-    @"(?<!\\w)''’|(?<=\\d)[''’]",
+    @"(?<!\w)['’](?=\d)|(?<=\d)['’]",
     RegexOptions.Compiled,
     TimeSpan.FromMilliseconds(100)
 );
@@ -276,9 +277,9 @@ public static string StripNumericApostrophes(this string source)
 
 ```
 
-Using this practice will depend on the amount of searches performed on the frontend.
+Using this practice will depend on the number of searches performed on the frontend.
 
-The regex is complex and the application could benefit from it. But that's an optimization to consider when the breaking point happens. It wasn't used heavily in the application (only one endpoint).
+Caching could help, but that's an optimization to consider once performance becomes a problem. It wasn't used heavily in the application (only one endpoint).
 
 ### Non-Regex Approach
 
@@ -292,7 +293,7 @@ public static string NoRegexStripNumericApostrophes(this string source)
         return source;
 
     var sb = new StringBuilder(source.Length);
-    var apostrophes = new HashSet<char> { '\\'', '’' };
+    var apostrophes = new HashSet<char> { '\'', '’' };
 
     for (int i = 0; i < source.Length; i++)
     {
@@ -317,20 +318,18 @@ public static string NoRegexStripNumericApostrophes(this string source)
 
 ```
 
-This works exactly the same as the regex method.
+This works much the same as the regex method.
 
 ### Sources
 
 - Timeout - Timeouts are built in to the .NET standard library through the System.Text.RegularExpressions.Regex MatchTimeout property ([Wikipedia](https://en.wikipedia.org/wiki/ReDoS)).
 - Length limits - This is a standard security practice for input validation.
 - RegexOptions.Compiled - Improves performance for frequently used patterns ([Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-options)).
-- Try-catch - When a RegexMatchTimeoutException is thrown, the recommended pattern is to wait for a brief, random time interval after the exception is thrown before calling the matching method again ([Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regexmatchtimeoutexception?view=net-8.0)).
+- Try-catch - When a RegexMatchTimeoutException is thrown, the recommended pattern is to wait for a brief, random time interval after the exception is thrown before calling the matching method again, which applies when the time-out was set too low. For excessive backtracking, the recommendation is to abandon the attempt, inform the user and log the details ([Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regexmatchtimeoutexception?view=net-8.0)).
 
 ## Conclusion
 
-The search is a complex matter and we could go on well beyond this article. Using specialized services may help, but in this case, the implementation of a new dependency was a big overhead. So we kept the regular expression
-
-Thank you for having read to the end!
+Search is a complex matter and we could go on well beyond this article. Using specialized services may help, but in this case, adding a new dependency was too much overhead, so we kept the regular expression.
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
