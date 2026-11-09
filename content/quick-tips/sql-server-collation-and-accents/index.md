@@ -5,7 +5,7 @@ image: /quick-tips/images/sql-server.webp
 imageAlt: Logo of Microsoft SQL Server
 date: 2026-03-11
 categories:
-  - Web Development
+  - Software Development
 tags:
   - SQL Server
 ---
