@@ -16,6 +16,8 @@ A 4,000 euro mini PC that fits in a 170 x 170 mm box and promises to run langu
 
 So I researched it. My rule was simple: I only keep a claim if it is backed by a primary source, meaning Geekom’s own page, AMD’s product page and blogs, and the documentation of the tools involved.
 
+I made one exception. Valérian de Thézan de Gaussan owns a Framework Desktop with the same Ryzen AI Max+ 395 and 128 GB of memory, and published benchmarks originally in November 2025 and refreshed it in October 2026. It is not a Geekom, so the cooling and power limits differ, but it is the closest thing to real measurements on this chip that I found. I flag every number that comes from that machine below.
+
 ## What Is Inside the Box
 
 The 128 GB version of the A9 Mega is built around the Ryzen AI Max+ 395. According to AMD, that is 16 Zen 5 cores and 32 threads, a 3 GHz base clock and up to 5.1 GHz boost, 64 MB of L3 cache, and a configurable TDP between 45 and 120 W. The integrated GPU is a Radeon 8060S with 40 RDNA 3.5 compute units running up to 2900 MHz.
@@ -32,7 +34,9 @@ How much of it the GPU can really use depends on the platform. Geekom’s FAQ sa
 
 On Linux, AMD’s ROCm blog tells a different story. On its 128 GB test system, the GPU-accessible portion was 64 GB by default, “configurable” to 64 GB or more depending on “system vendor and BIOS support”. No maximum is given.
 
-So the honest answer to “how much can the GPU use?” is: 96 GB on Windows according to Geekom and AMD, 64 GB or more on Linux, and I would verify it on the actual unit.
+Valérian’s Framework Desktop shows how far “or more” can go. In the October 2026 follow-up, running llama.cpp with Vulkan on Linux (Mesa RADV driver), the driver exposed 111.56 GiB to Vulkan, with about 109.84 GiB free at startup. Valérian explicitly corrects an earlier assumption of a 96 GB budget: no strict 96 GB cap was enforced on that machine.
+
+So the honest answer to “how much can the GPU use?” is: 96 GB on Windows according to Geekom and AMD, 64 GB by default on Linux according to AMD’s ROCm blog, over 110 GiB through Vulkan on one Framework Desktop under Linux, and I would verify it on the actual Geekom unit, because it depends on the BIOS.
 
 ## Which Models Fit
 
@@ -50,7 +54,15 @@ The last line deserves attention. The 122B model exceeded the 64 GB allocation,
 
 On Windows with LM Studio, AMD’s slides show the memory footprint of 4-bit models: 68 GB for Mistral Large 123B, 66 GB for Llama 4 Scout 109B, 18 GB for Qwen3 30B-A3B and 17 GB for Gemma 3 27B. Context length matters a lot too. Llama 4 Scout takes 66 GB at the default 4096 tokens of context, but 92 GB at 256,000 tokens with Flash Attention on and a Q8 KV cache. AMD also claims “up to 15 tokens per second” for that model, with no test conditions, so I treat it as a vendor claim.
 
-From these allocations, I draw a rule of thumb. A 4-bit model of about 70 to 76 GB fits in memory, but with a 64 GB GPU allocation, part of it runs on the CPU. With the 96 GB setting that Geekom advertises, models in the 70 to 90 GB range should fit entirely on the GPU. **I want to be clear that this is an inference from the stated numbers, not a measured result.**
+Valérian’s benchmarks give a much wider picture. They use llama.cpp with the Vulkan backend, all layers on the GPU, a 512-token prompt and 128 generated tokens. The pattern is clear: dense models slow down with size, and mixture-of-experts (MoE) models break that rule.
+
+On the dense side, Llama 3.3 70B at 4-bit (about 40 GB) decoded at 5.05 tokens per second, and Mistral Large 123B at 4-bit (68 GB) at only 2.97. A 27B to 31B dense model from 2026, like Qwen3.8 27B or Gemma 4 31B, sits around 11 to 13 tokens per second at 4-bit and drops to 6.5 to 7.5 at 8-bit. Lower precision means fewer bytes to read per token, so decoding gets faster.
+
+On the MoE side, gpt-oss-120b in MXFP4 (59 GB) reached 54 tokens per second in decode and 500 in prompt processing. Mistral Small 4 119B, with about 6.5B active parameters, reached 32.72 tokens per second at 4-bit (68.7 GiB) and 29.83 at 5-bit (83 GiB). Llama 4 Scout at 4-bit decoded at 20.2 tokens per second, above AMD’s own “up to 15” claim, though on a different backend and OS. Only the active parameters are read for each token, which explains why a 120B MoE model can run ten times faster than a 70B dense one.
+
+From these allocations, I draw a rule of thumb. A 4-bit model of about 70 to 76 GB fits in memory, but with a 64 GB GPU allocation, part of it runs on the CPU. With the 96 GB setting that Geekom advertises, models in the 70 to 90 GB range should fit entirely on the GPU. **I want to be clear that this is an inference from the stated numbers, not a measured result on the Geekom unit.** The Framework Desktop supports it, though: Valérian ran Mixtral 8x22B (79.7 GB) and GLM-5.3-Flash at a 1-bit quantization (86.7 GiB, 19 tokens per second) fully on the GPU.
+
+Two caveats apply to all of Valérian’s numbers. First, they are short-context runs, so they say nothing about speed with a 32,000-token or 128,000-token prompt, which is what a coding agent would send. Second, output quality was not evaluated, and a 1-bit quantization fitting in memory does not mean it answers well.
 
 ## What About the NPU?
 
@@ -75,7 +87,8 @@ The page also contradicts itself on TOPS and on the maximum model size. I am not
 Here is what I could not find in any primary source:
 
 - Cinebench, Geekbench or compile-time scores for this chassis.
-- Measured tokens per second on a Geekom A9 Mega, for any model.
+- Measured tokens per second on a Geekom A9 Mega, for any model. Same-chip numbers exist from the Framework Desktop, but it doesn’t Geekom A9 Mega would mean similar outcome.
+- Measured speeds with long contexts, on any Ryzen AI Max+ 395 machine.
 - The memory bandwidth actually delivered in clear real-life scenarios, as opposed to the theoretical 256 GB/s.
 - Sustained power limits per mode, fan noise under load, and clock speeds over time.
 - The exact LPDDR5X speed shipped in this model. AMD only gives a maximum of 8000.
@@ -94,14 +107,27 @@ Geekom France lists two configurations: 2,499 euros for the 64 GB version with 
 - [AMD: Ryzen AI Max+ upgraded, run up to 128 billion parameter LLMs on Windows with LM Studio](https://www.amd.com/en/blogs/2025/amd-ryzen-ai-max-upgraded-run-up-to-128-billion-parameter-llms-lm-studio.html)
 - [llama.cpp build documentation](https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md)
 - [LM Studio system requirements](https://lmstudio.ai/docs/app/system-requirements)
+- [Valérian de Thézan de Gaussan: LLM on the AMD AI Max 395+, what can it run locally? (November 2025)](https://valerian.dtdg.fr/blog/2025/amd-strix-halo-ai-395-llm-benchmark/)
+- [Valérian de Thézan de Gaussan: Local AI is not ready yet (November 2025)](https://valerian.dtdg.fr/blog/2025/local-ai-not-ready-yet/)
+- [Valérian de Thézan de Gaussan: AMD Strix Halo LLM benchmark follow-up (October 2026)](https://valerian.dtdg.fr/blog/2026/amd-strix-halo-llm-benchmark-follow-up/)
 
 ## Conclusion
 
 The 128 GB Geekom A9 Mega is a credible choice if your main goal is running large quantized LLMs locally, but I would not buy it on Geekom’s performance claims alone.
 
-Memory is the real advantage. With 128 GB of unified LPDDR5X and up to 96 GB allocatable to the GPU on Windows, it could host 70B-class dense models and 100B+ MoE models that exceed any consumer discrete GPU. But speed is bounded by bandwidth. The 256 GB/s theoretical peak is shared with the CPU, and AMD’s own example shows 8.59 tokens per second for a 76 GB MoE model that spilled partly onto the CPU. If you use a coding assistant like Claude Code every day, that is a big difference, so expect modest speeds on the largest models. I am not trying to reach the performance of frontier cloud models. I am simply saying that the experience will be very different in terms of speed.
+Memory is the real advantage. With 128 GB of unified LPDDR5X and up to 96 GB allocatable to the GPU on Windows, it could host 70B-class dense models and 100B+ MoE models that exceed any consumer discrete GPU. But speed is bounded by bandwidth.
+
+The 256 GB/s theoretical peak is shared with the CPU, and AMD’s own example shows 8.59 tokens per second for a 76 GB MoE model that spilled partly onto the CPU.
+
+The Framework Desktop numbers point to the same lesson: MoE models with only 5 to 7B active parameters, like gpt-oss-120b and Mistral Small 4, are the sweet spot, at 30 to 54 tokens per second, while dense models of 70B and more crawl at 3 to 5 tokens per second.
+
+If you use a coding assistant like Claude Code every day, that is a big difference, so expect modest speeds on the largest models. I am not trying to reach the performance of frontier cloud models. I am simply saying that the experience will be very different in terms of speed.
 
 The memory is also soldered, so the 128 GB decision cannot be corrected later. Before relying on the machine, I would test the GPU allocation I can really reach (64 GB or 96 GB), the tokens per second on my own target models with Vulkan and ROCm, the sustained power, fan noise and clocks over a 30-minute load, the real Ethernet port speed, and the final price.
+
+Valérian, who owns this class of machine, is blunt about it: local AI on a consumer desktop “is not a replacement for frontier intelligence today”, and cloud flagships are cheap because of subsidies and strategic pricing, which makes local hardware “economically irrational today”.
+
+Its value lies elsewhere: narrow workflows like field extraction, classification or internal assistants with validated outputs, and data sovereignty for organizations that cannot send sensitive data to external servers. If that is your use case, the machine makes sense. If you hope to replace your cloud subscription, it does not, yet.
 
 But can you afford 3,999 euros to _test_?
 
