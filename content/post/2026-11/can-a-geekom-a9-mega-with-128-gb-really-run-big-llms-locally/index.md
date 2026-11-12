@@ -22,7 +22,7 @@ I made one exception. Valérian de Thézan de Gaussan owns a Framework Desktop w
 
 The 128 GB version of the A9 Mega is built around the Ryzen AI Max+ 395. According to AMD, that is 16 Zen 5 cores and 32 threads, a 3 GHz base clock and up to 5.1 GHz boost, 64 MB of L3 cache, and a configurable TDP between 45 and 120 W. The integrated GPU is a Radeon 8060S with 40 RDNA 3.5 compute units running up to 2900 MHz.
 
-The memory is a 256-bit LPDDR5x interface, up to LPDDR5x-8000, soldered on the board. Geekom’s FAQ gives a theoretical bandwidth of 256 GB/s, which matches the math: 256 bits divided by 8, times 8000 MT/s. It is a theoretical peak, not something anyone has measured on this chassis.
+The memory is a 256-bit LPDDR5x interface, up to LPDDR5x-8000, soldered on the board (so the 128 GB decision cannot be corrected later). Geekom’s FAQ gives a theoretical bandwidth of 256 GB/s, which matches the math: 256 bits divided by 8, times 8000 MT/s. It is a theoretical peak, not something anyone has measured on this chassis.
 
 Geekom lists a system TDP of up to 154 W with a 330 W adapter, while its FAQ mentions about 120 W under sustained load. What it does not say is which power limits are configured in the BIOS.
 
@@ -87,17 +87,31 @@ The page also contradicts itself on TOPS and on the maximum model size. I am not
 Here is what I could not find in any primary source:
 
 - Cinebench, Geekbench or compile-time scores for this chassis.
-- Measured tokens per second on a Geekom A9 Mega, for any model. Same-chip numbers exist from the Framework Desktop, but it doesn’t Geekom A9 Mega would mean similar outcome.
-- Measured speeds with long contexts, on any Ryzen AI Max+ 395 machine.
+- Measured tokens per second on a Geekom A9 Mega, for any model. Same-chip numbers exist from the Framework Desktop, but that doesn’t mean the Geekom A9 Mega would give the same results. Geekom has since shared its own benchmark, see [Geekom’s Answer](#geekoms-answer).
+- Measured speeds with long contexts, on any Ryzen AI Max+ 395 machine. Geekom’s benchmark has since covered prompts up to 128,000 tokens, see [Geekom’s Answer](#geekoms-answer).
 - The memory bandwidth actually delivered in clear real-life scenarios, as opposed to the theoretical 256 GB/s.
 - Sustained power limits per mode, fan noise under load, and clock speeds over time.
-- The exact LPDDR5X speed shipped in this model. AMD only gives a maximum of 8000.
+- The exact LPDDR5X speed shipped in this model. AMD only gives a maximum of 8000. Geekom’s US specification page has since confirmed 8000 MHz, see [Geekom’s Answer](#geekoms-answer).
 - Whether this machine’s BIOS exposes a GPU allocation setting and its maximum.
 - Whether gfx1151, the Radeon 8060S target, is officially supported by every runtime version. The llama.cpp build documentation describes a Vulkan backend and a HIP backend, but does not name gfx1151.
 
 ## Price
 
 Geekom France lists two configurations: 2,499 euros for the 64 GB version with the Ryzen AI Max+ 388, and 3,999 euros for the 128 GB version with the Ryzen AI Max+ 395. It’s not the _250 euros discount of November 2026_ that will make it easier to swallow the bill…
+
+## Geekom’s Answer
+
+After I sent my research to Geekom, they replied with two resources, and I appreciate that they did.
+
+The first is a specification page for the US configurations, updated on October 27, 2026. It settles one open question: the memory is LPDDR5x at 8000 MHz. It also lists a TDP of 45 to 120 W with a maximum dissipation of 140 W, which differs from the 154 W on the French page.
+
+The second is a benchmark Geekom ran on an A9 Mega 395. The first measured numbers on this exact machine that I have seen. They ran Qwen3.8-Flash-Next, a 111.4 GB model at 4-bit, with llama.cpp on ROCm 10.0.0 under Ubuntu 26.04, a 256,000-token context window, and multi-token prediction, where a small draft model guesses the next tokens. It ran on a single unit with about 101.6 GB used as GPU memory, which shows that a Linux setup on this machine goes beyond the 96 GB advertised for Windows.
+
+The results answer my long-context question. With a 128-token prompt, decoding runs at 32.43 tokens per second. It drops to 23.58 at 32,000 tokens and to 15.45 at 128,000 tokens. The real cost is the wait for the first token: 27 seconds with an 8,000-token prompt, almost 2 minutes at 32,000 tokens, and **720.61 seconds, so 12 minutes, at 128,000 tokens**. Geekom is transparent about the limits.
+
+The BIOS version and the power profile are marked “to be confirmed”, there is no power, temperature or noise data, and no run without multi-token prediction to compare against.
+
+The memory used also exceeds the 128 GB installed, which the page attributes to swap. And it remains a vendor benchmark on a single unit. Geekom itself recommends this setup for local data handling and scheduled long-document jobs, not for real-time replies to very long prompts.
 
 ## Sources
 
@@ -110,26 +124,24 @@ Geekom France lists two configurations: 2,499 euros for the 64 GB version with 
 - [Valérian de Thézan de Gaussan: LLM on the AMD AI Max 395+, what can it run locally? (November 2025)](https://valerian.dtdg.fr/blog/2025/amd-strix-halo-ai-395-llm-benchmark/)
 - [Valérian de Thézan de Gaussan: Local AI is not ready yet (November 2025)](https://valerian.dtdg.fr/blog/2025/local-ai-not-ready-yet/)
 - [Valérian de Thézan de Gaussan: AMD Strix Halo LLM benchmark follow-up (October 2026)](https://valerian.dtdg.fr/blog/2026/amd-strix-halo-llm-benchmark-follow-up/)
+- [Geekom: Qwen3.8-Flash-Next on the A9 Mega 395, benchmark (October 2026)](https://www.geekompc.com/qwen3-8-flash-next-a9-mega-395-benchmark)
+- [Geekom: A9 Mega AI Mini PC specifications and comparison (US, October 2026)](https://help.geekompc.com/hc/en-us/articles/18180136790031-GEEKOM-A9-Mega-AI-Mini-PC-Specifications-and-Comparison)
 
 ## Conclusion
 
-The 128 GB Geekom A9 Mega is a credible choice if your main goal is running large quantized LLMs locally, but I would not buy it on Geekom’s performance claims alone.
+The 128 GB Geekom A9 Mega is a credible machine for running large quantized LLMs locally, and Geekom’s own benchmark now shows a 111 GB model running on a single unit. But I would not buy it on the marketing claims alone, and I would not buy it expecting what I get from a frontier model.
 
-Memory is the real advantage. With 128 GB of unified LPDDR5X and up to 96 GB allocatable to the GPU on Windows, it could host 70B-class dense models and 100B+ MoE models that exceed any consumer discrete GPU. But speed is bounded by bandwidth.
+Memory is the real advantage. With 128 GB of unified LPDDR5X and up to 96 GB allocatable to the GPU on Windows, or more on Linux, it can host 70B-class dense models and 100B+ MoE models that exceed any consumer discrete GPU. But speed is bounded by bandwidth.
 
-The 256 GB/s theoretical peak is shared with the CPU, and AMD’s own example shows 8.59 tokens per second for a 76 GB MoE model that spilled partly onto the CPU.
+The 256 GB/s theoretical peak is shared with the CPU, and AMD’s own example shows 8.59 tokens per second for a 76 GB MoE model that spilled partly onto the CPU.
 
 The Framework Desktop numbers point to the same lesson: MoE models with only 5 to 7B active parameters, like gpt-oss-120b and Mistral Small 4, are the sweet spot, at 30 to 54 tokens per second, while dense models of 70B and more crawl at 3 to 5 tokens per second.
 
-If you use a coding assistant like Claude Code every day, that is a big difference, so expect modest speeds on the largest models. I am not trying to reach the performance of frontier cloud models. I am simply saying that the experience will be very different in terms of speed.
+Geekom’s benchmark adds the missing piece: context. A coding assistant like Claude Code sends tens of thousands of tokens with each request. At 32,000 tokens, the A9 Mega waits almost 2 minutes before the first token, then decodes at about 24 tokens per second. That is not a slower version of how I use a frontier model. It is a different usage altogether.
 
-The memory is also soldered, so the 128 GB decision cannot be corrected later. Before relying on the machine, I would test the GPU allocation I can really reach (64 GB or 96 GB), the tokens per second on my own target models with Vulkan and ROCm, the sustained power, fan noise and clocks over a 30-minute load, the real Ethernet port speed, and the final price.
+That is where Valérian’s view resonates. Local AI on a consumer desktop “is not a replacement for frontier intelligence today”, and cloud flagships are cheap because of subsidies and strategic pricing, which makes local hardware “economically irrational today”.
 
-Valérian, who owns this class of machine, is blunt about it: local AI on a consumer desktop “is not a replacement for frontier intelligence today”, and cloud flagships are cheap because of subsidies and strategic pricing, which makes local hardware “economically irrational today”.
-
-Its value lies elsewhere: narrow workflows like field extraction, classification or internal assistants with validated outputs, and data sovereignty for organizations that cannot send sensitive data to external servers. If that is your use case, the machine makes sense. If you hope to replace your cloud subscription, it does not, yet.
-
-But can you afford 3,999 euros to _test_?
+Local AI shines elsewhere: narrow workflows like field extraction, classification or internal assistants with validated outputs, long-document jobs that can run overnight, and data sovereignty for organizations that cannot send sensitive data to external servers. If that is your use case, the machine makes sense. If you hope to replace the frontier model you use every day, it does not, yet.
 
 If you liked this article…
 
