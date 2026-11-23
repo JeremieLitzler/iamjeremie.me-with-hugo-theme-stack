@@ -1,6 +1,6 @@
 ---
 title: "Enforcing Commit Message Standards in Azure DevOps"
-description: "Commit messages convey important information, often used to provide the scope of change between version."
+description: "Commit messages convey important information, often used to provide the scope of change between versions."
 image: /images/2026-04-29-logo-of-git-scm.svg
 imageAlt: Logo of Git Versioning Software
 date: 2026-11-23
@@ -10,23 +10,23 @@ tags:
   - Versioning Control
 ---
 
-To write automatically release notes with Git, many use convential commits. Often, you use a software factory like GitHub or Azure DevOps to track features and bugs.
+To generate release notes automatically with Git, many teams use conventional commits. Often, you use a platform like GitHub or Azure DevOps to track features and bugs.
 
-When it comes to commit messages, including important information in this small string (ticket ID, scope, etc) does need the whole team to be on the same page to keep the release note clean.
+When it comes to commit messages, including important information in this small string (ticket ID, scope, etc.) requires the whole team to be on the same page to keep the release notes clean.
 
 Let’s see how you can enforce a commit message policy.
 
 ## Enforcing Git Commit Messages On Azure DevOps Repositories
 
-If you're using Azure DevOps Server (on-premises), you can implement server-side Git hooks. However, this isn't available in Azure DevOps Services (cloud).
+Azure DevOps Services (cloud) doesn't let you run custom server-side Git hooks, so you can't reject a push because of its commit messages.
 
-So how do you enforce the whole team commit with consistent messages?
+So how do you make the whole team commit with consistent messages?
 
-You can use `commit-msg` hook on developers' local machines. For that, create a `.git/hooks/commit-msg` file in each developer's local repository.
+You can use a `commit-msg` hook on developers' local machines. For that, create a `.git/hooks/commit-msg` file in each developer's local repository.
 
 This validates messages before they're committed locally.
 
-For example, the following `commit-msg` hook will ensure the messages follow the conventional commit message struture:
+For example, the following `commit-msg` hook ensures the messages follow the conventional commit message structure:
 
 ```bash
 #!/bin/sh
@@ -41,7 +41,7 @@ fi
 
 ```
 
-## Custom Enforment Rules
+## Custom Enforcement Rules
 
 If your team doesn't follow conventional commit rules, you can tweak the regular expression:
 
@@ -84,23 +84,25 @@ exit 0
 
 Anything that doesn't match the pattern will fail the `git commit -m` command.
 
+Keep in mind that a local hook is a safety net, not a lock: `git commit --no-verify` skips it.
+
 ## Ensuring the Rule is Applied For All
 
 Since `.git/hooks` isn't tracked by Git, you have an option that requires a single step to make sure the commit message rule is enforced:
 
 1. create a directory `.githooks/` at the root of the repository.
-2. create the `commit-msg` hook with the content above
+2. create the `commit-msg` hook with the content above and make it executable (`chmod +x .githooks/commit-msg`)
 3. update the `README.md` to communicate the fact that everyone needs to run this command when cloning the repository:
 
 ```sh
 git config core.hooksPath .githooks
 ```
 
-Another idea would be to include a `initial-repo-setup.sh` to run once you cloned the repository:
+Another idea would be to include an `initial-repo-setup.sh` script to run once after cloning the repository:
 
 ```bash
 #!/bin/sh
-# setup.sh - Run this after cloning
+# initial-repo-setup.sh - Run this after cloning
 
 echo "🔧 Setting up repository..."
 
@@ -119,7 +121,7 @@ echo "🎉 Setup complete! You're ready to commit."
 
 ## Conclusion
 
-On a project with several persons working together, enforcing a good strategy to use consistent commit message is a best practice, but it need to be discussed, because opinions often vary from a person to another.
+On a project with several people working together, enforcing a good strategy to use consistent commit messages is a best practice, but it needs to be discussed, because opinions often vary from one person to another.
 
 {{< blockcontainer jli-notice-tip "Follow me">}}
 
@@ -127,4 +129,4 @@ Thanks for reading this article. Make sure to [follow me on X](https://x.com/Lit
 
 {{< /blockcontainer >}}
 
-Credit:
+Credit: Git Logo by Jason Long is licensed under the Creative Commons Attribution 3.0 Unported License.
